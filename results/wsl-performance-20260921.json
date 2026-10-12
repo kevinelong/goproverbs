@@ -1,0 +1,1374 @@
+{
+  "date": "2026-09-21",
+  "source_identical": true,
+  "source_manifest": {
+    "Cargo.lock": "5c0d65efe845d198da4a24895a7486c0e94198ff4dedc222a726318efb8a20e4",
+    "Cargo.toml": "39c72ffd82353dc60aa2accbef9118a53765ab08b434158e2ded33119be0d6d0",
+    "examples/find_snapback.rs": "d33bad416d526985786b2d146c8ed8e12460a9dc34d0a16e3c3e042b1d5a4bdb",
+    "profiles/baseline.weights": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "profiles/material-risk.weights": "8fa845c0e10b301848bcdacf51ede92516b789ed94d079afc73bd22245bb9b16",
+    "profiles/modern.weights": "c4d00e14e88f9627785df0c85074e7c942b39fcf14897c4c305112db42b60a12",
+    "profiles/tuned.tuning.json": "9600a0150412817cb64bca1cf775c3a8ffc9395e7ba8c6e6d2f92accc49eaead",
+    "profiles/tuned.weights": "c9f26a2b6767cf44140ce2cd54d599873a45203b8885b21aed19a310ec88a809",
+    "src/ascii.rs": "e363a4e72d105ad7d21a12b84ed7ac056bea5859503d5665f9d67c69ee01e77d",
+    "src/coords.rs": "34a759e01ae0079212c4981e48fb5e3802e06582bb5469c9ab387cfb406d3941",
+    "src/engine.rs": "003629ac94db983575d92ec5f751b396955a58510ae912a3ce7ed76147106660",
+    "src/external.rs": "5df2496b02093596f3ff7bc69f759d1dd26e6edc70dc550e8245e41b44381a38",
+    "src/game.rs": "7a0e9915d6b95ce5cddd5ac1043ad808c9c555438fd88fcb14895230f6dbbcc2",
+    "src/gtp.rs": "77d06ead7615dd7f5e1f82b00cd388938ad0783902d39be14e80e226804e7b0c",
+    "src/lib.rs": "0fee94cb42f430eca08f1244b79fd67723647a4cd8917eee22bb336ff3c6e8a5",
+    "src/main.rs": "0f10cefe69bbf086f711216923de62c7b94ab2aceef751dc52c535c57dc3efa5",
+    "src/scoring.rs": "21f589ab211915e380f375178bc05da0ae2af0aed884e215c4d11192a10313a3",
+    "src/search.rs": "399c74dba19e73d8395ea3e877dbd1bf0b3df7bdcf5f5ada0c9410a513172670",
+    "src/sgf.rs": "5d3a9258c8b84d40a27d9780663b7a4c5fad671643ba1573cf9244068862258e",
+    "tests/cli.rs": "944365e3c081404db61bcf74d3f20042d4d67d203826ba7c9e53583cdcca7e25",
+    "tests/core.rs": "cfb5e26bc62f6e9d3f89602350af8e3031fe31c3defa3821fc826d069ed06a35",
+    "tests/neural_hooks.rs": "88ade2e9df4ecd57a2b34dd0713de2c81f5bf233e15945729f6abe89e9e5c391",
+    "tests/protocol.rs": "48bb6ccc9d89ffa9d9ce295b0b39982a1e354eaf014cff5475ac50f8de0ec96b",
+    "tests/search_and_scoring.rs": "4bd6240a9d6f7531feb81c55e95e5c69336cf6a7ef4421ab42a50a4549911d88",
+    "tests/search_modes.rs": "2c805de935b1569823ca3ccd3c01dc1c19480d22dc21b2da5f9547b6602dcf27"
+  },
+  "snapshot_notes": {
+    "original_search_sha256": "399c74dba19e73d8395ea3e877dbd1bf0b3df7bdcf5f5ada0c9410a513172670",
+    "snapshot_search_sha256": "399c74dba19e73d8395ea3e877dbd1bf0b3df7bdcf5f5ada0c9410a513172670",
+    "change": "Only frozen copy: compiler-suggested shared lifetime for analyze_guided weights/evaluator, if required. Live source unchanged."
+  },
+  "raw_evidence": "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921",
+  "matched_search_outputs_excluding_timing": {
+    "search-9-0": "d78d48cd593f226c83ee2ee6b10d25eb982f4b34c71afa8fdb7148c3c38074f1",
+    "search-9-1": "d78d48cd593f226c83ee2ee6b10d25eb982f4b34c71afa8fdb7148c3c38074f1",
+    "search-9-2": "d78d48cd593f226c83ee2ee6b10d25eb982f4b34c71afa8fdb7148c3c38074f1",
+    "search-9-3": "d78d48cd593f226c83ee2ee6b10d25eb982f4b34c71afa8fdb7148c3c38074f1",
+    "search-9-4": "d78d48cd593f226c83ee2ee6b10d25eb982f4b34c71afa8fdb7148c3c38074f1",
+    "search-19-0": "f59aaf8bc1e70aff927d3f562df11e271ece713c18738c361dd5114399ef4fd4",
+    "search-19-1": "f59aaf8bc1e70aff927d3f562df11e271ece713c18738c361dd5114399ef4fd4",
+    "search-19-2": "f59aaf8bc1e70aff927d3f562df11e271ece713c18738c361dd5114399ef4fd4",
+    "search-19-3": "f59aaf8bc1e70aff927d3f562df11e271ece713c18738c361dd5114399ef4fd4",
+    "search-19-4": "f59aaf8bc1e70aff927d3f562df11e271ece713c18738c361dd5114399ef4fd4"
+  },
+  "bridge": {
+    "wsl-launch": {
+      "seconds": [
+        0.162704800022766,
+        0.1423884999821894,
+        0.14525969995884225,
+        0.16548080003121868,
+        0.13384070002939552
+      ],
+      "median": 0.14525969995884225
+    },
+    "wsl-cargo-warm": {
+      "seconds": [
+        0.15697990002809092,
+        0.1617672999855131,
+        0.16505579999648035,
+        0.15991429996211082,
+        0.17984370002523065
+      ],
+      "median": 0.1617672999855131
+    }
+  },
+  "deployments": {
+    "windows": {
+      "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)\nbinary: rustc\ncommit-hash: ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96\ncommit-date: 2026-05-25\nhost: x86_64-pc-windows-msvc\nrelease: 1.96.0\nLLVM version: 22.1.2",
+      "medians": {
+        "clean-release": 2.9351424999767914,
+        "warm-build": 0.14325339999049902,
+        "search-9": 0.08885220001684502,
+        "search-19": 0.4081261999672279
+      },
+      "records": [
+        {
+          "label": "cargo-version",
+          "seconds": 15.911807399999816,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "--version"
+          ]
+        },
+        {
+          "label": "rustc-version",
+          "seconds": 4.650505000026897,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\rustc.exe",
+            "+1.96.0",
+            "-vV"
+          ]
+        },
+        {
+          "label": "clean-release-0",
+          "seconds": 2.871875500015449,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0"
+          ]
+        },
+        {
+          "label": "clean-release-1",
+          "seconds": 3.38350779999746,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-1"
+          ]
+        },
+        {
+          "label": "clean-release-2",
+          "seconds": 2.9351424999767914,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-2"
+          ]
+        },
+        {
+          "label": "warm-build-0",
+          "seconds": 0.1427104999893345,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-1",
+          "seconds": 0.14712369994958863,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-2",
+          "seconds": 0.14564830000745133,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-3",
+          "seconds": 0.14077659999020398,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-4",
+          "seconds": 0.14325339999049902,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0"
+          ]
+        },
+        {
+          "label": "debug-test-compile",
+          "seconds": 7.018972300051246,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0",
+            "--no-run"
+          ]
+        },
+        {
+          "label": "debug-tests-0",
+          "seconds": 15.658993799996097,
+          "exit": 101,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0"
+          ]
+        },
+        {
+          "label": "release-test-compile",
+          "seconds": 6.549202299967874,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0",
+            "--release",
+            "--no-run"
+          ]
+        },
+        {
+          "label": "release-tests-0",
+          "seconds": 3.777178400021512,
+          "exit": 101,
+          "command": [
+            "C:\\Users\\kevin\\.cargo\\bin\\cargo.exe",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0",
+            "--release"
+          ]
+        },
+        {
+          "label": "search-9-warmup",
+          "seconds": 0.9415006999624893,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ]
+        },
+        {
+          "label": "search-9-0",
+          "seconds": 0.09126390004530549,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ],
+          "search": "move=D9 score=-6.075 depth=4 nodes=3879 tactical_nodes=0 elapsed_ms=70 limited=false root_searched=9/78 mode=selective",
+          "normalized_output_sha256": "29387ae9841f650246bb2455b344c2f517cddc6fc57578c82db0b598b109346f"
+        },
+        {
+          "label": "search-9-1",
+          "seconds": 0.08814219996565953,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ],
+          "search": "move=D9 score=-6.075 depth=4 nodes=3879 tactical_nodes=0 elapsed_ms=70 limited=false root_searched=9/78 mode=selective",
+          "normalized_output_sha256": "adefbeb25118335364b4d440c87c712c3551d763dc98350d299e6347648ecc91"
+        },
+        {
+          "label": "search-9-2",
+          "seconds": 0.09108560002641752,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ],
+          "search": "move=D9 score=-6.075 depth=4 nodes=3879 tactical_nodes=0 elapsed_ms=69 limited=false root_searched=9/78 mode=selective",
+          "normalized_output_sha256": "bbdcf70544e8ffb1c44cd878eba629226c2dd67bf1d90160951890a1be9a3117"
+        },
+        {
+          "label": "search-9-3",
+          "seconds": 0.08682909997878596,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ],
+          "search": "move=D9 score=-6.075 depth=4 nodes=3879 tactical_nodes=0 elapsed_ms=66 limited=false root_searched=9/78 mode=selective",
+          "normalized_output_sha256": "1f2d3ab44958df511eee86c0323ac466f1fda753b3e7fc514a17ae15f87f2a36"
+        },
+        {
+          "label": "search-9-4",
+          "seconds": 0.08885220001684502,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ],
+          "search": "move=D9 score=-6.075 depth=4 nodes=3879 tactical_nodes=0 elapsed_ms=69 limited=false root_searched=9/78 mode=selective",
+          "normalized_output_sha256": "267ac8f8356bc6c0f6da5b125bb59b4157121661bcf9c3b0fde9bd4a9eac6ace"
+        },
+        {
+          "label": "search-19-warmup",
+          "seconds": 0.4053635000018403,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ]
+        },
+        {
+          "label": "search-19-0",
+          "seconds": 0.4059603000059724,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ],
+          "search": "move=K17 score=-6.700 depth=4 nodes=4438 tactical_nodes=0 elapsed_ms=385 limited=false root_searched=9/358 mode=selective",
+          "normalized_output_sha256": "56e123a4edd1a14d6eea6accbfbd8e5c87a653300749cea83b4424749a0a1726"
+        },
+        {
+          "label": "search-19-1",
+          "seconds": 0.4095155000104569,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ],
+          "search": "move=K17 score=-6.700 depth=4 nodes=4438 tactical_nodes=0 elapsed_ms=384 limited=false root_searched=9/358 mode=selective",
+          "normalized_output_sha256": "5089f55f7c160a6715e7bbe0fc3d6eb6a4b4d6386b5e7cca4c5b2e3f7163b406"
+        },
+        {
+          "label": "search-19-2",
+          "seconds": 0.40337979997275397,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ],
+          "search": "move=K17 score=-6.700 depth=4 nodes=4438 tactical_nodes=0 elapsed_ms=384 limited=false root_searched=9/358 mode=selective",
+          "normalized_output_sha256": "1c78a0452da72d52e73b98d893e81d4d4a7d29d33a31c64fd4658d8001ec7cef"
+        },
+        {
+          "label": "search-19-3",
+          "seconds": 0.4446441999753006,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ],
+          "search": "move=K17 score=-6.700 depth=4 nodes=4438 tactical_nodes=0 elapsed_ms=417 limited=false root_searched=9/358 mode=selective",
+          "normalized_output_sha256": "c585534b751ce40ecf79778b498c6305a03225da4374593c8562f2cc2011608a"
+        },
+        {
+          "label": "search-19-4",
+          "seconds": 0.4081261999672279,
+          "exit": 0,
+          "command": [
+            "C:\\Users\\kevin\\ai_bench\\wsl-perf-20260921\\windows-target\\cold-0\\release\\goproverbs.exe",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ],
+          "search": "move=K17 score=-6.700 depth=4 nodes=4438 tactical_nodes=0 elapsed_ms=386 limited=false root_searched=9/358 mode=selective",
+          "normalized_output_sha256": "4fd4724472d252c3da3bc7071d1db89a82d67e3a9c2a4acf1642c2ab3b94b10d"
+        }
+      ],
+      "test_failures": {
+        "debug": "debug-tests-0 prior failure retained",
+        "release": "release-tests-0 failed; see saved output"
+      }
+    },
+    "linux-native": {
+      "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)\nbinary: rustc\ncommit-hash: ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96\ncommit-date: 2026-05-25\nhost: x86_64-unknown-linux-gnu\nrelease: 1.96.0\nLLVM version: 22.1.2",
+      "medians": {
+        "clean-release": 1.4158440019818954,
+        "warm-build": 0.01204347499879077,
+        "debug-tests": 2.177223308943212,
+        "release-tests": 0.31185983499744907,
+        "search-9": 0.03916226205183193,
+        "search-19": 0.2582663969951682
+      },
+      "records": [
+        {
+          "label": "cargo-version",
+          "seconds": 0.051724746997933835,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "--version"
+          ]
+        },
+        {
+          "label": "rustc-version",
+          "seconds": 0.06279132899362594,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/rustc",
+            "+1.96.0",
+            "-vV"
+          ]
+        },
+        {
+          "label": "clean-release-0",
+          "seconds": 1.9016031199716963,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0"
+          ]
+        },
+        {
+          "label": "clean-release-1",
+          "seconds": 1.4158440019818954,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-1"
+          ]
+        },
+        {
+          "label": "clean-release-2",
+          "seconds": 1.406960237014573,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-2"
+          ]
+        },
+        {
+          "label": "warm-build-0",
+          "seconds": 0.010750551999080926,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-1",
+          "seconds": 0.012062772992067039,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-2",
+          "seconds": 0.012723817024379969,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-3",
+          "seconds": 0.01204347499879077,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-4",
+          "seconds": 0.011519552965182811,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0"
+          ]
+        },
+        {
+          "label": "debug-test-compile",
+          "seconds": 2.2505461059627123,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0",
+            "--no-run"
+          ]
+        },
+        {
+          "label": "debug-tests-0",
+          "seconds": 2.227035560004879,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0"
+          ]
+        },
+        {
+          "label": "debug-tests-1",
+          "seconds": 2.173037812986877,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0"
+          ]
+        },
+        {
+          "label": "debug-tests-2",
+          "seconds": 2.177223308943212,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0"
+          ]
+        },
+        {
+          "label": "release-test-compile",
+          "seconds": 1.636629784014076,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0",
+            "--release",
+            "--no-run"
+          ]
+        },
+        {
+          "label": "release-tests-0",
+          "seconds": 0.3091834749793634,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0",
+            "--release"
+          ]
+        },
+        {
+          "label": "release-tests-1",
+          "seconds": 0.31185983499744907,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0",
+            "--release"
+          ]
+        },
+        {
+          "label": "release-tests-2",
+          "seconds": 0.33241048600757495,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "test",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0",
+            "--release"
+          ]
+        },
+        {
+          "label": "search-9-warmup",
+          "seconds": 0.039353504951577634,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ]
+        },
+        {
+          "label": "search-9-0",
+          "seconds": 0.03878962801536545,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ],
+          "search": "move=D9 score=-6.075 depth=4 nodes=3879 tactical_nodes=0 elapsed_ms=37 limited=false root_searched=9/78 mode=selective",
+          "normalized_output_sha256": "9266edaa415d0f9991904241bc557e86f93609145dc2354ccd072cdb19b6add9"
+        },
+        {
+          "label": "search-9-1",
+          "seconds": 0.038518495042808354,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ],
+          "search": "move=D9 score=-6.075 depth=4 nodes=3879 tactical_nodes=0 elapsed_ms=37 limited=false root_searched=9/78 mode=selective",
+          "normalized_output_sha256": "b610990aaae50dea42a10c83f2bf6275974118bf8d000fc5e329fba686a150b1"
+        },
+        {
+          "label": "search-9-2",
+          "seconds": 0.039497250982094556,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ],
+          "search": "move=D9 score=-6.075 depth=4 nodes=3879 tactical_nodes=0 elapsed_ms=38 limited=false root_searched=9/78 mode=selective",
+          "normalized_output_sha256": "f5063fd1ab073f55834fcad257d63a50a25e4db142cd8e30bda17c3d5e5c6073"
+        },
+        {
+          "label": "search-9-3",
+          "seconds": 0.03916226205183193,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ],
+          "search": "move=D9 score=-6.075 depth=4 nodes=3879 tactical_nodes=0 elapsed_ms=38 limited=false root_searched=9/78 mode=selective",
+          "normalized_output_sha256": "6466822568b964defa14d05bac284a063e0c8b2b9b6569f7e25bb9916a0ccba1"
+        },
+        {
+          "label": "search-9-4",
+          "seconds": 0.039491098024882376,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "9",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "F6",
+            "C3",
+            "G7"
+          ],
+          "search": "move=D9 score=-6.075 depth=4 nodes=3879 tactical_nodes=0 elapsed_ms=38 limited=false root_searched=9/78 mode=selective",
+          "normalized_output_sha256": "7522a34cd083221154cca09b6c43e217d94b9fc3a270c1379a2a78fc8d0fc833"
+        },
+        {
+          "label": "search-19-warmup",
+          "seconds": 0.26002750400220975,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ]
+        },
+        {
+          "label": "search-19-0",
+          "seconds": 0.2600868549779989,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ],
+          "search": "move=K17 score=-6.700 depth=4 nodes=4438 tactical_nodes=0 elapsed_ms=259 limited=false root_searched=9/358 mode=selective",
+          "normalized_output_sha256": "8bb34db9e350e0572247219de286b8346077be59a027a4ef8a3559aaf8a2397e"
+        },
+        {
+          "label": "search-19-1",
+          "seconds": 0.25809947901871055,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ],
+          "search": "move=K17 score=-6.700 depth=4 nodes=4438 tactical_nodes=0 elapsed_ms=257 limited=false root_searched=9/358 mode=selective",
+          "normalized_output_sha256": "4d0ca540fc82966356eaaab428d0437c0132228db4cd3ffca89e8c62e27223b0"
+        },
+        {
+          "label": "search-19-2",
+          "seconds": 0.2549749299651012,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ],
+          "search": "move=K17 score=-6.700 depth=4 nodes=4438 tactical_nodes=0 elapsed_ms=254 limited=false root_searched=9/358 mode=selective",
+          "normalized_output_sha256": "c85ab4e8b2df6dd0878c2d3d31781ae2d6bf221e9c27a61f31b28d2d2e5ff770"
+        },
+        {
+          "label": "search-19-3",
+          "seconds": 0.25876165996305645,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ],
+          "search": "move=K17 score=-6.700 depth=4 nodes=4438 tactical_nodes=0 elapsed_ms=257 limited=false root_searched=9/358 mode=selective",
+          "normalized_output_sha256": "fd6a05eec06c2f44be5b4cf3deb9e8145af18b49ee39e0f10433a47a754533c2"
+        },
+        {
+          "label": "search-19-4",
+          "seconds": 0.2582663969951682,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cache/goproverbs-perf-20260921/native-target/cold-0/release/goproverbs",
+            "--size",
+            "19",
+            "--suggest",
+            "--time-ms",
+            "60000",
+            "--nodes",
+            "100000",
+            "--depth",
+            "4",
+            "--beam",
+            "8",
+            "D4",
+            "Q16",
+            "D16",
+            "Q4"
+          ],
+          "search": "move=K17 score=-6.700 depth=4 nodes=4438 tactical_nodes=0 elapsed_ms=257 limited=false root_searched=9/358 mode=selective",
+          "normalized_output_sha256": "b24dea661be0b337c040e5a9c3a793d21a798a63ac29f60831ef38ccf37bf29f"
+        }
+      ],
+      "test_failures": {}
+    },
+    "linux-shared": {
+      "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)\nbinary: rustc\ncommit-hash: ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96\ncommit-date: 2026-05-25\nhost: x86_64-unknown-linux-gnu\nrelease: 1.96.0\nLLVM version: 22.1.2",
+      "medians": {
+        "clean-release": 1.4626117720035836,
+        "warm-build": 0.03525152098154649
+      },
+      "records": [
+        {
+          "label": "cargo-version",
+          "seconds": 0.07159203302580863,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "--version"
+          ]
+        },
+        {
+          "label": "rustc-version",
+          "seconds": 0.0681579610100016,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/rustc",
+            "+1.96.0",
+            "-vV"
+          ]
+        },
+        {
+          "label": "clean-release-0",
+          "seconds": 1.9514560619718395,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/shared-target/cold-0"
+          ]
+        },
+        {
+          "label": "clean-release-1",
+          "seconds": 1.4626117720035836,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/shared-target/cold-1"
+          ]
+        },
+        {
+          "label": "clean-release-2",
+          "seconds": 1.4526648729806766,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/shared-target/cold-2"
+          ]
+        },
+        {
+          "label": "warm-build-0",
+          "seconds": 0.036774676002096385,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/shared-target/cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-1",
+          "seconds": 0.03457137197256088,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/shared-target/cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-2",
+          "seconds": 0.03568726097000763,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/shared-target/cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-3",
+          "seconds": 0.03517589997500181,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/shared-target/cold-0"
+          ]
+        },
+        {
+          "label": "warm-build-4",
+          "seconds": 0.03525152098154649,
+          "exit": 0,
+          "command": [
+            "/home/kevin/.cargo/bin/cargo",
+            "+1.96.0",
+            "build",
+            "--release",
+            "--offline",
+            "--locked",
+            "-j",
+            "2",
+            "--target-dir",
+            "/home/kevin/.cache/goproverbs-perf-20260921/shared-target/cold-0"
+          ]
+        }
+      ],
+      "test_failures": {}
+    }
+  }
+}

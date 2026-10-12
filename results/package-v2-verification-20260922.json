@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "bundle": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\dist\\goproverbs-research-20260922-v2.zip",
+  "sha256": "25686b3e644f2e5a33202cdc3e196f4d84bbed95ecee3cd49b4d2452b41571b6",
+  "executable_identical_to_smoke_tested_original": true,
+  "original_native_sgf_smoke": "results/package-smoke-20260922.json",
+  "cpu_smoke_prose_corrected": true,
+  "files": 337
+}

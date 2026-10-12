@@ -1,0 +1,304 @@
+{
+  "status": "complete",
+  "settings": {
+    "task": "arena",
+    "katago": "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe",
+    "model": "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz",
+    "exe": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\target\\release\\goproverbs.exe",
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\profiles\\baseline.weights",
+    "fixtures": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\fixtures-19.json",
+    "time_ms": 200,
+    "komi": 7.5,
+    "pairs": 1,
+    "seed": 20260921,
+    "move_cap": 722,
+    "output": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-round\\arena"
+  },
+  "hashes": {
+    "katago": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+    "model": "21d3d5eadad1f811071d4f7e4e90b8336e827fcd092ea62a8f35c569b9bd157c",
+    "goproverbs": "302f621fb393e556f486cca6ab993dba596f5dd7f6439e94fdcf39dd32bc8c22",
+    "profile": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "config": "872eac1af1ec50852cd0b2a2bb50ff4c97938481d753fa5415f30d424eeb601a",
+    "harness": "94d4a613c81f7684b750c1db07050589abacd7a27f0cab4140a245ed345c4464",
+    "referee": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+    "fixtures": "7bede387356d636f248dcc0b9e1325d0b02e2ec854b807768b126ac61854cafe"
+  },
+  "rules": "tromp-taylor",
+  "board_size": 19,
+  "policy_selection": "raw policy argmax; one-visit retrieval, no searched values used",
+  "search_selection": "KataGo moveInfos order=0",
+  "notes": "Equal search time caps; actual elapsed measured. GPU neural vs CPU heuristic. No resignations. No cross-query search-tree reuse.",
+  "hardware_before": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2090 MiB, 9854 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 5271580672
+    }
+  },
+  "version": {
+    "action": "query_version",
+    "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+    "id": "version",
+    "version": "1.18.1"
+  },
+  "warmup": [
+    "D4",
+    {
+      "request_id": "1",
+      "mode": "policy",
+      "raw_policy_move": "D4",
+      "root": {
+        "currentPlayer": "B",
+        "rawLead": -1.31227899,
+        "rawNoResultProb": 0.0,
+        "rawScoreSelfplay": -0.994337857,
+        "rawScoreSelfplayStdev": 23.8912279,
+        "rawStScoreError": -1.0,
+        "rawStWrError": -0.5,
+        "rawVarTimeLeft": -1.0,
+        "rawWinrate": 0.467315078,
+        "scoreLead": -1.31227899,
+        "scoreSelfplay": -0.994337857,
+        "scoreStdev": 23.8912279,
+        "symHash": "47E1EBDAE69A5DED3FF8DB1FA4E91845",
+        "thisHash": "47E1EBDAE69A5DED3FF8DB1FA4E91845",
+        "utility": -0.0679952988,
+        "visits": 1,
+        "weight": 1.0,
+        "winrate": 0.467315078
+      },
+      "top_search_moves": [],
+      "ms": 16.432200034614652
+    }
+  ],
+  "hardware_loaded": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2273 MiB, 9671 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 5012656128
+    }
+  },
+  "games": [
+    {
+      "pair": 0,
+      "a": "policy",
+      "b": "hybrid",
+      "a_color": "B",
+      "opening": [
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "D4"
+        ]
+      ],
+      "finished": true,
+      "result": "B+208.5",
+      "winner": "policy",
+      "moves": 491,
+      "raw_area_margin": 208.5,
+      "latency": {
+        "policy": {
+          "median_ms": 4.152699955739081,
+          "max_ms": 9.303800005000085
+        },
+        "hybrid": {
+          "median_ms": 200.4105499945581,
+          "max_ms": 201.11710001947358
+        }
+      }
+    },
+    {
+      "pair": 0,
+      "a": "policy",
+      "b": "hybrid",
+      "a_color": "W",
+      "opening": [
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "D4"
+        ]
+      ],
+      "finished": true,
+      "result": "W+216.5",
+      "winner": "policy",
+      "moves": 494,
+      "raw_area_margin": -216.5,
+      "latency": {
+        "policy": {
+          "median_ms": 4.325799993239343,
+          "max_ms": 9.327800013124943
+        },
+        "hybrid": {
+          "median_ms": 200.4216500208713,
+          "max_ms": 200.94479998806491
+        }
+      }
+    },
+    {
+      "pair": 0,
+      "a": "search",
+      "b": "hybrid",
+      "a_color": "B",
+      "opening": [
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "D4"
+        ]
+      ],
+      "finished": true,
+      "result": "B+219.5",
+      "winner": "search",
+      "moves": 507,
+      "raw_area_margin": 219.5,
+      "latency": {
+        "search": {
+          "median_ms": 204.52899998053908,
+          "max_ms": 207.63660001102835
+        },
+        "hybrid": {
+          "median_ms": 200.42155002010986,
+          "max_ms": 200.95740002579987
+        }
+      }
+    },
+    {
+      "pair": 0,
+      "a": "search",
+      "b": "hybrid",
+      "a_color": "W",
+      "opening": [
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "D4"
+        ]
+      ],
+      "finished": true,
+      "result": "W+256.5",
+      "winner": "search",
+      "moves": 544,
+      "raw_area_margin": -256.5,
+      "latency": {
+        "search": {
+          "median_ms": 204.7026000218466,
+          "max_ms": 207.28550001513213
+        },
+        "hybrid": {
+          "median_ms": 200.42850001482293,
+          "max_ms": 200.99300000583753
+        }
+      }
+    },
+    {
+      "pair": 0,
+      "a": "search",
+      "b": "policy",
+      "a_color": "B",
+      "opening": [
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "D4"
+        ]
+      ],
+      "finished": true,
+      "result": "B+130.5",
+      "winner": "search",
+      "moves": 363,
+      "raw_area_margin": 130.5,
+      "latency": {
+        "search": {
+          "median_ms": 199.0172999794595,
+          "max_ms": 201.8586999620311
+        },
+        "policy": {
+          "median_ms": 3.4967500250786543,
+          "max_ms": 6.902599998284131
+        }
+      }
+    },
+    {
+      "pair": 0,
+      "a": "search",
+      "b": "policy",
+      "a_color": "W",
+      "opening": [
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "D4"
+        ]
+      ],
+      "finished": true,
+      "result": "W+39.5",
+      "winner": "search",
+      "moves": 310,
+      "raw_area_margin": -39.5,
+      "latency": {
+        "search": {
+          "median_ms": 199.6274000266567,
+          "max_ms": 202.73130002897233
+        },
+        "policy": {
+          "median_ms": 3.098800021689385,
+          "max_ms": 5.173999990802258
+        }
+      }
+    }
+  ],
+  "hardware_after": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2090 MiB, 9854 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 6843535360
+    }
+  }
+}

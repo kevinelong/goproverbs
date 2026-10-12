@@ -1,0 +1,4 @@
+/target/
+/dist/
+.aider*
+__pycache__/

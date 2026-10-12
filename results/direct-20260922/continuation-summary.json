@@ -1,0 +1,393 @@
+{
+  "go": {
+    "smoke-v2": {
+      "status": "complete",
+      "matchups": {
+        "NH-vs-NN": {
+          "finished": 2,
+          "a_wins": 0,
+          "draws": 0,
+          "unfinished": 0,
+          "a_wins_as_black": 0,
+          "a_wins_as_white": 0
+        },
+        "NH-vs-policy": {
+          "finished": 2,
+          "a_wins": 0,
+          "draws": 0,
+          "unfinished": 0,
+          "a_wins_as_black": 0,
+          "a_wins_as_white": 0
+        },
+        "NH-vs-search": {
+          "finished": 2,
+          "a_wins": 0,
+          "draws": 0,
+          "unfinished": 0,
+          "a_wins_as_black": 0,
+          "a_wins_as_white": 0
+        }
+      },
+      "roles": {
+        "NH": {
+          "decisions": 1482,
+          "fallbacks": 0,
+          "complete_neural_rounds": 0,
+          "max_ms": 209.23050004057586
+        },
+        "NN": {
+          "decisions": 356,
+          "fallbacks": 0,
+          "complete_neural_rounds": 279,
+          "max_ms": 206.15470001939684
+        },
+        "policy": {
+          "decisions": 496,
+          "fallbacks": 0,
+          "complete_neural_rounds": 0,
+          "max_ms": 13.583199994172901
+        },
+        "search": {
+          "decisions": 630,
+          "fallbacks": 0,
+          "complete_neural_rounds": 0,
+          "max_ms": 209.55540001159534
+        }
+      },
+      "hashes_unchanged": true,
+      "paired": {
+        "matchups": {
+          "NH-vs-NN": {
+            "games": 2,
+            "complete_pairs": 1,
+            "a_wins": 0,
+            "unfinished": 0,
+            "mean_pair_score_for_a": 0.0,
+            "conservative_95_interval": [
+              0,
+              1
+            ]
+          },
+          "NH-vs-policy": {
+            "games": 2,
+            "complete_pairs": 1,
+            "a_wins": 0,
+            "unfinished": 0,
+            "mean_pair_score_for_a": 0.0,
+            "conservative_95_interval": [
+              0,
+              1
+            ]
+          },
+          "NH-vs-search": {
+            "games": 2,
+            "complete_pairs": 1,
+            "a_wins": 0,
+            "unfinished": 0,
+            "mean_pair_score_for_a": 0.0,
+            "conservative_95_interval": [
+              0,
+              1
+            ]
+          }
+        },
+        "method": "Hoeffding bounded-mean interval treating each complete opening pair as one independent observation.",
+        "limitations": "Conditional on completed pairs and the supplied opening distribution; incomplete pairs are excluded; no Elo estimate."
+      },
+      "broker": {
+        "count": 18081,
+        "errors": [],
+        "metrics": {
+          "leaf_requests": 16254,
+          "expired_before_query": 12,
+          "timeouts": 257,
+          "completed": 17836,
+          "queue_ms": 46.05080065084621,
+          "query_ms": 55724.60290230811,
+          "max_query_ms": 21.764400007668883,
+          "duplicate_histories": 387
+        }
+      },
+      "error": null,
+      "nn_nominee_diagnostic": {
+        "retained": {
+          "moves": 279,
+          "median_nominees": 31,
+          "median_turn": 146
+        },
+        "fallback": {
+          "moves": 77,
+          "median_nominees": 40,
+          "median_turn": 236
+        }
+      }
+    },
+    "expansion-v2": {
+      "status": "complete",
+      "matchups": {
+        "NH-vs-policy": {
+          "finished": 20,
+          "a_wins": 3,
+          "draws": 0,
+          "unfinished": 0,
+          "a_wins_as_black": 0,
+          "a_wins_as_white": 3
+        },
+        "NH-vs-search": {
+          "finished": 20,
+          "a_wins": 0,
+          "draws": 0,
+          "unfinished": 0,
+          "a_wins_as_black": 0,
+          "a_wins_as_white": 0
+        }
+      },
+      "roles": {
+        "NH": {
+          "decisions": 10150,
+          "fallbacks": 0,
+          "complete_neural_rounds": 0,
+          "max_ms": 202.5298000080511
+        },
+        "policy": {
+          "decisions": 4878,
+          "fallbacks": 0,
+          "complete_neural_rounds": 0,
+          "max_ms": 49.366099992766976
+        },
+        "search": {
+          "decisions": 5285,
+          "fallbacks": 0,
+          "complete_neural_rounds": 0,
+          "max_ms": 210.79270000336692
+        }
+      },
+      "hashes_unchanged": true,
+      "paired": {
+        "matchups": {
+          "NH-vs-policy": {
+            "games": 20,
+            "complete_pairs": 10,
+            "a_wins": 3,
+            "unfinished": 0,
+            "mean_pair_score_for_a": 0.15,
+            "conservative_95_interval": [
+              0,
+              0.5794694083467375
+            ]
+          },
+          "NH-vs-search": {
+            "games": 20,
+            "complete_pairs": 10,
+            "a_wins": 0,
+            "unfinished": 0,
+            "mean_pair_score_for_a": 0.0,
+            "conservative_95_interval": [
+              0,
+              0.4294694083467376
+            ]
+          }
+        },
+        "method": "Hoeffding bounded-mean interval treating each complete opening pair as one independent observation.",
+        "limitations": "Conditional on completed pairs and the supplied opening distribution; incomplete pairs are excluded; no Elo estimate."
+      },
+      "broker": {
+        "count": 10151,
+        "errors": [],
+        "metrics": {
+          "leaf_requests": 0,
+          "expired_before_query": 0,
+          "timeouts": 0,
+          "completed": 10151,
+          "queue_ms": 30.013701994903386,
+          "query_ms": 64793.31420036033,
+          "max_query_ms": 41.50679998565465,
+          "duplicate_histories": 55
+        }
+      },
+      "error": null
+    },
+    "cpu-small-v2": {
+      "status": "complete",
+      "matchups": {
+        "NH-vs-HH": {
+          "finished": 4,
+          "a_wins": 3,
+          "draws": 0,
+          "unfinished": 0,
+          "a_wins_as_black": 1,
+          "a_wins_as_white": 2
+        }
+      },
+      "roles": {
+        "NH": {
+          "decisions": 922,
+          "fallbacks": 0,
+          "complete_neural_rounds": 0,
+          "max_ms": 202.23039999837056
+        },
+        "HH": {
+          "decisions": 921,
+          "fallbacks": 0,
+          "complete_neural_rounds": 0,
+          "max_ms": 202.05999998142943
+        }
+      },
+      "hashes_unchanged": true,
+      "paired": {
+        "matchups": {
+          "NH-vs-HH": {
+            "games": 4,
+            "complete_pairs": 2,
+            "a_wins": 3,
+            "unfinished": 0,
+            "mean_pair_score_for_a": 0.75,
+            "conservative_95_interval": [
+              0,
+              1
+            ]
+          }
+        },
+        "method": "Hoeffding bounded-mean interval treating each complete opening pair as one independent observation.",
+        "limitations": "Conditional on completed pairs and the supplied opening distribution; incomplete pairs are excluded; no Elo estimate."
+      },
+      "broker": {
+        "count": 923,
+        "errors": [],
+        "metrics": {
+          "leaf_requests": 0,
+          "expired_before_query": 0,
+          "timeouts": 0,
+          "completed": 923,
+          "queue_ms": 3.185900568496436,
+          "query_ms": 12740.72829913348,
+          "max_query_ms": 40.21250002551824,
+          "duplicate_histories": 0
+        }
+      },
+      "error": null
+    }
+  },
+  "budget_probes": {
+    "50": {
+      "status": "complete",
+      "modes": {
+        "NH": {
+          "decisions": 8,
+          "median_ms": 50.30594998970628,
+          "max_ms": 50.778300035744905,
+          "root_timeouts": 0,
+          "complete_neural_rounds": 0
+        },
+        "NN": {
+          "decisions": 8,
+          "median_ms": 51.51414999272674,
+          "max_ms": 51.88699997961521,
+          "root_timeouts": 0,
+          "complete_neural_rounds": 3
+        }
+      }
+    },
+    "100": {
+      "status": "complete",
+      "modes": {
+        "NH": {
+          "decisions": 8,
+          "median_ms": 100.4034000216052,
+          "max_ms": 100.99379997700453,
+          "root_timeouts": 0,
+          "complete_neural_rounds": 0
+        },
+        "NN": {
+          "decisions": 8,
+          "median_ms": 101.84409999055788,
+          "max_ms": 102.95719996793196,
+          "root_timeouts": 0,
+          "complete_neural_rounds": 6
+        }
+      }
+    },
+    "200": {
+      "status": "complete",
+      "modes": {
+        "NH": {
+          "decisions": 8,
+          "median_ms": 200.0928999914322,
+          "max_ms": 200.4315999802202,
+          "root_timeouts": 0,
+          "complete_neural_rounds": 0
+        },
+        "NN": {
+          "decisions": 8,
+          "median_ms": 201.40094999806024,
+          "max_ms": 203.68019997840747,
+          "root_timeouts": 0,
+          "complete_neural_rounds": 7
+        }
+      }
+    },
+    "400": {
+      "status": "complete",
+      "modes": {
+        "NH": {
+          "decisions": 8,
+          "median_ms": 400.35720000742003,
+          "max_ms": 400.5835999851115,
+          "root_timeouts": 0,
+          "complete_neural_rounds": 0
+        },
+        "NN": {
+          "decisions": 8,
+          "median_ms": 401.4848000078928,
+          "max_ms": 403.67769997101277,
+          "root_timeouts": 0,
+          "complete_neural_rounds": 8
+        }
+      }
+    }
+  },
+  "llm": {
+    "smoke-v3": {
+      "runs": 1,
+      "groups": {
+        "graph/staged": {
+          "runs": 1,
+          "successes": 0,
+          "correct": 0,
+          "timeouts": 0,
+          "incomplete_token_counts": 0,
+          "median_seconds": null
+        }
+      },
+      "pretrial_failures": 1
+    },
+    "smoke-v4": {
+      "runs": 2,
+      "groups": {
+        "graph/staged": {
+          "runs": 1,
+          "successes": 0,
+          "correct": 0,
+          "timeouts": 1,
+          "incomplete_token_counts": 0,
+          "median_seconds": 180.07800000003772
+        },
+        "graph/one-shot": {
+          "runs": 1,
+          "successes": 0,
+          "correct": 1,
+          "timeouts": 1,
+          "incomplete_token_counts": 1,
+          "median_seconds": 180.18800000002375
+        }
+      },
+      "pretrial_failures": 0
+    }
+  },
+  "limitations": [
+    "No Elo estimate or default promotion.",
+    "Smoke and incomplete comparisons are excluded from confirmation claims.",
+    "Budget probes are development-position throughput diagnostics, not strength tests.",
+    "Staging includes separate contexts/processes and plan transfer, not wording alone."
+  ]
+}

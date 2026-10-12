@@ -1,0 +1,574 @@
+{
+  "status": "complete",
+  "settings": {
+    "task": "probe",
+    "katago": "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe",
+    "model": "C:\\Users\\kevin\\ai_bench\\katago\\lionffen_b6c64_3x3_v10.txt.gz",
+    "output": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\probe-small-200",
+    "exe": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\target\\release\\goproverbs.exe",
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\profiles\\baseline.weights",
+    "corpus": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\corpus\\positions.json",
+    "openings": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\corpus\\openings.json",
+    "modes": [
+      "HH",
+      "NH",
+      "HN",
+      "NN"
+    ],
+    "time_ms": 200,
+    "pairs": 2,
+    "positions": 8,
+    "cpu": false
+  },
+  "hashes": {
+    "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+    "C:\\Users\\kevin\\ai_bench\\katago\\lionffen_b6c64_3x3_v10.txt.gz": "2d728ee0ae1fbeab264e682d60d3c6665aa566db559c28ef6d63dabb92ed56dc",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\target\\release\\goproverbs.exe": "ac321788da31db968e8ae37d6a0f4928b97715081140b6a4d1e03d4e36ccfd0e",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\profiles\\baseline.weights": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\corpus\\positions.json": "7d18010e789d665c034d0f31c70b0c232fe4decc3eb898be3836729c30994a0e",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\corpus\\openings.json": "19baa0fcdb68977a676861a4bf1c09b719f7174c386075f40ad6253bc788523b",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\probe-small-200\\analysis.cfg": "872eac1af1ec50852cd0b2a2bb50ff4c97938481d753fa5415f30d424eeb601a",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\roadmap.py": "e4a29e8690e91657ab5cbbe008e47d4b01dece4c1029a2ad04db708243d06fb9",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\guidance.py": "a675cd05977821f7f1f09afad691b743fcebbed48c9bf11936b407e226125424",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\sgf_io.py": "eabd458c4fb6a18c87c0d05dab3036b0a90963fbffac6938c0cb8aa71566a907",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\lab.py": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62"
+  },
+  "before": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2519 MiB, 9425 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 5611663360
+    }
+  },
+  "version": {
+    "action": "query_version",
+    "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+    "id": "version",
+    "version": "1.18.1"
+  },
+  "loaded": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2668 MiB, 9276 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 5349969920
+    }
+  },
+  "records": [
+    {
+      "id": "f32907a0bdf9-20",
+      "source_game": "f32907a0bdf9eccf0a2409633b24d15cd3065f1d2e4ada1bc4f0b87e822a362d",
+      "mode": "HH",
+      "move": "D5",
+      "trace": {
+        "mode": "HH",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 199.6670999797061,
+        "report": "move=D5 score=9.477 depth=3 nodes=1758 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=6/342 mode=hybrid\npv=D5 O17 M16\ntelemetry leaf_calls=1562 leaf_us=30420 ranking_us=164802 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: 1.000 * -1.500 = -1.500\n  liberty_balance: 8.000 * 0.100 = +0.800\n  influence_balance: 55.583 * 0.300 = +16.675\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nD5: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  D2 heuristic=2.510 scout=10.627 verified=8.952 depth=3 selected=false neural_hint=false\n  J17 heuristic=0.510 scout=10.177 verified=8.727 depth=3 selected=false neural_hint=false\n  K17 heuristic=0.510 scout=10.027 verified=8.577 depth=3 selected=false neural_hint=false\n  D5 heuristic=0.010 scout=10.652 verified=9.477 depth=3 selected=true neural_hint=false\n  B3 heuristic=0.010 scout=10.677 verified=9.177 depth=3 selected=false neural_hint=false\n  pass heuristic=0.000 scout=5.950 verified=-7.500 depth=3 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "f32907a0bdf9-20",
+      "source_game": "f32907a0bdf9eccf0a2409633b24d15cd3065f1d2e4ada1bc4f0b87e822a362d",
+      "mode": "NH",
+      "move": "D5",
+      "trace": {
+        "mode": "NH",
+        "hints": [
+          "C17",
+          "D15",
+          "D2"
+        ],
+        "remaining_search_ms": 197,
+        "ms": 200.35159995313734,
+        "report": "move=D5 score=9.477 depth=3 nodes=1817 tactical_nodes=0 elapsed_ms=197 limited=true root_searched=8/342 mode=hybrid\npv=D5 O17 M16\ntelemetry leaf_calls=1619 leaf_us=30881 ranking_us=162515 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: 1.000 * -1.500 = -1.500\n  liberty_balance: 8.000 * 0.100 = +0.800\n  influence_balance: 55.583 * 0.300 = +16.675\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nD5: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  D2 heuristic=2.510 scout=10.627 verified=8.952 depth=3 selected=false neural_hint=true\n  J17 heuristic=0.510 scout=10.177 verified=8.727 depth=3 selected=false neural_hint=false\n  K17 heuristic=0.510 scout=10.027 verified=8.577 depth=3 selected=false neural_hint=false\n  C17 heuristic=0.010 scout=7.977 verified=6.602 depth=3 selected=false neural_hint=true\n  D15 heuristic=0.010 scout=8.952 verified=7.777 depth=3 selected=false neural_hint=true\n  D5 heuristic=0.010 scout=10.652 verified=9.477 depth=3 selected=true neural_hint=false\n  B3 heuristic=0.010 scout=10.677 verified=9.177 depth=3 selected=false neural_hint=false\n  pass heuristic=0.000 scout=5.950 verified=-7.500 depth=3 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "f32907a0bdf9-20",
+      "source_game": "f32907a0bdf9eccf0a2409633b24d15cd3065f1d2e4ada1bc4f0b87e822a362d",
+      "mode": "HN",
+      "move": "B3",
+      "trace": {
+        "mode": "HN",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 200.02150000073016,
+        "report": "move=B3 score=10.677 depth=1 nodes=411 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=342/342 mode=hybrid\npv=B3\ntelemetry leaf_calls=406 leaf_us=189176 ranking_us=9085 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: 1.000 * -1.500 = -1.500\n  liberty_balance: 8.000 * 0.100 = +0.800\n  influence_balance: 59.583 * 0.300 = +17.875\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nB3: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  D2 heuristic=2.510 scout=10.627 verified=unsearched depth=0 selected=false neural_hint=false\n  J17 heuristic=0.510 scout=10.177 verified=unsearched depth=0 selected=false neural_hint=false\n  K17 heuristic=0.510 scout=10.027 verified=unsearched depth=0 selected=false neural_hint=false\n  D5 heuristic=0.010 scout=10.652 verified=unsearched depth=0 selected=false neural_hint=false\n  B3 heuristic=0.010 scout=10.677 verified=unsearched depth=0 selected=true neural_hint=false\n  pass heuristic=0.000 scout=5.950 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "f32907a0bdf9-20",
+      "source_game": "f32907a0bdf9eccf0a2409633b24d15cd3065f1d2e4ada1bc4f0b87e822a362d",
+      "mode": "NN",
+      "move": "B3",
+      "trace": {
+        "mode": "NN",
+        "hints": [
+          "C17",
+          "D15",
+          "D2"
+        ],
+        "remaining_search_ms": 197,
+        "ms": 201.68609998654574,
+        "report": "move=B3 score=10.677 depth=1 nodes=406 tactical_nodes=0 elapsed_ms=198 limited=true root_searched=342/342 mode=hybrid\npv=B3\ntelemetry leaf_calls=402 leaf_us=193180 ranking_us=4406 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: 1.000 * -1.500 = -1.500\n  liberty_balance: 8.000 * 0.100 = +0.800\n  influence_balance: 59.583 * 0.300 = +17.875\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nB3: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  D2 heuristic=2.510 scout=10.627 verified=unsearched depth=0 selected=false neural_hint=true\n  J17 heuristic=0.510 scout=10.177 verified=unsearched depth=0 selected=false neural_hint=false\n  K17 heuristic=0.510 scout=10.027 verified=unsearched depth=0 selected=false neural_hint=false\n  C17 heuristic=0.010 scout=7.977 verified=unsearched depth=0 selected=false neural_hint=true\n  D15 heuristic=0.010 scout=8.952 verified=unsearched depth=0 selected=false neural_hint=true\n  D5 heuristic=0.010 scout=10.652 verified=unsearched depth=0 selected=false neural_hint=false\n  B3 heuristic=0.010 scout=10.677 verified=unsearched depth=0 selected=true neural_hint=false\n  pass heuristic=0.000 scout=5.950 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "0370f8fc3158-80",
+      "source_game": "0370f8fc315891d0df206fae90aa8cb02f0fa75abe9c60afee599d0274757473",
+      "mode": "HH",
+      "move": "J8",
+      "trace": {
+        "mode": "HH",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 199.8184999683872,
+        "report": "move=J8 score=-39.073 depth=3 nodes=668 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=6/286 mode=hybrid\npv=J8 F4 K18\ntelemetry leaf_calls=569 leaf_us=27143 ranking_us=169492 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -2.000 * 1.000 = -2.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: -67.000 * 0.100 = -6.700\n  influence_balance: -98.583 * 0.300 = -29.575\nAlternating move preferences along PV: -0.299\nMove preferences (not the search score):\nJ8: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  F4 heuristic=5.010 scout=-36.873 verified=-42.899 depth=3 selected=false neural_hint=false\n  K18 heuristic=2.010 scout=-41.524 verified=-42.899 depth=3 selected=false neural_hint=false\n  G18 heuristic=1.010 scout=-43.174 verified=-44.324 depth=3 selected=false neural_hint=false\n  J8 heuristic=0.010 scout=-37.923 verified=-39.073 depth=3 selected=true neural_hint=false\n  K7 heuristic=0.010 scout=-37.923 verified=-39.073 depth=3 selected=false neural_hint=false\n  pass heuristic=0.000 scout=-42.825 verified=-43.975 depth=3 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "0370f8fc3158-80",
+      "source_game": "0370f8fc315891d0df206fae90aa8cb02f0fa75abe9c60afee599d0274757473",
+      "mode": "NH",
+      "move": "J8",
+      "trace": {
+        "mode": "NH",
+        "hints": [
+          "Q13",
+          "R7",
+          "P12"
+        ],
+        "remaining_search_ms": 197,
+        "ms": 200.10249997721985,
+        "report": "move=J8 score=-41.200 depth=2 nodes=683 tactical_nodes=0 elapsed_ms=197 limited=true root_searched=9/286 mode=hybrid\npv=J8 K18\ntelemetry leaf_calls=592 leaf_us=28750 ranking_us=165824 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -2.000 * 1.000 = -2.000\n  atari_risk: 2.000 * -1.500 = -3.000\n  liberty_balance: -62.000 * 0.100 = -6.200\n  influence_balance: -97.083 * 0.300 = -29.125\nAlternating move preferences along PV: -0.375\nMove preferences (not the search score):\nJ8: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  F4 heuristic=5.010 scout=-36.873 verified=-44.200 depth=2 selected=false neural_hint=false\n  K18 heuristic=2.010 scout=-41.524 verified=-43.975 depth=2 selected=false neural_hint=false\n  G18 heuristic=1.010 scout=-43.174 verified=-46.450 depth=2 selected=false neural_hint=false\n  Q13 heuristic=0.010 scout=-40.524 verified=-43.800 depth=2 selected=false neural_hint=true\n  P12 heuristic=0.010 scout=-39.748 verified=-43.025 depth=2 selected=false neural_hint=true\n  J8 heuristic=0.010 scout=-37.923 verified=-41.200 depth=2 selected=true neural_hint=false\n  K7 heuristic=0.010 scout=-37.923 verified=-41.200 depth=2 selected=false neural_hint=false\n  R7 heuristic=0.010 scout=-41.174 verified=-44.450 depth=2 selected=false neural_hint=true\n  pass heuristic=0.000 scout=-42.825 verified=-46.102 depth=2 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "0370f8fc3158-80",
+      "source_game": "0370f8fc315891d0df206fae90aa8cb02f0fa75abe9c60afee599d0274757473",
+      "mode": "HN",
+      "move": "F4",
+      "trace": {
+        "mode": "HN",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 201.85449998825788,
+        "report": "move=F4 score=-36.873 depth=1 nodes=346 tactical_nodes=0 elapsed_ms=201 limited=true root_searched=286/286 mode=hybrid\npv=F4\ntelemetry leaf_calls=341 leaf_us=191155 ranking_us=8699 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -1.000 * 1.000 = -1.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: -63.000 * 0.100 = -6.300\n  influence_balance: -104.417 * 0.300 = -31.325\nAlternating move preferences along PV: +0.752\nMove preferences (not the search score):\nF4: 5.010 (base=0.010)\n  save_atari: 0.500 * 10.000 = +5.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  F4 heuristic=5.010 scout=-36.873 verified=unsearched depth=0 selected=true neural_hint=false\n  K18 heuristic=2.010 scout=-41.524 verified=unsearched depth=0 selected=false neural_hint=false\n  G18 heuristic=1.010 scout=-43.174 verified=unsearched depth=0 selected=false neural_hint=false\n  J8 heuristic=0.010 scout=-37.923 verified=unsearched depth=0 selected=false neural_hint=false\n  K7 heuristic=0.010 scout=-37.923 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=-42.825 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "0370f8fc3158-80",
+      "source_game": "0370f8fc315891d0df206fae90aa8cb02f0fa75abe9c60afee599d0274757473",
+      "mode": "NN",
+      "move": "F4",
+      "trace": {
+        "mode": "NN",
+        "hints": [
+          "Q13",
+          "R7",
+          "P12"
+        ],
+        "remaining_search_ms": 197,
+        "ms": 201.54789998196065,
+        "report": "move=F4 score=-36.873 depth=1 nodes=346 tactical_nodes=0 elapsed_ms=198 limited=true root_searched=286/286 mode=hybrid\npv=F4\ntelemetry leaf_calls=341 leaf_us=187749 ranking_us=8994 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -1.000 * 1.000 = -1.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: -63.000 * 0.100 = -6.300\n  influence_balance: -104.417 * 0.300 = -31.325\nAlternating move preferences along PV: +0.752\nMove preferences (not the search score):\nF4: 5.010 (base=0.010)\n  save_atari: 0.500 * 10.000 = +5.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  F4 heuristic=5.010 scout=-36.873 verified=unsearched depth=0 selected=true neural_hint=false\n  K18 heuristic=2.010 scout=-41.524 verified=unsearched depth=0 selected=false neural_hint=false\n  G18 heuristic=1.010 scout=-43.174 verified=unsearched depth=0 selected=false neural_hint=false\n  Q13 heuristic=0.010 scout=-40.524 verified=unsearched depth=0 selected=false neural_hint=true\n  P12 heuristic=0.010 scout=-39.748 verified=unsearched depth=0 selected=false neural_hint=true\n  J8 heuristic=0.010 scout=-37.923 verified=unsearched depth=0 selected=false neural_hint=false\n  K7 heuristic=0.010 scout=-37.923 verified=unsearched depth=0 selected=false neural_hint=false\n  R7 heuristic=0.010 scout=-41.174 verified=unsearched depth=0 selected=false neural_hint=true\n  pass heuristic=0.000 scout=-42.825 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "da01e9e87f58-80",
+      "source_game": "da01e9e87f584e1e485f84545df191a3f2b955a367a3f9ce1fb0fc6d4c1d76b4",
+      "mode": "HH",
+      "move": "L4",
+      "trace": {
+        "mode": "HH",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 199.83890000730753,
+        "report": "move=L4 score=46.002 depth=3 nodes=1086 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=7/280 mode=hybrid\npv=L4 T19 N4\ntelemetry leaf_calls=976 leaf_us=46775 ranking_us=148954 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -2.000 * 1.000 = -2.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: 81.000 * 0.100 = +8.100\n  influence_balance: 129.417 * 0.300 = +38.825\nAlternating move preferences along PV: +0.077\nMove preferences (not the search score):\nL4: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  B16 heuristic=0.510 scout=42.251 verified=42.601 depth=3 selected=false neural_hint=false\n  P15 heuristic=0.510 scout=42.351 verified=42.701 depth=3 selected=false neural_hint=false\n  R15 heuristic=0.510 scout=42.551 verified=42.901 depth=3 selected=false neural_hint=false\n  R13 heuristic=0.010 scout=43.576 verified=45.702 depth=3 selected=false neural_hint=false\n  A8 heuristic=0.010 scout=43.551 verified=43.901 depth=3 selected=false neural_hint=false\n  L4 heuristic=0.010 scout=43.576 verified=46.002 depth=3 selected=true neural_hint=false\n  pass heuristic=0.000 scout=41.275 verified=-10.500 depth=3 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "da01e9e87f58-80",
+      "source_game": "da01e9e87f584e1e485f84545df191a3f2b955a367a3f9ce1fb0fc6d4c1d76b4",
+      "mode": "NH",
+      "move": "R13",
+      "trace": {
+        "mode": "NH",
+        "hints": [
+          "S11",
+          "S13",
+          "R14"
+        ],
+        "remaining_search_ms": 197,
+        "ms": 200.49200003268197,
+        "report": "move=R13 score=42.425 depth=2 nodes=1115 tactical_nodes=0 elapsed_ms=197 limited=true root_searched=10/280 mode=hybrid\npv=R13 T19\ntelemetry leaf_calls=1006 leaf_us=48757 ranking_us=144485 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -3.000 * 1.000 = -3.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 77.000 * 0.100 = +7.700\n  influence_balance: 127.417 * 0.300 = +38.225\nAlternating move preferences along PV: +0.000\nMove preferences (not the search score):\nR13: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  B16 heuristic=0.510 scout=42.251 verified=41.100 depth=2 selected=false neural_hint=false\n  P15 heuristic=0.510 scout=42.351 verified=41.200 depth=2 selected=false neural_hint=false\n  R15 heuristic=0.510 scout=42.551 verified=41.400 depth=2 selected=false neural_hint=false\n  R14 heuristic=0.010 scout=43.176 verified=42.025 depth=2 selected=false neural_hint=true\n  R13 heuristic=0.010 scout=43.576 verified=42.425 depth=2 selected=true neural_hint=false\n  S13 heuristic=0.010 scout=42.826 verified=41.675 depth=2 selected=false neural_hint=true\n  S11 heuristic=0.010 scout=42.826 verified=41.675 depth=2 selected=false neural_hint=true\n  A8 heuristic=0.010 scout=43.551 verified=42.400 depth=2 selected=false neural_hint=false\n  L4 heuristic=0.010 scout=43.576 verified=42.425 depth=2 selected=false neural_hint=false\n  pass heuristic=0.000 scout=41.275 verified=-10.500 depth=2 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "da01e9e87f58-80",
+      "source_game": "da01e9e87f584e1e485f84545df191a3f2b955a367a3f9ce1fb0fc6d4c1d76b4",
+      "mode": "HN",
+      "move": "R13",
+      "trace": {
+        "mode": "HN",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 199.50029999017715,
+        "report": "move=R13 score=43.576 depth=1 nodes=337 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=280/280 mode=hybrid\npv=R13\ntelemetry leaf_calls=332 leaf_us=188160 ranking_us=9471 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -2.000 * 1.000 = -2.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 77.000 * 0.100 = +7.700\n  influence_balance: 127.917 * 0.300 = +38.375\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nR13: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  B16 heuristic=0.510 scout=42.251 verified=unsearched depth=0 selected=false neural_hint=false\n  P15 heuristic=0.510 scout=42.351 verified=unsearched depth=0 selected=false neural_hint=false\n  R15 heuristic=0.510 scout=42.551 verified=unsearched depth=0 selected=false neural_hint=false\n  R13 heuristic=0.010 scout=43.576 verified=unsearched depth=0 selected=true neural_hint=false\n  A8 heuristic=0.010 scout=43.551 verified=unsearched depth=0 selected=false neural_hint=false\n  L4 heuristic=0.010 scout=43.576 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=41.275 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "da01e9e87f58-80",
+      "source_game": "da01e9e87f584e1e485f84545df191a3f2b955a367a3f9ce1fb0fc6d4c1d76b4",
+      "mode": "NN",
+      "move": "R13",
+      "trace": {
+        "mode": "NN",
+        "hints": [
+          "S11",
+          "S13",
+          "R14"
+        ],
+        "remaining_search_ms": 196,
+        "ms": 199.92839999031276,
+        "report": "move=R13 score=43.576 depth=1 nodes=337 tactical_nodes=0 elapsed_ms=196 limited=true root_searched=280/280 mode=hybrid\npv=R13\ntelemetry leaf_calls=332 leaf_us=182800 ranking_us=11741 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -2.000 * 1.000 = -2.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 77.000 * 0.100 = +7.700\n  influence_balance: 127.917 * 0.300 = +38.375\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nR13: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  B16 heuristic=0.510 scout=42.251 verified=unsearched depth=0 selected=false neural_hint=false\n  P15 heuristic=0.510 scout=42.351 verified=unsearched depth=0 selected=false neural_hint=false\n  R15 heuristic=0.510 scout=42.551 verified=unsearched depth=0 selected=false neural_hint=false\n  R14 heuristic=0.010 scout=43.176 verified=unsearched depth=0 selected=false neural_hint=true\n  R13 heuristic=0.010 scout=43.576 verified=unsearched depth=0 selected=true neural_hint=false\n  S13 heuristic=0.010 scout=42.826 verified=unsearched depth=0 selected=false neural_hint=true\n  S11 heuristic=0.010 scout=42.826 verified=unsearched depth=0 selected=false neural_hint=true\n  A8 heuristic=0.010 scout=43.551 verified=unsearched depth=0 selected=false neural_hint=false\n  L4 heuristic=0.010 scout=43.576 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=41.275 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "74a2d8327148-80",
+      "source_game": "74a2d8327148c88fa6ccb3328ab1bc345ed1d895c02768c878cee13f474c242a",
+      "mode": "HH",
+      "move": "G4",
+      "trace": {
+        "mode": "HH",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 200.22339996648952,
+        "report": "move=G4 score=0.200 depth=2 nodes=1328 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=19/285 mode=hybrid\npv=G4 J13\ntelemetry leaf_calls=1240 leaf_us=55200 ranking_us=139628 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: -1.000 * 1.000 = -1.000\n  atari_risk: -9.000 * -1.500 = +13.500\n  liberty_balance: -4.000 * 0.100 = -0.400\n  influence_balance: -14.167 * 0.300 = -4.250\nAlternating move preferences along PV: -0.150\nMove preferences (not the search score):\nG4: 0.510 (base=0.010)\n  side_development: 1.000 * 0.500 = +0.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  K19 heuristic=8.510 scout=3.827 verified=-2.050 depth=2 selected=false neural_hint=false\n  P4 heuristic=3.010 scout=6.651 verified=-1.850 depth=2 selected=false neural_hint=false\n  F19 heuristic=2.010 scout=4.501 verified=-4.000 depth=2 selected=false neural_hint=false\n  H13 heuristic=2.010 scout=5.552 verified=-2.650 depth=2 selected=false neural_hint=false\n  S18 heuristic=0.510 scout=6.927 verified=-1.575 depth=2 selected=false neural_hint=false\n  N17 heuristic=0.510 scout=6.927 verified=-1.950 depth=2 selected=false neural_hint=false\n  M16 heuristic=0.510 scout=6.602 verified=-1.900 depth=2 selected=false neural_hint=false\n  L15 heuristic=0.510 scout=6.777 verified=-2.600 depth=2 selected=false neural_hint=false\n  T15 heuristic=0.510 scout=5.076 verified=-4.575 depth=2 selected=false neural_hint=false\n  K14 heuristic=0.510 scout=6.952 verified=-2.250 depth=2 selected=false neural_hint=false\n  G4 heuristic=0.510 scout=8.701 verified=0.200 depth=2 selected=true neural_hint=false\n  O4 heuristic=0.510 scout=8.501 verified=0.000 depth=2 selected=false neural_hint=false\n  N3 heuristic=0.510 scout=8.501 verified=0.000 depth=2 selected=false neural_hint=false\n  Q2 heuristic=0.510 scout=7.101 verified=-1.400 depth=2 selected=false neural_hint=false\n  P1 heuristic=0.510 scout=6.451 verified=-2.050 depth=2 selected=false neural_hint=false\n  G6 heuristic=0.010 scout=8.701 verified=0.200 depth=2 selected=false neural_hint=false\n  H6 heuristic=0.010 scout=8.701 verified=0.200 depth=2 selected=false neural_hint=false\n  pass heuristic=0.000 scout=2.500 verified=-7.500 depth=2 selected=false neural_hint=false\n  T17 heuristic=-10.990 scout=4.652 verified=-3.850 depth=2 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "74a2d8327148-80",
+      "source_game": "74a2d8327148c88fa6ccb3328ab1bc345ed1d895c02768c878cee13f474c242a",
+      "mode": "NH",
+      "move": "G4",
+      "trace": {
+        "mode": "NH",
+        "hints": [
+          "P4",
+          "C15",
+          "B15"
+        ],
+        "remaining_search_ms": 196,
+        "ms": 200.23539999965578,
+        "report": "move=G4 score=0.200 depth=2 nodes=1273 tactical_nodes=0 elapsed_ms=196 limited=true root_searched=21/285 mode=hybrid\npv=G4 J13\ntelemetry leaf_calls=1189 leaf_us=55401 ranking_us=136271 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: -1.000 * 1.000 = -1.000\n  atari_risk: -9.000 * -1.500 = +13.500\n  liberty_balance: -4.000 * 0.100 = -0.400\n  influence_balance: -14.167 * 0.300 = -4.250\nAlternating move preferences along PV: -0.150\nMove preferences (not the search score):\nG4: 0.510 (base=0.010)\n  side_development: 1.000 * 0.500 = +0.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  K19 heuristic=8.510 scout=3.827 verified=-2.050 depth=2 selected=false neural_hint=false\n  P4 heuristic=3.010 scout=6.651 verified=-1.850 depth=2 selected=false neural_hint=true\n  F19 heuristic=2.010 scout=4.501 verified=-4.000 depth=2 selected=false neural_hint=false\n  H13 heuristic=2.010 scout=5.552 verified=-2.650 depth=2 selected=false neural_hint=false\n  S18 heuristic=0.510 scout=6.927 verified=-1.575 depth=2 selected=false neural_hint=false\n  N17 heuristic=0.510 scout=6.927 verified=-1.950 depth=2 selected=false neural_hint=false\n  M16 heuristic=0.510 scout=6.602 verified=-1.900 depth=2 selected=false neural_hint=false\n  L15 heuristic=0.510 scout=6.777 verified=-2.600 depth=2 selected=false neural_hint=false\n  T15 heuristic=0.510 scout=5.076 verified=-4.575 depth=2 selected=false neural_hint=false\n  K14 heuristic=0.510 scout=6.952 verified=-2.250 depth=2 selected=false neural_hint=false\n  G4 heuristic=0.510 scout=8.701 verified=0.200 depth=2 selected=true neural_hint=false\n  O4 heuristic=0.510 scout=8.501 verified=0.000 depth=2 selected=false neural_hint=false\n  N3 heuristic=0.510 scout=8.501 verified=0.000 depth=2 selected=false neural_hint=false\n  Q2 heuristic=0.510 scout=7.101 verified=-1.400 depth=2 selected=false neural_hint=false\n  P1 heuristic=0.510 scout=6.451 verified=-2.050 depth=2 selected=false neural_hint=false\n  B15 heuristic=0.010 scout=5.102 verified=-3.400 depth=2 selected=false neural_hint=true\n  C15 heuristic=0.010 scout=4.051 verified=-4.450 depth=2 selected=false neural_hint=true\n  G6 heuristic=0.010 scout=8.701 verified=0.200 depth=2 selected=false neural_hint=false\n  H6 heuristic=0.010 scout=8.701 verified=0.200 depth=2 selected=false neural_hint=false\n  pass heuristic=0.000 scout=2.500 verified=-7.500 depth=2 selected=false neural_hint=false\n  T17 heuristic=-10.990 scout=4.652 verified=-3.850 depth=2 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "74a2d8327148-80",
+      "source_game": "74a2d8327148c88fa6ccb3328ab1bc345ed1d895c02768c878cee13f474c242a",
+      "mode": "HN",
+      "move": "G4",
+      "trace": {
+        "mode": "HN",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 199.44150000810623,
+        "report": "move=G4 score=8.701 depth=1 nodes=338 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=285/285 mode=hybrid\npv=G4\ntelemetry leaf_calls=334 leaf_us=189786 ranking_us=7719 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: -12.000 * -1.500 = +18.000\n  liberty_balance: 0.000 * 0.100 = +0.000\n  influence_balance: -6.250 * 0.300 = -1.875\nAlternating move preferences along PV: +0.076\nMove preferences (not the search score):\nG4: 0.510 (base=0.010)\n  side_development: 1.000 * 0.500 = +0.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  K19 heuristic=8.510 scout=3.827 verified=unsearched depth=0 selected=false neural_hint=false\n  P4 heuristic=3.010 scout=6.651 verified=unsearched depth=0 selected=false neural_hint=false\n  F19 heuristic=2.010 scout=4.501 verified=unsearched depth=0 selected=false neural_hint=false\n  H13 heuristic=2.010 scout=5.552 verified=unsearched depth=0 selected=false neural_hint=false\n  S18 heuristic=0.510 scout=6.927 verified=unsearched depth=0 selected=false neural_hint=false\n  N17 heuristic=0.510 scout=6.927 verified=unsearched depth=0 selected=false neural_hint=false\n  M16 heuristic=0.510 scout=6.602 verified=unsearched depth=0 selected=false neural_hint=false\n  L15 heuristic=0.510 scout=6.777 verified=unsearched depth=0 selected=false neural_hint=false\n  T15 heuristic=0.510 scout=5.076 verified=unsearched depth=0 selected=false neural_hint=false\n  K14 heuristic=0.510 scout=6.952 verified=unsearched depth=0 selected=false neural_hint=false\n  G4 heuristic=0.510 scout=8.701 verified=unsearched depth=0 selected=true neural_hint=false\n  O4 heuristic=0.510 scout=8.501 verified=unsearched depth=0 selected=false neural_hint=false\n  N3 heuristic=0.510 scout=8.501 verified=unsearched depth=0 selected=false neural_hint=false\n  Q2 heuristic=0.510 scout=7.101 verified=unsearched depth=0 selected=false neural_hint=false\n  P1 heuristic=0.510 scout=6.451 verified=unsearched depth=0 selected=false neural_hint=false\n  G6 heuristic=0.010 scout=8.701 verified=unsearched depth=0 selected=false neural_hint=false\n  H6 heuristic=0.010 scout=8.701 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=2.500 verified=unsearched depth=0 selected=false neural_hint=false\n  T17 heuristic=-10.990 scout=4.652 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "74a2d8327148-80",
+      "source_game": "74a2d8327148c88fa6ccb3328ab1bc345ed1d895c02768c878cee13f474c242a",
+      "mode": "NN",
+      "move": "G4",
+      "trace": {
+        "mode": "NN",
+        "hints": [
+          "P4",
+          "C15",
+          "B15"
+        ],
+        "remaining_search_ms": 196,
+        "ms": 200.9834999917075,
+        "report": "move=G4 score=8.701 depth=1 nodes=331 tactical_nodes=0 elapsed_ms=197 limited=true root_searched=285/285 mode=hybrid\npv=G4\ntelemetry leaf_calls=328 leaf_us=186094 ranking_us=9336 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: -12.000 * -1.500 = +18.000\n  liberty_balance: 0.000 * 0.100 = +0.000\n  influence_balance: -6.250 * 0.300 = -1.875\nAlternating move preferences along PV: +0.076\nMove preferences (not the search score):\nG4: 0.510 (base=0.010)\n  side_development: 1.000 * 0.500 = +0.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  K19 heuristic=8.510 scout=3.827 verified=unsearched depth=0 selected=false neural_hint=false\n  P4 heuristic=3.010 scout=6.651 verified=unsearched depth=0 selected=false neural_hint=true\n  F19 heuristic=2.010 scout=4.501 verified=unsearched depth=0 selected=false neural_hint=false\n  H13 heuristic=2.010 scout=5.552 verified=unsearched depth=0 selected=false neural_hint=false\n  S18 heuristic=0.510 scout=6.927 verified=unsearched depth=0 selected=false neural_hint=false\n  N17 heuristic=0.510 scout=6.927 verified=unsearched depth=0 selected=false neural_hint=false\n  M16 heuristic=0.510 scout=6.602 verified=unsearched depth=0 selected=false neural_hint=false\n  L15 heuristic=0.510 scout=6.777 verified=unsearched depth=0 selected=false neural_hint=false\n  T15 heuristic=0.510 scout=5.076 verified=unsearched depth=0 selected=false neural_hint=false\n  K14 heuristic=0.510 scout=6.952 verified=unsearched depth=0 selected=false neural_hint=false\n  G4 heuristic=0.510 scout=8.701 verified=unsearched depth=0 selected=true neural_hint=false\n  O4 heuristic=0.510 scout=8.501 verified=unsearched depth=0 selected=false neural_hint=false\n  N3 heuristic=0.510 scout=8.501 verified=unsearched depth=0 selected=false neural_hint=false\n  Q2 heuristic=0.510 scout=7.101 verified=unsearched depth=0 selected=false neural_hint=false\n  P1 heuristic=0.510 scout=6.451 verified=unsearched depth=0 selected=false neural_hint=false\n  B15 heuristic=0.010 scout=5.102 verified=unsearched depth=0 selected=false neural_hint=true\n  C15 heuristic=0.010 scout=4.051 verified=unsearched depth=0 selected=false neural_hint=true\n  G6 heuristic=0.010 scout=8.701 verified=unsearched depth=0 selected=false neural_hint=false\n  H6 heuristic=0.010 scout=8.701 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=2.500 verified=unsearched depth=0 selected=false neural_hint=false\n  T17 heuristic=-10.990 scout=4.652 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "da01e9e87f58-240",
+      "source_game": "da01e9e87f584e1e485f84545df191a3f2b955a367a3f9ce1fb0fc6d4c1d76b4",
+      "mode": "HH",
+      "move": "Q7",
+      "trace": {
+        "mode": "HH",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 199.56310000270605,
+        "report": "move=Q7 score=19.125 depth=2 nodes=713 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=6/134 mode=hybrid\npv=Q7 P11\ntelemetry leaf_calls=665 leaf_us=77845 ranking_us=113936 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -12.000 * 1.000 = -12.000\n  atari_risk: 12.000 * -1.500 = -18.000\n  liberty_balance: 209.000 * 0.100 = +20.900\n  influence_balance: 93.500 * 0.300 = +28.050\nAlternating move preferences along PV: +0.675\nMove preferences (not the search score):\nQ7: 4.510 (base=0.010)\n  capture: 0.500 * 8.000 = +4.000\n  connect: 0.333 * 1.500 = +0.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  Q7 heuristic=4.510 scout=21.327 verified=19.125 depth=2 selected=true neural_hint=false\n  Q9 heuristic=1.510 scout=19.777 verified=17.575 depth=2 selected=false neural_hint=false\n  C8 heuristic=1.510 scout=19.577 verified=17.375 depth=2 selected=false neural_hint=false\n  Q5 heuristic=0.510 scout=22.526 verified=18.850 depth=2 selected=false neural_hint=false\n  Q3 heuristic=0.510 scout=22.627 verified=18.950 depth=2 selected=false neural_hint=false\n  pass heuristic=0.000 scout=19.850 verified=4.500 depth=2 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "da01e9e87f58-240",
+      "source_game": "da01e9e87f584e1e485f84545df191a3f2b955a367a3f9ce1fb0fc6d4c1d76b4",
+      "mode": "NH",
+      "move": "Q7",
+      "trace": {
+        "mode": "NH",
+        "hints": [
+          "H9",
+          "M10",
+          "K9"
+        ],
+        "remaining_search_ms": 194,
+        "ms": 199.96490003541112,
+        "report": "move=Q7 score=19.125 depth=2 nodes=764 tactical_nodes=0 elapsed_ms=194 limited=true root_searched=9/134 mode=hybrid\npv=Q7 P11\ntelemetry leaf_calls=713 leaf_us=80447 ranking_us=106507 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -12.000 * 1.000 = -12.000\n  atari_risk: 12.000 * -1.500 = -18.000\n  liberty_balance: 209.000 * 0.100 = +20.900\n  influence_balance: 93.500 * 0.300 = +28.050\nAlternating move preferences along PV: +0.675\nMove preferences (not the search score):\nQ7: 4.510 (base=0.010)\n  capture: 0.500 * 8.000 = +4.000\n  connect: 0.333 * 1.500 = +0.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  Q7 heuristic=4.510 scout=21.327 verified=19.125 depth=2 selected=true neural_hint=false\n  Q9 heuristic=1.510 scout=19.777 verified=17.575 depth=2 selected=false neural_hint=false\n  C8 heuristic=1.510 scout=19.577 verified=17.375 depth=2 selected=false neural_hint=false\n  H9 heuristic=0.510 scout=20.826 verified=18.625 depth=2 selected=false neural_hint=true\n  Q5 heuristic=0.510 scout=22.526 verified=18.850 depth=2 selected=false neural_hint=false\n  Q3 heuristic=0.510 scout=22.627 verified=18.950 depth=2 selected=false neural_hint=false\n  M10 heuristic=0.010 scout=20.951 verified=18.750 depth=2 selected=false neural_hint=true\n  K9 heuristic=0.010 scout=20.752 verified=18.550 depth=2 selected=false neural_hint=true\n  pass heuristic=0.000 scout=19.850 verified=4.500 depth=2 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "da01e9e87f58-240",
+      "source_game": "da01e9e87f584e1e485f84545df191a3f2b955a367a3f9ce1fb0fc6d4c1d76b4",
+      "mode": "HN",
+      "move": "Q3",
+      "trace": {
+        "mode": "HN",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 199.9362999922596,
+        "report": "move=Q3 score=22.627 depth=1 nodes=171 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=134/134 mode=hybrid\npv=Q3\ntelemetry leaf_calls=168 leaf_us=185252 ranking_us=11396 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -13.000 * 1.000 = -13.000\n  atari_risk: 9.000 * -1.500 = -13.500\n  liberty_balance: 212.000 * 0.100 = +21.200\n  influence_balance: 94.500 * 0.300 = +28.350\nAlternating move preferences along PV: +0.076\nMove preferences (not the search score):\nQ3: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  Q7 heuristic=4.510 scout=21.327 verified=unsearched depth=0 selected=false neural_hint=false\n  Q9 heuristic=1.510 scout=19.777 verified=unsearched depth=0 selected=false neural_hint=false\n  C8 heuristic=1.510 scout=19.577 verified=unsearched depth=0 selected=false neural_hint=false\n  Q5 heuristic=0.510 scout=22.526 verified=unsearched depth=0 selected=false neural_hint=false\n  Q3 heuristic=0.510 scout=22.627 verified=unsearched depth=0 selected=true neural_hint=false\n  pass heuristic=0.000 scout=19.850 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "da01e9e87f58-240",
+      "source_game": "da01e9e87f584e1e485f84545df191a3f2b955a367a3f9ce1fb0fc6d4c1d76b4",
+      "mode": "NN",
+      "move": "Q3",
+      "trace": {
+        "mode": "NN",
+        "hints": [
+          "H9",
+          "M10",
+          "K9"
+        ],
+        "remaining_search_ms": 196,
+        "ms": 203.3862000098452,
+        "report": "move=Q3 score=22.627 depth=1 nodes=172 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=134/134 mode=hybrid\npv=Q3\ntelemetry leaf_calls=169 leaf_us=187729 ranking_us=8957 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -13.000 * 1.000 = -13.000\n  atari_risk: 9.000 * -1.500 = -13.500\n  liberty_balance: 212.000 * 0.100 = +21.200\n  influence_balance: 94.500 * 0.300 = +28.350\nAlternating move preferences along PV: +0.076\nMove preferences (not the search score):\nQ3: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  Q7 heuristic=4.510 scout=21.327 verified=unsearched depth=0 selected=false neural_hint=false\n  Q9 heuristic=1.510 scout=19.777 verified=unsearched depth=0 selected=false neural_hint=false\n  C8 heuristic=1.510 scout=19.577 verified=unsearched depth=0 selected=false neural_hint=false\n  H9 heuristic=0.510 scout=20.826 verified=unsearched depth=0 selected=false neural_hint=true\n  Q5 heuristic=0.510 scout=22.526 verified=unsearched depth=0 selected=false neural_hint=false\n  Q3 heuristic=0.510 scout=22.627 verified=unsearched depth=0 selected=true neural_hint=false\n  M10 heuristic=0.010 scout=20.951 verified=unsearched depth=0 selected=false neural_hint=true\n  K9 heuristic=0.010 scout=20.752 verified=unsearched depth=0 selected=false neural_hint=true\n  pass heuristic=0.000 scout=19.850 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "c27b315c0cba-160",
+      "source_game": "c27b315c0cba9226c5c9e53ba7f348a28a6d6721b8fa92d783a8ceafb3255ceb",
+      "mode": "HH",
+      "move": "B7",
+      "trace": {
+        "mode": "HH",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 199.57110000541434,
+        "report": "move=B7 score=-51.875 depth=2 nodes=742 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=8/220 mode=hybrid\npv=B7 Q15\ntelemetry leaf_calls=694 leaf_us=74570 ranking_us=119031 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -3.000 * 1.000 = -3.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: -130.000 * 0.100 = -13.000\n  influence_balance: -122.667 * 0.300 = -36.800\nAlternating move preferences along PV: -0.075\nMove preferences (not the search score):\nB7: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  M17 heuristic=2.510 scout=-54.474 verified=-55.250 depth=2 selected=false neural_hint=false\n  E18 heuristic=1.010 scout=-55.098 verified=-55.875 depth=2 selected=false neural_hint=false\n  D19 heuristic=0.510 scout=-54.673 verified=-55.450 depth=2 selected=false neural_hint=false\n  K16 heuristic=0.510 scout=-52.023 verified=-55.250 depth=2 selected=false neural_hint=false\n  J15 heuristic=0.510 scout=-50.973 verified=-53.950 depth=2 selected=false neural_hint=false\n  G9 heuristic=0.010 scout=-51.248 verified=-52.025 depth=2 selected=false neural_hint=false\n  B7 heuristic=0.010 scout=-51.098 verified=-51.875 depth=2 selected=true neural_hint=false\n  pass heuristic=0.000 scout=-55.150 verified=-55.926 depth=2 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "c27b315c0cba-160",
+      "source_game": "c27b315c0cba9226c5c9e53ba7f348a28a6d6721b8fa92d783a8ceafb3255ceb",
+      "mode": "NH",
+      "move": "B7",
+      "trace": {
+        "mode": "NH",
+        "hints": [
+          "F14",
+          "B14",
+          "H13"
+        ],
+        "remaining_search_ms": 196,
+        "ms": 200.23070002207533,
+        "report": "move=B7 score=-51.875 depth=2 nodes=772 tactical_nodes=0 elapsed_ms=196 limited=true root_searched=11/220 mode=hybrid\npv=B7 Q15\ntelemetry leaf_calls=722 leaf_us=68793 ranking_us=122458 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -3.000 * 1.000 = -3.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: -130.000 * 0.100 = -13.000\n  influence_balance: -122.667 * 0.300 = -36.800\nAlternating move preferences along PV: -0.075\nMove preferences (not the search score):\nB7: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  M17 heuristic=2.510 scout=-54.474 verified=-55.250 depth=2 selected=false neural_hint=false\n  E18 heuristic=1.010 scout=-55.098 verified=-55.875 depth=2 selected=false neural_hint=false\n  D19 heuristic=0.510 scout=-54.673 verified=-55.450 depth=2 selected=false neural_hint=false\n  K16 heuristic=0.510 scout=-52.023 verified=-55.250 depth=2 selected=false neural_hint=false\n  J15 heuristic=0.510 scout=-50.973 verified=-53.950 depth=2 selected=false neural_hint=false\n  B14 heuristic=0.010 scout=-52.698 verified=-53.475 depth=2 selected=false neural_hint=true\n  F14 heuristic=0.010 scout=-53.449 verified=-54.225 depth=2 selected=false neural_hint=true\n  H13 heuristic=0.010 scout=-51.798 verified=-52.575 depth=2 selected=false neural_hint=true\n  G9 heuristic=0.010 scout=-51.248 verified=-52.025 depth=2 selected=false neural_hint=false\n  B7 heuristic=0.010 scout=-51.098 verified=-51.875 depth=2 selected=true neural_hint=false\n  pass heuristic=0.000 scout=-55.150 verified=-55.926 depth=2 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "c27b315c0cba-160",
+      "source_game": "c27b315c0cba9226c5c9e53ba7f348a28a6d6721b8fa92d783a8ceafb3255ceb",
+      "mode": "HN",
+      "move": "J15",
+      "trace": {
+        "mode": "HN",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 202.24859996233135,
+        "report": "move=J15 score=-50.973 depth=1 nodes=265 tactical_nodes=0 elapsed_ms=201 limited=true root_searched=220/220 mode=hybrid\npv=J15\ntelemetry leaf_calls=261 leaf_us=190605 ranking_us=9104 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -2.000 * 1.000 = -2.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: -133.000 * 0.100 = -13.300\n  influence_balance: -127.500 * 0.300 = -38.250\nAlternating move preferences along PV: +0.077\nMove preferences (not the search score):\nJ15: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  M17 heuristic=2.510 scout=-54.474 verified=unsearched depth=0 selected=false neural_hint=false\n  E18 heuristic=1.010 scout=-55.098 verified=unsearched depth=0 selected=false neural_hint=false\n  D19 heuristic=0.510 scout=-54.673 verified=unsearched depth=0 selected=false neural_hint=false\n  K16 heuristic=0.510 scout=-52.023 verified=unsearched depth=0 selected=false neural_hint=false\n  J15 heuristic=0.510 scout=-50.973 verified=unsearched depth=0 selected=true neural_hint=false\n  G9 heuristic=0.010 scout=-51.248 verified=unsearched depth=0 selected=false neural_hint=false\n  B7 heuristic=0.010 scout=-51.098 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=-55.150 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "c27b315c0cba-160",
+      "source_game": "c27b315c0cba9226c5c9e53ba7f348a28a6d6721b8fa92d783a8ceafb3255ceb",
+      "mode": "NN",
+      "move": "J15",
+      "trace": {
+        "mode": "NN",
+        "hints": [
+          "F14",
+          "B14",
+          "H13"
+        ],
+        "remaining_search_ms": 196,
+        "ms": 200.41189994663,
+        "report": "move=J15 score=-50.973 depth=1 nodes=265 tactical_nodes=0 elapsed_ms=197 limited=true root_searched=220/220 mode=hybrid\npv=J15\ntelemetry leaf_calls=261 leaf_us=185859 ranking_us=8977 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -2.000 * 1.000 = -2.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: -133.000 * 0.100 = -13.300\n  influence_balance: -127.500 * 0.300 = -38.250\nAlternating move preferences along PV: +0.077\nMove preferences (not the search score):\nJ15: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  M17 heuristic=2.510 scout=-54.474 verified=unsearched depth=0 selected=false neural_hint=false\n  E18 heuristic=1.010 scout=-55.098 verified=unsearched depth=0 selected=false neural_hint=false\n  D19 heuristic=0.510 scout=-54.673 verified=unsearched depth=0 selected=false neural_hint=false\n  K16 heuristic=0.510 scout=-52.023 verified=unsearched depth=0 selected=false neural_hint=false\n  J15 heuristic=0.510 scout=-50.973 verified=unsearched depth=0 selected=true neural_hint=false\n  B14 heuristic=0.010 scout=-52.698 verified=unsearched depth=0 selected=false neural_hint=true\n  F14 heuristic=0.010 scout=-53.449 verified=unsearched depth=0 selected=false neural_hint=true\n  H13 heuristic=0.010 scout=-51.798 verified=unsearched depth=0 selected=false neural_hint=true\n  G9 heuristic=0.010 scout=-51.248 verified=unsearched depth=0 selected=false neural_hint=false\n  B7 heuristic=0.010 scout=-51.098 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=-55.150 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "f7daf2d0ce4e-80",
+      "source_game": "f7daf2d0ce4e1e47a78f1a9f2686f8ba19e1e85949a5b26ab3ddfd4ee3529800",
+      "mode": "HH",
+      "move": "B14",
+      "trace": {
+        "mode": "HH",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 199.54030000371858,
+        "report": "move=B14 score=1.350 depth=2 nodes=881 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=7/292 mode=hybrid\npv=B14 O5\ntelemetry leaf_calls=795 leaf_us=51188 ranking_us=144858 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: -10.000 * 1.000 = -10.000\n  atari_risk: 1.000 * -1.500 = -1.500\n  liberty_balance: 5.000 * 0.100 = +0.500\n  influence_balance: 66.417 * 0.300 = +19.925\nAlternating move preferences along PV: -0.075\nMove preferences (not the search score):\nB14: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  B18 heuristic=0.510 scout=4.952 verified=-0.425 depth=2 selected=false neural_hint=false\n  J17 heuristic=0.510 scout=6.227 verified=0.850 depth=2 selected=false neural_hint=false\n  K17 heuristic=0.510 scout=6.502 verified=1.125 depth=2 selected=false neural_hint=false\n  L17 heuristic=0.510 scout=6.626 verified=1.250 depth=2 selected=false neural_hint=false\n  B14 heuristic=0.010 scout=6.726 verified=1.350 depth=2 selected=true neural_hint=false\n  P11 heuristic=0.010 scout=6.726 verified=1.350 depth=2 selected=false neural_hint=false\n  pass heuristic=0.000 scout=3.825 verified=-27.500 depth=2 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "f7daf2d0ce4e-80",
+      "source_game": "f7daf2d0ce4e1e47a78f1a9f2686f8ba19e1e85949a5b26ab3ddfd4ee3529800",
+      "mode": "NH",
+      "move": "B14",
+      "trace": {
+        "mode": "NH",
+        "hints": [
+          "B19",
+          "O17",
+          "Q10"
+        ],
+        "remaining_search_ms": 197,
+        "ms": 200.6042000139132,
+        "report": "move=B14 score=1.350 depth=2 nodes=819 tactical_nodes=0 elapsed_ms=197 limited=true root_searched=10/292 mode=hybrid\npv=B14 O5\ntelemetry leaf_calls=753 leaf_us=51712 ranking_us=142017 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: -10.000 * 1.000 = -10.000\n  atari_risk: 1.000 * -1.500 = -1.500\n  liberty_balance: 5.000 * 0.100 = +0.500\n  influence_balance: 66.417 * 0.300 = +19.925\nAlternating move preferences along PV: -0.075\nMove preferences (not the search score):\nB14: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  B18 heuristic=0.510 scout=4.952 verified=-0.425 depth=2 selected=false neural_hint=false\n  J17 heuristic=0.510 scout=6.227 verified=0.850 depth=2 selected=false neural_hint=false\n  K17 heuristic=0.510 scout=6.502 verified=1.125 depth=2 selected=false neural_hint=false\n  L17 heuristic=0.510 scout=6.626 verified=1.250 depth=2 selected=false neural_hint=false\n  B19 heuristic=0.010 scout=5.177 verified=-0.200 depth=2 selected=false neural_hint=true\n  O17 heuristic=0.010 scout=5.627 verified=0.250 depth=2 selected=false neural_hint=true\n  B14 heuristic=0.010 scout=6.726 verified=1.350 depth=2 selected=true neural_hint=false\n  P11 heuristic=0.010 scout=6.726 verified=1.350 depth=2 selected=false neural_hint=false\n  Q10 heuristic=0.010 scout=6.427 verified=1.050 depth=2 selected=false neural_hint=true\n  pass heuristic=0.000 scout=3.825 verified=-27.500 depth=2 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "f7daf2d0ce4e-80",
+      "source_game": "f7daf2d0ce4e1e47a78f1a9f2686f8ba19e1e85949a5b26ab3ddfd4ee3529800",
+      "mode": "HN",
+      "move": "B14",
+      "trace": {
+        "mode": "HN",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 202.13359995977953,
+        "report": "move=B14 score=6.726 depth=1 nodes=336 tactical_nodes=0 elapsed_ms=201 limited=true root_searched=292/292 mode=hybrid\npv=B14\ntelemetry leaf_calls=334 leaf_us=192135 ranking_us=6900 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: -9.000 * 1.000 = -9.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 9.000 * 0.100 = +0.900\n  influence_balance: 74.417 * 0.300 = +22.325\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nB14: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  B18 heuristic=0.510 scout=4.952 verified=unsearched depth=0 selected=false neural_hint=false\n  J17 heuristic=0.510 scout=6.227 verified=unsearched depth=0 selected=false neural_hint=false\n  K17 heuristic=0.510 scout=6.502 verified=unsearched depth=0 selected=false neural_hint=false\n  L17 heuristic=0.510 scout=6.626 verified=unsearched depth=0 selected=false neural_hint=false\n  B14 heuristic=0.010 scout=6.726 verified=unsearched depth=0 selected=true neural_hint=false\n  P11 heuristic=0.010 scout=6.726 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=3.825 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "f7daf2d0ce4e-80",
+      "source_game": "f7daf2d0ce4e1e47a78f1a9f2686f8ba19e1e85949a5b26ab3ddfd4ee3529800",
+      "mode": "NN",
+      "move": "B14",
+      "trace": {
+        "mode": "NN",
+        "hints": [
+          "B19",
+          "O17",
+          "Q10"
+        ],
+        "remaining_search_ms": 196,
+        "ms": 201.0152000002563,
+        "report": "move=B14 score=6.726 depth=1 nodes=347 tactical_nodes=0 elapsed_ms=196 limited=true root_searched=292/292 mode=hybrid\npv=B14\ntelemetry leaf_calls=344 leaf_us=185032 ranking_us=9673 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: -9.000 * 1.000 = -9.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 9.000 * 0.100 = +0.900\n  influence_balance: 74.417 * 0.300 = +22.325\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nB14: 0.010 (base=0.010)\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  B18 heuristic=0.510 scout=4.952 verified=unsearched depth=0 selected=false neural_hint=false\n  J17 heuristic=0.510 scout=6.227 verified=unsearched depth=0 selected=false neural_hint=false\n  K17 heuristic=0.510 scout=6.502 verified=unsearched depth=0 selected=false neural_hint=false\n  L17 heuristic=0.510 scout=6.626 verified=unsearched depth=0 selected=false neural_hint=false\n  B19 heuristic=0.010 scout=5.177 verified=unsearched depth=0 selected=false neural_hint=true\n  O17 heuristic=0.010 scout=5.627 verified=unsearched depth=0 selected=false neural_hint=true\n  B14 heuristic=0.010 scout=6.726 verified=unsearched depth=0 selected=true neural_hint=false\n  P11 heuristic=0.010 scout=6.726 verified=unsearched depth=0 selected=false neural_hint=false\n  Q10 heuristic=0.010 scout=6.427 verified=unsearched depth=0 selected=false neural_hint=true\n  pass heuristic=0.000 scout=3.825 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "48d2d375f4b1-240",
+      "source_game": "48d2d375f4b14d8118a0a626aa0046f61daedb10b84a52adf66650381f8879b9",
+      "mode": "HH",
+      "move": "A2",
+      "trace": {
+        "mode": "HH",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 200.06260002264753,
+        "report": "move=A2 score=-24.098 depth=1 nodes=1083 tactical_nodes=0 elapsed_ms=199 limited=true root_searched=131/131 mode=hybrid\npv=A2\ntelemetry leaf_calls=1022 leaf_us=102118 ranking_us=89919 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: -5.000 * 1.000 = -5.000\n  atari_risk: -12.000 * -1.500 = +18.000\n  liberty_balance: -122.000 * 0.100 = -12.200\n  influence_balance: -59.000 * 0.300 = -17.700\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nA2: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  T13 heuristic=8.010 scout=-30.448 verified=unsearched depth=0 selected=false neural_hint=false\n  F19 heuristic=2.010 scout=-24.399 verified=unsearched depth=0 selected=false neural_hint=false\n  D3 heuristic=2.010 scout=-30.198 verified=unsearched depth=0 selected=false neural_hint=false\n  A2 heuristic=2.010 scout=-24.098 verified=unsearched depth=0 selected=true neural_hint=false\n  D19 heuristic=1.510 scout=-25.673 verified=unsearched depth=0 selected=false neural_hint=false\n  H19 heuristic=1.010 scout=-27.549 verified=unsearched depth=0 selected=false neural_hint=false\n  P13 heuristic=1.010 scout=-26.949 verified=unsearched depth=0 selected=false neural_hint=false\n  E12 heuristic=1.010 scout=-26.349 verified=unsearched depth=0 selected=false neural_hint=false\n  Q12 heuristic=1.010 scout=-27.149 verified=unsearched depth=0 selected=false neural_hint=false\n  K11 heuristic=1.010 scout=-27.449 verified=unsearched depth=0 selected=false neural_hint=false\n  L10 heuristic=1.010 scout=-26.648 verified=unsearched depth=0 selected=false neural_hint=false\n  F8 heuristic=1.010 scout=-26.199 verified=unsearched depth=0 selected=false neural_hint=false\n  T3 heuristic=1.010 scout=-29.248 verified=unsearched depth=0 selected=false neural_hint=false\n  T19 heuristic=0.510 scout=-29.124 verified=unsearched depth=0 selected=false neural_hint=false\n  C18 heuristic=0.510 scout=-28.374 verified=unsearched depth=0 selected=false neural_hint=false\n  Q18 heuristic=0.510 scout=-27.624 verified=unsearched depth=0 selected=false neural_hint=false\n  A17 heuristic=0.510 scout=-28.174 verified=unsearched depth=0 selected=false neural_hint=false\n  B17 heuristic=0.510 scout=-28.374 verified=unsearched depth=0 selected=false neural_hint=false\n  Q17 heuristic=0.510 scout=-28.574 verified=unsearched depth=0 selected=false neural_hint=false\n  G16 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  P16 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  A15 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  D15 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  F15 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  C14 heuristic=0.510 scout=-28.724 verified=unsearched depth=0 selected=false neural_hint=false\n  K14 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  G13 heuristic=0.510 scout=-29.124 verified=unsearched depth=0 selected=false neural_hint=false\n  N13 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  M10 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  G9 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  N9 heuristic=0.510 scout=-28.724 verified=unsearched depth=0 selected=false neural_hint=false\n  D7 heuristic=0.510 scout=-28.674 verified=unsearched depth=0 selected=false neural_hint=false\n  E7 heuristic=0.510 scout=-28.073 verified=unsearched depth=0 selected=false neural_hint=false\n  E6 heuristic=0.510 scout=-28.274 verified=unsearched depth=0 selected=false neural_hint=false\n  O6 heuristic=0.510 scout=-28.924 verified=unsearched depth=0 selected=false neural_hint=false\n  R6 heuristic=0.510 scout=-27.924 verified=unsearched depth=0 selected=false neural_hint=false\n  P5 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  Q5 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  T5 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  M4 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  O3 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  D2 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  P2 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  M1 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=-31.800 verified=unsearched depth=0 selected=false neural_hint=false\n  A12 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  A8 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  A6 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  H5 heuristic=-9.990 scout=-27.198 verified=unsearched depth=0 selected=false neural_hint=false\n  K19 heuristic=-10.490 scout=-28.473 verified=unsearched depth=0 selected=false neural_hint=false\n  L19 heuristic=-10.490 scout=-28.473 verified=unsearched depth=0 selected=false neural_hint=false\n  F12 heuristic=-10.490 scout=-28.373 verified=unsearched depth=0 selected=false neural_hint=false\n  R19 heuristic=-10.990 scout=-29.748 verified=unsearched depth=0 selected=false neural_hint=false\n  C1 heuristic=-10.990 scout=-30.048 verified=unsearched depth=0 selected=false neural_hint=false\n  N19 heuristic=-11.490 scout=-31.474 verified=unsearched depth=0 selected=false neural_hint=false\n  L3 heuristic=-11.490 scout=-31.824 verified=unsearched depth=0 selected=false neural_hint=false\n  A1 heuristic=-11.490 scout=-32.023 verified=unsearched depth=0 selected=false neural_hint=false\n  H1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\n  K1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\n  O1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "48d2d375f4b1-240",
+      "source_game": "48d2d375f4b14d8118a0a626aa0046f61daedb10b84a52adf66650381f8879b9",
+      "mode": "NH",
+      "move": "A2",
+      "trace": {
+        "mode": "NH",
+        "hints": [
+          "pass",
+          "H6",
+          "A2"
+        ],
+        "remaining_search_ms": 196,
+        "ms": 200.49810002092272,
+        "report": "move=A2 score=-24.098 depth=1 nodes=987 tactical_nodes=0 elapsed_ms=196 limited=true root_searched=131/131 mode=hybrid\npv=A2\ntelemetry leaf_calls=932 leaf_us=99289 ranking_us=89629 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: -5.000 * 1.000 = -5.000\n  atari_risk: -12.000 * -1.500 = +18.000\n  liberty_balance: -122.000 * 0.100 = -12.200\n  influence_balance: -59.000 * 0.300 = -17.700\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nA2: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  T13 heuristic=8.010 scout=-30.448 verified=unsearched depth=0 selected=false neural_hint=false\n  F19 heuristic=2.010 scout=-24.399 verified=unsearched depth=0 selected=false neural_hint=false\n  D3 heuristic=2.010 scout=-30.198 verified=unsearched depth=0 selected=false neural_hint=false\n  A2 heuristic=2.010 scout=-24.098 verified=unsearched depth=0 selected=true neural_hint=true\n  D19 heuristic=1.510 scout=-25.673 verified=unsearched depth=0 selected=false neural_hint=false\n  H19 heuristic=1.010 scout=-27.549 verified=unsearched depth=0 selected=false neural_hint=false\n  P13 heuristic=1.010 scout=-26.949 verified=unsearched depth=0 selected=false neural_hint=false\n  E12 heuristic=1.010 scout=-26.349 verified=unsearched depth=0 selected=false neural_hint=false\n  Q12 heuristic=1.010 scout=-27.149 verified=unsearched depth=0 selected=false neural_hint=false\n  K11 heuristic=1.010 scout=-27.449 verified=unsearched depth=0 selected=false neural_hint=false\n  L10 heuristic=1.010 scout=-26.648 verified=unsearched depth=0 selected=false neural_hint=false\n  F8 heuristic=1.010 scout=-26.199 verified=unsearched depth=0 selected=false neural_hint=false\n  T3 heuristic=1.010 scout=-29.248 verified=unsearched depth=0 selected=false neural_hint=false\n  T19 heuristic=0.510 scout=-29.124 verified=unsearched depth=0 selected=false neural_hint=false\n  C18 heuristic=0.510 scout=-28.374 verified=unsearched depth=0 selected=false neural_hint=false\n  Q18 heuristic=0.510 scout=-27.624 verified=unsearched depth=0 selected=false neural_hint=false\n  A17 heuristic=0.510 scout=-28.174 verified=unsearched depth=0 selected=false neural_hint=false\n  B17 heuristic=0.510 scout=-28.374 verified=unsearched depth=0 selected=false neural_hint=false\n  Q17 heuristic=0.510 scout=-28.574 verified=unsearched depth=0 selected=false neural_hint=false\n  G16 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  P16 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  A15 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  D15 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  F15 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  C14 heuristic=0.510 scout=-28.724 verified=unsearched depth=0 selected=false neural_hint=false\n  K14 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  G13 heuristic=0.510 scout=-29.124 verified=unsearched depth=0 selected=false neural_hint=false\n  N13 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  M10 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  G9 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  N9 heuristic=0.510 scout=-28.724 verified=unsearched depth=0 selected=false neural_hint=false\n  D7 heuristic=0.510 scout=-28.674 verified=unsearched depth=0 selected=false neural_hint=false\n  E7 heuristic=0.510 scout=-28.073 verified=unsearched depth=0 selected=false neural_hint=false\n  E6 heuristic=0.510 scout=-28.274 verified=unsearched depth=0 selected=false neural_hint=false\n  O6 heuristic=0.510 scout=-28.924 verified=unsearched depth=0 selected=false neural_hint=false\n  R6 heuristic=0.510 scout=-27.924 verified=unsearched depth=0 selected=false neural_hint=false\n  P5 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  Q5 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  T5 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  M4 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  O3 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  D2 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  P2 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  M1 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  H6 heuristic=0.010 scout=-30.299 verified=unsearched depth=0 selected=false neural_hint=true\n  pass heuristic=0.000 scout=-31.800 verified=unsearched depth=0 selected=false neural_hint=true\n  A12 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  A8 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  A6 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  H5 heuristic=-9.990 scout=-27.198 verified=unsearched depth=0 selected=false neural_hint=false\n  K19 heuristic=-10.490 scout=-28.473 verified=unsearched depth=0 selected=false neural_hint=false\n  L19 heuristic=-10.490 scout=-28.473 verified=unsearched depth=0 selected=false neural_hint=false\n  F12 heuristic=-10.490 scout=-28.373 verified=unsearched depth=0 selected=false neural_hint=false\n  R19 heuristic=-10.990 scout=-29.748 verified=unsearched depth=0 selected=false neural_hint=false\n  C1 heuristic=-10.990 scout=-30.048 verified=unsearched depth=0 selected=false neural_hint=false\n  N19 heuristic=-11.490 scout=-31.474 verified=unsearched depth=0 selected=false neural_hint=false\n  L3 heuristic=-11.490 scout=-31.824 verified=unsearched depth=0 selected=false neural_hint=false\n  A1 heuristic=-11.490 scout=-32.023 verified=unsearched depth=0 selected=false neural_hint=false\n  H1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\n  K1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\n  O1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "48d2d375f4b1-240",
+      "source_game": "48d2d375f4b14d8118a0a626aa0046f61daedb10b84a52adf66650381f8879b9",
+      "mode": "HN",
+      "move": "A2",
+      "trace": {
+        "mode": "HN",
+        "hints": [],
+        "remaining_search_ms": 199,
+        "ms": 202.22259999718517,
+        "report": "move=A2 score=-24.098 depth=1 nodes=170 tactical_nodes=0 elapsed_ms=201 limited=true root_searched=131/131 mode=hybrid\npv=A2\ntelemetry leaf_calls=167 leaf_us=192590 ranking_us=7007 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: -5.000 * 1.000 = -5.000\n  atari_risk: -12.000 * -1.500 = +18.000\n  liberty_balance: -122.000 * 0.100 = -12.200\n  influence_balance: -59.000 * 0.300 = -17.700\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nA2: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  T13 heuristic=8.010 scout=-30.448 verified=unsearched depth=0 selected=false neural_hint=false\n  F19 heuristic=2.010 scout=-24.399 verified=unsearched depth=0 selected=false neural_hint=false\n  D3 heuristic=2.010 scout=-30.198 verified=unsearched depth=0 selected=false neural_hint=false\n  A2 heuristic=2.010 scout=-24.098 verified=unsearched depth=0 selected=true neural_hint=false\n  D19 heuristic=1.510 scout=-25.673 verified=unsearched depth=0 selected=false neural_hint=false\n  H19 heuristic=1.010 scout=-27.549 verified=unsearched depth=0 selected=false neural_hint=false\n  P13 heuristic=1.010 scout=-26.949 verified=unsearched depth=0 selected=false neural_hint=false\n  E12 heuristic=1.010 scout=-26.349 verified=unsearched depth=0 selected=false neural_hint=false\n  Q12 heuristic=1.010 scout=-27.149 verified=unsearched depth=0 selected=false neural_hint=false\n  K11 heuristic=1.010 scout=-27.449 verified=unsearched depth=0 selected=false neural_hint=false\n  L10 heuristic=1.010 scout=-26.648 verified=unsearched depth=0 selected=false neural_hint=false\n  F8 heuristic=1.010 scout=-26.199 verified=unsearched depth=0 selected=false neural_hint=false\n  T3 heuristic=1.010 scout=-29.248 verified=unsearched depth=0 selected=false neural_hint=false\n  T19 heuristic=0.510 scout=-29.124 verified=unsearched depth=0 selected=false neural_hint=false\n  C18 heuristic=0.510 scout=-28.374 verified=unsearched depth=0 selected=false neural_hint=false\n  Q18 heuristic=0.510 scout=-27.624 verified=unsearched depth=0 selected=false neural_hint=false\n  A17 heuristic=0.510 scout=-28.174 verified=unsearched depth=0 selected=false neural_hint=false\n  B17 heuristic=0.510 scout=-28.374 verified=unsearched depth=0 selected=false neural_hint=false\n  Q17 heuristic=0.510 scout=-28.574 verified=unsearched depth=0 selected=false neural_hint=false\n  G16 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  P16 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  A15 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  D15 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  F15 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  C14 heuristic=0.510 scout=-28.724 verified=unsearched depth=0 selected=false neural_hint=false\n  K14 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  G13 heuristic=0.510 scout=-29.124 verified=unsearched depth=0 selected=false neural_hint=false\n  N13 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  M10 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  G9 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  N9 heuristic=0.510 scout=-28.724 verified=unsearched depth=0 selected=false neural_hint=false\n  D7 heuristic=0.510 scout=-28.674 verified=unsearched depth=0 selected=false neural_hint=false\n  E7 heuristic=0.510 scout=-28.073 verified=unsearched depth=0 selected=false neural_hint=false\n  E6 heuristic=0.510 scout=-28.274 verified=unsearched depth=0 selected=false neural_hint=false\n  O6 heuristic=0.510 scout=-28.924 verified=unsearched depth=0 selected=false neural_hint=false\n  R6 heuristic=0.510 scout=-27.924 verified=unsearched depth=0 selected=false neural_hint=false\n  P5 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  Q5 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  T5 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  M4 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  O3 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  D2 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  P2 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  M1 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=-31.800 verified=unsearched depth=0 selected=false neural_hint=false\n  A12 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  A8 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  A6 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  H5 heuristic=-9.990 scout=-27.198 verified=unsearched depth=0 selected=false neural_hint=false\n  K19 heuristic=-10.490 scout=-28.473 verified=unsearched depth=0 selected=false neural_hint=false\n  L19 heuristic=-10.490 scout=-28.473 verified=unsearched depth=0 selected=false neural_hint=false\n  F12 heuristic=-10.490 scout=-28.373 verified=unsearched depth=0 selected=false neural_hint=false\n  R19 heuristic=-10.990 scout=-29.748 verified=unsearched depth=0 selected=false neural_hint=false\n  C1 heuristic=-10.990 scout=-30.048 verified=unsearched depth=0 selected=false neural_hint=false\n  N19 heuristic=-11.490 scout=-31.474 verified=unsearched depth=0 selected=false neural_hint=false\n  L3 heuristic=-11.490 scout=-31.824 verified=unsearched depth=0 selected=false neural_hint=false\n  A1 heuristic=-11.490 scout=-32.023 verified=unsearched depth=0 selected=false neural_hint=false\n  H1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\n  K1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\n  O1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    },
+    {
+      "id": "48d2d375f4b1-240",
+      "source_game": "48d2d375f4b14d8118a0a626aa0046f61daedb10b84a52adf66650381f8879b9",
+      "mode": "NN",
+      "move": "A2",
+      "trace": {
+        "mode": "NN",
+        "hints": [
+          "pass",
+          "H6",
+          "A2"
+        ],
+        "remaining_search_ms": 196,
+        "ms": 202.52619998063892,
+        "report": "move=A2 score=-24.098 depth=1 nodes=171 tactical_nodes=0 elapsed_ms=198 limited=true root_searched=131/131 mode=hybrid\npv=A2\ntelemetry leaf_calls=168 leaf_us=189393 ranking_us=6602 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: -7.500 * 1.000 = -7.500\n  stone_balance: -5.000 * 1.000 = -5.000\n  atari_risk: -12.000 * -1.500 = +18.000\n  liberty_balance: -122.000 * 0.100 = -12.200\n  influence_balance: -59.000 * 0.300 = -17.700\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nA2: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  T13 heuristic=8.010 scout=-30.448 verified=unsearched depth=0 selected=false neural_hint=false\n  F19 heuristic=2.010 scout=-24.399 verified=unsearched depth=0 selected=false neural_hint=false\n  D3 heuristic=2.010 scout=-30.198 verified=unsearched depth=0 selected=false neural_hint=false\n  A2 heuristic=2.010 scout=-24.098 verified=unsearched depth=0 selected=true neural_hint=true\n  D19 heuristic=1.510 scout=-25.673 verified=unsearched depth=0 selected=false neural_hint=false\n  H19 heuristic=1.010 scout=-27.549 verified=unsearched depth=0 selected=false neural_hint=false\n  P13 heuristic=1.010 scout=-26.949 verified=unsearched depth=0 selected=false neural_hint=false\n  E12 heuristic=1.010 scout=-26.349 verified=unsearched depth=0 selected=false neural_hint=false\n  Q12 heuristic=1.010 scout=-27.149 verified=unsearched depth=0 selected=false neural_hint=false\n  K11 heuristic=1.010 scout=-27.449 verified=unsearched depth=0 selected=false neural_hint=false\n  L10 heuristic=1.010 scout=-26.648 verified=unsearched depth=0 selected=false neural_hint=false\n  F8 heuristic=1.010 scout=-26.199 verified=unsearched depth=0 selected=false neural_hint=false\n  T3 heuristic=1.010 scout=-29.248 verified=unsearched depth=0 selected=false neural_hint=false\n  T19 heuristic=0.510 scout=-29.124 verified=unsearched depth=0 selected=false neural_hint=false\n  C18 heuristic=0.510 scout=-28.374 verified=unsearched depth=0 selected=false neural_hint=false\n  Q18 heuristic=0.510 scout=-27.624 verified=unsearched depth=0 selected=false neural_hint=false\n  A17 heuristic=0.510 scout=-28.174 verified=unsearched depth=0 selected=false neural_hint=false\n  B17 heuristic=0.510 scout=-28.374 verified=unsearched depth=0 selected=false neural_hint=false\n  Q17 heuristic=0.510 scout=-28.574 verified=unsearched depth=0 selected=false neural_hint=false\n  G16 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  P16 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  A15 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  D15 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  F15 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  C14 heuristic=0.510 scout=-28.724 verified=unsearched depth=0 selected=false neural_hint=false\n  K14 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  G13 heuristic=0.510 scout=-29.124 verified=unsearched depth=0 selected=false neural_hint=false\n  N13 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  M10 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  G9 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  N9 heuristic=0.510 scout=-28.724 verified=unsearched depth=0 selected=false neural_hint=false\n  D7 heuristic=0.510 scout=-28.674 verified=unsearched depth=0 selected=false neural_hint=false\n  E7 heuristic=0.510 scout=-28.073 verified=unsearched depth=0 selected=false neural_hint=false\n  E6 heuristic=0.510 scout=-28.274 verified=unsearched depth=0 selected=false neural_hint=false\n  O6 heuristic=0.510 scout=-28.924 verified=unsearched depth=0 selected=false neural_hint=false\n  R6 heuristic=0.510 scout=-27.924 verified=unsearched depth=0 selected=false neural_hint=false\n  P5 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  Q5 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  T5 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  M4 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  O3 heuristic=0.510 scout=-29.024 verified=unsearched depth=0 selected=false neural_hint=false\n  D2 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  P2 heuristic=0.510 scout=-28.223 verified=unsearched depth=0 selected=false neural_hint=false\n  M1 heuristic=0.510 scout=-28.823 verified=unsearched depth=0 selected=false neural_hint=false\n  H6 heuristic=0.010 scout=-30.299 verified=unsearched depth=0 selected=false neural_hint=true\n  pass heuristic=0.000 scout=-31.800 verified=unsearched depth=0 selected=false neural_hint=true\n  A12 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  A8 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  A6 heuristic=-9.990 scout=-26.898 verified=unsearched depth=0 selected=false neural_hint=false\n  H5 heuristic=-9.990 scout=-27.198 verified=unsearched depth=0 selected=false neural_hint=false\n  K19 heuristic=-10.490 scout=-28.473 verified=unsearched depth=0 selected=false neural_hint=false\n  L19 heuristic=-10.490 scout=-28.473 verified=unsearched depth=0 selected=false neural_hint=false\n  F12 heuristic=-10.490 scout=-28.373 verified=unsearched depth=0 selected=false neural_hint=false\n  R19 heuristic=-10.990 scout=-29.748 verified=unsearched depth=0 selected=false neural_hint=false\n  C1 heuristic=-10.990 scout=-30.048 verified=unsearched depth=0 selected=false neural_hint=false\n  N19 heuristic=-11.490 scout=-31.474 verified=unsearched depth=0 selected=false neural_hint=false\n  L3 heuristic=-11.490 scout=-31.824 verified=unsearched depth=0 selected=false neural_hint=false\n  A1 heuristic=-11.490 scout=-32.023 verified=unsearched depth=0 selected=false neural_hint=false\n  H1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\n  K1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\n  O1 heuristic=-11.490 scout=-31.623 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+      }
+    }
+  ],
+  "broker_queries": 765,
+  "broker_errors": [],
+  "after": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2531 MiB, 9413 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 5590220800
+    }
+  }
+}

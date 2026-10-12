@@ -1,0 +1,6 @@
+{
+  "Provider": "AzureArtifactSigning",
+  "SignTool": "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/signtool.exe",
+  "Dlib": "REPLACE_WITH_INSTALLED_X64_DLIB_PATH",
+  "Metadata": "C:/Users/kevin/AppData/Local/goproverbs-signing/metadata.json"
+}

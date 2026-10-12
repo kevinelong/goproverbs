@@ -1,0 +1,141 @@
+{
+  "fixtures": [
+    {
+      "id": "rescue-single-19",
+      "split": "train",
+      "baseline_move": "B3",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": false,
+      "depth": 3,
+      "elapsed_ms": 90.258,
+      "report": "move=D16 score=-0.999 depth=3 nodes=1292 tactical_nodes=0 elapsed_ms=89 limited=false root_searched=9/357 mode=hybrid\npv=D16 Q16 Q4\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -1.000 * 1.000 = -1.000\n  atari_risk: 1.000 * -1.500 = -1.500\n  liberty_balance: -2.000 * 0.100 = -0.200\n  influence_balance: 6.333 * 0.300 = +1.900\nAlternating move preferences along PV: +0.301\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  B3 heuristic=2.510 scout=-2.449 verified=-2.449 depth=3 selected=false\n  C17 heuristic=2.010 scout=-1.499 verified=-1.499 depth=3 selected=false\n  D17 heuristic=2.010 scout=-1.249 verified=-1.249 depth=3 selected=false\n  D16 heuristic=2.010 scout=-0.998 verified=-0.999 depth=3 selected=true\n  Q16 heuristic=2.010 scout=-0.998 verified=-0.999 depth=3 selected=false\n  Q4 heuristic=2.010 scout=-0.999 verified=-0.999 depth=3 selected=false\n  A3 heuristic=0.510 scout=-3.224 verified=-3.474 depth=3 selected=false\n  pass heuristic=0.000 scout=-7.350 verified=-7.350 depth=3 selected=false\n  C1 heuristic=-11.490 scout=-6.524 verified=-6.524 depth=3 selected=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+    },
+    {
+      "id": "capture-pair-19",
+      "split": "train",
+      "baseline_move": "C3",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": false,
+      "depth": 3,
+      "elapsed_ms": 62.748,
+      "report": "move=D16 score=16.751 depth=3 nodes=1105 tactical_nodes=0 elapsed_ms=62 limited=false root_searched=7/355 mode=hybrid\npv=D16 Q16 Q4\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 4.000 * 1.000 = +4.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: 13.000 * 0.100 = +1.300\n  influence_balance: 28.833 * 0.300 = +8.650\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  C3 heuristic=4.010 scout=13.027 verified=13.026 depth=3 selected=false\n  C17 heuristic=2.010 scout=16.252 verified=16.252 depth=3 selected=false\n  D17 heuristic=2.010 scout=16.502 verified=16.501 depth=3 selected=false\n  D16 heuristic=2.010 scout=16.752 verified=16.751 depth=3 selected=true\n  Q16 heuristic=2.010 scout=16.752 verified=16.751 depth=3 selected=false\n  Q4 heuristic=2.010 scout=16.751 verified=16.751 depth=3 selected=false\n  pass heuristic=0.000 scout=10.400 verified=3.500 depth=3 selected=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+    },
+    {
+      "id": "avoid-self-atari-19",
+      "split": "train",
+      "baseline_move": "C17",
+      "baseline_pass": true,
+      "search_move": "Q4",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 43.001,
+      "report": "move=Q4 score=3.102 depth=3 nodes=993 tactical_nodes=0 elapsed_ms=42 limited=false root_searched=7/361 mode=hybrid\npv=Q4 D16 Q16\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 1.000 * 0.100 = +0.100\n  influence_balance: 7.333 * 0.300 = +2.200\nAlternating move preferences along PV: +0.301\nMove preferences (not the search score):\nQ4: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  C17 heuristic=2.010 scout=2.601 verified=2.601 depth=3 selected=false\n  D17 heuristic=2.010 scout=2.852 verified=2.851 depth=3 selected=false\n  Q17 heuristic=2.010 scout=2.852 verified=2.851 depth=3 selected=false\n  D16 heuristic=2.010 scout=3.102 verified=3.101 depth=3 selected=false\n  Q16 heuristic=2.010 scout=3.102 verified=3.101 depth=3 selected=false\n  Q4 heuristic=2.010 scout=3.102 verified=3.102 depth=3 selected=true\n  pass heuristic=0.000 scout=-3.250 verified=-360.500 depth=3 selected=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+    },
+    {
+      "id": "preserve-corner-eye-19",
+      "split": "train",
+      "baseline_move": "C17",
+      "baseline_pass": true,
+      "search_move": "Q16",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 50.665,
+      "report": "move=Q16 score=12.726 depth=3 nodes=936 tactical_nodes=0 elapsed_ms=50 limited=false root_searched=7/359 mode=hybrid\npv=Q16 D16 Q4\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 4.000 * 1.000 = +4.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 9.000 * 0.100 = +0.900\n  influence_balance: 26.750 * 0.300 = +8.025\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nQ16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  C17 heuristic=2.010 scout=12.227 verified=12.226 depth=3 selected=false\n  D17 heuristic=2.010 scout=12.476 verified=12.476 depth=3 selected=false\n  Q17 heuristic=2.010 scout=12.476 verified=12.476 depth=3 selected=false\n  D16 heuristic=2.010 scout=12.726 verified=12.726 depth=3 selected=false\n  Q16 heuristic=2.010 scout=12.726 verified=12.726 depth=3 selected=true\n  Q4 heuristic=2.010 scout=12.726 verified=12.726 depth=3 selected=false\n  pass heuristic=0.000 scout=6.375 verified=6.375 depth=3 selected=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+    },
+    {
+      "id": "opening-corners-19",
+      "split": "train",
+      "baseline_move": "C17",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 43.163,
+      "report": "move=D16 score=5.852 depth=3 nodes=1066 tactical_nodes=0 elapsed_ms=42 limited=false root_searched=7/362 mode=hybrid\npv=D16 Q4 Q16\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 4.000 * 0.100 = +0.400\n  influence_balance: 15.500 * 0.300 = +4.650\nAlternating move preferences along PV: +0.301\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  C17 heuristic=2.010 scout=5.352 verified=5.352 depth=3 selected=false\n  D17 heuristic=2.010 scout=5.602 verified=5.601 depth=3 selected=false\n  Q17 heuristic=2.010 scout=5.602 verified=5.601 depth=3 selected=false\n  D16 heuristic=2.010 scout=5.852 verified=5.852 depth=3 selected=true\n  Q16 heuristic=2.010 scout=5.852 verified=5.852 depth=3 selected=false\n  D4 heuristic=2.010 scout=5.852 verified=5.852 depth=3 selected=false\n  pass heuristic=0.000 scout=-0.500 verified=-0.500 depth=3 selected=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+    },
+    {
+      "id": "rescue-edge-pair-19",
+      "split": "test",
+      "baseline_move": "B1",
+      "baseline_pass": true,
+      "search_move": "B1",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 46.548,
+      "report": "move=B1 score=0.752 depth=3 nodes=961 tactical_nodes=0 elapsed_ms=46 limited=false root_searched=6/357 mode=hybrid\npv=B1 D16 Q16\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 1.000 * 0.100 = +0.100\n  influence_balance: -3.000 * 0.300 = -0.900\nAlternating move preferences along PV: +1.051\nMove preferences (not the search score):\nB1: 7.010 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  save_atari: 0.500 * 10.000 = +5.000\n  cut_pressure: 0.333 * 0.000 = +0.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  B1 heuristic=7.010 scout=0.752 verified=0.752 depth=3 selected=true\n  A4 heuristic=5.010 scout=0.201 verified=0.202 depth=3 selected=false\n  C17 heuristic=2.010 scout=0.001 verified=0.251 depth=3 selected=false\n  D16 heuristic=2.010 scout=0.502 verified=0.752 depth=3 selected=false\n  Q16 heuristic=2.010 scout=0.502 verified=0.752 depth=3 selected=false\n  pass heuristic=0.000 scout=-5.850 verified=-5.600 depth=3 selected=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+    },
+    {
+      "id": "capture-corner-pair-19",
+      "split": "test",
+      "baseline_move": "C1",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": false,
+      "depth": 3,
+      "elapsed_ms": 45.739,
+      "report": "move=D16 score=10.877 depth=3 nodes=1072 tactical_nodes=0 elapsed_ms=45 limited=false root_searched=7/358 mode=hybrid\npv=D16 Q16 Q4\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: 6.000 * 0.100 = +0.600\n  influence_balance: 21.583 * 0.300 = +6.475\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  C1 heuristic=4.010 scout=7.576 verified=7.576 depth=3 selected=false\n  C17 heuristic=2.010 scout=10.377 verified=10.377 depth=3 selected=false\n  D17 heuristic=2.010 scout=10.627 verified=10.627 depth=3 selected=false\n  D16 heuristic=2.010 scout=10.877 verified=10.877 depth=3 selected=true\n  Q16 heuristic=2.010 scout=10.877 verified=10.877 depth=3 selected=false\n  Q4 heuristic=2.010 scout=10.877 verified=10.877 depth=3 selected=false\n  pass heuristic=0.000 scout=4.525 verified=-0.500 depth=3 selected=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+    },
+    {
+      "id": "preserve-center-eye-19",
+      "split": "test",
+      "baseline_move": "C17",
+      "baseline_pass": true,
+      "search_move": "Q4",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 49.805,
+      "report": "move=Q4 score=21.677 depth=3 nodes=956 tactical_nodes=0 elapsed_ms=49 limited=false root_searched=7/354 mode=hybrid\npv=Q4 D16 Q16\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 9.000 * 1.000 = +9.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 10.000 * 0.100 = +1.000\n  influence_balance: 39.583 * 0.300 = +11.875\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nQ4: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  C17 heuristic=2.010 scout=21.177 verified=21.176 depth=3 selected=false\n  D17 heuristic=2.010 scout=21.427 verified=21.426 depth=3 selected=false\n  Q17 heuristic=2.010 scout=21.427 verified=21.426 depth=3 selected=false\n  D16 heuristic=2.010 scout=21.677 verified=21.676 depth=3 selected=false\n  Q16 heuristic=2.010 scout=21.677 verified=21.676 depth=3 selected=false\n  Q4 heuristic=2.010 scout=21.677 verified=21.677 depth=3 selected=true\n  pass heuristic=0.000 scout=15.325 verified=15.325 depth=3 selected=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+    },
+    {
+      "id": "respect-ko-19",
+      "split": "test",
+      "baseline_move": "A4",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 102.577,
+      "report": "move=D16 score=6.776 depth=3 nodes=1177 tactical_nodes=0 elapsed_ms=102 limited=false root_searched=7/353 mode=hybrid\npv=D16 Q16 Q4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 1.000 * 0.100 = +0.100\n  influence_balance: 19.583 * 0.300 = +5.875\nAlternating move preferences along PV: +0.301\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  A4 heuristic=3.010 scout=3.276 verified=3.276 depth=3 selected=false\n  C17 heuristic=2.010 scout=6.276 verified=6.276 depth=3 selected=false\n  D17 heuristic=2.010 scout=6.526 verified=6.526 depth=3 selected=false\n  D16 heuristic=2.010 scout=6.776 verified=6.776 depth=3 selected=true\n  Q16 heuristic=2.010 scout=6.776 verified=6.776 depth=3 selected=false\n  Q4 heuristic=2.010 scout=6.776 verified=6.776 depth=3 selected=false\n  pass heuristic=0.000 scout=0.425 verified=-2.500 depth=3 selected=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+    },
+    {
+      "id": "rescue-three-19",
+      "split": "test",
+      "baseline_move": "D3",
+      "baseline_pass": true,
+      "search_move": "D3",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 89.606,
+      "report": "move=D3 score=-5.973 depth=3 nodes=1003 tactical_nodes=0 elapsed_ms=89 limited=false root_searched=8/351 mode=hybrid\npv=D3 D16 Q16\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -3.000 * 1.000 = -3.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: -8.000 * 0.100 = -0.800\n  influence_balance: -9.333 * 0.300 = -2.800\nAlternating move preferences along PV: +1.127\nMove preferences (not the search score):\nD3: 7.510 (base=0.010)\n  save_atari: 0.750 * 10.000 = +7.500\nHybrid nominees: heuristic preference, one-ply scout, completed deeper verification.\n  D3 heuristic=7.510 scout=-5.973 verified=-5.973 depth=3 selected=true\n  C17 heuristic=2.010 scout=-8.773 verified=-6.473 depth=3 selected=false\n  D17 heuristic=2.010 scout=-8.523 verified=-6.223 depth=3 selected=false\n  D16 heuristic=2.010 scout=-8.273 verified=-5.973 depth=3 selected=false\n  Q16 heuristic=2.010 scout=-8.273 verified=-5.973 depth=3 selected=false\n  pass heuristic=0.000 scout=-14.625 verified=-12.325 depth=3 selected=false\n  E1 heuristic=-10.490 scout=-10.649 verified=-12.648 depth=3 selected=false\n  A3 heuristic=-11.490 scout=-13.798 verified=-12.148 depth=3 selected=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+    }
+  ],
+  "summary": {
+    "train": {
+      "total": 5,
+      "baseline_pass": 5,
+      "search_pass": 3
+    },
+    "test": {
+      "total": 5,
+      "baseline_pass": 5,
+      "search_pass": 4
+    }
+  },
+  "executable_sha256": "302f621fb393e556f486cca6ab993dba596f5dd7f6439e94fdcf39dd32bc8c22",
+  "harness_sha256": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+  "fixtures_sha256": "7bede387356d636f248dcc0b9e1325d0b02e2ec854b807768b126ac61854cafe",
+  "profile_sha256": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+  "limits": {
+    "nodes": 20000,
+    "depth": 3,
+    "beam": 12,
+    "ms": 1000,
+    "tactical": 0,
+    "search": "hybrid",
+    "shortlist": 3
+  },
+  "seed": 20260920,
+  "mode": "evaluate"
+}

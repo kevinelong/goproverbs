@@ -1,0 +1,3122 @@
+[
+  {
+    "opening": "led-fresh-013",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+4.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -4.5,
+    "moves": 284,
+    "roles": {
+      "neural": {
+        "decisions": 140,
+        "median_ms": 12.611649988684803,
+        "max_ms": 18.10079999268055,
+        "complete_rounds": 139,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 51,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 140,
+        "median_ms": 2.682549995370209,
+        "max_ms": 5.535700009204447,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-013",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+152.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -152.5,
+    "moves": 350,
+    "roles": {
+      "neural": {
+        "decisions": 173,
+        "median_ms": 13.834699988365173,
+        "max_ms": 22.859100019559264,
+        "complete_rounds": 173,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 83,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 173,
+        "median_ms": 3.1153999734669924,
+        "max_ms": 6.8249000469222665,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-016",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+28.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -28.5,
+    "moves": 296,
+    "roles": {
+      "neural": {
+        "decisions": 146,
+        "median_ms": 12.610949983354658,
+        "max_ms": 20.629100035876036,
+        "complete_rounds": 145,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 80,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 146,
+        "median_ms": 2.814300009049475,
+        "max_ms": 9.15650010574609,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-016",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+131.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -131.5,
+    "moves": 342,
+    "roles": {
+      "neural": {
+        "decisions": 169,
+        "median_ms": 12.908700038678944,
+        "max_ms": 21.84899989515543,
+        "complete_rounds": 169,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 96,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 169,
+        "median_ms": 3.033400047570467,
+        "max_ms": 7.4572000885382295,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-011",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+6.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -6.5,
+    "moves": 252,
+    "roles": {
+      "neural": {
+        "decisions": 124,
+        "median_ms": 11.543600005097687,
+        "max_ms": 15.689300023950636,
+        "complete_rounds": 123,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 55,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 124,
+        "median_ms": 2.3826000397093594,
+        "max_ms": 6.875600083731115,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-011",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+26.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": 26.5,
+    "moves": 357,
+    "roles": {
+      "neural": {
+        "decisions": 177,
+        "median_ms": 13.487800024449825,
+        "max_ms": 23.574999999254942,
+        "complete_rounds": 177,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 87,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 176,
+        "median_ms": 3.4194000181742013,
+        "max_ms": 8.359200088307261,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-002",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+133.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": 133.5,
+    "moves": 357,
+    "roles": {
+      "neural": {
+        "decisions": 176,
+        "median_ms": 13.641550031024963,
+        "max_ms": 25.874899933114648,
+        "complete_rounds": 176,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 98,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 177,
+        "median_ms": 3.2609000336378813,
+        "max_ms": 7.4155000038445,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-002",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+186.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -186.5,
+    "moves": 362,
+    "roles": {
+      "neural": {
+        "decisions": 179,
+        "median_ms": 13.334000017493963,
+        "max_ms": 21.982199978083372,
+        "complete_rounds": 179,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 98,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 179,
+        "median_ms": 3.5722999600693583,
+        "max_ms": 8.268700097687542,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-004",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+143.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -143.5,
+    "moves": 318,
+    "roles": {
+      "neural": {
+        "decisions": 157,
+        "median_ms": 12.786100036464632,
+        "max_ms": 20.7245999481529,
+        "complete_rounds": 157,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 71,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 157,
+        "median_ms": 3.046899917535484,
+        "max_ms": 7.763299974612892,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-004",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+10.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -10.5,
+    "moves": 396,
+    "roles": {
+      "neural": {
+        "decisions": 196,
+        "median_ms": 13.844050001353025,
+        "max_ms": 23.5814000479877,
+        "complete_rounds": 195,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 100,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 196,
+        "median_ms": 3.6525000468827784,
+        "max_ms": 8.60659999307245,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-010",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+101.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -101.5,
+    "moves": 332,
+    "roles": {
+      "neural": {
+        "decisions": 164,
+        "median_ms": 13.002849940676242,
+        "max_ms": 20.94570000190288,
+        "complete_rounds": 164,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 85,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 164,
+        "median_ms": 2.9922499670647085,
+        "max_ms": 8.00799997523427,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-010",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+50.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -50.5,
+    "moves": 348,
+    "roles": {
+      "neural": {
+        "decisions": 172,
+        "median_ms": 13.665949983987957,
+        "max_ms": 20.044100005179644,
+        "complete_rounds": 171,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 75,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 172,
+        "median_ms": 3.264400002080947,
+        "max_ms": 6.300700013525784,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-005",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+69.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": 69.5,
+    "moves": 329,
+    "roles": {
+      "neural": {
+        "decisions": 163,
+        "median_ms": 12.523200013674796,
+        "max_ms": 19.88579996395856,
+        "complete_rounds": 162,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 69,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 162,
+        "median_ms": 2.834899991285056,
+        "max_ms": 7.425999967381358,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-005",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+288.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": 288.5,
+    "moves": 397,
+    "roles": {
+      "neural": {
+        "decisions": 196,
+        "median_ms": 14.310250000562519,
+        "max_ms": 25.275800027884543,
+        "complete_rounds": 196,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 111,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 197,
+        "median_ms": 3.543199971318245,
+        "max_ms": 9.224400040693581,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-008",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+151.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": 151.5,
+    "moves": 343,
+    "roles": {
+      "neural": {
+        "decisions": 169,
+        "median_ms": 12.969400035217404,
+        "max_ms": 21.57039998564869,
+        "complete_rounds": 169,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 100,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 170,
+        "median_ms": 2.966750005725771,
+        "max_ms": 6.979599944315851,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-008",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+109.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -109.5,
+    "moves": 370,
+    "roles": {
+      "neural": {
+        "decisions": 183,
+        "median_ms": 13.668800005689263,
+        "max_ms": 21.25380001962185,
+        "complete_rounds": 183,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 82,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 183,
+        "median_ms": 3.3277999609708786,
+        "max_ms": 7.36680009867996,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-000",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+1.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": 1.5,
+    "moves": 298,
+    "roles": {
+      "neural": {
+        "decisions": 147,
+        "median_ms": 12.401400017552078,
+        "max_ms": 18.69339996483177,
+        "complete_rounds": 147,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 66,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 147,
+        "median_ms": 2.588000032119453,
+        "max_ms": 5.661100032739341,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-000",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+0.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -0.5,
+    "moves": 290,
+    "roles": {
+      "neural": {
+        "decisions": 143,
+        "median_ms": 12.155599892139435,
+        "max_ms": 18.309099948965013,
+        "complete_rounds": 142,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 54,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 143,
+        "median_ms": 2.672299975529313,
+        "max_ms": 5.1889000460505486,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-001",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+123.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": 123.5,
+    "moves": 317,
+    "roles": {
+      "neural": {
+        "decisions": 156,
+        "median_ms": 12.4153500655666,
+        "max_ms": 21.413899958133698,
+        "complete_rounds": 156,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 82,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 157,
+        "median_ms": 2.7950999792665243,
+        "max_ms": 6.198900053277612,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-001",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+143.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -143.5,
+    "moves": 358,
+    "roles": {
+      "neural": {
+        "decisions": 177,
+        "median_ms": 13.34930001758039,
+        "max_ms": 23.677099961787462,
+        "complete_rounds": 177,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 92,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 177,
+        "median_ms": 3.3567999489605427,
+        "max_ms": 8.297400083392859,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-012",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+8.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -8.5,
+    "moves": 287,
+    "roles": {
+      "neural": {
+        "decisions": 141,
+        "median_ms": 11.926300008781254,
+        "max_ms": 18.128500087186694,
+        "complete_rounds": 141,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 56,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 142,
+        "median_ms": 2.4957500281743705,
+        "max_ms": 5.458600004203618,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-012",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+104.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -104.5,
+    "moves": 315,
+    "roles": {
+      "neural": {
+        "decisions": 156,
+        "median_ms": 12.663749977946281,
+        "max_ms": 19.13459994830191,
+        "complete_rounds": 155,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 91,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 155,
+        "median_ms": 2.7849000180140138,
+        "max_ms": 6.115199998021126,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-015",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+2.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -2.5,
+    "moves": 254,
+    "roles": {
+      "neural": {
+        "decisions": 125,
+        "median_ms": 11.383000062778592,
+        "max_ms": 16.87229995150119,
+        "complete_rounds": 124,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 48,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 125,
+        "median_ms": 2.437200048007071,
+        "max_ms": 7.659499999135733,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-015",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+5.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": 5.5,
+    "moves": 297,
+    "roles": {
+      "neural": {
+        "decisions": 147,
+        "median_ms": 12.130200047977269,
+        "max_ms": 19.243599963374436,
+        "complete_rounds": 146,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 76,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 146,
+        "median_ms": 2.6267999783158302,
+        "max_ms": 5.6169000454247,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-014",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+93.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -93.5,
+    "moves": 323,
+    "roles": {
+      "neural": {
+        "decisions": 160,
+        "median_ms": 12.492600013501942,
+        "max_ms": 21.026400034315884,
+        "complete_rounds": 159,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 86,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 159,
+        "median_ms": 2.9603999573737383,
+        "max_ms": 7.686699973419309,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-014",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+36.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -36.5,
+    "moves": 354,
+    "roles": {
+      "neural": {
+        "decisions": 175,
+        "median_ms": 13.100000098347664,
+        "max_ms": 22.477799910120666,
+        "complete_rounds": 174,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 80,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 175,
+        "median_ms": 3.0702000949531794,
+        "max_ms": 7.470699958503246,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-019",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+6.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": 6.5,
+    "moves": 258,
+    "roles": {
+      "neural": {
+        "decisions": 127,
+        "median_ms": 11.431799968704581,
+        "max_ms": 19.34689993504435,
+        "complete_rounds": 126,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 51,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 127,
+        "median_ms": 2.4017000105232,
+        "max_ms": 4.533600062131882,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-019",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+9.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": 9.5,
+    "moves": 349,
+    "roles": {
+      "neural": {
+        "decisions": 173,
+        "median_ms": 13.298500096425414,
+        "max_ms": 20.0198000529781,
+        "complete_rounds": 172,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 83,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 172,
+        "median_ms": 3.3316000481136143,
+        "max_ms": 6.950599956326187,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-007",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+120.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -120.5,
+    "moves": 304,
+    "roles": {
+      "neural": {
+        "decisions": 150,
+        "median_ms": 12.247849954292178,
+        "max_ms": 21.12749998923391,
+        "complete_rounds": 150,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 68,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 150,
+        "median_ms": 2.6140499976463616,
+        "max_ms": 6.532499915920198,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-007",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+167.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": 167.5,
+    "moves": 341,
+    "roles": {
+      "neural": {
+        "decisions": 168,
+        "median_ms": 13.046499982010573,
+        "max_ms": 22.718099993653595,
+        "complete_rounds": 168,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 99,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 169,
+        "median_ms": 2.9261999297887087,
+        "max_ms": 6.957000005058944,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-003",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+215.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -215.5,
+    "moves": 348,
+    "roles": {
+      "neural": {
+        "decisions": 172,
+        "median_ms": 13.406699930783361,
+        "max_ms": 21.403699996881187,
+        "complete_rounds": 172,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 93,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 172,
+        "median_ms": 3.071750048547983,
+        "max_ms": 7.411499973386526,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-003",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+10.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -10.5,
+    "moves": 336,
+    "roles": {
+      "neural": {
+        "decisions": 166,
+        "median_ms": 12.872599938418716,
+        "max_ms": 19.8405000846833,
+        "complete_rounds": 165,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 82,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 166,
+        "median_ms": 3.00030002836138,
+        "max_ms": 9.662600001320243,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-009",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+1.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": 1.5,
+    "moves": 289,
+    "roles": {
+      "neural": {
+        "decisions": 143,
+        "median_ms": 12.18610000796616,
+        "max_ms": 18.51540000643581,
+        "complete_rounds": 142,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 56,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 142,
+        "median_ms": 2.721299941185862,
+        "max_ms": 5.522400024347007,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-009",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+17.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -17.5,
+    "moves": 350,
+    "roles": {
+      "neural": {
+        "decisions": 173,
+        "median_ms": 13.076400035060942,
+        "max_ms": 21.07719995547086,
+        "complete_rounds": 172,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 82,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 173,
+        "median_ms": 3.2061999663710594,
+        "max_ms": 8.158300071954727,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-006",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+2.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": 2.5,
+    "moves": 347,
+    "roles": {
+      "neural": {
+        "decisions": 172,
+        "median_ms": 14.061850029975176,
+        "max_ms": 21.779799950309098,
+        "complete_rounds": 171,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 79,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 171,
+        "median_ms": 3.5221000434830785,
+        "max_ms": 7.224599947221577,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-006",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+206.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": 206.5,
+    "moves": 383,
+    "roles": {
+      "neural": {
+        "decisions": 189,
+        "median_ms": 14.026200049556792,
+        "max_ms": 22.9782999958843,
+        "complete_rounds": 189,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 89,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 190,
+        "median_ms": 3.521449980325997,
+        "max_ms": 7.481599925085902,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-018",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+134.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": 134.5,
+    "moves": 355,
+    "roles": {
+      "neural": {
+        "decisions": 175,
+        "median_ms": 13.427700032480061,
+        "max_ms": 23.963899933733046,
+        "complete_rounds": 175,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 96,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 176,
+        "median_ms": 3.2135499641299248,
+        "max_ms": 7.429399993270636,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-018",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+11.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": 11.5,
+    "moves": 341,
+    "roles": {
+      "neural": {
+        "decisions": 169,
+        "median_ms": 13.023799983784556,
+        "max_ms": 21.34799992199987,
+        "complete_rounds": 168,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 83,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 168,
+        "median_ms": 3.3170499955303967,
+        "max_ms": 7.249800022691488,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-017",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+10.5",
+    "a_won": true,
+    "stage": 1,
+    "raw_area_margin": -10.5,
+    "moves": 284,
+    "roles": {
+      "neural": {
+        "decisions": 140,
+        "median_ms": 12.233150016982108,
+        "max_ms": 18.348800018429756,
+        "complete_rounds": 139,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 69,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 140,
+        "median_ms": 2.808300079777837,
+        "max_ms": 9.369400097057223,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-017",
+    "matchup": "neural-vs-policy",
+    "a": "neural",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+170.5",
+    "a_won": false,
+    "stage": 1,
+    "raw_area_margin": -170.5,
+    "moves": 340,
+    "roles": {
+      "neural": {
+        "decisions": 168,
+        "median_ms": 12.750449939630926,
+        "max_ms": 20.34209994599223,
+        "complete_rounds": 168,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 84,
+        "specialist_only_selected": 0
+      },
+      "policy": {
+        "decisions": 168,
+        "median_ms": 3.0322500388137996,
+        "max_ms": 7.049400010146201,
+        "complete_rounds": 0,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 0,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-032",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+68.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": 68.5,
+    "moves": 391,
+    "roles": {
+      "combined": {
+        "decisions": 193,
+        "median_ms": 49.361899960786104,
+        "max_ms": 67.6142000593245,
+        "complete_rounds": 193,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 112,
+        "specialist_only_selected": 27
+      },
+      "neural": {
+        "decisions": 194,
+        "median_ms": 12.76474999031052,
+        "max_ms": 25.15000000130385,
+        "complete_rounds": 194,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 91,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-032",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+11.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 11.5,
+    "moves": 383,
+    "roles": {
+      "combined": {
+        "decisions": 190,
+        "median_ms": 47.920400043949485,
+        "max_ms": 57.091400027275085,
+        "complete_rounds": 190,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 115,
+        "specialist_only_selected": 23
+      },
+      "neural": {
+        "decisions": 189,
+        "median_ms": 11.990899918600917,
+        "max_ms": 22.187500027939677,
+        "complete_rounds": 189,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 109,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-023",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+55.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 55.5,
+    "moves": 337,
+    "roles": {
+      "combined": {
+        "decisions": 167,
+        "median_ms": 46.41840001568198,
+        "max_ms": 59.279700042679906,
+        "complete_rounds": 167,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 71,
+        "specialist_only_selected": 11
+      },
+      "neural": {
+        "decisions": 166,
+        "median_ms": 11.767249961849302,
+        "max_ms": 22.500199964269996,
+        "complete_rounds": 166,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 86,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-023",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+61.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -61.5,
+    "moves": 348,
+    "roles": {
+      "combined": {
+        "decisions": 172,
+        "median_ms": 46.08015000121668,
+        "max_ms": 58.69940004777163,
+        "complete_rounds": 172,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 89,
+        "specialist_only_selected": 10
+      },
+      "neural": {
+        "decisions": 172,
+        "median_ms": 12.076349928975105,
+        "max_ms": 24.33389995712787,
+        "complete_rounds": 172,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 114,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-035",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+62.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -62.5,
+    "moves": 300,
+    "roles": {
+      "combined": {
+        "decisions": 148,
+        "median_ms": 46.63734999485314,
+        "max_ms": 53.80180000793189,
+        "complete_rounds": 148,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 71,
+        "specialist_only_selected": 5
+      },
+      "neural": {
+        "decisions": 148,
+        "median_ms": 11.2867999705486,
+        "max_ms": 17.773699946701527,
+        "complete_rounds": 148,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 61,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-035",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+44.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -44.5,
+    "moves": 288,
+    "roles": {
+      "combined": {
+        "decisions": 142,
+        "median_ms": 46.21380002936348,
+        "max_ms": 54.04479999560863,
+        "complete_rounds": 142,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 68,
+        "specialist_only_selected": 4
+      },
+      "neural": {
+        "decisions": 142,
+        "median_ms": 11.580049991607666,
+        "max_ms": 16.49370009545237,
+        "complete_rounds": 142,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 78,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-030",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+57.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": 57.5,
+    "moves": 335,
+    "roles": {
+      "combined": {
+        "decisions": 165,
+        "median_ms": 47.000400023534894,
+        "max_ms": 58.34529991261661,
+        "complete_rounds": 165,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 93,
+        "specialist_only_selected": 19
+      },
+      "neural": {
+        "decisions": 166,
+        "median_ms": 11.656450049486011,
+        "max_ms": 18.6578999273479,
+        "complete_rounds": 166,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 80,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-030",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+137.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -137.5,
+    "moves": 340,
+    "roles": {
+      "combined": {
+        "decisions": 168,
+        "median_ms": 48.20225003641099,
+        "max_ms": 58.33969998639077,
+        "complete_rounds": 168,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 96,
+        "specialist_only_selected": 17
+      },
+      "neural": {
+        "decisions": 168,
+        "median_ms": 11.76679995842278,
+        "max_ms": 30.42460000142455,
+        "complete_rounds": 168,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 78,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-021",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+50.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -50.5,
+    "moves": 312,
+    "roles": {
+      "combined": {
+        "decisions": 154,
+        "median_ms": 47.34349995851517,
+        "max_ms": 59.07710001338273,
+        "complete_rounds": 154,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 69,
+        "specialist_only_selected": 12
+      },
+      "neural": {
+        "decisions": 154,
+        "median_ms": 11.265150038525462,
+        "max_ms": 17.793099978007376,
+        "complete_rounds": 154,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 83,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-021",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+68.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 68.5,
+    "moves": 287,
+    "roles": {
+      "combined": {
+        "decisions": 142,
+        "median_ms": 46.63190001156181,
+        "max_ms": 57.15790006797761,
+        "complete_rounds": 142,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 59,
+        "specialist_only_selected": 3
+      },
+      "neural": {
+        "decisions": 141,
+        "median_ms": 10.992900002747774,
+        "max_ms": 19.936199998483062,
+        "complete_rounds": 141,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 74,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-039",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+27.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 27.5,
+    "moves": 381,
+    "roles": {
+      "combined": {
+        "decisions": 189,
+        "median_ms": 46.76699999254197,
+        "max_ms": 59.27580001298338,
+        "complete_rounds": 188,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 92,
+        "specialist_only_selected": 21
+      },
+      "neural": {
+        "decisions": 188,
+        "median_ms": 12.583250005263835,
+        "max_ms": 24.950999999418855,
+        "complete_rounds": 188,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 108,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-039",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+31.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": 31.5,
+    "moves": 408,
+    "roles": {
+      "combined": {
+        "decisions": 202,
+        "median_ms": 48.977899947203696,
+        "max_ms": 60.284100007265806,
+        "complete_rounds": 201,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 134,
+        "specialist_only_selected": 31
+      },
+      "neural": {
+        "decisions": 202,
+        "median_ms": 12.806949962396175,
+        "max_ms": 28.59960007481277,
+        "complete_rounds": 202,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 111,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-022",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+50.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 50.5,
+    "moves": 331,
+    "roles": {
+      "combined": {
+        "decisions": 164,
+        "median_ms": 48.23819996090606,
+        "max_ms": 57.18540004454553,
+        "complete_rounds": 164,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 84,
+        "specialist_only_selected": 12
+      },
+      "neural": {
+        "decisions": 163,
+        "median_ms": 11.63960003759712,
+        "max_ms": 20.97220008727163,
+        "complete_rounds": 163,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 101,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-022",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+98.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -98.5,
+    "moves": 332,
+    "roles": {
+      "combined": {
+        "decisions": 164,
+        "median_ms": 46.53955006506294,
+        "max_ms": 56.05889996513724,
+        "complete_rounds": 164,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 72,
+        "specialist_only_selected": 12
+      },
+      "neural": {
+        "decisions": 164,
+        "median_ms": 11.647499981336296,
+        "max_ms": 18.96579994354397,
+        "complete_rounds": 164,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 96,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-031",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+86.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -86.5,
+    "moves": 354,
+    "roles": {
+      "combined": {
+        "decisions": 175,
+        "median_ms": 47.74009995162487,
+        "max_ms": 59.02260006405413,
+        "complete_rounds": 175,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 96,
+        "specialist_only_selected": 14
+      },
+      "neural": {
+        "decisions": 175,
+        "median_ms": 11.78760000038892,
+        "max_ms": 26.088000042364,
+        "complete_rounds": 175,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 114,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-031",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+68.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 68.5,
+    "moves": 409,
+    "roles": {
+      "combined": {
+        "decisions": 203,
+        "median_ms": 49.81290001887828,
+        "max_ms": 59.912199969403446,
+        "complete_rounds": 203,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 118,
+        "specialist_only_selected": 17
+      },
+      "neural": {
+        "decisions": 202,
+        "median_ms": 13.269999995827675,
+        "max_ms": 24.182399967685342,
+        "complete_rounds": 202,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 110,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-038",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+303.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": 303.5,
+    "moves": 599,
+    "roles": {
+      "combined": {
+        "decisions": 297,
+        "median_ms": 52.76029999367893,
+        "max_ms": 100.03420000430197,
+        "complete_rounds": 297,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 197,
+        "specialist_only_selected": 32
+      },
+      "neural": {
+        "decisions": 298,
+        "median_ms": 16.39315002830699,
+        "max_ms": 45.78170005697757,
+        "complete_rounds": 298,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 157,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-038",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+13.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 13.5,
+    "moves": 364,
+    "roles": {
+      "combined": {
+        "decisions": 180,
+        "median_ms": 45.905099948868155,
+        "max_ms": 59.67300001066178,
+        "complete_rounds": 180,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 81,
+        "specialist_only_selected": 11
+      },
+      "neural": {
+        "decisions": 180,
+        "median_ms": 12.116999947465956,
+        "max_ms": 20.35160001832992,
+        "complete_rounds": 179,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 95,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-025",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+137.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": 137.5,
+    "moves": 395,
+    "roles": {
+      "combined": {
+        "decisions": 195,
+        "median_ms": 47.043300000950694,
+        "max_ms": 68.4756999835372,
+        "complete_rounds": 195,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 105,
+        "specialist_only_selected": 13
+      },
+      "neural": {
+        "decisions": 196,
+        "median_ms": 13.156350061763078,
+        "max_ms": 28.9771999232471,
+        "complete_rounds": 196,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 109,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-025",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+49.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -49.5,
+    "moves": 436,
+    "roles": {
+      "combined": {
+        "decisions": 216,
+        "median_ms": 47.83125000540167,
+        "max_ms": 66.65379996411502,
+        "complete_rounds": 216,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 139,
+        "specialist_only_selected": 44
+      },
+      "neural": {
+        "decisions": 216,
+        "median_ms": 13.621849997434765,
+        "max_ms": 27.807299979031086,
+        "complete_rounds": 215,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 128,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-026",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+173.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": 173.5,
+    "moves": 379,
+    "roles": {
+      "combined": {
+        "decisions": 187,
+        "median_ms": 49.51379995327443,
+        "max_ms": 62.88800004404038,
+        "complete_rounds": 187,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 104,
+        "specialist_only_selected": 27
+      },
+      "neural": {
+        "decisions": 188,
+        "median_ms": 13.080800010357052,
+        "max_ms": 25.005999952554703,
+        "complete_rounds": 187,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 88,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-026",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+48.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 48.5,
+    "moves": 355,
+    "roles": {
+      "combined": {
+        "decisions": 176,
+        "median_ms": 47.472799953538924,
+        "max_ms": 59.048800030723214,
+        "complete_rounds": 176,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 102,
+        "specialist_only_selected": 23
+      },
+      "neural": {
+        "decisions": 175,
+        "median_ms": 12.525099911727011,
+        "max_ms": 21.384299965575337,
+        "complete_rounds": 175,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 104,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-036",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+178.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": 178.5,
+    "moves": 379,
+    "roles": {
+      "combined": {
+        "decisions": 187,
+        "median_ms": 47.751400037668645,
+        "max_ms": 64.30109997745603,
+        "complete_rounds": 187,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 110,
+        "specialist_only_selected": 20
+      },
+      "neural": {
+        "decisions": 188,
+        "median_ms": 12.700899969786406,
+        "max_ms": 25.067000067792833,
+        "complete_rounds": 187,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 87,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-036",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+96.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -96.5,
+    "moves": 394,
+    "roles": {
+      "combined": {
+        "decisions": 195,
+        "median_ms": 48.92820003442466,
+        "max_ms": 68.51929996628314,
+        "complete_rounds": 195,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 105,
+        "specialist_only_selected": 26
+      },
+      "neural": {
+        "decisions": 195,
+        "median_ms": 13.056499999947846,
+        "max_ms": 29.44519999437034,
+        "complete_rounds": 195,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 97,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-033",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+99.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -99.5,
+    "moves": 372,
+    "roles": {
+      "combined": {
+        "decisions": 184,
+        "median_ms": 47.102499986067414,
+        "max_ms": 63.38589999359101,
+        "complete_rounds": 184,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 113,
+        "specialist_only_selected": 10
+      },
+      "neural": {
+        "decisions": 184,
+        "median_ms": 12.318899971432984,
+        "max_ms": 20.41380002629012,
+        "complete_rounds": 184,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 89,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-033",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+65.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -65.5,
+    "moves": 405,
+    "roles": {
+      "combined": {
+        "decisions": 200,
+        "median_ms": 47.94429993489757,
+        "max_ms": 63.99649998638779,
+        "complete_rounds": 200,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 109,
+        "specialist_only_selected": 12
+      },
+      "neural": {
+        "decisions": 201,
+        "median_ms": 13.07520002592355,
+        "max_ms": 25.594200007617474,
+        "complete_rounds": 200,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 116,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-037",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+72.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -72.5,
+    "moves": 366,
+    "roles": {
+      "combined": {
+        "decisions": 181,
+        "median_ms": 48.37019997648895,
+        "max_ms": 65.27210003696382,
+        "complete_rounds": 181,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 107,
+        "specialist_only_selected": 18
+      },
+      "neural": {
+        "decisions": 181,
+        "median_ms": 12.639799970202148,
+        "max_ms": 25.139200035482645,
+        "complete_rounds": 181,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 83,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-037",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+51.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -51.5,
+    "moves": 367,
+    "roles": {
+      "combined": {
+        "decisions": 181,
+        "median_ms": 48.091000062413514,
+        "max_ms": 58.68350004311651,
+        "complete_rounds": 181,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 61,
+        "specialist_only_selected": 5
+      },
+      "neural": {
+        "decisions": 182,
+        "median_ms": 12.816350033972412,
+        "max_ms": 20.86259995121509,
+        "complete_rounds": 181,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 80,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-027",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+36.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 36.5,
+    "moves": 333,
+    "roles": {
+      "combined": {
+        "decisions": 165,
+        "median_ms": 47.384000034071505,
+        "max_ms": 58.08029999025166,
+        "complete_rounds": 165,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 69,
+        "specialist_only_selected": 2
+      },
+      "neural": {
+        "decisions": 164,
+        "median_ms": 12.115250050555915,
+        "max_ms": 19.504699972458184,
+        "complete_rounds": 164,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 98,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-027",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+45.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": 45.5,
+    "moves": 363,
+    "roles": {
+      "combined": {
+        "decisions": 179,
+        "median_ms": 49.0272999741137,
+        "max_ms": 63.71979997493327,
+        "complete_rounds": 179,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 107,
+        "specialist_only_selected": 31
+      },
+      "neural": {
+        "decisions": 180,
+        "median_ms": 12.967899965588003,
+        "max_ms": 26.197100058197975,
+        "complete_rounds": 180,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 81,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-028",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+97.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 97.5,
+    "moves": 383,
+    "roles": {
+      "combined": {
+        "decisions": 190,
+        "median_ms": 49.018100020475686,
+        "max_ms": 67.4156000604853,
+        "complete_rounds": 190,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 109,
+        "specialist_only_selected": 23
+      },
+      "neural": {
+        "decisions": 189,
+        "median_ms": 12.97439995687455,
+        "max_ms": 22.028799983672798,
+        "complete_rounds": 189,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 121,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-028",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+69.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -69.5,
+    "moves": 346,
+    "roles": {
+      "combined": {
+        "decisions": 171,
+        "median_ms": 48.41089993715286,
+        "max_ms": 65.86160010192543,
+        "complete_rounds": 171,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 83,
+        "specialist_only_selected": 15
+      },
+      "neural": {
+        "decisions": 171,
+        "median_ms": 12.410099967382848,
+        "max_ms": 22.993399994447827,
+        "complete_rounds": 171,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 79,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-024",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+118.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": 118.5,
+    "moves": 399,
+    "roles": {
+      "combined": {
+        "decisions": 197,
+        "median_ms": 50.17179995775223,
+        "max_ms": 67.8908999543637,
+        "complete_rounds": 197,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 125,
+        "specialist_only_selected": 22
+      },
+      "neural": {
+        "decisions": 198,
+        "median_ms": 13.3575500221923,
+        "max_ms": 25.740600074641407,
+        "complete_rounds": 197,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 92,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-024",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+87.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -87.5,
+    "moves": 390,
+    "roles": {
+      "combined": {
+        "decisions": 193,
+        "median_ms": 49.18250010814518,
+        "max_ms": 63.94650007132441,
+        "complete_rounds": 193,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 125,
+        "specialist_only_selected": 26
+      },
+      "neural": {
+        "decisions": 193,
+        "median_ms": 12.936600018292665,
+        "max_ms": 23.737600073218346,
+        "complete_rounds": 193,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 92,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-020",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+66.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -66.5,
+    "moves": 346,
+    "roles": {
+      "combined": {
+        "decisions": 171,
+        "median_ms": 46.52279999572784,
+        "max_ms": 59.706300031393766,
+        "complete_rounds": 171,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 78,
+        "specialist_only_selected": 9
+      },
+      "neural": {
+        "decisions": 171,
+        "median_ms": 11.491999961435795,
+        "max_ms": 19.551999983377755,
+        "complete_rounds": 171,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 101,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-020",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+72.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": 72.5,
+    "moves": 370,
+    "roles": {
+      "combined": {
+        "decisions": 183,
+        "median_ms": 47.031200025230646,
+        "max_ms": 68.066900013946,
+        "complete_rounds": 183,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 90,
+        "specialist_only_selected": 26
+      },
+      "neural": {
+        "decisions": 183,
+        "median_ms": 12.201900011859834,
+        "max_ms": 21.932899951934814,
+        "complete_rounds": 182,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 98,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-034",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+108.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -108.5,
+    "moves": 370,
+    "roles": {
+      "combined": {
+        "decisions": 183,
+        "median_ms": 47.58579994086176,
+        "max_ms": 59.731599991209805,
+        "complete_rounds": 183,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 108,
+        "specialist_only_selected": 23
+      },
+      "neural": {
+        "decisions": 183,
+        "median_ms": 12.364500085823238,
+        "max_ms": 23.54880003258586,
+        "complete_rounds": 183,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 111,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-034",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+44.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -44.5,
+    "moves": 354,
+    "roles": {
+      "combined": {
+        "decisions": 175,
+        "median_ms": 47.16230009216815,
+        "max_ms": 57.92050005402416,
+        "complete_rounds": 175,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 111,
+        "specialist_only_selected": 24
+      },
+      "neural": {
+        "decisions": 175,
+        "median_ms": 11.998800095170736,
+        "max_ms": 24.177300045266747,
+        "complete_rounds": 175,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 80,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-029",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+91.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": 91.5,
+    "moves": 369,
+    "roles": {
+      "combined": {
+        "decisions": 182,
+        "median_ms": 46.54790001222864,
+        "max_ms": 62.76690005324781,
+        "complete_rounds": 182,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 125,
+        "specialist_only_selected": 30
+      },
+      "neural": {
+        "decisions": 183,
+        "median_ms": 11.97900006081909,
+        "max_ms": 21.93349995650351,
+        "complete_rounds": 183,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 88,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-029",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+36.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -36.5,
+    "moves": 359,
+    "roles": {
+      "combined": {
+        "decisions": 178,
+        "median_ms": 48.27179998392239,
+        "max_ms": 63.77320003230125,
+        "complete_rounds": 177,
+        "pass_agreements": 1,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 92,
+        "specialist_only_selected": 18
+      },
+      "neural": {
+        "decisions": 177,
+        "median_ms": 12.022799928672612,
+        "max_ms": 25.961200008168817,
+        "complete_rounds": 177,
+        "pass_agreements": 0,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 83,
+        "specialist_only_selected": 0
+      }
+    }
+  }
+]

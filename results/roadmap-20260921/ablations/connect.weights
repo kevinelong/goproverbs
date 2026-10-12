@@ -1,0 +1,15 @@
+# Single-feature ablation; not a recommended profile.
+capture=8
+save_atari=10
+self_atari=-12
+connect=0
+fill_eye=-15
+empty_corner=2
+side_development=0.5
+early_33=0
+atari=2
+cut_pressure=0
+stone_balance=1
+atari_risk=-1.5
+liberty_balance=0.1
+influence_balance=0.3

@@ -1,0 +1,86 @@
+[
+    {
+        "path":  "profiles\\tuned.weights",
+        "sha256":  "c9f26a2b6767cf44140ce2cd54d599873a45203b8885b21aed19a310ec88a809"
+    },
+    {
+        "path":  "profiles\\tuned.tuning.json",
+        "sha256":  "9600a0150412817cb64bca1cf775c3a8ffc9395e7ba8c6e6d2f92accc49eaead"
+    },
+    {
+        "path":  "profiles\\modern.weights",
+        "sha256":  "c4d00e14e88f9627785df0c85074e7c942b39fcf14897c4c305112db42b60a12"
+    },
+    {
+        "path":  "profiles\\baseline.weights",
+        "sha256":  "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225"
+    },
+    {
+        "path":  "benchmarks\\test_lab.py",
+        "sha256":  "8d8a9b240e1e2c6d993568f04932c18c8be7144e4c84a3c3e56bde1e59645564"
+    },
+    {
+        "path":  "benchmarks\\lab.py",
+        "sha256":  "a8d125144182f085cb9a02910dc57240bb5c4a245f5e66c769825c83c1a4a93f"
+    },
+    {
+        "path":  "benchmarks\\fixtures.json",
+        "sha256":  "e96e3df4c3947e6754c34ed1847090a1845dff293c77fb191b5a374221f58a37"
+    },
+    {
+        "path":  "tests\\cli.rs",
+        "sha256":  "944365e3c081404db61bcf74d3f20042d4d67d203826ba7c9e53583cdcca7e25"
+    },
+    {
+        "path":  "tests\\core.rs",
+        "sha256":  "6f754e38f077d4f64b37dc852d812b8f4c4a31dd1b4d8845b40b380abafb9ee7"
+    },
+    {
+        "path":  "tests\\search_and_scoring.rs",
+        "sha256":  "d2bcbd109bc3349da874e3938db85c0e51549e63a5e51c5740bcc3ce4777e136"
+    },
+    {
+        "path":  "tests\\protocol.rs",
+        "sha256":  "0839e7261b93cb77ac3fb897038993613294c1f8301df61aea094d0bdb0ce9bd"
+    },
+    {
+        "path":  "src\\ascii.rs",
+        "sha256":  "e363a4e72d105ad7d21a12b84ed7ac056bea5859503d5665f9d67c69ee01e77d"
+    },
+    {
+        "path":  "src\\sgf.rs",
+        "sha256":  "5d3a9258c8b84d40a27d9780663b7a4c5fad671643ba1573cf9244068862258e"
+    },
+    {
+        "path":  "src\\search.rs",
+        "sha256":  "a58c54d3a4bcb22122e7f42b4828cf9d7f6f24e95bd7b953b1e92b6cd547a1f4"
+    },
+    {
+        "path":  "src\\scoring.rs",
+        "sha256":  "21f589ab211915e380f375178bc05da0ae2af0aed884e215c4d11192a10313a3"
+    },
+    {
+        "path":  "src\\main.rs",
+        "sha256":  "cf8307e5ae4de5db0ab0c7e653dc9a70957cc2480b088d28aa10009258ae6da4"
+    },
+    {
+        "path":  "src\\lib.rs",
+        "sha256":  "04029cb1d65c8b3f92a6a4b6ad2974bb05beb196bdd73a9a73f3a4d528cdf6f3"
+    },
+    {
+        "path":  "src\\gtp.rs",
+        "sha256":  "2c693395c8af8eef47d1b3adaba384ba3b428880b13103451030609cd0411719"
+    },
+    {
+        "path":  "src\\game.rs",
+        "sha256":  "7a0e9915d6b95ce5cddd5ac1043ad808c9c555438fd88fcb14895230f6dbbcc2"
+    },
+    {
+        "path":  "src\\engine.rs",
+        "sha256":  "80d12c309210c139d0febef14a02ebd5f146b289315613255c8afbcb59a0b000"
+    },
+    {
+        "path":  "src\\coords.rs",
+        "sha256":  "34a759e01ae0079212c4981e48fb5e3802e06582bb5469c9ab387cfb406d3941"
+    }
+]

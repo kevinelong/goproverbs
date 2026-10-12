@@ -1,0 +1,548 @@
+[
+  {
+    "color": "B",
+    "move": "E6",
+    "ms": 31.0,
+    "trace": "move=E6 score=5.927 depth=3 nodes=1385 elapsed_ms=24 limited=false root_searched=15/80\npv=E6 G5 A2\nMove preferences (not the search score):\nE6: 0.510 (base=0.010)\n  side_development: 1.000 * 0.500 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "C5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "G5",
+    "ms": 16.0,
+    "trace": "move=G5 score=4.627 depth=3 nodes=817 elapsed_ms=21 limited=false root_searched=13/78\npv=G5 E3 A2\nMove preferences (not the search score):\nG5: 0.510 (base=0.010)\n  side_development: 1.000 * 0.500 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "E3",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "B1",
+    "ms": 31.0,
+    "trace": "move=B1 score=4.727 depth=3 nodes=1495 elapsed_ms=23 limited=false root_searched=13/76\npv=B1 F9 B8\nMove preferences (not the search score):\nB1: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "A2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "A3",
+    "ms": 16.0,
+    "trace": "move=A3 score=7.551 depth=3 nodes=886 elapsed_ms=21 limited=false root_searched=13/74\npv=A3 F9 C8\nMove preferences (not the search score):\nA3: 1.010 (base=0.010)\n  atari: 0.500 * 2.000 = +1.000"
+  },
+  {
+    "color": "W",
+    "move": "B2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "C2",
+    "ms": 31.0,
+    "trace": "move=C2 score=6.551 depth=3 nodes=873 elapsed_ms=27 limited=false root_searched=13/72\npv=C2 C1 B3\nMove preferences (not the search score):\nC2: 1.510 (base=0.010)\n  atari: 0.750 * 2.000 = +1.500"
+  },
+  {
+    "color": "W",
+    "move": "C1",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "B3",
+    "ms": 31.0,
+    "trace": "move=B3 score=7.602 depth=3 nodes=931 elapsed_ms=25 limited=false root_searched=13/70\npv=B3 F9 D1\nMove preferences (not the search score):\nB3: 1.510 (base=0.010)\n  atari: 0.750 * 2.000 = +1.500"
+  },
+  {
+    "color": "W",
+    "move": "C3",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "B1",
+    "ms": 16.0,
+    "trace": "move=B1 score=9.777 depth=3 nodes=871 elapsed_ms=27 limited=false root_searched=13/69\npv=B1 F9 C4\nMove preferences (not the search score):\nB1: 9.010 (base=0.010)\n  capture: 0.750 * 8.000 = +6.000\n  save_atari: 0.250 * 10.000 = +2.500\n  atari: 0.250 * 2.000 = +0.500\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "W",
+    "move": "D1",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "E1",
+    "ms": 31.0,
+    "trace": "move=E1 score=11.327 depth=3 nodes=1244 elapsed_ms=31 limited=false root_searched=13/70\npv=E1 D2 E2\nMove preferences (not the search score):\nE1: 1.010 (base=0.010)\n  atari: 0.500 * 2.000 = +1.000"
+  },
+  {
+    "color": "W",
+    "move": "D2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "B2",
+    "ms": 32.0,
+    "trace": "move=B2 score=8.927 depth=3 nodes=931 elapsed_ms=29 limited=false root_searched=14/68\npv=B2 E2 C4\nMove preferences (not the search score):\nB2: 3.510 (base=0.010)\n  save_atari: 0.250 * 10.000 = +2.500\n  connect: 0.667 * 1.500 = +1.000"
+  },
+  {
+    "color": "W",
+    "move": "D3",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "B8",
+    "ms": 31.0,
+    "trace": "move=B8 score=10.052 depth=3 nodes=1460 elapsed_ms=27 limited=false root_searched=13/66\npv=B8 G9 H9\nMove preferences (not the search score):\nB8: 0.010 (base=0.010)"
+  },
+  {
+    "color": "W",
+    "move": "C4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "G9",
+    "ms": 31.0,
+    "trace": "move=G9 score=11.827 depth=3 nodes=1581 elapsed_ms=27 limited=false root_searched=13/64\npv=G9 D9 D8\nMove preferences (not the search score):\nG9: 0.010 (base=0.010)"
+  },
+  {
+    "color": "W",
+    "move": "E2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "F1",
+    "ms": 31.0,
+    "trace": "move=F1 score=11.902 depth=3 nodes=828 elapsed_ms=23 limited=false root_searched=13/62\npv=F1 D9 D8\nMove preferences (not the search score):\nF1: 2.510 (base=0.010)\n  save_atari: 0.250 * 10.000 = +2.500"
+  },
+  {
+    "color": "W",
+    "move": "F2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "G1",
+    "ms": 16.0,
+    "trace": "move=G1 score=12.127 depth=3 nodes=753 elapsed_ms=23 limited=false root_searched=13/60\npv=G1 D9 D8\nMove preferences (not the search score):\nG1: 5.010 (base=0.010)\n  save_atari: 0.500 * 10.000 = +5.000"
+  },
+  {
+    "color": "W",
+    "move": "G2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "D9",
+    "ms": 31.0,
+    "trace": "move=D9 score=6.677 depth=3 nodes=710 elapsed_ms=33 limited=false root_searched=13/58\npv=D9 H1 F8\nMove preferences (not the search score):\nD9: 0.010 (base=0.010)"
+  },
+  {
+    "color": "W",
+    "move": "H1",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "F8",
+    "ms": 31.0,
+    "trace": "move=F8 score=6.552 depth=3 nodes=1249 elapsed_ms=29 limited=false root_searched=13/59\npv=F8 D8 H8\nMove preferences (not the search score):\nF8: 0.010 (base=0.010)"
+  },
+  {
+    "color": "W",
+    "move": "H2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "D8",
+    "ms": 32.0,
+    "trace": "move=D8 score=7.452 depth=3 nodes=1274 elapsed_ms=28 limited=false root_searched=13/57\npv=D8 J3 J4\nMove preferences (not the search score):\nD8: 0.010 (base=0.010)"
+  },
+  {
+    "color": "W",
+    "move": "J3",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "H3",
+    "ms": 47.0,
+    "trace": "move=H3 score=7.826 depth=3 nodes=1245 elapsed_ms=42 limited=false root_searched=13/55\npv=H3 J1 J4\nMove preferences (not the search score):\nH3: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "W",
+    "move": "J1",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "J4",
+    "ms": 31.0,
+    "trace": "move=J4 score=6.777 depth=3 nodes=944 elapsed_ms=36 limited=false root_searched=13/53\npv=J4 H4 J2\nMove preferences (not the search score):\nJ4: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "J2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "H9",
+    "ms": 31.0,
+    "trace": "move=H9 score=5.127 depth=3 nodes=824 elapsed_ms=27 limited=false root_searched=13/52\npv=H9 H4 G3\nMove preferences (not the search score):\nH9: 0.010 (base=0.010)"
+  },
+  {
+    "color": "W",
+    "move": "H4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "J5",
+    "ms": 31.0,
+    "trace": "move=J5 score=4.952 depth=3 nodes=937 elapsed_ms=28 limited=false root_searched=13/50\npv=J5 H8 G3\nMove preferences (not the search score):\nJ5: 2.510 (base=0.010)\n  save_atari: 0.250 * 10.000 = +2.500"
+  },
+  {
+    "color": "W",
+    "move": "G3",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "H5",
+    "ms": 32.0,
+    "trace": "move=H5 score=4.651 depth=3 nodes=958 elapsed_ms=27 limited=false root_searched=13/48\npv=H5 H8 G4\nMove preferences (not the search score):\nH5: 0.510 (base=0.010)\n  connect: 0.333 * 1.500 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "G4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "J8",
+    "ms": 31.0,
+    "trace": "move=J8 score=4.051 depth=3 nodes=1653 elapsed_ms=32 limited=false root_searched=13/46\npv=J8 B7 A7\nMove preferences (not the search score):\nJ8: 0.010 (base=0.010)"
+  },
+  {
+    "color": "W",
+    "move": "A9",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "A8",
+    "ms": 31.0,
+    "trace": "move=A8 score=4.727 depth=3 nodes=1852 elapsed_ms=37 limited=false root_searched=13/44\npv=A8 F7 C7\nMove preferences (not the search score):\nA8: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "C9",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "B9",
+    "ms": 47.0,
+    "trace": "move=B9 score=5.626 depth=3 nodes=1628 elapsed_ms=38 limited=false root_searched=13/42\npv=B9 G7 C7\nMove preferences (not the search score):\nB9: 2.510 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  atari: 0.250 * 2.000 = +0.500\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "W",
+    "move": "E9",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "E8",
+    "ms": 31.0,
+    "trace": "move=E8 score=5.701 depth=3 nodes=1615 elapsed_ms=32 limited=false root_searched=13/41\npv=E8 G7 H7\nMove preferences (not the search score):\nE8: 1.010 (base=0.010)\n  connect: 0.333 * 1.500 = +0.500\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "G8",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "G7",
+    "ms": 31.0,
+    "trace": "move=G7 score=6.977 depth=3 nodes=1414 elapsed_ms=30 limited=false root_searched=13/39\npv=G7 B7 C7\nMove preferences (not the search score):\nG7: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "A7",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "B7",
+    "ms": 32.0,
+    "trace": "move=B7 score=8.276 depth=3 nodes=1433 elapsed_ms=34 limited=false root_searched=13/37\npv=B7 D7 A6\nMove preferences (not the search score):\nB7: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "A6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "B6",
+    "ms": 31.0,
+    "trace": "move=B6 score=10.051 depth=3 nodes=1388 elapsed_ms=30 limited=false root_searched=13/35\npv=B6 F6 A5\nMove preferences (not the search score):\nB6: 1.010 (base=0.010)\n  atari: 0.500 * 2.000 = +1.000"
+  },
+  {
+    "color": "W",
+    "move": "A5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "B5",
+    "ms": 31.0,
+    "trace": "move=B5 score=11.127 depth=3 nodes=1040 elapsed_ms=28 limited=false root_searched=13/33\npv=B5 D7 A4\nMove preferences (not the search score):\nB5: 1.510 (base=0.010)\n  atari: 0.750 * 2.000 = +1.500\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "W",
+    "move": "C7",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "D7",
+    "ms": 31.0,
+    "trace": "move=D7 score=11.176 depth=3 nodes=1380 elapsed_ms=29 limited=false root_searched=13/31\npv=D7 F6 C6\nMove preferences (not the search score):\nD7: 0.010 (base=0.010)"
+  },
+  {
+    "color": "W",
+    "move": "C6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "A4",
+    "ms": 32.0,
+    "trace": "move=A4 score=9.927 depth=3 nodes=725 elapsed_ms=27 limited=false root_searched=13/29\npv=A4 C8 H8\nMove preferences (not the search score):\nA4: 6.010 (base=0.010)\n  capture: 0.750 * 8.000 = +6.000"
+  },
+  {
+    "color": "W",
+    "move": "C8",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "H8",
+    "ms": 31.0,
+    "trace": "move=H8 score=7.951 depth=3 nodes=1116 elapsed_ms=29 limited=false root_searched=13/30\npv=H8 H6 G6\nMove preferences (not the search score):\nH8: 2.510 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  connect: 0.333 * 1.500 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "F7",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "E7",
+    "ms": 31.0,
+    "trace": "move=E7 score=8.051 depth=3 nodes=1109 elapsed_ms=30 limited=false root_searched=13/29\npv=E7 H6 F6\nMove preferences (not the search score):\nE7: 1.010 (base=0.010)\n  connect: 0.333 * 1.500 = +0.500\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "F6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "G6",
+    "ms": 16.0,
+    "trace": "move=G6 score=10.226 depth=3 nodes=1185 elapsed_ms=25 limited=false root_searched=13/27\npv=G6 E5 F5\nMove preferences (not the search score):\nG6: 1.510 (base=0.010)\n  connect: 0.333 * 1.500 = +0.500\n  atari: 0.500 * 2.000 = +1.000"
+  },
+  {
+    "color": "W",
+    "move": "F5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "F4",
+    "ms": 31.0,
+    "trace": "move=F4 score=12.501 depth=3 nodes=963 elapsed_ms=24 limited=false root_searched=13/25\npv=F4 H7 J7\nMove preferences (not the search score):\nF4: 1.510 (base=0.010)\n  atari: 0.750 * 2.000 = +1.500\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "W",
+    "move": "E5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "E4",
+    "ms": 16.0,
+    "trace": "move=E4 score=6.801 depth=3 nodes=735 elapsed_ms=22 limited=false root_searched=13/23\npv=E4 D5 F9\nMove preferences (not the search score):\nE4: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "W",
+    "move": "D5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "A2",
+    "ms": 31.0,
+    "trace": "move=A2 score=5.451 depth=3 nodes=703 elapsed_ms=18 limited=false root_searched=13/21\npv=A2 D4 F1\nMove preferences (not the search score):\nA2: 0.010 (base=0.010)"
+  },
+  {
+    "color": "W",
+    "move": "D4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "F9",
+    "ms": 16.0,
+    "trace": "move=F9 score=4.876 depth=3 nodes=1153 elapsed_ms=24 limited=false root_searched=13/19\npv=F9 E1 D6\nMove preferences (not the search score):\nF9: 2.510 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  connect: 0.333 * 1.500 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "F3",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "B4",
+    "ms": 31.0,
+    "trace": "move=B4 score=4.576 depth=3 nodes=1275 elapsed_ms=23 limited=false root_searched=12/20\npv=B4 E1 D6\nMove preferences (not the search score):\nB4: 0.510 (base=0.010)\n  connect: 0.333 * 1.500 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "H7",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "J7",
+    "ms": 15.0,
+    "trace": "move=J7 score=4.951 depth=3 nodes=738 elapsed_ms=15 limited=false root_searched=12/18\npv=J7 A6 A7\nMove preferences (not the search score):\nJ7: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "A6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "A7",
+    "ms": 16.0,
+    "trace": "move=A7 score=5.476 depth=3 nodes=690 elapsed_ms=14 limited=false root_searched=12/16\npv=A7 E1 H6\nMove preferences (not the search score):\nA7: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "D6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "H6",
+    "ms": 16.0,
+    "trace": "move=H6 score=5.601 depth=3 nodes=618 elapsed_ms=12 limited=false root_searched=12/14\npv=H6 E1 A5\nMove preferences (not the search score):\nH6: 2.010 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000"
+  },
+  {
+    "color": "W",
+    "move": "E4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "A5",
+    "ms": 0.0,
+    "trace": "move=A5 score=5.077 depth=3 nodes=383 elapsed_ms=7 limited=false root_searched=12/12\npv=A5 E1 G8\nMove preferences (not the search score):\nA5: 2.010 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000"
+  },
+  {
+    "color": "W",
+    "move": "E1",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "G8",
+    "ms": 15.0,
+    "trace": "move=G8 score=4.777 depth=3 nodes=271 elapsed_ms=4 limited=false root_searched=11/11\npv=G8 F1 J6\nMove preferences (not the search score):\nG8: 0.510 (base=0.010)\n  connect: 0.333 * 1.500 = +0.500"
+  },
+  {
+    "color": "W",
+    "move": "F1",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "J6",
+    "ms": 0.0,
+    "trace": "move=J6 score=6.350 depth=3 nodes=180 elapsed_ms=3 limited=false root_searched=8/8\npv=J6 F4 pass\nMove preferences (not the search score):\nJ6: 0.010 (base=0.010)"
+  },
+  {
+    "color": "W",
+    "move": "pass",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "B",
+    "move": "pass",
+    "ms": 0.0,
+    "trace": "move=pass score=6.500 depth=3 nodes=123 elapsed_ms=1 limited=false root_searched=7/7\npv=pass\nMove preferences (not the search score):\npass: 0.000"
+  }
+]

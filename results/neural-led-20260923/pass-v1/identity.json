@@ -1,0 +1,34 @@
+{
+  "assets": {
+    "katago": "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe",
+    "model": "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz",
+    "exe": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v2\\goproverbs.exe",
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v2\\profiles\\baseline.weights"
+  },
+  "hashes": {
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\compare_bonsai_packing_20260922.py": "dd6b8ee00d82a1c8ce437725f87387c0f86fcd4c818bcbba6d97534ec25fe57f",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\direct_arena.py": "8a76275bc7faa8503c7d57e2f0271a65844ff2c9b235b0fc1f9354fbfc31ea41",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\guidance.py": "0b390c966a1711740ae016ef33549addab361e43d482f0f39685d8256d167752",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\lab.py": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\neural.py": "19f5771766a4858f52af5708e24696d27bd47ac83db494a08d5cceec92f30dbb",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\neural_led.py": "602eb7fcfc7c8b2602fcc68cb8f2d3e8e350f334120eb0b04f0493dcbef741f8",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\neural_led_probe.py": "ecea1cdf18afe3a86c07ab8d5ebb6cade1ed9b6a876abbcde606479a9c28068e",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\neural_led_screen.py": "2c7a479397c0b966cb3d20732e64740f1d4f87f61faa10117a97f9cdfc5d8b40",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\sgf_io.py": "eabd458c4fb6a18c87c0d05dab3036b0a90963fbffac6938c0cb8aa71566a907",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\test_neural_led.py": "de1d070ee569ce5616fc8de9100711670cc5a4f101ff11c5ebb4b471661428d6",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\test_neural_led_probe.py": "8f589768956d659065c7139501ade93765d76d0f55f7dff01354ad9b3bb7710a",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\source\\test_neural_led_screen.py": "28332db4e2a89356bb07db62df0cb12217280c7efcc79093cf0882a254ae5620",
+    "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+    "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz": "21d3d5eadad1f811071d4f7e4e90b8336e827fcd092ea62a8f35c569b9bd157c",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v2\\goproverbs.exe": "20dc2a23ac9b3a372ff9998dcbb9526762cc111429810b2d8163b6f8af6efe7e",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v2\\profiles\\baseline.weights": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\analysis.cfg": "872eac1af1ec50852cd0b2a2bb50ff4c97938481d753fa5415f30d424eeb601a",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\endgames.json": "49a196baa51a0fd51d682c2d29de2209d100a39d316b638788d33ec1d0698ec8",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\exclusions.json": "6e1d189806ac30bf64944afd1ca6f3d5a2dc9a2f24b00c5aa69ff3ce97cbca4c",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\openings.json": "5f6bf29d3953f373aa529905be8db1e1bd64a7c6892862fba04a20cfa6bebbbb",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\PROTOCOL.md": "7bb54db01316c2a12ce6c986bcf8396f8d2545f5076da8d8bf45aa069bbf419a",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\schedule.json": "dffc08d6699d03a686b261aaa3fc37447b3733266c655542e0ce9d8bc466186f",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\settings.json": "c402bc14fbd01166f48f8d09070663a3dcec8b241c961b8aacd354ae0f5ee059",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\pass-v1\\white-positions.json": "0daddeda4cad5b140e2d61f4d3d19f556b7c75ce40e121fb7553caefebf589b9"
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "status": "complete",
+  "settings": {
+    "task": "arena",
+    "katago": "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe",
+    "model": "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz",
+    "output": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\run",
+    "exe": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\goproverbs.exe",
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\profiles\\baseline.weights",
+    "corpus": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\positions.json",
+    "openings": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\openings.json",
+    "modes": [
+      "NH"
+    ],
+    "time_ms": 200,
+    "pairs": 20,
+    "positions": 8,
+    "cpu": false
+  },
+  "hashes": {
+    "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+    "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz": "21d3d5eadad1f811071d4f7e4e90b8336e827fcd092ea62a8f35c569b9bd157c",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\goproverbs.exe": "c4052674f6a924652ec396da07972e138fafc06e46317aa805a313d5d8d5dd9c",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\profiles\\baseline.weights": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\positions.json": "7d18010e789d665c034d0f31c70b0c232fe4decc3eb898be3836729c30994a0e",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\openings.json": "d705add07d3ab8cb47d5a7f028e80abda5a841b39da739523f91fad832cb4ca9",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\run\\analysis.cfg": "872eac1af1ec50852cd0b2a2bb50ff4c97938481d753fa5415f30d424eeb601a",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\benchmarks\\roadmap.py": "b8b0a1c3ea58bce5de82fa3030adbd78ce749fa1d9da95ff9338e1000af577e6",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\benchmarks\\guidance.py": "a675cd05977821f7f1f09afad691b743fcebbed48c9bf11936b407e226125424",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\benchmarks\\sgf_io.py": "eabd458c4fb6a18c87c0d05dab3036b0a90963fbffac6938c0cb8aa71566a907",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\benchmarks\\lab.py": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\benchmarks\\neural.py": "94d4a613c81f7684b750c1db07050589abacd7a27f0cab4140a245ed345c4464"
+  },
+  "before": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2748 MiB, 9196 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 3132194816
+    }
+  },
+  "version": {
+    "action": "query_version",
+    "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+    "id": "version",
+    "version": "1.18.1"
+  },
+  "loaded": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2931 MiB, 9013 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 2843058176
+    }
+  },
+  "records": [
+    {
+      "opening": "opening-002",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+3.5",
+      "variant_won": true,
+      "moves": 431
+    },
+    {
+      "opening": "opening-002",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+48.5",
+      "variant_won": true,
+      "moves": 479
+    },
+    {
+      "opening": "opening-003",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+45.5",
+      "variant_won": true,
+      "moves": 460
+    },
+    {
+      "opening": "opening-003",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+28.5",
+      "variant_won": true,
+      "moves": 435
+    },
+    {
+      "opening": "opening-004",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+55.5",
+      "variant_won": true,
+      "moves": 464
+    },
+    {
+      "opening": "opening-004",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+66.5",
+      "variant_won": true,
+      "moves": 521
+    },
+    {
+      "opening": "opening-005",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "W+30.5",
+      "variant_won": false,
+      "moves": 455
+    },
+    {
+      "opening": "opening-005",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+48.5",
+      "variant_won": true,
+      "moves": 444
+    },
+    {
+      "opening": "opening-006",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+45.5",
+      "variant_won": true,
+      "moves": 462
+    },
+    {
+      "opening": "opening-006",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+74.5",
+      "variant_won": true,
+      "moves": 442
+    },
+    {
+      "opening": "opening-007",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+33.5",
+      "variant_won": true,
+      "moves": 441
+    },
+    {
+      "opening": "opening-007",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+88.5",
+      "variant_won": true,
+      "moves": 452
+    },
+    {
+      "opening": "opening-008",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+13.5",
+      "variant_won": true,
+      "moves": 446
+    },
+    {
+      "opening": "opening-008",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+22.5",
+      "variant_won": true,
+      "moves": 445
+    },
+    {
+      "opening": "opening-009",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+37.5",
+      "variant_won": true,
+      "moves": 470
+    },
+    {
+      "opening": "opening-009",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+13.5",
+      "variant_won": true,
+      "moves": 412
+    },
+    {
+      "opening": "opening-010",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+65.5",
+      "variant_won": true,
+      "moves": 461
+    },
+    {
+      "opening": "opening-010",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+24.5",
+      "variant_won": true,
+      "moves": 428
+    },
+    {
+      "opening": "opening-011",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+61.5",
+      "variant_won": true,
+      "moves": 484
+    },
+    {
+      "opening": "opening-011",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+182.5",
+      "variant_won": true,
+      "moves": 540
+    },
+    {
+      "opening": "opening-012",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+21.5",
+      "variant_won": true,
+      "moves": 437
+    },
+    {
+      "opening": "opening-012",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+104.5",
+      "variant_won": true,
+      "moves": 474
+    },
+    {
+      "opening": "opening-013",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "W+0.5",
+      "variant_won": false,
+      "moves": 443
+    },
+    {
+      "opening": "opening-013",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+52.5",
+      "variant_won": true,
+      "moves": 475
+    },
+    {
+      "opening": "opening-014",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+11.5",
+      "variant_won": true,
+      "moves": 410
+    },
+    {
+      "opening": "opening-014",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+88.5",
+      "variant_won": true,
+      "moves": 472
+    },
+    {
+      "opening": "opening-015",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+131.5",
+      "variant_won": true,
+      "moves": 523
+    },
+    {
+      "opening": "opening-015",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "B+13.5",
+      "variant_won": false,
+      "moves": 462
+    },
+    {
+      "opening": "opening-016",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+105.5",
+      "variant_won": true,
+      "moves": 461
+    },
+    {
+      "opening": "opening-016",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+38.5",
+      "variant_won": true,
+      "moves": 455
+    },
+    {
+      "opening": "opening-017",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+45.5",
+      "variant_won": true,
+      "moves": 452
+    },
+    {
+      "opening": "opening-017",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "B+13.5",
+      "variant_won": false,
+      "moves": 430
+    },
+    {
+      "opening": "opening-018",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+77.5",
+      "variant_won": true,
+      "moves": 463
+    },
+    {
+      "opening": "opening-018",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+2.5",
+      "variant_won": true,
+      "moves": 450
+    },
+    {
+      "opening": "opening-019",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+39.5",
+      "variant_won": true,
+      "moves": 480
+    },
+    {
+      "opening": "opening-019",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+76.5",
+      "variant_won": true,
+      "moves": 444
+    },
+    {
+      "opening": "opening-020",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+75.5",
+      "variant_won": true,
+      "moves": 441
+    },
+    {
+      "opening": "opening-020",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+102.5",
+      "variant_won": true,
+      "moves": 464
+    },
+    {
+      "opening": "opening-021",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+105.5",
+      "variant_won": true,
+      "moves": 483
+    },
+    {
+      "opening": "opening-021",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+108.5",
+      "variant_won": true,
+      "moves": 464
+    }
+  ],
+  "broker_queries": 9097,
+  "broker_errors": [],
+  "after": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2763 MiB, 9181 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 5182636032
+    }
+  }
+}

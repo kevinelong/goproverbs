@@ -1,0 +1,41 @@
+{
+  "seed": 20260921,
+  "source": "results\\roadmap-20260921\\corpus\\openings.json",
+  "selection": "Unused openings033..034, CPU small smoke",
+  "openings": [
+    {
+      "id": "opening-033",
+      "moves": [
+        [
+          "B",
+          "D3"
+        ],
+        [
+          "W",
+          "Q16"
+        ],
+        [
+          "B",
+          "C3"
+        ],
+        [
+          "W",
+          "Q17"
+        ]
+      ]
+    },
+    {
+      "id": "opening-034",
+      "moves": [
+        [
+          "B",
+          "C3"
+        ],
+        [
+          "W",
+          "R3"
+        ]
+      ]
+    }
+  ]
+}

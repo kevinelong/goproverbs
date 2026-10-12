@@ -1,0 +1,362 @@
+{
+  "status": "stopped",
+  "rules": "tromp-taylor",
+  "board_size": 19,
+  "komi": 7.5,
+  "settings": {
+    "katago": "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe",
+    "model": "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz",
+    "exe": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v1\\goproverbs.exe",
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v1\\profiles\\baseline.weights",
+    "openings": "results\\direct-20260922\\smoke-openings.json",
+    "pairs": 1,
+    "output": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\smoke-v1",
+    "time_ms": 200,
+    "move_cap": 722,
+    "cpu": false,
+    "matchups": [
+      "NH:NN",
+      "NH:policy",
+      "NH:search"
+    ]
+  },
+  "matchups": [
+    "NH-vs-NN",
+    "NH-vs-policy",
+    "NH-vs-search"
+  ],
+  "hashes_before": {
+    "katago": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+    "model": "21d3d5eadad1f811071d4f7e4e90b8336e827fcd092ea62a8f35c569b9bd157c",
+    "goproverbs": "bb5de62e452b064eb2e5085ec296c17e52ce6bb174976a07daa1bb1e83c14e81",
+    "profile": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "openings": "0c3031a62353674bb3a3f2c3a51925f5ddc000b33d8951477fb7af63698a31a6",
+    "config": "872eac1af1ec50852cd0b2a2bb50ff4c97938481d753fa5415f30d424eeb601a",
+    "harness": "4844fac4c5c8defc9b87b3653359a5a169db9f7199bda4723bb6507361f072a2",
+    "guidance": "0b390c966a1711740ae016ef33549addab361e43d482f0f39685d8256d167752",
+    "neural": "0f283d03ef73a53f37acd616647f5f52628b98379d359b183eb0d68fecdf79a1",
+    "referee": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+    "sgf": "eabd458c4fb6a18c87c0d05dab3036b0a90963fbffac6938c0cb8aa71566a907"
+  },
+  "opening_ids": [
+    "opening-022"
+  ],
+  "games": [
+    {
+      "opening": "opening-022",
+      "matchup": "NH-vs-NN",
+      "a": "NH",
+      "b": "NN",
+      "a_color": "B",
+      "finished": true,
+      "result": "W+125.5",
+      "a_won": false,
+      "moves": 533,
+      "raw_area_margin": -125.5,
+      "roles": {
+        "NH": {
+          "decisions": 265,
+          "median_ms": 200.19810000667349,
+          "max_ms": 201.03019999805838,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        },
+        "NN": {
+          "decisions": 264,
+          "median_ms": 201.49710000259802,
+          "max_ms": 217.22569997655228,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 231,
+          "external_fallback_rounds": 33
+        }
+      }
+    },
+    {
+      "opening": "opening-022",
+      "matchup": "NH-vs-NN",
+      "a": "NH",
+      "b": "NN",
+      "a_color": "W",
+      "finished": true,
+      "result": "B+20.5",
+      "a_won": false,
+      "moves": 334,
+      "raw_area_margin": 20.5,
+      "roles": {
+        "NH": {
+          "decisions": 165,
+          "median_ms": 200.11680002789944,
+          "max_ms": 201.3382000150159,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        },
+        "NN": {
+          "decisions": 165,
+          "median_ms": 201.36880001518875,
+          "max_ms": 204.9785999697633,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 143,
+          "external_fallback_rounds": 22
+        }
+      }
+    },
+    {
+      "opening": "opening-022",
+      "matchup": "NH-vs-policy",
+      "a": "NH",
+      "b": "policy",
+      "a_color": "B",
+      "finished": true,
+      "result": "W+245.5",
+      "a_won": false,
+      "moves": 522,
+      "raw_area_margin": -245.5,
+      "roles": {
+        "NH": {
+          "decisions": 259,
+          "median_ms": 200.2140999538824,
+          "max_ms": 211.46770002087578,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        },
+        "policy": {
+          "decisions": 259,
+          "median_ms": 4.770900006406009,
+          "max_ms": 9.454399987589568,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_completed_requests": 259,
+          "external_timeout_fallbacks": 0
+        }
+      }
+    },
+    {
+      "opening": "opening-022",
+      "matchup": "NH-vs-policy",
+      "a": "NH",
+      "b": "policy",
+      "a_color": "W",
+      "finished": true,
+      "result": "B+219.5",
+      "a_won": false,
+      "moves": 505,
+      "raw_area_margin": 219.5,
+      "roles": {
+        "NH": {
+          "decisions": 250,
+          "median_ms": 200.2124499704223,
+          "max_ms": 205.7016000035219,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        },
+        "policy": {
+          "decisions": 251,
+          "median_ms": 4.452000022865832,
+          "max_ms": 11.556699988432229,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_completed_requests": 251,
+          "external_timeout_fallbacks": 0
+        }
+      }
+    },
+    {
+      "opening": "opening-022",
+      "matchup": "NH-vs-search",
+      "a": "NH",
+      "b": "search",
+      "a_color": "B",
+      "finished": true,
+      "result": "B+223.5",
+      "a_won": true,
+      "moves": 361,
+      "raw_area_margin": 223.5,
+      "roles": {
+        "NH": {
+          "decisions": 179,
+          "median_ms": 200.16350003425032,
+          "max_ms": 200.96159999957308,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        },
+        "search": {
+          "decisions": 178,
+          "median_ms": 237.25289999856614,
+          "max_ms": 2584.355200000573,
+          "fallbacks": 100,
+          "root_timeouts": 0,
+          "external_completed_requests": 78,
+          "external_timeout_fallbacks": 100
+        }
+      }
+    },
+    {
+      "opening": "opening-022",
+      "matchup": "NH-vs-search",
+      "a": "NH",
+      "b": "search",
+      "a_color": "W",
+      "finished": false,
+      "result": "unfinished",
+      "a_won": false,
+      "moves": 192,
+      "raw_area_margin": -18.5,
+      "roles": {
+        "NH": {
+          "decisions": 94,
+          "median_ms": 200.06985001964495,
+          "max_ms": 200.92739997198805,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        },
+        "search": {
+          "decisions": 94,
+          "median_ms": 199.31540000834502,
+          "max_ms": 954.759800049942,
+          "fallbacks": 44,
+          "root_timeouts": 0,
+          "external_completed_requests": 50,
+          "external_timeout_fallbacks": 44
+        }
+      }
+    }
+  ],
+  "hardware_before": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3343 MiB, 8601 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 4363493376
+    }
+  },
+  "version": {
+    "action": "query_version",
+    "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+    "id": "version",
+    "version": "1.18.1"
+  },
+  "hardware_loaded": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3526 MiB, 8418 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 4059475968
+    }
+  },
+  "broker": {
+    "count": 20121,
+    "errors": [],
+    "metrics": {
+      "leaf_requests": 18500,
+      "expired_before_query": 21,
+      "timeouts": 314,
+      "completed": 19828,
+      "queue_ms": 50.95910269301385,
+      "query_ms": 64868.65750135621,
+      "max_query_ms": 20.393699989654124,
+      "duplicate_histories": 449
+    }
+  },
+  "kata_metrics": {
+    "sent": 20931,
+    "cancelled": 24,
+    "late_replies": 48,
+    "lock_timeouts": 0
+  },
+  "paired": {
+    "matchups": {
+      "NH-vs-NN": {
+        "games": 2,
+        "complete_pairs": 1,
+        "a_wins": 0,
+        "unfinished": 0,
+        "mean_pair_score_for_a": 0.0,
+        "conservative_95_interval": [
+          0,
+          1
+        ]
+      },
+      "NH-vs-policy": {
+        "games": 2,
+        "complete_pairs": 1,
+        "a_wins": 0,
+        "unfinished": 0,
+        "mean_pair_score_for_a": 0.0,
+        "conservative_95_interval": [
+          0,
+          1
+        ]
+      },
+      "NH-vs-search": {
+        "games": 2,
+        "complete_pairs": 0,
+        "a_wins": 1,
+        "unfinished": 1,
+        "mean_pair_score_for_a": null,
+        "conservative_95_interval": null
+      }
+    },
+    "method": "Hoeffding bounded-mean interval treating each complete opening pair as one independent observation.",
+    "limitations": "Conditional on completed pairs and the supplied opening distribution; incomplete pairs are excluded; no Elo estimate."
+  },
+  "hardware_after": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3358 MiB, 8586 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 4090785792
+    }
+  },
+  "hashes_after": {
+    "katago": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+    "model": "21d3d5eadad1f811071d4f7e4e90b8336e827fcd092ea62a8f35c569b9bd157c",
+    "goproverbs": "bb5de62e452b064eb2e5085ec296c17e52ce6bb174976a07daa1bb1e83c14e81",
+    "profile": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "openings": "0c3031a62353674bb3a3f2c3a51925f5ddc000b33d8951477fb7af63698a31a6",
+    "config": "872eac1af1ec50852cd0b2a2bb50ff4c97938481d753fa5415f30d424eeb601a",
+    "harness": "4844fac4c5c8defc9b87b3653359a5a169db9f7199bda4723bb6507361f072a2",
+    "guidance": "0b390c966a1711740ae016ef33549addab361e43d482f0f39685d8256d167752",
+    "neural": "0f283d03ef73a53f37acd616647f5f52628b98379d359b183eb0d68fecdf79a1",
+    "referee": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+    "sgf": "eabd458c4fb6a18c87c0d05dab3036b0a90963fbffac6938c0cb8aa71566a907"
+  },
+  "hashes_unchanged": true
+}

@@ -1,0 +1,355 @@
+{
+  "id": "led-fresh-037-combined-vs-neural-W-343",
+  "role": "combined",
+  "visits": 16,
+  "move": "L18",
+  "ms": 88.66420004051179,
+  "trace": {
+    "baseline_move": "pass",
+    "root_move": "L18",
+    "baseline": {
+      "variant": "combined",
+      "identifier": "development-20-base",
+      "status": "evaluated",
+      "report_perspective": "BLACK",
+      "value_objective": "root_player_winrate",
+      "completed_rounds": 1,
+      "fallback": false,
+      "fallback_reason": null,
+      "root_move": "L18",
+      "selected_move": "pass",
+      "candidates": [
+        {
+          "move": "L18",
+          "sources": [
+            "neural",
+            "heuristic",
+            "tactical"
+          ],
+          "policy_rank": 1,
+          "policy_probability": 0.951025963,
+          "status": "evaluated",
+          "value": {
+            "winrate": 0.999606002646,
+            "score": 52.4709549,
+            "exact": false
+          }
+        },
+        {
+          "move": "C1",
+          "sources": [
+            "neural"
+          ],
+          "policy_rank": 2,
+          "policy_probability": 0.0204042755,
+          "status": "evaluated",
+          "value": {
+            "winrate": 0.999704961097,
+            "score": 39.0099335,
+            "exact": false
+          }
+        },
+        {
+          "move": "pass",
+          "sources": [
+            "neural"
+          ],
+          "policy_rank": 3,
+          "policy_probability": 0.00349560217,
+          "status": "evaluated",
+          "value": {
+            "winrate": 0.9999701523648,
+            "score": 38.4691353,
+            "exact": false
+          }
+        },
+        {
+          "move": "T16",
+          "sources": [
+            "heuristic"
+          ],
+          "policy_rank": 17,
+          "policy_probability": 0.000421003177,
+          "status": "evaluated",
+          "value": {
+            "winrate": 0.9999575080783,
+            "score": 38.1204109,
+            "exact": false
+          }
+        }
+      ],
+      "rejected": [],
+      "queries": [
+        {
+          "id": "development-20-base-root",
+          "player": "W",
+          "move_count": 347,
+          "rootInfo": {
+            "currentPlayer": "W",
+            "rawLead": -50.9862709,
+            "rawNoResultProb": 0.0,
+            "rawScoreSelfplay": -52.3930016,
+            "rawScoreSelfplayStdev": 3.03865063,
+            "rawStScoreError": -1.0,
+            "rawStWrError": -0.5,
+            "rawVarTimeLeft": -1.0,
+            "rawWinrate": 0.000574886799,
+            "scoreLead": -50.9862709,
+            "scoreSelfplay": -52.3930016,
+            "scoreStdev": 3.03865063,
+            "symHash": "2180E28BD316ED9A43DD65E3E4D4D2A6",
+            "thisHash": "ACAE8DEE01D2A3BC8B14456C270CA8EE",
+            "utility": -1.1772594,
+            "visits": 1,
+            "weight": 1.0,
+            "winrate": 0.000574888894
+          },
+          "status": "complete",
+          "ms": 3.715099999681115
+        },
+        {
+          "id": "development-20-base-child-0",
+          "player": "B",
+          "move_count": 348,
+          "rootInfo": {
+            "currentPlayer": "B",
+            "rawLead": -52.4709549,
+            "rawNoResultProb": 0.0,
+            "rawScoreSelfplay": -53.2920036,
+            "rawScoreSelfplayStdev": 3.25655818,
+            "rawStScoreError": -1.0,
+            "rawStWrError": -0.5,
+            "rawVarTimeLeft": -1.0,
+            "rawWinrate": 0.000393986702,
+            "scoreLead": -52.4709549,
+            "scoreSelfplay": -53.2920036,
+            "scoreStdev": 3.25655818,
+            "symHash": "3981526173412FEFC0A1D04589ABAB92",
+            "thisHash": "63AEA00697A2C4C17087596C08DC5710",
+            "utility": -1.17931087,
+            "visits": 1,
+            "weight": 1.0,
+            "winrate": 0.000393997354
+          },
+          "status": "complete",
+          "ms": 4.041300038807094
+        },
+        {
+          "id": "development-20-base-child-1",
+          "player": "B",
+          "move_count": 348,
+          "rootInfo": {
+            "currentPlayer": "B",
+            "rawLead": -39.0099335,
+            "rawNoResultProb": 0.0,
+            "rawScoreSelfplay": -39.9734497,
+            "rawScoreSelfplayStdev": 3.86412008,
+            "rawStScoreError": -1.0,
+            "rawStWrError": -0.5,
+            "rawVarTimeLeft": -1.0,
+            "rawWinrate": 0.000295042992,
+            "scoreLead": -39.0099335,
+            "scoreSelfplay": -39.9734497,
+            "scoreStdev": 3.86412008,
+            "symHash": "15DE998EC94F39E1D03C490FF143225B",
+            "thisHash": "B01B1CBE87D2531D24E6D5AF11E53F0B",
+            "utility": -1.14428841,
+            "visits": 1,
+            "weight": 1.0,
+            "winrate": 0.000295038903
+          },
+          "status": "complete",
+          "ms": 3.652899991720915
+        },
+        {
+          "id": "development-20-base-child-2",
+          "player": "B",
+          "move_count": 348,
+          "rootInfo": {
+            "currentPlayer": "B",
+            "rawLead": -38.4691353,
+            "rawNoResultProb": 0.0,
+            "rawScoreSelfplay": -39.3071175,
+            "rawScoreSelfplayStdev": 2.95976506,
+            "rawStScoreError": -1.0,
+            "rawStWrError": -0.5,
+            "rawVarTimeLeft": -1.0,
+            "rawWinrate": 2.9861927e-05,
+            "scoreLead": -38.4691353,
+            "scoreSelfplay": -39.3071175,
+            "scoreStdev": 2.95976506,
+            "symHash": "253FF39A2C77C3F4FBB1C96FA3B7C615",
+            "thisHash": "F54566F313ABC4617701F9F63F196BEB",
+            "utility": -1.14464597,
+            "visits": 1,
+            "weight": 1.0,
+            "winrate": 2.98476352e-05
+          },
+          "status": "complete",
+          "ms": 3.867999999783933
+        },
+        {
+          "id": "development-20-base-child-3",
+          "player": "B",
+          "move_count": 348,
+          "rootInfo": {
+            "currentPlayer": "B",
+            "rawLead": -38.1204109,
+            "rawNoResultProb": 0.0,
+            "rawScoreSelfplay": -39.1075935,
+            "rawScoreSelfplayStdev": 3.10963957,
+            "rawStScoreError": -1.0,
+            "rawStWrError": -0.5,
+            "rawVarTimeLeft": -1.0,
+            "rawWinrate": 4.24981117e-05,
+            "scoreLead": -38.1204109,
+            "scoreSelfplay": -39.1075935,
+            "scoreStdev": 3.10963957,
+            "symHash": "192C5AD63307F7FF2BCB6547B2A51162",
+            "thisHash": "809341A0BD3B99FD1F7634BDC93E1335",
+            "utility": -1.143781,
+            "visits": 1,
+            "weight": 1.0,
+            "winrate": 4.24919217e-05
+          },
+          "status": "complete",
+          "ms": 4.240000038407743
+        }
+      ],
+      "root_ms": 4.127299995161593,
+      "nomination_ms": 27.738400036469102,
+      "evaluation_ms": 17.132799956016243,
+      "policy_rank": 3,
+      "pass_agreement": false,
+      "time_ms": 199.99869994353503,
+      "root_info": {
+        "currentPlayer": "W",
+        "rawLead": -50.9862709,
+        "rawNoResultProb": 0.0,
+        "rawScoreSelfplay": -52.3930016,
+        "rawScoreSelfplayStdev": 3.03865063,
+        "rawStScoreError": -1.0,
+        "rawStWrError": -0.5,
+        "rawVarTimeLeft": -1.0,
+        "rawWinrate": 0.000574886799,
+        "scoreLead": -50.9862709,
+        "scoreSelfplay": -52.3930016,
+        "scoreStdev": 3.03865063,
+        "symHash": "2180E28BD316ED9A43DD65E3E4D4D2A6",
+        "thisHash": "ACAE8DEE01D2A3BC8B14456C270CA8EE",
+        "utility": -1.1772594,
+        "visits": 1,
+        "weight": 1.0,
+        "winrate": 0.000574888894
+      },
+      "proposals": {
+        "heuristic": [
+          "L18",
+          "T16"
+        ],
+        "tactical": [
+          "L18"
+        ],
+        "metadata": {
+          "variant": "combined",
+          "heuristic": [
+            {
+              "move": "L18",
+              "preference": 13.01,
+              "features": [
+                "capture:1.00000000",
+                "save_atari:0.50000000",
+                "cut_pressure:0.33333333"
+              ]
+            },
+            {
+              "move": "T16",
+              "preference": 0.51,
+              "features": [
+                "connect:0.33333333"
+              ]
+            }
+          ],
+          "tactical": [
+            "L18"
+          ],
+          "search_report": "move=L18 score=43.152 depth=1 nodes=140 tactical_nodes=26 elapsed_ms=25 limited=true root_searched=68/68 mode=hybrid\npv=L18\ntelemetry leaf_calls=113 leaf_us=6276 ranking_us=16936 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: 7.500 * 1.000 = +7.500\n  stone_balance: 27.000 * 1.000 = +27.000\n  atari_risk: 1.000 * -1.500 = -1.500\n  liberty_balance: 15.000 * 0.100 = +1.500\n  influence_balance: 22.333 * 0.300 = +6.700\nAlternating move preferences along PV: +1.952\nMove preferences (not the search score):\nL18: 13.010 (base=0.010)\n  capture: 1.000 * 8.000 = +8.000\n  save_atari: 0.500 * 10.000 = +5.000\n  cut_pressure: 0.333 * 0.000 = +0.000\nHybrid nominees: heuristic preference, one-ply scout, completed verification.\n  L18 heuristic=13.010 scout=43.152 verified=unsearched depth=0 selected=true neural_hint=false\n  T16 heuristic=0.510 scout=37.926 verified=unsearched depth=0 selected=false neural_hint=false\n  T14 heuristic=0.510 scout=37.926 verified=unsearched depth=0 selected=false neural_hint=false\n  C1 heuristic=0.510 scout=40.827 verified=unsearched depth=0 selected=false neural_hint=false\n  A4 heuristic=0.010 scout=39.701 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=37.350 verified=unsearched depth=0 selected=false neural_hint=false\n  A3 heuristic=-11.490 scout=37.676 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+        }
+      },
+      "score_tiebreak_used": true,
+      "ms": 52.301199990324676,
+      "overshoot_ms": 0.0
+    },
+    "visits": 16,
+    "margin": 0.005,
+    "verification_complete": true,
+    "verification_attempted": true,
+    "verification_fallback": false,
+    "values": {
+      "L18": {
+        "winrate": 0.999721827307,
+        "score": 54.1346462,
+        "exact": false
+      },
+      "pass": {
+        "winrate": 0.999827450332,
+        "score": 40.8413153,
+        "exact": false
+      }
+    },
+    "queries": [
+      {
+        "id": "development-20-verify-0",
+        "rootInfo": {
+          "currentPlayer": "B",
+          "rawLead": -52.4709549,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": -53.2920036,
+          "rawScoreSelfplayStdev": 3.25655818,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.000393986702,
+          "scoreLead": -54.1346462,
+          "scoreSelfplay": -55.220385,
+          "scoreStdev": 2.96247163,
+          "symHash": "3981526173412FEFC0A1D04589ABAB92",
+          "thisHash": "63AEA00697A2C4C17087596C08DC5710",
+          "utility": -1.19424736,
+          "visits": 16,
+          "weight": 16.0,
+          "winrate": 0.000278172693
+        }
+      },
+      {
+        "id": "development-20-verify-1",
+        "rootInfo": {
+          "currentPlayer": "B",
+          "rawLead": -38.4691353,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": -39.3071175,
+          "rawScoreSelfplayStdev": 2.95976506,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 2.9861927e-05,
+          "scoreLead": -40.8413153,
+          "scoreSelfplay": -41.2572521,
+          "scoreStdev": 2.51687582,
+          "symHash": "253FF39A2C77C3F4FBB1C96FA3B7C615",
+          "thisHash": "F54566F313ABC4617701F9F63F196BEB",
+          "utility": -1.16086449,
+          "visits": 16,
+          "weight": 16.0,
+          "winrate": 0.000172549668
+        }
+      }
+    ],
+    "pass_agreement": false,
+    "move": "L18",
+    "status": "verified",
+    "ms": 88.45170005224645,
+    "overshoot_ms": 0
+  },
+  "legal": true
+}

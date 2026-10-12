@@ -1,0 +1,110 @@
+[
+  {
+    "opening": "opening-000",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+1.5",
+    "variant_won": true,
+    "moves": 427
+  },
+  {
+    "opening": "opening-000",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+72.5",
+    "variant_won": true,
+    "moves": 483
+  },
+  {
+    "opening": "opening-000",
+    "mode": "HN",
+    "variant_color": "B",
+    "finished": true,
+    "result": "W+36.5",
+    "variant_won": false,
+    "moves": 362
+  },
+  {
+    "opening": "opening-000",
+    "mode": "HN",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+10.5",
+    "variant_won": true,
+    "moves": 447
+  },
+  {
+    "opening": "opening-000",
+    "mode": "NN",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+38.5",
+    "variant_won": true,
+    "moves": 386
+  },
+  {
+    "opening": "opening-000",
+    "mode": "NN",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+20.5",
+    "variant_won": true,
+    "moves": 411
+  },
+  {
+    "opening": "opening-001",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+23.5",
+    "variant_won": true,
+    "moves": 442
+  },
+  {
+    "opening": "opening-001",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+79.5",
+    "variant_won": true,
+    "moves": 482
+  },
+  {
+    "opening": "opening-001",
+    "mode": "HN",
+    "variant_color": "B",
+    "finished": true,
+    "result": "W+20.5",
+    "variant_won": false,
+    "moves": 204
+  },
+  {
+    "opening": "opening-001",
+    "mode": "HN",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+72.5",
+    "variant_won": true,
+    "moves": 445
+  },
+  {
+    "opening": "opening-001",
+    "mode": "NN",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+20.5",
+    "variant_won": true,
+    "moves": 420
+  },
+  {
+    "opening": "opening-001",
+    "mode": "NN",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+25.5",
+    "variant_won": true,
+    "moves": 399
+  }
+]

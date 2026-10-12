@@ -1,0 +1,139 @@
+{
+  "status": "complete",
+  "hashes": {
+    "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+    "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz": "21d3d5eadad1f811071d4f7e4e90b8336e827fcd092ea62a8f35c569b9bd157c",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\target\\release\\goproverbs.exe": "bb5de62e452b064eb2e5085ec296c17e52ce6bb174976a07daa1bb1e83c14e81",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\deadline-runtime-v3-20260922\\analysis.cfg": "872eac1af1ec50852cd0b2a2bb50ff4c97938481d753fa5415f30d424eeb601a",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\check_deadline_runtime.py": "c4ae019f87fb15ab064b7a8553c7bc12aee20db262787a2df39a53f667059b86",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\neural.py": "0f283d03ef73a53f37acd616647f5f52628b98379d359b183eb0d68fecdf79a1",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\guidance.py": "0b390c966a1711740ae016ef33549addab361e43d482f0f39685d8256d167752"
+  },
+  "before": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3346 MiB, 8598 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 3959554048
+    }
+  },
+  "version": {
+    "action": "query_version",
+    "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+    "id": "version",
+    "version": "1.18.1"
+  },
+  "loaded": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3530 MiB, 8414 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 3765211136
+    }
+  },
+  "forced_timeout_ms": 9.820999985095114,
+  "full_history_ko": {
+    "rust_rejected": true,
+    "katago_policy_B2": -1.0,
+    "moves": [
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "B",
+        "B3"
+      ]
+    ]
+  },
+  "NN_bridge": {
+    "move": "Q16",
+    "trace": {
+      "mode": "NN",
+      "hints": [
+        "Q4",
+        "D16",
+        "Q16"
+      ],
+      "remaining_search_ms": 198,
+      "root_timeout": false,
+      "ms": 200.09090000530705,
+      "report": "move=Q16 score=9.214 depth=1 nodes=432 tactical_nodes=0 elapsed_ms=198 limited=true root_searched=7/353 mode=hybrid\npv=Q16\ntelemetry leaf_calls=427 leaf_us=194697 ranking_us=2419 external_leaf=true\nLearned leaf evaluation plus existing path preferences; neural values are not explained by proverb contributions.\nMove preferences (not the search score):\nQ16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed verification.\n  A4 heuristic=3.010 scout=10.276 verified=2.574 depth=1 selected=false neural_hint=false\n  C17 heuristic=2.010 scout=13.277 verified=8.515 depth=1 selected=false neural_hint=false\n  D17 heuristic=2.010 scout=13.527 verified=8.887 depth=1 selected=false neural_hint=false\n  D16 heuristic=2.010 scout=13.776 verified=8.679 depth=1 selected=false neural_hint=true\n  Q16 heuristic=2.010 scout=13.776 verified=9.214 depth=1 selected=true neural_hint=true\n  Q4 heuristic=2.010 scout=13.776 verified=8.924 depth=1 selected=false neural_hint=true\n  pass heuristic=0.000 scout=7.425 verified=-3.154 depth=1 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move.\nclock_budget_ms=198"
+    }
+  },
+  "broker": {
+    "errors": [],
+    "metrics": {
+      "leaf_requests": 73,
+      "expired_before_query": 0,
+      "timeouts": 0,
+      "completed": 74,
+      "queue_ms": 0.11110026389360428,
+      "query_ms": 159.2463001725264,
+      "max_query_ms": 3.913499996997416,
+      "duplicate_histories": 0
+    }
+  },
+  "kata_metrics": {
+    "sent": 80,
+    "cancelled": 1,
+    "late_replies": 2,
+    "lock_timeouts": 0
+  },
+  "after": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3343 MiB, 8601 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 4118003712
+    }
+  }
+}

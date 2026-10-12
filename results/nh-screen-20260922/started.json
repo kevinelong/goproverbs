@@ -1,0 +1,29 @@
+{
+  "utc": "2026-09-22T07:12:28.187300+00:00",
+  "command": [
+    "C:\\Program Files\\Python311\\python.exe",
+    "-u",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\benchmarks\\roadmap.py",
+    "arena",
+    "--katago",
+    "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe",
+    "--model",
+    "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz",
+    "--output",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\run",
+    "--exe",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\goproverbs.exe",
+    "--profile",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\profiles\\baseline.weights",
+    "--corpus",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\positions.json",
+    "--openings",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\openings.json",
+    "--modes",
+    "NH",
+    "--time-ms",
+    "200",
+    "--pairs",
+    "20"
+  ]
+}

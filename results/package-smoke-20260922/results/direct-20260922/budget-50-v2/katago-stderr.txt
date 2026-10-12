@@ -1,0 +1,45 @@
+2026-09-22 13:46:51-0700: Running with following config:
+conservativePass = false
+ignorePreRootHistory = false
+logToStderr = true
+maxTime = 0.05
+maxVisits = 10000000
+nnCacheSizePowerOfTwo = 18
+nnMaxBatchSize = 1
+nnMutexPoolSizePowerOfTwo = 14
+nnRandomize = false
+numAnalysisThreads = 1
+numSearchThreads = 1
+preventCleanupPhase = false
+reportAnalysisWinratesAs = BLACK
+rootNumSymmetriesToSample = 1
+useEvalCache = false
+wideRootNoise = 0
+
+2026-09-22 13:46:51-0700: Analysis Engine starting...
+2026-09-22 13:46:51-0700: KataGo v1.18.1
+2026-09-22 13:46:51-0700: nnRandSeed0 = 12966495898478297996
+2026-09-22 13:46:51-0700: After dedups: nnModelFile0 = C:\Users\kevin\ai_bench\katago\kata1-b10c128-s919229184-d169515535.txt.gz useFP16 auto
+2026-09-22 13:46:51-0700: Initializing neural net buffer to be size 19 * 19 allowing smaller boards
+2026-09-22 13:46:52-0700: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.3.71)
+2026-09-22 13:46:52-0700: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-09-22 13:46:52-0700: Found OpenCL Platform 1: Intel(R) OpenCL Graphics (Intel(R) Corporation) (OpenCL 3.0 )
+2026-09-22 13:46:52-0700: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2026-09-22 13:46:52-0700: Found OpenCL Device 0: NVIDIA GeForce RTX 5070 (NVIDIA Corporation) (score 11000300)
+2026-09-22 13:46:52-0700: Found OpenCL Device 1: Intel(R) Graphics (Intel(R) Corporation) (score 6000300)
+2026-09-22 13:46:52-0700: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.3.71)
+2026-09-22 13:46:52-0700: Using OpenCL Device 0: NVIDIA GeForce RTX 5070 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2026-09-22 13:46:52-0700: Loaded tuning parameters from: C:\Users\kevin\ai_bench\katago\opencl-1.18.1/KataGoData/opencltuning/tune13_gpuNVIDIAGeForceRTX5070_x19_y19_c128_mv8.txt
+2026-09-22 13:46:52-0700: OpenCL backend thread 0: Model version 8
+2026-09-22 13:46:52-0700: OpenCL backend thread 0: Model name: b10c128-s919229184-d169515535 (convnet, 2994503 params)
+2026-09-22 13:46:52-0700: OpenCL backend thread 0: FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 true
+2026-09-22 13:46:52-0700: Loaded config C:\Users\kevin\local-llm-lab\goproverbs\results\direct-20260922\budget-50-v2\analysis.cfg
+2026-09-22 13:46:52-0700: Loaded model C:\Users\kevin\ai_bench\katago\kata1-b10c128-s919229184-d169515535.txt.gz
+2026-09-22 13:46:52-0700: Analyzing up to 1 positions at a time in parallel
+2026-09-22 13:46:52-0700: Started, ready to begin handling requests
+2026-09-22 13:46:55-0700: C:\Users\kevin\ai_bench\katago\kata1-b10c128-s919229184-d169515535.txt.gz
+2026-09-22 13:46:55-0700: NN rows: 82
+2026-09-22 13:46:55-0700: NN batches: 82
+2026-09-22 13:46:55-0700: NN avg batch size: 1
+2026-09-22 13:46:55-0700: GPU -1 finishing, processed 82 rows 82 batches
+2026-09-22 13:46:55-0700: All cleaned up, quitting

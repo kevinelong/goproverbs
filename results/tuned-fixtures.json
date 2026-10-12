@@ -1,0 +1,147 @@
+{
+  "fixtures": [
+    {
+      "id": "rescue-single",
+      "split": "train",
+      "baseline_move": "B3",
+      "baseline_pass": true,
+      "search_move": "F3",
+      "search_pass": false,
+      "depth": 3,
+      "elapsed_ms": 31.0,
+      "report": "move=F3 score=-1.673 depth=3 nodes=1330 elapsed_ms=28 limited=false root_searched=15/77\npv=F3 F6 D7\nMove preferences (not the search score):\nF3: 3.010 (base=0.010)\n  empty_corner: 1.000 * 3.000 = +3.000"
+    },
+    {
+      "id": "capture-pair",
+      "split": "train",
+      "baseline_move": "C3",
+      "baseline_pass": true,
+      "search_move": "C3",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 16.0,
+      "report": "move=C3 score=10.552 depth=3 nodes=1453 elapsed_ms=7 limited=false root_searched=13/19\npv=C3 C4 C5\nMove preferences (not the search score):\nC3: 4.010 (base=0.010)\n  capture: 0.500 * 8.000 = +4.000"
+    },
+    {
+      "id": "avoid-self-atari",
+      "split": "train",
+      "baseline_move": "C7",
+      "baseline_pass": true,
+      "search_move": "F3",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 16.0,
+      "report": "move=F3 score=2.226 depth=3 nodes=1043 elapsed_ms=15 limited=false root_searched=13/81\npv=F3 D7 F7\nMove preferences (not the search score):\nF3: 3.010 (base=0.010)\n  empty_corner: 1.000 * 3.000 = +3.000"
+    },
+    {
+      "id": "preserve-corner-eye",
+      "split": "train",
+      "baseline_move": "C7",
+      "baseline_pass": true,
+      "search_move": "C7",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 15.0,
+      "report": "move=C7 score=10.552 depth=3 nodes=1103 elapsed_ms=16 limited=false root_searched=13/79\npv=C7 F4 G6\nMove preferences (not the search score):\nC7: 3.010 (base=0.010)\n  empty_corner: 1.000 * 3.000 = +3.000"
+    },
+    {
+      "id": "opening-corners",
+      "split": "train",
+      "baseline_move": "C17",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 94.0,
+      "report": "move=D16 score=6.002 depth=3 nodes=1338 elapsed_ms=85 limited=false root_searched=13/362\npv=D16 Q16 D4\nMove preferences (not the search score):\nD16: 3.010 (base=0.010)\n  empty_corner: 1.000 * 3.000 = +3.000"
+    },
+    {
+      "id": "capture-before-suicide",
+      "split": "train",
+      "baseline_move": "B1",
+      "baseline_pass": true,
+      "search_move": "B1",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 0.0,
+      "report": "move=B1 score=10.470 depth=3 nodes=54 elapsed_ms=0 limited=false root_searched=4/4\npv=B1 pass pass\nMove preferences (not the search score):\nB1: 13.135 (base=0.010)\n  capture: 0.750 * 8.000 = +6.000\n  save_atari: 0.500 * 14.250 = +7.125\n  cut_pressure: 0.667 * 0.000 = +0.000"
+    },
+    {
+      "id": "rescue-edge-pair",
+      "split": "test",
+      "baseline_move": "B1",
+      "baseline_pass": false,
+      "search_move": "B1",
+      "search_pass": false,
+      "depth": 3,
+      "elapsed_ms": 16.0,
+      "report": "move=B1 score=1.145 depth=3 nodes=874 elapsed_ms=19 limited=false root_searched=13/77\npv=B1 F6 F4\nMove preferences (not the search score):\nB1: 9.135 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  save_atari: 0.500 * 14.250 = +7.125\n  cut_pressure: 0.333 * 0.000 = +0.000"
+    },
+    {
+      "id": "capture-corner-pair",
+      "split": "test",
+      "baseline_move": "C1",
+      "baseline_pass": true,
+      "search_move": "D4",
+      "search_pass": false,
+      "depth": 3,
+      "elapsed_ms": 0.0,
+      "report": "move=D4 score=6.251 depth=3 nodes=1490 elapsed_ms=6 limited=false root_searched=13/22\npv=D4 B4 C1\nMove preferences (not the search score):\nD4: 0.010 (base=0.010)"
+    },
+    {
+      "id": "preserve-center-eye",
+      "split": "test",
+      "baseline_move": "C7",
+      "baseline_pass": true,
+      "search_move": "G6",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 31.0,
+      "report": "move=G6 score=17.902 depth=3 nodes=1094 elapsed_ms=25 limited=false root_searched=13/74\npv=G6 C7 C9\nMove preferences (not the search score):\nG6: 3.010 (base=0.010)\n  empty_corner: 1.000 * 3.000 = +3.000"
+    },
+    {
+      "id": "snapback-trap",
+      "split": "test",
+      "baseline_move": "C1",
+      "baseline_pass": false,
+      "search_move": "A4",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 0.0,
+      "report": "move=A4 score=17.911 depth=3 nodes=286 elapsed_ms=2 limited=false root_searched=9/9\npv=A4 E2 C1\nMove preferences (not the search score):\nA4: 2.510 (base=0.010)\n  connect: 0.333 * 1.500 = +0.500\n  atari: 1.000 * 2.000 = +2.000"
+    },
+    {
+      "id": "respect-ko",
+      "split": "test",
+      "baseline_move": "A4",
+      "baseline_pass": true,
+      "search_move": "A4",
+      "search_pass": true,
+      "depth": 3,
+      "elapsed_ms": 15.0,
+      "report": "move=A4 score=1.895 depth=3 nodes=777 elapsed_ms=8 limited=false root_searched=13/17\npv=A4 D3 B2\nMove preferences (not the search score):\nA4: 4.072 (base=0.010)\n  save_atari: 0.250 * 14.250 = +3.562\n  connect: 0.333 * 1.500 = +0.500"
+    }
+  ],
+  "summary": {
+    "train": {
+      "total": 6,
+      "baseline_pass": 6,
+      "search_pass": 5
+    },
+    "test": {
+      "total": 5,
+      "baseline_pass": 3,
+      "search_pass": 3
+    }
+  },
+  "executable_sha256": "b0d95b675b8185634b074d912b16f5cf16ed3c8d6290a6d76527f9cf616c3b2b",
+  "profile_sha256": "c9f26a2b6767cf44140ce2cd54d599873a45203b8885b21aed19a310ec88a809",
+  "limits": {
+    "nodes": 5000,
+    "depth": 3,
+    "beam": 12,
+    "ms": 1000
+  },
+  "seed": 20260920,
+  "mode": "evaluate"
+}

@@ -1,0 +1,13 @@
+{
+  "previous_input_hashes": {
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\cpu-openings.json": "d03e83e549148523981a15f509342ee257ea5610718c819517feb6c8d9fb02aa",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\expansion-openings.json": "45ca0e8ac35f7057215ce98ceb431bbb986614c82deec98da953d365be2f9b84",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\smoke-openings.json": "0c3031a62353674bb3a3f2c3a51925f5ddc000b33d8951477fb7af63698a31a6",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\neural-led-20260923\\screen-v1\\openings.json": "a6318cb12992a734904e6a46c53f1af83ad9db793ef396329171a49c5db58f54",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\nh-screen-20260922\\snapshot\\openings.json": "d705add07d3ab8cb47d5a7f028e80abda5a841b39da739523f91fad832cb4ca9",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\package-smoke-20260921\\results\\roadmap-20260921\\corpus\\openings.json": "19baa0fcdb68977a676861a4bf1c09b719f7174c386075f40ad6253bc788523b",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\package-smoke-20260922\\results\\nh-screen-20260922\\snapshot\\openings.json": "d705add07d3ab8cb47d5a7f028e80abda5a841b39da739523f91fad832cb4ca9",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\corpus\\openings.json": "19baa0fcdb68977a676861a4bf1c09b719f7174c386075f40ad6253bc788523b"
+  },
+  "canonical_histories_excluded": 86
+}

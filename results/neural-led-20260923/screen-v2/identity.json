@@ -1,0 +1,33 @@
+{
+  "assets": {
+    "katago": "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe",
+    "model": "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz",
+    "exe": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v2\\goproverbs.exe",
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v2\\profiles\\baseline.weights"
+  },
+  "hashes": {
+    "results\\neural-led-20260923\\screen-v2\\source\\compare_bonsai_packing_20260922.py": "dd6b8ee00d82a1c8ce437725f87387c0f86fcd4c818bcbba6d97534ec25fe57f",
+    "results\\neural-led-20260923\\screen-v2\\source\\direct_arena.py": "8a76275bc7faa8503c7d57e2f0271a65844ff2c9b235b0fc1f9354fbfc31ea41",
+    "results\\neural-led-20260923\\screen-v2\\source\\guidance.py": "0b390c966a1711740ae016ef33549addab361e43d482f0f39685d8256d167752",
+    "results\\neural-led-20260923\\screen-v2\\source\\lab.py": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+    "results\\neural-led-20260923\\screen-v2\\source\\neural.py": "19f5771766a4858f52af5708e24696d27bd47ac83db494a08d5cceec92f30dbb",
+    "results\\neural-led-20260923\\screen-v2\\source\\neural_led.py": "1808ffd19dc94616953b8f2e1bfe229c56134921eea052ca125654d99197e1ab",
+    "results\\neural-led-20260923\\screen-v2\\source\\neural_led_probe.py": "ecea1cdf18afe3a86c07ab8d5ebb6cade1ed9b6a876abbcde606479a9c28068e",
+    "results\\neural-led-20260923\\screen-v2\\source\\neural_led_screen.py": "38ec661fe4e82bc49b5f68011e442411a3dba3d9219214eb24cdaaef805fa219",
+    "results\\neural-led-20260923\\screen-v2\\source\\sgf_io.py": "eabd458c4fb6a18c87c0d05dab3036b0a90963fbffac6938c0cb8aa71566a907",
+    "results\\neural-led-20260923\\screen-v2\\source\\test_neural_led.py": "4c67e9526f1032512cda32b350af725b9e9a03cf2943f0fbef9a077d48aeaad6",
+    "results\\neural-led-20260923\\screen-v2\\source\\test_neural_led_probe.py": "8f589768956d659065c7139501ade93765d76d0f55f7dff01354ad9b3bb7710a",
+    "results\\neural-led-20260923\\screen-v2\\source\\test_neural_led_screen.py": "518d2ecd730baff74bbeb43c312c005913a875d67ce19e64a7de3dde3d3c79d7",
+    "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+    "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz": "21d3d5eadad1f811071d4f7e4e90b8336e827fcd092ea62a8f35c569b9bd157c",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v2\\goproverbs.exe": "20dc2a23ac9b3a372ff9998dcbb9526762cc111429810b2d8163b6f8af6efe7e",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v2\\profiles\\baseline.weights": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "results\\neural-led-20260923\\screen-v2\\analysis.cfg": "872eac1af1ec50852cd0b2a2bb50ff4c97938481d753fa5415f30d424eeb601a",
+    "results\\neural-led-20260923\\screen-v2\\exclusions.json": "d57d9317a8472d9d19b8e71b1f7ae640c03f4ef04bb75a3f54d04e589ae04d18",
+    "results\\neural-led-20260923\\screen-v2\\openings.json": "fcd8d23edaa356ae1bedbf2b0b1e3451a6d9f277705cbf6b7e8ac000a83e49f3",
+    "results\\neural-led-20260923\\screen-v2\\PROTOCOL.md": "2391800614c53694365f8c84c3c2baeb46063cc5481b66039f7d6a52c71e9e53",
+    "results\\neural-led-20260923\\screen-v2\\schedule.json": "85efb82b3f9a7f4fb4a92ac4ffe346ea1fce855fdd62817a3b392859ac4243cd",
+    "results\\neural-led-20260923\\screen-v2\\settings.json": "b302ac41ac12b79a116b16a9f15dfea5eb8a8d89693666a4dca00c1e1b2971cb",
+    "results\\neural-led-20260923\\screen-v2\\white-positions.json": "65739e8386813161ce59848d59900139434e6b83ba9fc25a183fbf9c43fd125b"
+  }
+}

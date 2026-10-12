@@ -1,0 +1,261 @@
+{
+  "status": "complete",
+  "pid": 3199836,
+  "started": 1790200857.1390593,
+  "preflight": {
+    "gpu": {
+      "command": [
+        "nvidia-smi",
+        "--query-gpu=name,memory.used,memory.free,driver_version",
+        "--format=csv"
+      ],
+      "exit_code": 0,
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 1915 MiB, 10029 MiB, 610.60\n",
+      "stderr": ""
+    },
+    "compute_processes": {
+      "command": [
+        "nvidia-smi",
+        "--query-compute-apps=pid,process_name,used_memory",
+        "--format=csv"
+      ],
+      "exit_code": 0,
+      "stdout": "pid, process_name, used_gpu_memory [MiB]\n2300, [Insufficient Permissions], [N/A]\n20080, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe, [N/A]\n18888, C:\\Windows\\explorer.exe, [N/A]\n23684, [Insufficient Permissions], [N/A]\n24696, [Insufficient Permissions], [N/A]\n14280, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\WinUI3Apps\\PowerToys.QuickAccess.exe, [N/A]\n33620, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe, [N/A]\n33972, C:\\Program Files\\WindowsApps\\Microsoft.CommandPalette_0.11.11733.0_x64__8wekyb3d8bbwe\\Microsoft.CmdPal.UI.exe, [N/A]\n28908, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.exe, [N/A]\n21940, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\WinUI3Apps\\PowerToys.Peek.UI.exe, [N/A]\n19828, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.ColorPickerUI.exe, [N/A]\n3780, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe, [N/A]\n20856, C:\\Program Files\\Dell\\DellOptimizer\\Console\\DellOptimizer.Systray.exe, [N/A]\n51936, [Insufficient Permissions], [N/A]\n169504, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\\YourPhoneAppProxyHost.exe, [N/A]\n877640, [Insufficient Permissions], [N/A]\n40648, C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.11911.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe, [N/A]\n35312, [Insufficient Permissions], [N/A]\n22784, C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe, [N/A]\n45768, [Insufficient Permissions], [N/A]\n1957040, C:\\Program Files\\WindowsApps\\Claude_2.7032.0.0_x64__pzs8sxrjxfjjc\\app\\claude.exe, [N/A]\n1246900, C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2636.100.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe, [N/A]\n7756, [Insufficient Permissions], [N/A]\n3168264, [Insufficient Permissions], [N/A]\n2062112, C:\\Users\\kevin\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\f53823cd54b14f45\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe, [N/A]\n2070380, C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.917.6896.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe, [N/A]\n45732, C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe, [N/A]\n48456, C:\\Users\\kevin\\AppData\\Local\\Google\\Google\\latest\\google.exe, [N/A]\n2736860, C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe, [N/A]\n34144, C:\\Program Files\\WindowsApps\\RivetNetworks.KillerControlCenter_40.26.403.0_x64__rh07ty8m5nkag\\KillerControlCenter_v2\\Killer.exe, [N/A]\n22792, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe, [N/A]\n12612, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.FancyZones.exe, [N/A]\n3649140, C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA Overlay.exe, [N/A]\n3649372, C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA Overlay.exe, [N/A]\n3646332, [Insufficient Permissions], [N/A]\n3638212, C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2609.52011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe, [N/A]\n2773752, [Insufficient Permissions], [N/A]\n57424, [Insufficient Permissions], [N/A]\n3643928, C:\\Windows\\System32\\ShellHost.exe, [N/A]\n",
+      "stderr": ""
+    },
+    "ollama": {
+      "command": [
+        "ollama",
+        "ps"
+      ],
+      "exit_code": 0,
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": ""
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 7252938752
+    }
+  },
+  "white_expected": 45,
+  "games_expected": 80,
+  "combined_only": false,
+  "pass_agreement": true,
+  "white_completed": 45,
+  "games_recorded": 80,
+  "version": {
+    "action": "query_version",
+    "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+    "id": "version",
+    "version": "1.18.1"
+  },
+  "active": "led-fresh-029-combined-vs-neural-B",
+  "white_gate": "passed",
+  "endgames": [
+    {
+      "opening": "led-fresh-032",
+      "matchup": "combined-vs-neural",
+      "a": "combined",
+      "b": "neural",
+      "a_color": "W",
+      "finished": true,
+      "result": "W+40.5",
+      "a_won": true,
+      "stage": 2,
+      "raw_area_margin": -40.5,
+      "moves": 431,
+      "roles": {
+        "combined": {
+          "decisions": 1,
+          "median_ms": 55.126899969764054,
+          "max_ms": 55.126899969764054,
+          "complete_rounds": 1,
+          "pass_agreements": 0,
+          "fallbacks": 0,
+          "over_200": 0,
+          "over_205": 0,
+          "policy_overrides": 0,
+          "specialist_only_selected": 0
+        },
+        "neural": {
+          "decisions": 2,
+          "median_ms": 20.973349979612976,
+          "max_ms": 27.850699960254133,
+          "complete_rounds": 1,
+          "pass_agreements": 1,
+          "fallbacks": 0,
+          "over_200": 0,
+          "over_205": 0,
+          "policy_overrides": 1,
+          "specialist_only_selected": 0
+        }
+      }
+    },
+    {
+      "opening": "led-fresh-032",
+      "matchup": "combined-vs-neural",
+      "a": "combined",
+      "b": "neural",
+      "a_color": "B",
+      "finished": true,
+      "result": "W+83.5",
+      "a_won": false,
+      "stage": 2,
+      "raw_area_margin": -83.5,
+      "moves": 460,
+      "roles": {
+        "combined": {
+          "decisions": 20,
+          "median_ms": 61.62515003234148,
+          "max_ms": 75.7932000560686,
+          "complete_rounds": 20,
+          "pass_agreements": 0,
+          "fallbacks": 0,
+          "over_200": 0,
+          "over_205": 0,
+          "policy_overrides": 18,
+          "specialist_only_selected": 6
+        },
+        "neural": {
+          "decisions": 20,
+          "median_ms": 27.52990002045408,
+          "max_ms": 30.072900000959635,
+          "complete_rounds": 20,
+          "pass_agreements": 0,
+          "fallbacks": 0,
+          "over_200": 0,
+          "over_205": 0,
+          "policy_overrides": 20,
+          "specialist_only_selected": 0
+        }
+      }
+    },
+    {
+      "opening": "led-fresh-023",
+      "matchup": "combined-vs-neural",
+      "a": "combined",
+      "b": "neural",
+      "a_color": "B",
+      "finished": true,
+      "result": "W+74.5",
+      "a_won": false,
+      "stage": 2,
+      "raw_area_margin": -74.5,
+      "moves": 378,
+      "roles": {
+        "combined": {
+          "decisions": 20,
+          "median_ms": 56.72040005447343,
+          "max_ms": 61.58169999253005,
+          "complete_rounds": 20,
+          "pass_agreements": 0,
+          "fallbacks": 0,
+          "over_200": 0,
+          "over_205": 0,
+          "policy_overrides": 9,
+          "specialist_only_selected": 1
+        },
+        "neural": {
+          "decisions": 20,
+          "median_ms": 19.825599971227348,
+          "max_ms": 21.87870000489056,
+          "complete_rounds": 20,
+          "pass_agreements": 0,
+          "fallbacks": 0,
+          "over_200": 0,
+          "over_205": 0,
+          "policy_overrides": 12,
+          "specialist_only_selected": 0
+        }
+      }
+    },
+    {
+      "opening": "led-fresh-023",
+      "matchup": "combined-vs-neural",
+      "a": "combined",
+      "b": "neural",
+      "a_color": "W",
+      "finished": true,
+      "result": "W+73.5",
+      "a_won": true,
+      "stage": 2,
+      "raw_area_margin": -73.5,
+      "moves": 314,
+      "roles": {
+        "combined": {
+          "decisions": 20,
+          "median_ms": 53.239949978888035,
+          "max_ms": 60.60070008970797,
+          "complete_rounds": 20,
+          "pass_agreements": 0,
+          "fallbacks": 0,
+          "over_200": 0,
+          "over_205": 0,
+          "policy_overrides": 14,
+          "specialist_only_selected": 5
+        },
+        "neural": {
+          "decisions": 20,
+          "median_ms": 17.393949965480715,
+          "max_ms": 20.992500009015203,
+          "complete_rounds": 20,
+          "pass_agreements": 0,
+          "fallbacks": 0,
+          "over_200": 0,
+          "over_205": 0,
+          "policy_overrides": 16,
+          "specialist_only_selected": 0
+        }
+      }
+    },
+    {
+      "opening": "led-fresh-035",
+      "matchup": "combined-vs-neural",
+      "a": "combined",
+      "b": "neural",
+      "a_color": "B",
+      "finished": true,
+      "result": "B+42.5",
+      "a_won": true,
+      "stage": 2,
+      "raw_area_margin": 42.5,
+      "moves": 380,
+      "roles": {
+        "combined": {
+          "decisions": 188,
+          "median_ms": 46.57820001011714,
+          "max_ms": 60.91020000167191,
+          "complete_rounds": 188,
+          "pass_agreements": 0,
+          "fallbacks": 0,
+          "over_200": 0,
+          "over_205": 0,
+          "policy_overrides": 101,
+          "specialist_only_selected": 13
+        },
+        "neural": {
+          "decisions": 188,
+          "median_ms": 12.652300007175654,
+          "max_ms": 23.558699991554022,
+          "complete_rounds": 187,
+          "pass_agreements": 1,
+          "fallbacks": 0,
+          "over_200": 0,
+          "over_205": 0,
+          "policy_overrides": 118,
+          "specialist_only_selected": 0
+        }
+      }
+    }
+  ],
+  "endgame_gate": "passed",
+  "transport_metrics": {
+    "sent": 109910,
+    "cancelled": 0,
+    "late_replies": 0,
+    "lock_timeouts": 0
+  },
+  "inputs_unchanged": true,
+  "finished": 1790201461.265667,
+  "remaining_model_processes": []
+}

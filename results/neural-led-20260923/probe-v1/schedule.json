@@ -1,0 +1,402 @@
+[
+  {
+    "case": "c27b315c0cba-160",
+    "budget": 200,
+    "variant": "combined"
+  },
+  {
+    "case": "0370f8fc3158-80",
+    "budget": 200,
+    "variant": "neural"
+  },
+  {
+    "case": "48d2d375f4b1-240",
+    "budget": 400,
+    "variant": "combined"
+  },
+  {
+    "case": "74a2d8327148-80",
+    "budget": 200,
+    "variant": "policy"
+  },
+  {
+    "case": "c27b315c0cba-160",
+    "budget": 200,
+    "variant": "tactical"
+  },
+  {
+    "case": "c27b315c0cba-160",
+    "budget": 400,
+    "variant": "heuristic"
+  },
+  {
+    "case": "f7daf2d0ce4e-80",
+    "budget": 400,
+    "variant": "combined"
+  },
+  {
+    "case": "48d2d375f4b1-240",
+    "budget": 400,
+    "variant": "heuristic"
+  },
+  {
+    "case": "da01e9e87f58-80",
+    "budget": 400,
+    "variant": "tactical"
+  },
+  {
+    "case": "c27b315c0cba-160",
+    "budget": 200,
+    "variant": "policy"
+  },
+  {
+    "case": "f7daf2d0ce4e-80",
+    "budget": 400,
+    "variant": "policy"
+  },
+  {
+    "case": "f32907a0bdf9-20",
+    "budget": 400,
+    "variant": "neural"
+  },
+  {
+    "case": "0370f8fc3158-80",
+    "budget": 200,
+    "variant": "policy"
+  },
+  {
+    "case": "74a2d8327148-80",
+    "budget": 400,
+    "variant": "combined"
+  },
+  {
+    "case": "da01e9e87f58-80",
+    "budget": 400,
+    "variant": "neural"
+  },
+  {
+    "case": "f32907a0bdf9-20",
+    "budget": 200,
+    "variant": "heuristic"
+  },
+  {
+    "case": "f32907a0bdf9-20",
+    "budget": 400,
+    "variant": "tactical"
+  },
+  {
+    "case": "48d2d375f4b1-240",
+    "budget": 400,
+    "variant": "tactical"
+  },
+  {
+    "case": "f7daf2d0ce4e-80",
+    "budget": 200,
+    "variant": "heuristic"
+  },
+  {
+    "case": "f7daf2d0ce4e-80",
+    "budget": 200,
+    "variant": "policy"
+  },
+  {
+    "case": "da01e9e87f58-80",
+    "budget": 200,
+    "variant": "neural"
+  },
+  {
+    "case": "f32907a0bdf9-20",
+    "budget": 400,
+    "variant": "combined"
+  },
+  {
+    "case": "f32907a0bdf9-20",
+    "budget": 200,
+    "variant": "policy"
+  },
+  {
+    "case": "48d2d375f4b1-240",
+    "budget": 400,
+    "variant": "neural"
+  },
+  {
+    "case": "48d2d375f4b1-240",
+    "budget": 200,
+    "variant": "combined"
+  },
+  {
+    "case": "f7daf2d0ce4e-80",
+    "budget": 400,
+    "variant": "neural"
+  },
+  {
+    "case": "da01e9e87f58-240",
+    "budget": 400,
+    "variant": "policy"
+  },
+  {
+    "case": "74a2d8327148-80",
+    "budget": 400,
+    "variant": "heuristic"
+  },
+  {
+    "case": "f7daf2d0ce4e-80",
+    "budget": 200,
+    "variant": "tactical"
+  },
+  {
+    "case": "0370f8fc3158-80",
+    "budget": 200,
+    "variant": "tactical"
+  },
+  {
+    "case": "74a2d8327148-80",
+    "budget": 400,
+    "variant": "tactical"
+  },
+  {
+    "case": "74a2d8327148-80",
+    "budget": 200,
+    "variant": "neural"
+  },
+  {
+    "case": "0370f8fc3158-80",
+    "budget": 400,
+    "variant": "neural"
+  },
+  {
+    "case": "da01e9e87f58-240",
+    "budget": 200,
+    "variant": "combined"
+  },
+  {
+    "case": "f7daf2d0ce4e-80",
+    "budget": 400,
+    "variant": "tactical"
+  },
+  {
+    "case": "f7daf2d0ce4e-80",
+    "budget": 200,
+    "variant": "combined"
+  },
+  {
+    "case": "f7daf2d0ce4e-80",
+    "budget": 200,
+    "variant": "neural"
+  },
+  {
+    "case": "0370f8fc3158-80",
+    "budget": 400,
+    "variant": "tactical"
+  },
+  {
+    "case": "da01e9e87f58-80",
+    "budget": 200,
+    "variant": "tactical"
+  },
+  {
+    "case": "da01e9e87f58-240",
+    "budget": 400,
+    "variant": "neural"
+  },
+  {
+    "case": "48d2d375f4b1-240",
+    "budget": 200,
+    "variant": "heuristic"
+  },
+  {
+    "case": "da01e9e87f58-240",
+    "budget": 400,
+    "variant": "combined"
+  },
+  {
+    "case": "f32907a0bdf9-20",
+    "budget": 400,
+    "variant": "heuristic"
+  },
+  {
+    "case": "0370f8fc3158-80",
+    "budget": 400,
+    "variant": "combined"
+  },
+  {
+    "case": "c27b315c0cba-160",
+    "budget": 200,
+    "variant": "heuristic"
+  },
+  {
+    "case": "da01e9e87f58-80",
+    "budget": 400,
+    "variant": "heuristic"
+  },
+  {
+    "case": "74a2d8327148-80",
+    "budget": 200,
+    "variant": "heuristic"
+  },
+  {
+    "case": "74a2d8327148-80",
+    "budget": 400,
+    "variant": "neural"
+  },
+  {
+    "case": "48d2d375f4b1-240",
+    "budget": 200,
+    "variant": "policy"
+  },
+  {
+    "case": "f32907a0bdf9-20",
+    "budget": 200,
+    "variant": "tactical"
+  },
+  {
+    "case": "0370f8fc3158-80",
+    "budget": 200,
+    "variant": "combined"
+  },
+  {
+    "case": "f32907a0bdf9-20",
+    "budget": 200,
+    "variant": "neural"
+  },
+  {
+    "case": "74a2d8327148-80",
+    "budget": 200,
+    "variant": "combined"
+  },
+  {
+    "case": "48d2d375f4b1-240",
+    "budget": 200,
+    "variant": "neural"
+  },
+  {
+    "case": "74a2d8327148-80",
+    "budget": 200,
+    "variant": "tactical"
+  },
+  {
+    "case": "c27b315c0cba-160",
+    "budget": 400,
+    "variant": "policy"
+  },
+  {
+    "case": "da01e9e87f58-240",
+    "budget": 200,
+    "variant": "policy"
+  },
+  {
+    "case": "da01e9e87f58-240",
+    "budget": 200,
+    "variant": "tactical"
+  },
+  {
+    "case": "0370f8fc3158-80",
+    "budget": 200,
+    "variant": "heuristic"
+  },
+  {
+    "case": "da01e9e87f58-80",
+    "budget": 200,
+    "variant": "policy"
+  },
+  {
+    "case": "74a2d8327148-80",
+    "budget": 400,
+    "variant": "policy"
+  },
+  {
+    "case": "0370f8fc3158-80",
+    "budget": 400,
+    "variant": "policy"
+  },
+  {
+    "case": "c27b315c0cba-160",
+    "budget": 400,
+    "variant": "combined"
+  },
+  {
+    "case": "48d2d375f4b1-240",
+    "budget": 400,
+    "variant": "policy"
+  },
+  {
+    "case": "da01e9e87f58-240",
+    "budget": 400,
+    "variant": "heuristic"
+  },
+  {
+    "case": "da01e9e87f58-80",
+    "budget": 200,
+    "variant": "heuristic"
+  },
+  {
+    "case": "0370f8fc3158-80",
+    "budget": 400,
+    "variant": "heuristic"
+  },
+  {
+    "case": "da01e9e87f58-80",
+    "budget": 400,
+    "variant": "combined"
+  },
+  {
+    "case": "f32907a0bdf9-20",
+    "budget": 200,
+    "variant": "combined"
+  },
+  {
+    "case": "f32907a0bdf9-20",
+    "budget": 400,
+    "variant": "policy"
+  },
+  {
+    "case": "f7daf2d0ce4e-80",
+    "budget": 400,
+    "variant": "heuristic"
+  },
+  {
+    "case": "c27b315c0cba-160",
+    "budget": 200,
+    "variant": "neural"
+  },
+  {
+    "case": "c27b315c0cba-160",
+    "budget": 400,
+    "variant": "neural"
+  },
+  {
+    "case": "da01e9e87f58-240",
+    "budget": 200,
+    "variant": "neural"
+  },
+  {
+    "case": "48d2d375f4b1-240",
+    "budget": 200,
+    "variant": "tactical"
+  },
+  {
+    "case": "da01e9e87f58-80",
+    "budget": 200,
+    "variant": "combined"
+  },
+  {
+    "case": "da01e9e87f58-240",
+    "budget": 200,
+    "variant": "heuristic"
+  },
+  {
+    "case": "da01e9e87f58-240",
+    "budget": 400,
+    "variant": "tactical"
+  },
+  {
+    "case": "da01e9e87f58-80",
+    "budget": 400,
+    "variant": "policy"
+  },
+  {
+    "case": "c27b315c0cba-160",
+    "budget": 400,
+    "variant": "tactical"
+  }
+]

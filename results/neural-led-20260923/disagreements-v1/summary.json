@@ -1,0 +1,67 @@
+{
+  "confidence": {
+    "cases": 39,
+    "depth_direction_reversals": 3,
+    "128": {
+      "mean_winrate_difference": -0.009011950206761536,
+      "mean_score_difference": -3.128000094976923,
+      "chosen_better": 9,
+      "chosen_worse": 15,
+      "near_ties": 15,
+      "saturated_reference_pairs": 9
+    },
+    "512": {
+      "mean_winrate_difference": -0.007576160141865126,
+      "mean_score_difference": -3.3377581557000005,
+      "chosen_better": 10,
+      "chosen_worse": 15,
+      "near_ties": 14,
+      "saturated_reference_pairs": 9
+    }
+  },
+  "specialist": {
+    "cases": 40,
+    "depth_direction_reversals": 0,
+    "128": {
+      "mean_winrate_difference": 0.0033503516427899984,
+      "mean_score_difference": -3.777271839749999,
+      "chosen_better": 5,
+      "chosen_worse": 4,
+      "near_ties": 31,
+      "saturated_reference_pairs": 26
+    },
+    "512": {
+      "mean_winrate_difference": 0.0023603736869025013,
+      "mean_score_difference": -3.8817020014999994,
+      "chosen_better": 5,
+      "chosen_worse": 4,
+      "near_ties": 31,
+      "saturated_reference_pairs": 27
+    }
+  },
+  "candidate_development": {
+    "passed": false,
+    "cases": 19,
+    "openings": 10,
+    "opening_mean_improvement": {
+      "128": 0.0019178969806999896,
+      "512": -0.0023485219209500034
+    },
+    "beneficial": 8,
+    "harmful": 4,
+    "severe_harm": 0
+  },
+  "candidate_validation": {
+    "passed": false,
+    "cases": 20,
+    "openings": 10,
+    "opening_mean_improvement": {
+      "128": 0.015672849722485005,
+      "512": 0.017139425797587
+    },
+    "beneficial": 7,
+    "harmful": 6,
+    "severe_harm": 0
+  },
+  "implementation_gate": false
+}

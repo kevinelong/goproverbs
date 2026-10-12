@@ -1,0 +1,348 @@
+[
+  {
+    "id": "rescue-single-19",
+    "family": "single-atari",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "W",
+        "A2"
+      ],
+      [
+        "W",
+        "C2"
+      ],
+      [
+        "W",
+        "B1"
+      ]
+    ],
+    "accept": [
+      "B3"
+    ],
+    "source": "Development fixture on 19x19. Local shapes retain their bottom/left edge context; labels express intended local behavior, not an expert proof of the global best move."
+  },
+  {
+    "id": "capture-pair-19",
+    "family": "pair-center-capture",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "C2"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "C1"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "B",
+        "B3"
+      ]
+    ],
+    "accept": [
+      "C3"
+    ],
+    "source": "Development fixture on 19x19. Local shapes retain their bottom/left edge context; labels express intended local behavior, not an expert proof of the global best move."
+  },
+  {
+    "id": "avoid-self-atari-19",
+    "family": "corner-self-atari",
+    "split": "train",
+    "size": 19,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "A2"
+      ]
+    ],
+    "reject": [
+      "A1"
+    ],
+    "source": "Development fixture on 19x19. Local shapes retain their bottom/left edge context; labels express intended local behavior, not an expert proof of the global best move."
+  },
+  {
+    "id": "preserve-corner-eye-19",
+    "family": "corner-eye",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B2"
+      ]
+    ],
+    "reject": [
+      "A1"
+    ],
+    "source": "Development fixture on 19x19. Local shapes retain their bottom/left edge context; labels express intended local behavior, not an expert proof of the global best move."
+  },
+  {
+    "id": "opening-corners-19",
+    "family": "empty-opening",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [],
+    "accept": [
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "Q3",
+      "R3",
+      "Q4",
+      "R4",
+      "C16",
+      "D16",
+      "C17",
+      "D17",
+      "Q16",
+      "R16",
+      "Q17",
+      "R17"
+    ],
+    "source": "Development fixture on 19x19. Local shapes retain their bottom/left edge context; labels express intended local behavior, not an expert proof of the global best move."
+  },
+  {
+    "id": "rescue-edge-pair-19",
+    "family": "edge-pair-rescue",
+    "split": "test",
+    "size": 19,
+    "color": "B",
+    "source": "Development fixture on 19x19. Local shapes retain their bottom/left edge context; labels express intended local behavior, not an expert proof of the global best move.",
+    "moves": [
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "A3"
+      ],
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "B3"
+      ]
+    ],
+    "accept": [
+      "A4",
+      "B1"
+    ]
+  },
+  {
+    "id": "capture-corner-pair-19",
+    "family": "corner-pair-capture",
+    "split": "test",
+    "size": 19,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "W",
+        "B1"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "C1"
+    ],
+    "source": "Development fixture on 19x19. Local shapes retain their bottom/left edge context; labels express intended local behavior, not an expert proof of the global best move."
+  },
+  {
+    "id": "preserve-center-eye-19",
+    "family": "center-eye",
+    "split": "test",
+    "size": 19,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "B",
+        "D3"
+      ],
+      [
+        "B",
+        "C4"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "B",
+        "D4"
+      ]
+    ],
+    "reject": [
+      "C3"
+    ],
+    "source": "Development fixture on 19x19. Local shapes retain their bottom/left edge context; labels express intended local behavior, not an expert proof of the global best move."
+  },
+  {
+    "id": "respect-ko-19",
+    "family": "immediate-ko",
+    "split": "test",
+    "size": 19,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "B",
+        "B3"
+      ]
+    ],
+    "reject": [
+      "B2"
+    ],
+    "allow_pass": true,
+    "source": "Development fixture on 19x19. Local shapes retain their bottom/left edge context; labels express intended local behavior, not an expert proof of the global best move."
+  },
+  {
+    "id": "rescue-three-19",
+    "family": "three-stone-rescue-19",
+    "split": "test",
+    "size": 19,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "W",
+        "A2"
+      ],
+      [
+        "W",
+        "B1"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "W",
+        "D1"
+      ],
+      [
+        "W",
+        "E2"
+      ],
+      [
+        "W",
+        "B3"
+      ],
+      [
+        "W",
+        "C3"
+      ]
+    ],
+    "accept": [
+      "D3"
+    ],
+    "source": "Handcrafted local rescue: the Black three-stone string has D3 as its sole liberty. Development label; not a proof of whole-board optimality."
+  }
+]

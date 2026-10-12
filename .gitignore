@@ -1,0 +1,8 @@
+/target/
+/dist/
+.aider*
+__pycache__/
+
+# raw streaming traces: 2.7 GB of wire and per-game jsonl, kept local (this lab does not
+# publish captures). The reports and fixtures beside them - .json, .sgf, .md - are committed.
+results/**/*.jsonl

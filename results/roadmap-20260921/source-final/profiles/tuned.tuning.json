@@ -1,0 +1,71 @@
+{
+  "training_ids": [
+    "rescue-single",
+    "capture-pair",
+    "avoid-self-atari",
+    "preserve-corner-eye",
+    "opening-corners",
+    "capture-before-suicide"
+  ],
+  "held_out_used_for_optimization": false,
+  "training_sha256": "25b50453ad1a0d5faf68529d7aa1adfb418cdbad9df22d311cf7e554f8aa583b",
+  "executable_sha256": "d21444bcc63cb2d86fd827d683b4d6326396fbebe08d2950319177835ab8f0d6",
+  "input_profile_sha256": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+  "harness_sha256": "a8d125144182f085cb9a02910dc57240bb5c4a245f5e66c769825c83c1a4a93f",
+  "objective_before": 1.2003333333333335,
+  "objective_after": 1.24971875,
+  "steps": [
+    {
+      "feature": "save_atari",
+      "value": 12.0,
+      "objective": 1.2066666666666666
+    },
+    {
+      "feature": "side_development",
+      "value": -1.5,
+      "objective": 1.213
+    },
+    {
+      "feature": "save_atari",
+      "value": 14.0,
+      "objective": 1.2153333333333334
+    },
+    {
+      "feature": "empty_corner",
+      "value": 3.0,
+      "objective": 1.2478333333333333
+    },
+    {
+      "feature": "side_development",
+      "value": -0.5,
+      "objective": 1.2493333333333334
+    },
+    {
+      "feature": "side_development",
+      "value": 0.0,
+      "objective": 1.2497083333333332
+    },
+    {
+      "feature": "save_atari",
+      "value": 14.25,
+      "objective": 1.24971875
+    }
+  ],
+  "position_evaluation_weights_tuned": false,
+  "weights": {
+    "capture": 8.0,
+    "save_atari": 14.25,
+    "self_atari": -12.0,
+    "connect": 1.5,
+    "fill_eye": -15.0,
+    "empty_corner": 3.0,
+    "side_development": 0.0,
+    "early_33": 0.0,
+    "atari": 2.0,
+    "cut_pressure": 0.0,
+    "stone_balance": 1.0,
+    "atari_risk": -1.5,
+    "liberty_balance": 0.1,
+    "influence_balance": 0.3
+  }
+}

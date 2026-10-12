@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "profiles": 60,
+  "reference_cases": 40,
+  "searched_reference_children": 160,
+  "exact_reference_children": 0,
+  "roles": {
+    "neural": {
+      "cases": 20,
+      "verified": 20,
+      "retained_override": 4,
+      "changed_to_policy": 16,
+      "median_ms": 51.98240000754595,
+      "max_ms": 66.43020000774413,
+      "beneficial": 6,
+      "harmful": 1
+    },
+    "combined": {
+      "cases": 20,
+      "verified": 20,
+      "retained_override": 2,
+      "changed_to_policy": 18,
+      "median_ms": 93.78825000021607,
+      "max_ms": 106.35979997459799,
+      "beneficial": 0,
+      "harmful": 1
+    }
+  },
+  "inputs_unchanged": true,
+  "no_validation_queries": true,
+  "transport": {
+    "sent": 1146,
+    "cancelled": 0,
+    "late_replies": 0,
+    "lock_timeouts": 0
+  },
+  "seconds": 67.37924551963806,
+  "postflight_free_ram_gib": 8.155139923095703,
+  "postflight_gpu": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 1902 MiB, 10042 MiB, 610.60\n",
+  "postflight_ollama": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n"
+}

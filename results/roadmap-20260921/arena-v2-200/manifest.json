@@ -1,0 +1,202 @@
+{
+  "status": "complete",
+  "settings": {
+    "task": "arena",
+    "katago": "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe",
+    "model": "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz",
+    "output": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\arena-v2-200",
+    "exe": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\target\\release\\goproverbs.exe",
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\profiles\\baseline.weights",
+    "corpus": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\corpus\\positions.json",
+    "openings": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\corpus\\openings.json",
+    "modes": [
+      "HH",
+      "NH",
+      "HN",
+      "NN"
+    ],
+    "time_ms": 200,
+    "pairs": 2,
+    "positions": 8,
+    "cpu": false
+  },
+  "hashes": {
+    "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+    "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz": "21d3d5eadad1f811071d4f7e4e90b8336e827fcd092ea62a8f35c569b9bd157c",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\target\\release\\goproverbs.exe": "c4052674f6a924652ec396da07972e138fafc06e46317aa805a313d5d8d5dd9c",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\profiles\\baseline.weights": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\corpus\\positions.json": "7d18010e789d665c034d0f31c70b0c232fe4decc3eb898be3836729c30994a0e",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\corpus\\openings.json": "19baa0fcdb68977a676861a4bf1c09b719f7174c386075f40ad6253bc788523b",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\arena-v2-200\\analysis.cfg": "872eac1af1ec50852cd0b2a2bb50ff4c97938481d753fa5415f30d424eeb601a",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\roadmap.py": "e4a29e8690e91657ab5cbbe008e47d4b01dece4c1029a2ad04db708243d06fb9",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\guidance.py": "a675cd05977821f7f1f09afad691b743fcebbed48c9bf11936b407e226125424",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\sgf_io.py": "eabd458c4fb6a18c87c0d05dab3036b0a90963fbffac6938c0cb8aa71566a907",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\lab.py": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62"
+  },
+  "before": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2519 MiB, 9425 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 5849251840
+    }
+  },
+  "version": {
+    "action": "query_version",
+    "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+    "id": "version",
+    "version": "1.18.1"
+  },
+  "loaded": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2702 MiB, 9242 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 5598228480
+    }
+  },
+  "records": [
+    {
+      "opening": "opening-000",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+1.5",
+      "variant_won": true,
+      "moves": 427
+    },
+    {
+      "opening": "opening-000",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+72.5",
+      "variant_won": true,
+      "moves": 483
+    },
+    {
+      "opening": "opening-000",
+      "mode": "HN",
+      "variant_color": "B",
+      "finished": true,
+      "result": "W+36.5",
+      "variant_won": false,
+      "moves": 362
+    },
+    {
+      "opening": "opening-000",
+      "mode": "HN",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+10.5",
+      "variant_won": true,
+      "moves": 447
+    },
+    {
+      "opening": "opening-000",
+      "mode": "NN",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+38.5",
+      "variant_won": true,
+      "moves": 386
+    },
+    {
+      "opening": "opening-000",
+      "mode": "NN",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+20.5",
+      "variant_won": true,
+      "moves": 411
+    },
+    {
+      "opening": "opening-001",
+      "mode": "NH",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+23.5",
+      "variant_won": true,
+      "moves": 442
+    },
+    {
+      "opening": "opening-001",
+      "mode": "NH",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+79.5",
+      "variant_won": true,
+      "moves": 482
+    },
+    {
+      "opening": "opening-001",
+      "mode": "HN",
+      "variant_color": "B",
+      "finished": true,
+      "result": "W+20.5",
+      "variant_won": false,
+      "moves": 204
+    },
+    {
+      "opening": "opening-001",
+      "mode": "HN",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+72.5",
+      "variant_won": true,
+      "moves": 445
+    },
+    {
+      "opening": "opening-001",
+      "mode": "NN",
+      "variant_color": "B",
+      "finished": true,
+      "result": "B+20.5",
+      "variant_won": true,
+      "moves": 420
+    },
+    {
+      "opening": "opening-001",
+      "mode": "NN",
+      "variant_color": "W",
+      "finished": true,
+      "result": "W+25.5",
+      "variant_won": true,
+      "moves": 399
+    }
+  ],
+  "broker_queries": 53351,
+  "broker_errors": [],
+  "after": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2316 MiB, 9628 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 7515545600
+    }
+  }
+}

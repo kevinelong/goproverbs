@@ -1,0 +1,362 @@
+[
+  {
+    "opening": "opening-002",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+3.5",
+    "variant_won": true,
+    "moves": 431
+  },
+  {
+    "opening": "opening-002",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+48.5",
+    "variant_won": true,
+    "moves": 479
+  },
+  {
+    "opening": "opening-003",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+45.5",
+    "variant_won": true,
+    "moves": 460
+  },
+  {
+    "opening": "opening-003",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+28.5",
+    "variant_won": true,
+    "moves": 435
+  },
+  {
+    "opening": "opening-004",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+55.5",
+    "variant_won": true,
+    "moves": 464
+  },
+  {
+    "opening": "opening-004",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+66.5",
+    "variant_won": true,
+    "moves": 521
+  },
+  {
+    "opening": "opening-005",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "W+30.5",
+    "variant_won": false,
+    "moves": 455
+  },
+  {
+    "opening": "opening-005",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+48.5",
+    "variant_won": true,
+    "moves": 444
+  },
+  {
+    "opening": "opening-006",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+45.5",
+    "variant_won": true,
+    "moves": 462
+  },
+  {
+    "opening": "opening-006",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+74.5",
+    "variant_won": true,
+    "moves": 442
+  },
+  {
+    "opening": "opening-007",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+33.5",
+    "variant_won": true,
+    "moves": 441
+  },
+  {
+    "opening": "opening-007",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+88.5",
+    "variant_won": true,
+    "moves": 452
+  },
+  {
+    "opening": "opening-008",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+13.5",
+    "variant_won": true,
+    "moves": 446
+  },
+  {
+    "opening": "opening-008",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+22.5",
+    "variant_won": true,
+    "moves": 445
+  },
+  {
+    "opening": "opening-009",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+37.5",
+    "variant_won": true,
+    "moves": 470
+  },
+  {
+    "opening": "opening-009",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+13.5",
+    "variant_won": true,
+    "moves": 412
+  },
+  {
+    "opening": "opening-010",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+65.5",
+    "variant_won": true,
+    "moves": 461
+  },
+  {
+    "opening": "opening-010",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+24.5",
+    "variant_won": true,
+    "moves": 428
+  },
+  {
+    "opening": "opening-011",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+61.5",
+    "variant_won": true,
+    "moves": 484
+  },
+  {
+    "opening": "opening-011",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+182.5",
+    "variant_won": true,
+    "moves": 540
+  },
+  {
+    "opening": "opening-012",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+21.5",
+    "variant_won": true,
+    "moves": 437
+  },
+  {
+    "opening": "opening-012",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+104.5",
+    "variant_won": true,
+    "moves": 474
+  },
+  {
+    "opening": "opening-013",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "W+0.5",
+    "variant_won": false,
+    "moves": 443
+  },
+  {
+    "opening": "opening-013",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+52.5",
+    "variant_won": true,
+    "moves": 475
+  },
+  {
+    "opening": "opening-014",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+11.5",
+    "variant_won": true,
+    "moves": 410
+  },
+  {
+    "opening": "opening-014",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+88.5",
+    "variant_won": true,
+    "moves": 472
+  },
+  {
+    "opening": "opening-015",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+131.5",
+    "variant_won": true,
+    "moves": 523
+  },
+  {
+    "opening": "opening-015",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "B+13.5",
+    "variant_won": false,
+    "moves": 462
+  },
+  {
+    "opening": "opening-016",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+105.5",
+    "variant_won": true,
+    "moves": 461
+  },
+  {
+    "opening": "opening-016",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+38.5",
+    "variant_won": true,
+    "moves": 455
+  },
+  {
+    "opening": "opening-017",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+45.5",
+    "variant_won": true,
+    "moves": 452
+  },
+  {
+    "opening": "opening-017",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "B+13.5",
+    "variant_won": false,
+    "moves": 430
+  },
+  {
+    "opening": "opening-018",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+77.5",
+    "variant_won": true,
+    "moves": 463
+  },
+  {
+    "opening": "opening-018",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+2.5",
+    "variant_won": true,
+    "moves": 450
+  },
+  {
+    "opening": "opening-019",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+39.5",
+    "variant_won": true,
+    "moves": 480
+  },
+  {
+    "opening": "opening-019",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+76.5",
+    "variant_won": true,
+    "moves": 444
+  },
+  {
+    "opening": "opening-020",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+75.5",
+    "variant_won": true,
+    "moves": 441
+  },
+  {
+    "opening": "opening-020",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+102.5",
+    "variant_won": true,
+    "moves": 464
+  },
+  {
+    "opening": "opening-021",
+    "mode": "NH",
+    "variant_color": "B",
+    "finished": true,
+    "result": "B+105.5",
+    "variant_won": true,
+    "moves": 483
+  },
+  {
+    "opening": "opening-021",
+    "mode": "NH",
+    "variant_color": "W",
+    "finished": true,
+    "result": "W+108.5",
+    "variant_won": true,
+    "moves": 464
+  }
+]

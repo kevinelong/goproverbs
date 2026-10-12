@@ -1,0 +1,1 @@
+Stop: standalone search timeout fallback invalidates strength interpretation. Preserve diagnostic.

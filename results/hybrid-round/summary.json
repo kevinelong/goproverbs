@@ -1,0 +1,119 @@
+{
+  "comparisons": [
+    {
+      "experiment": "hybrid-v-selective-19",
+      "a_wins": 2,
+      "b_wins": 0,
+      "draws": 0,
+      "unfinished": 0,
+      "measurements": {
+        "a": {
+          "moves": 416,
+          "median_ms": 200.445,
+          "max_ms": 201.085,
+          "depth_counts": {
+            "2": 235,
+            "3": 171,
+            "4": 10
+          },
+          "limited_moves": 406,
+          "tree_nodes": 368458,
+          "extended_internal_nodes": 0
+        },
+        "b": {
+          "moves": 415,
+          "median_ms": 200.421,
+          "max_ms": 202.09,
+          "depth_counts": {
+            "2": 360,
+            "3": 46,
+            "4": 9
+          },
+          "limited_moves": 406,
+          "tree_nodes": 319549,
+          "extended_internal_nodes": 0
+        }
+      }
+    },
+    {
+      "experiment": "hybrid-v-selective-19-seed2",
+      "a_wins": 2,
+      "b_wins": 0,
+      "draws": 0,
+      "unfinished": 0,
+      "measurements": {
+        "a": {
+          "moves": 395,
+          "median_ms": 200.439,
+          "max_ms": 201.916,
+          "depth_counts": {
+            "2": 210,
+            "3": 185
+          },
+          "limited_moves": 395,
+          "tree_nodes": 372413,
+          "extended_internal_nodes": 0
+        },
+        "b": {
+          "moves": 394,
+          "median_ms": 200.403,
+          "max_ms": 201.163,
+          "depth_counts": {
+            "2": 356,
+            "3": 36,
+            "4": 2
+          },
+          "limited_moves": 392,
+          "tree_nodes": 314421,
+          "extended_internal_nodes": 0
+        }
+      }
+    }
+  ],
+  "fixtures": [
+    {
+      "experiment": "full-19",
+      "total": 10,
+      "search_pass": 7,
+      "one_ply_pass": 10,
+      "failures": [
+        "rescue-single-19",
+        "capture-pair-19",
+        "capture-corner-pair-19"
+      ]
+    },
+    {
+      "experiment": "hybrid-19",
+      "total": 10,
+      "search_pass": 7,
+      "one_ply_pass": 10,
+      "failures": [
+        "rescue-single-19",
+        "capture-pair-19",
+        "capture-corner-pair-19"
+      ]
+    },
+    {
+      "experiment": "minimax-19",
+      "total": 10,
+      "search_pass": 7,
+      "one_ply_pass": 10,
+      "failures": [
+        "rescue-single-19",
+        "capture-pair-19",
+        "capture-corner-pair-19"
+      ]
+    },
+    {
+      "experiment": "selective-19",
+      "total": 10,
+      "search_pass": 7,
+      "one_ply_pass": 10,
+      "failures": [
+        "rescue-single-19",
+        "capture-pair-19",
+        "capture-corner-pair-19"
+      ]
+    }
+  ]
+}

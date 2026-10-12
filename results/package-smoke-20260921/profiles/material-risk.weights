@@ -1,0 +1,3 @@
+# Experiment: atari is a discounted asset rather than negative material.
+# Unspecified features inherit the engine defaults. Not automatically enabled.
+atari_risk=-0.5

@@ -1,0 +1,340 @@
+{
+  "status": {
+    "status": "failed",
+    "pid": 3649668,
+    "started": 1790198828.055675,
+    "preflight": {
+      "gpu": {
+        "command": [
+          "nvidia-smi",
+          "--query-gpu=name,memory.used,memory.free,driver_version",
+          "--format=csv"
+        ],
+        "exit_code": 0,
+        "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 1907 MiB, 10037 MiB, 610.60\n",
+        "stderr": ""
+      },
+      "compute_processes": {
+        "command": [
+          "nvidia-smi",
+          "--query-compute-apps=pid,process_name,used_memory",
+          "--format=csv"
+        ],
+        "exit_code": 0,
+        "stdout": "pid, process_name, used_gpu_memory [MiB]\n2300, [Insufficient Permissions], [N/A]\n20080, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe, [N/A]\n18888, C:\\Windows\\explorer.exe, [N/A]\n23684, [Insufficient Permissions], [N/A]\n24696, [Insufficient Permissions], [N/A]\n14280, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\WinUI3Apps\\PowerToys.QuickAccess.exe, [N/A]\n33620, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe, [N/A]\n33972, C:\\Program Files\\WindowsApps\\Microsoft.CommandPalette_0.11.11733.0_x64__8wekyb3d8bbwe\\Microsoft.CmdPal.UI.exe, [N/A]\n28908, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.exe, [N/A]\n21940, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\WinUI3Apps\\PowerToys.Peek.UI.exe, [N/A]\n19828, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.ColorPickerUI.exe, [N/A]\n3780, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe, [N/A]\n20856, C:\\Program Files\\Dell\\DellOptimizer\\Console\\DellOptimizer.Systray.exe, [N/A]\n51936, [Insufficient Permissions], [N/A]\n169504, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\\YourPhoneAppProxyHost.exe, [N/A]\n877640, [Insufficient Permissions], [N/A]\n1240520, C:\\Windows\\System32\\ShellHost.exe, [N/A]\n40648, C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.11911.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe, [N/A]\n35312, [Insufficient Permissions], [N/A]\n22784, C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe, [N/A]\n45768, [Insufficient Permissions], [N/A]\n1957040, C:\\Program Files\\WindowsApps\\Claude_2.7032.0.0_x64__pzs8sxrjxfjjc\\app\\claude.exe, [N/A]\n1246900, C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2636.100.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe, [N/A]\n7756, [Insufficient Permissions], [N/A]\n3168264, [Insufficient Permissions], [N/A]\n2062112, C:\\Users\\kevin\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\f53823cd54b14f45\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe, [N/A]\n2070380, C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.917.6896.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe, [N/A]\n45732, C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe, [N/A]\n48456, C:\\Users\\kevin\\AppData\\Local\\Google\\Google\\latest\\google.exe, [N/A]\n2736860, C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe, [N/A]\n34144, C:\\Program Files\\WindowsApps\\RivetNetworks.KillerControlCenter_40.26.403.0_x64__rh07ty8m5nkag\\KillerControlCenter_v2\\Killer.exe, [N/A]\n22792, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe, [N/A]\n12612, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.FancyZones.exe, [N/A]\n3649140, C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA Overlay.exe, [N/A]\n3649372, C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA Overlay.exe, [N/A]\n3646332, [Insufficient Permissions], [N/A]\n3638212, C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2609.52011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe, [N/A]\n2773752, [Insufficient Permissions], [N/A]\n57424, [Insufficient Permissions], [N/A]\n",
+        "stderr": ""
+      },
+      "ollama": {
+        "command": [
+          "ollama",
+          "ps"
+        ],
+        "exit_code": 0,
+        "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+        "stderr": ""
+      },
+      "ram_bytes": {
+        "total": 33775415296,
+        "available": 7177031680
+      }
+    },
+    "white_completed": 40,
+    "games_recorded": 41,
+    "version": {
+      "action": "query_version",
+      "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+      "id": "version",
+      "version": "1.18.1"
+    },
+    "active": "led-fresh-032-combined-vs-neural-W",
+    "white_gate": "passed",
+    "error": "RuntimeError('Game operational gate failed; see saved game and traces')",
+    "finished": 1790199419.3439538,
+    "inputs_unchanged": true,
+    "remaining_model_processes": []
+  },
+  "paired": {
+    "matchups": {
+      "combined-vs-neural": {
+        "games": 1,
+        "complete_pairs": 0,
+        "a_wins": 0,
+        "unfinished": 1,
+        "mean_pair_score_for_a": null,
+        "conservative_95_interval": null
+      },
+      "neural-vs-policy": {
+        "games": 40,
+        "complete_pairs": 20,
+        "a_wins": 24,
+        "unfinished": 0,
+        "mean_pair_score_for_a": 0.6,
+        "conservative_95_interval": [
+          0.2963192690458474,
+          0.9036807309541526
+        ]
+      }
+    },
+    "method": "Hoeffding bounded-mean interval treating each complete opening pair as one independent observation.",
+    "limitations": "Conditional on completed pairs and the supplied opening distribution; incomplete pairs are excluded; no Elo estimate."
+  },
+  "role_metrics": {
+    "combined": {
+      "decisions": 144,
+      "median_ms": 122.02340003568679,
+      "max_ms": 223.45449996646494,
+      "over_200": 10,
+      "over_205": 1,
+      "completed_rounds": 134,
+      "fallbacks": 10,
+      "policy_overrides": 78,
+      "specialist_only_selected": 14
+    },
+    "neural": {
+      "decisions": 6677,
+      "median_ms": 62.59460002183914,
+      "max_ms": 209.32969998102635,
+      "over_200": 9,
+      "over_205": 2,
+      "completed_rounds": 6668,
+      "fallbacks": 9,
+      "policy_overrides": 3424,
+      "specialist_only_selected": 0
+    },
+    "policy": {
+      "decisions": 6529,
+      "median_ms": 15.20859997253865,
+      "max_ms": 85.19720006734133,
+      "over_200": 0,
+      "over_205": 0,
+      "completed_rounds": 0,
+      "fallbacks": 0,
+      "policy_overrides": 0,
+      "specialist_only_selected": 0
+    }
+  },
+  "colors": {
+    "combined-vs-neural": {
+      "B": {
+        "games": 0,
+        "a_wins": 0,
+        "draws": 0
+      },
+      "W": {
+        "games": 0,
+        "a_wins": 0,
+        "draws": 0
+      }
+    },
+    "neural-vs-policy": {
+      "B": {
+        "games": 20,
+        "a_wins": 12,
+        "draws": 0
+      },
+      "W": {
+        "games": 20,
+        "a_wins": 12,
+        "draws": 0
+      }
+    }
+  },
+  "decision_errors": [
+    {
+      "color": "W",
+      "role": "combined",
+      "move": "D6",
+      "ms": 223.45449996646494,
+      "trace": {
+        "variant": "combined",
+        "identifier": "led-fresh-032-combined-vs-neural-W-287",
+        "status": "fallback",
+        "report_perspective": "BLACK",
+        "value_objective": "root_player_winrate",
+        "completed_rounds": 0,
+        "fallback": true,
+        "fallback_reason": "deadline",
+        "root_move": "D6",
+        "selected_move": "D6",
+        "candidates": [
+          {
+            "move": "D6",
+            "sources": [
+              "neural"
+            ],
+            "policy_rank": 1,
+            "policy_probability": 0.104399569,
+            "status": "unevaluated"
+          },
+          {
+            "move": "K19",
+            "sources": [
+              "neural"
+            ],
+            "policy_rank": 2,
+            "policy_probability": 0.0926737189,
+            "status": "unevaluated"
+          },
+          {
+            "move": "F6",
+            "sources": [
+              "neural"
+            ],
+            "policy_rank": 3,
+            "policy_probability": 0.0816246867,
+            "status": "unevaluated"
+          },
+          {
+            "move": "O14",
+            "sources": [
+              "heuristic"
+            ],
+            "policy_rank": 21,
+            "policy_probability": 0.00850502495,
+            "status": "unevaluated"
+          },
+          {
+            "move": "T4",
+            "sources": [
+              "heuristic"
+            ],
+            "policy_rank": 6,
+            "policy_probability": 0.0666201264,
+            "status": "unevaluated"
+          },
+          {
+            "move": "P19",
+            "sources": [
+              "tactical"
+            ],
+            "policy_rank": 23,
+            "policy_probability": 0.00765976915,
+            "status": "unevaluated"
+          }
+        ],
+        "rejected": [],
+        "queries": [
+          {
+            "id": "led-fresh-032-combined-vs-neural-W-287-root",
+            "player": "W",
+            "move_count": 291,
+            "rootInfo": {
+              "currentPlayer": "W",
+              "rawLead": 76.7174683,
+              "rawNoResultProb": 0.0,
+              "rawScoreSelfplay": 79.4274979,
+              "rawScoreSelfplayStdev": 5.30340445,
+              "rawStScoreError": -1.0,
+              "rawStWrError": -0.5,
+              "rawVarTimeLeft": -1.0,
+              "rawWinrate": 0.999935091,
+              "scoreLead": 76.7174683,
+              "scoreSelfplay": 79.4274979,
+              "scoreStdev": 5.30340445,
+              "symHash": "02634413889E1126BD9BCBD825BC76A8",
+              "thisHash": "02634413889E1126BD9BCBD825BC76A8",
+              "utility": 1.21485325,
+              "visits": 1,
+              "weight": 1.0,
+              "winrate": 0.999935088
+            },
+            "status": "complete",
+            "ms": 7.465700036846101
+          }
+        ],
+        "root_ms": 44.76670001167804,
+        "nomination_ms": 166.56569996848702,
+        "evaluation_ms": 0.13189995661377907,
+        "policy_rank": 1,
+        "time_ms": 200,
+        "root_info": {
+          "currentPlayer": "W",
+          "rawLead": 76.7174683,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 79.4274979,
+          "rawScoreSelfplayStdev": 5.30340445,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999935091,
+          "scoreLead": 76.7174683,
+          "scoreSelfplay": 79.4274979,
+          "scoreStdev": 5.30340445,
+          "symHash": "02634413889E1126BD9BCBD825BC76A8",
+          "thisHash": "02634413889E1126BD9BCBD825BC76A8",
+          "utility": 1.21485325,
+          "visits": 1,
+          "weight": 1.0,
+          "winrate": 0.999935088
+        },
+        "proposals": {
+          "heuristic": [
+            "O14",
+            "T4"
+          ],
+          "tactical": [
+            "P19"
+          ],
+          "metadata": {
+            "variant": "combined",
+            "heuristic": [
+              {
+                "move": "O14",
+                "preference": 4.51,
+                "features": [
+                  "capture:0.50000000",
+                  "connect:0.33333333"
+                ]
+              },
+              {
+                "move": "T4",
+                "preference": 3.51,
+                "features": [
+                  "save_atari:0.25000000",
+                  "connect:0.66666667"
+                ]
+              }
+            ],
+            "tactical": [
+              "P19"
+            ],
+            "search_report": "move=P19 score=-10.973 depth=1 nodes=113 tactical_nodes=2 elapsed_ms=15 limited=true root_searched=110/110 mode=hybrid\npv=P19\ntelemetry leaf_calls=110 leaf_us=10345 ranking_us=3603 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: 7.500 * 1.000 = +7.500\n  stone_balance: -15.000 * 1.000 = -15.000\n  atari_risk: 2.000 * -1.500 = -3.000\n  liberty_balance: -2.000 * 0.100 = -0.200\n  influence_balance: -2.167 * 0.300 = -0.650\nAlternating move preferences along PV: +0.377\nMove preferences (not the search score):\nP19: 2.510 (base=0.010)\n  save_atari: 0.250 * 10.000 = +2.500\nHybrid nominees: heuristic preference, one-ply scout, completed verification.\n  O14 heuristic=4.510 scout=-13.273 verified=unsearched depth=0 selected=false neural_hint=false\n  T4 heuristic=3.510 scout=-11.923 verified=unsearched depth=0 selected=false neural_hint=false\n  G10 heuristic=3.010 scout=-11.099 verified=unsearched depth=0 selected=false neural_hint=false\n  M8 heuristic=3.010 scout=-11.299 verified=unsearched depth=0 selected=false neural_hint=false\n  P19 heuristic=2.510 scout=-10.973 verified=unsearched depth=0 selected=true neural_hint=false\n  H3 heuristic=2.510 scout=-13.173 verified=unsearched depth=0 selected=false neural_hint=false\n  A2 heuristic=2.510 scout=-11.573 verified=unsearched depth=0 selected=false neural_hint=false\n  N19 heuristic=2.010 scout=-12.548 verified=unsearched depth=0 selected=false neural_hint=false\n  A11 heuristic=2.010 scout=-11.998 verified=unsearched depth=0 selected=false neural_hint=false\n  T16 heuristic=1.010 scout=-11.798 verified=unsearched depth=0 selected=false neural_hint=false\n  T19 heuristic=0.510 scout=-11.674 verified=unsearched depth=0 selected=false neural_hint=false\n  D15 heuristic=0.510 scout=-11.674 verified=unsearched depth=0 selected=false neural_hint=false\n  D6 heuristic=0.510 scout=-11.573 verified=unsearched depth=0 selected=false neural_hint=false\n  B8 heuristic=0.010 scout=-11.199 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=-14.250 verified=unsearched depth=0 selected=false neural_hint=false\n  R19 heuristic=-11.490 scout=-14.073 verified=unsearched depth=0 selected=false neural_hint=false\n  E14 heuristic=-11.490 scout=-14.073 verified=unsearched depth=0 selected=false neural_hint=false\n  C7 heuristic=-11.490 scout=-13.823 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move."
+          }
+        },
+        "ms": 223.13540009781718,
+        "overshoot_ms": 23.13540014438331
+      },
+      "proposer": {
+        "variant": "combined",
+        "heuristic": [
+          {
+            "move": "O14",
+            "preference": 4.51,
+            "features": [
+              "capture:0.50000000",
+              "connect:0.33333333"
+            ]
+          },
+          {
+            "move": "T4",
+            "preference": 3.51,
+            "features": [
+              "save_atari:0.25000000",
+              "connect:0.66666667"
+            ]
+          }
+        ],
+        "tactical": [
+          "P19"
+        ],
+        "search_report": "move=P19 score=-10.973 depth=1 nodes=113 tactical_nodes=2 elapsed_ms=15 limited=true root_searched=110/110 mode=hybrid\npv=P19\ntelemetry leaf_calls=110 leaf_us=10345 ranking_us=3603 external_leaf=false\nLeaf evaluation from the root player's perspective:\n  komi: 7.500 * 1.000 = +7.500\n  stone_balance: -15.000 * 1.000 = -15.000\n  atari_risk: 2.000 * -1.500 = -3.000\n  liberty_balance: -2.000 * 0.100 = -0.200\n  influence_balance: -2.167 * 0.300 = -0.650\nAlternating move preferences along PV: +0.377\nMove preferences (not the search score):\nP19: 2.510 (base=0.010)\n  save_atari: 0.250 * 10.000 = +2.500\nHybrid nominees: heuristic preference, one-ply scout, completed verification.\n  O14 heuristic=4.510 scout=-13.273 verified=unsearched depth=0 selected=false neural_hint=false\n  T4 heuristic=3.510 scout=-11.923 verified=unsearched depth=0 selected=false neural_hint=false\n  G10 heuristic=3.010 scout=-11.099 verified=unsearched depth=0 selected=false neural_hint=false\n  M8 heuristic=3.010 scout=-11.299 verified=unsearched depth=0 selected=false neural_hint=false\n  P19 heuristic=2.510 scout=-10.973 verified=unsearched depth=0 selected=true neural_hint=false\n  H3 heuristic=2.510 scout=-13.173 verified=unsearched depth=0 selected=false neural_hint=false\n  A2 heuristic=2.510 scout=-11.573 verified=unsearched depth=0 selected=false neural_hint=false\n  N19 heuristic=2.010 scout=-12.548 verified=unsearched depth=0 selected=false neural_hint=false\n  A11 heuristic=2.010 scout=-11.998 verified=unsearched depth=0 selected=false neural_hint=false\n  T16 heuristic=1.010 scout=-11.798 verified=unsearched depth=0 selected=false neural_hint=false\n  T19 heuristic=0.510 scout=-11.674 verified=unsearched depth=0 selected=false neural_hint=false\n  D15 heuristic=0.510 scout=-11.674 verified=unsearched depth=0 selected=false neural_hint=false\n  D6 heuristic=0.510 scout=-11.573 verified=unsearched depth=0 selected=false neural_hint=false\n  B8 heuristic=0.010 scout=-11.199 verified=unsearched depth=0 selected=false neural_hint=false\n  pass heuristic=0.000 scout=-14.250 verified=unsearched depth=0 selected=false neural_hint=false\n  R19 heuristic=-11.490 scout=-14.073 verified=unsearched depth=0 selected=false neural_hint=false\n  E14 heuristic=-11.490 scout=-14.073 verified=unsearched depth=0 selected=false neural_hint=false\n  C7 heuristic=-11.490 scout=-13.823 verified=unsearched depth=0 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move.",
+        "ms": 18.037599977105856
+      },
+      "poisoned": false,
+      "error": "Decision exceeded 220 ms hard operational gate",
+      "turn": 287,
+      "turn_ms": 225.00900004524738,
+      "file": "led-fresh-032-combined-vs-neural-W.jsonl"
+    }
+  ]
+}

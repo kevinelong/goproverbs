@@ -1,0 +1,28 @@
+{
+  "matchups": {
+    "combined-vs-neural": {
+      "games": 40,
+      "complete_pairs": 20,
+      "a_wins": 21,
+      "unfinished": 0,
+      "mean_pair_score_for_a": 0.525,
+      "conservative_95_interval": [
+        0.22131926904584742,
+        0.8286807309541526
+      ]
+    },
+    "neural-vs-policy": {
+      "games": 40,
+      "complete_pairs": 20,
+      "a_wins": 20,
+      "unfinished": 0,
+      "mean_pair_score_for_a": 0.5,
+      "conservative_95_interval": [
+        0.1963192690458474,
+        0.8036807309541526
+      ]
+    }
+  },
+  "method": "Hoeffding bounded-mean interval treating each complete opening pair as one independent observation.",
+  "limitations": "Conditional on completed pairs and the supplied opening distribution; incomplete pairs are excluded; no Elo estimate."
+}

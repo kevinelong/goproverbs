@@ -1,0 +1,102 @@
+[
+    {
+        "path":  "profiles\\tuned.weights",
+        "sha256":  "c9f26a2b6767cf44140ce2cd54d599873a45203b8885b21aed19a310ec88a809"
+    },
+    {
+        "path":  "profiles\\tuned.tuning.json",
+        "sha256":  "9600a0150412817cb64bca1cf775c3a8ffc9395e7ba8c6e6d2f92accc49eaead"
+    },
+    {
+        "path":  "profiles\\modern.weights",
+        "sha256":  "c4d00e14e88f9627785df0c85074e7c942b39fcf14897c4c305112db42b60a12"
+    },
+    {
+        "path":  "profiles\\material-risk.weights",
+        "sha256":  "8fa845c0e10b301848bcdacf51ede92516b789ed94d079afc73bd22245bb9b16"
+    },
+    {
+        "path":  "profiles\\baseline.weights",
+        "sha256":  "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225"
+    },
+    {
+        "path":  "benchmarks\\lab.py",
+        "sha256":  "5f213872a6ec6e84ed2f36c6bdd0efb50284f71528a0221c2ac31d004a5e2e21"
+    },
+    {
+        "path":  "benchmarks\\fixtures.json",
+        "sha256":  "e96e3df4c3947e6754c34ed1847090a1845dff293c77fb191b5a374221f58a37"
+    },
+    {
+        "path":  "benchmarks\\compare.py",
+        "sha256":  "12670f6d6ac70eae9ae90d6e8676084cbb826f8af22c87a99b4918ee453b2aa4"
+    },
+    {
+        "path":  "benchmarks\\summarize.py",
+        "sha256":  "9d33fde956ff7e3a1e1944bf9e43a3dbe2ce3f001c52d6f9b8b2c511ffe81f55"
+    },
+    {
+        "path":  "benchmarks\\symmetry.py",
+        "sha256":  "e31cdbf832d009fd500bc827d1fe9fd24807715a5f3f9f31d2a22629cad0cb1d"
+    },
+    {
+        "path":  "src\\ascii.rs",
+        "sha256":  "e363a4e72d105ad7d21a12b84ed7ac056bea5859503d5665f9d67c69ee01e77d"
+    },
+    {
+        "path":  "benchmarks\\test_lab.py",
+        "sha256":  "241a16d02e21a398af1e2a342d30a4fa4c9d92e28c01bf1381a7fa1440f4d7a5"
+    },
+    {
+        "path":  "src\\coords.rs",
+        "sha256":  "34a759e01ae0079212c4981e48fb5e3802e06582bb5469c9ab387cfb406d3941"
+    },
+    {
+        "path":  "tests\\cli.rs",
+        "sha256":  "944365e3c081404db61bcf74d3f20042d4d67d203826ba7c9e53583cdcca7e25"
+    },
+    {
+        "path":  "tests\\core.rs",
+        "sha256":  "6f754e38f077d4f64b37dc852d812b8f4c4a31dd1b4d8845b40b380abafb9ee7"
+    },
+    {
+        "path":  "tests\\search_and_scoring.rs",
+        "sha256":  "793833ff1579b715192678f5db3322ec05eace6d7bda0b7db4b9909bf3c98d1f"
+    },
+    {
+        "path":  "tests\\protocol.rs",
+        "sha256":  "0839e7261b93cb77ac3fb897038993613294c1f8301df61aea094d0bdb0ce9bd"
+    },
+    {
+        "path":  "src\\game.rs",
+        "sha256":  "7a0e9915d6b95ce5cddd5ac1043ad808c9c555438fd88fcb14895230f6dbbcc2"
+    },
+    {
+        "path":  "src\\engine.rs",
+        "sha256":  "80d12c309210c139d0febef14a02ebd5f146b289315613255c8afbcb59a0b000"
+    },
+    {
+        "path":  "src\\gtp.rs",
+        "sha256":  "3109f9d44a5873751e914fbfeb3f46ba3211291816c59e1fce945ee95580d226"
+    },
+    {
+        "path":  "src\\lib.rs",
+        "sha256":  "04029cb1d65c8b3f92a6a4b6ad2974bb05beb196bdd73a9a73f3a4d528cdf6f3"
+    },
+    {
+        "path":  "src\\main.rs",
+        "sha256":  "81d291aafc567267f9ca0356b752704e6f5b1dad61815c916e5989f31ae86608"
+    },
+    {
+        "path":  "src\\sgf.rs",
+        "sha256":  "5d3a9258c8b84d40a27d9780663b7a4c5fad671643ba1573cf9244068862258e"
+    },
+    {
+        "path":  "src\\search.rs",
+        "sha256":  "850eda60a244aefdcf8e8c2a550e46b26af77d8794736f7bb9ab3dfc8ff9423e"
+    },
+    {
+        "path":  "src\\scoring.rs",
+        "sha256":  "21f589ab211915e380f375178bc05da0ae2af0aed884e215c4d11192a10313a3"
+    }
+]

@@ -1,0 +1,276 @@
+{
+  "status": "complete",
+  "rules": "tromp-taylor",
+  "board_size": 19,
+  "komi": 7.5,
+  "settings": {
+    "katago": "C:\\Users\\kevin\\ai_bench\\katago\\eigenavx2-1.18.1\\katago.exe",
+    "model": "C:\\Users\\kevin\\ai_bench\\katago\\lionffen_b6c64_3x3_v10.txt.gz",
+    "exe": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v2\\goproverbs.exe",
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\source-v2\\profiles\\baseline.weights",
+    "openings": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\cpu-openings.json",
+    "pairs": 2,
+    "output": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\direct-20260922\\cpu-small-v2",
+    "time_ms": 200,
+    "move_cap": 722,
+    "cpu": true,
+    "matchups": [
+      "NH:HH"
+    ]
+  },
+  "matchups": [
+    "NH-vs-HH"
+  ],
+  "hashes_before": {
+    "katago": "6e2e0416fea6392369c13dfeef05d5a5dce4b7f506b96aa609dd3cafeb3ff440",
+    "model": "2d728ee0ae1fbeab264e682d60d3c6665aa566db559c28ef6d63dabb92ed56dc",
+    "goproverbs": "20dc2a23ac9b3a372ff9998dcbb9526762cc111429810b2d8163b6f8af6efe7e",
+    "profile": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "openings": "d03e83e549148523981a15f509342ee257ea5610718c819517feb6c8d9fb02aa",
+    "config": "f730c2f1c988a049d54dd814b84b0f2235916b4137868d899660ec09cf87e3c5",
+    "harness": "395a8892a578d676f0e08c896e3f57f503e008709af93f1791ff9942537414c2",
+    "guidance": "0b390c966a1711740ae016ef33549addab361e43d482f0f39685d8256d167752",
+    "neural": "19f5771766a4858f52af5708e24696d27bd47ac83db494a08d5cceec92f30dbb",
+    "referee": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+    "sgf": "eabd458c4fb6a18c87c0d05dab3036b0a90963fbffac6938c0cb8aa71566a907"
+  },
+  "opening_ids": [
+    "opening-033",
+    "opening-034"
+  ],
+  "games": [
+    {
+      "opening": "opening-033",
+      "matchup": "NH-vs-HH",
+      "a": "NH",
+      "b": "HH",
+      "a_color": "B",
+      "finished": true,
+      "result": "B+61.5",
+      "a_won": true,
+      "moves": 465,
+      "raw_area_margin": 61.5,
+      "roles": {
+        "NH": {
+          "decisions": 231,
+          "median_ms": 200.44569997116923,
+          "max_ms": 201.56909996876493,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        },
+        "HH": {
+          "decisions": 230,
+          "median_ms": 200.01509998110123,
+          "max_ms": 202.05999998142943,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        }
+      }
+    },
+    {
+      "opening": "opening-033",
+      "matchup": "NH-vs-HH",
+      "a": "NH",
+      "b": "HH",
+      "a_color": "W",
+      "finished": true,
+      "result": "W+74.5",
+      "a_won": true,
+      "moves": 470,
+      "raw_area_margin": -74.5,
+      "roles": {
+        "NH": {
+          "decisions": 233,
+          "median_ms": 200.35159995313734,
+          "max_ms": 201.9323999993503,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        },
+        "HH": {
+          "decisions": 233,
+          "median_ms": 199.9673999962397,
+          "max_ms": 201.3196999905631,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        }
+      }
+    },
+    {
+      "opening": "opening-034",
+      "matchup": "NH-vs-HH",
+      "a": "NH",
+      "b": "HH",
+      "a_color": "B",
+      "finished": true,
+      "result": "W+24.5",
+      "a_won": false,
+      "moves": 453,
+      "raw_area_margin": -24.5,
+      "roles": {
+        "NH": {
+          "decisions": 226,
+          "median_ms": 200.36620000610128,
+          "max_ms": 201.57159998780116,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        },
+        "HH": {
+          "decisions": 225,
+          "median_ms": 199.95830004336312,
+          "max_ms": 201.5042999992147,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        }
+      }
+    },
+    {
+      "opening": "opening-034",
+      "matchup": "NH-vs-HH",
+      "a": "NH",
+      "b": "HH",
+      "a_color": "W",
+      "finished": true,
+      "result": "W+40.5",
+      "a_won": true,
+      "moves": 467,
+      "raw_area_margin": -40.5,
+      "roles": {
+        "NH": {
+          "decisions": 232,
+          "median_ms": 200.4311500058975,
+          "max_ms": 202.23039999837056,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        },
+        "HH": {
+          "decisions": 233,
+          "median_ms": 200.1115000457503,
+          "max_ms": 201.93570002447814,
+          "fallbacks": 0,
+          "root_timeouts": 0,
+          "external_complete_rounds": 0,
+          "external_fallback_rounds": 0
+        }
+      }
+    }
+  ],
+  "hardware_before": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3286 MiB, 8658 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 3953410048
+    }
+  },
+  "version": {
+    "action": "query_version",
+    "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+    "id": "version",
+    "version": "1.18.1"
+  },
+  "hardware_loaded": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3286 MiB, 8658 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 3874541568
+    }
+  },
+  "broker": {
+    "count": 923,
+    "errors": [],
+    "metrics": {
+      "leaf_requests": 0,
+      "expired_before_query": 0,
+      "timeouts": 0,
+      "completed": 923,
+      "queue_ms": 3.185900568496436,
+      "query_ms": 12740.72829913348,
+      "max_query_ms": 40.21250002551824,
+      "duplicate_histories": 0
+    }
+  },
+  "kata_metrics": {
+    "sent": 928,
+    "cancelled": 0,
+    "late_replies": 0,
+    "lock_timeouts": 0
+  },
+  "paired": {
+    "matchups": {
+      "NH-vs-HH": {
+        "games": 4,
+        "complete_pairs": 2,
+        "a_wins": 3,
+        "unfinished": 0,
+        "mean_pair_score_for_a": 0.75,
+        "conservative_95_interval": [
+          0,
+          1
+        ]
+      }
+    },
+    "method": "Hoeffding bounded-mean interval treating each complete opening pair as one independent observation.",
+    "limitations": "Conditional on completed pairs and the supplied opening distribution; incomplete pairs are excluded; no Elo estimate."
+  },
+  "hardware_after": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3282 MiB, 8662 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 3983724544
+    }
+  },
+  "hashes_after": {
+    "katago": "6e2e0416fea6392369c13dfeef05d5a5dce4b7f506b96aa609dd3cafeb3ff440",
+    "model": "2d728ee0ae1fbeab264e682d60d3c6665aa566db559c28ef6d63dabb92ed56dc",
+    "goproverbs": "20dc2a23ac9b3a372ff9998dcbb9526762cc111429810b2d8163b6f8af6efe7e",
+    "profile": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "openings": "d03e83e549148523981a15f509342ee257ea5610718c819517feb6c8d9fb02aa",
+    "config": "f730c2f1c988a049d54dd814b84b0f2235916b4137868d899660ec09cf87e3c5",
+    "harness": "395a8892a578d676f0e08c896e3f57f503e008709af93f1791ff9942537414c2",
+    "guidance": "0b390c966a1711740ae016ef33549addab361e43d482f0f39685d8256d167752",
+    "neural": "19f5771766a4858f52af5708e24696d27bd47ac83db494a08d5cceec92f30dbb",
+    "referee": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+    "sgf": "eabd458c4fb6a18c87c0d05dab3036b0a90963fbffac6938c0cb8aa71566a907"
+  },
+  "hashes_unchanged": true
+}

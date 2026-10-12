@@ -1,0 +1,130 @@
+[
+  {
+    "opening": "opening-033",
+    "matchup": "NH-vs-HH",
+    "a": "NH",
+    "b": "HH",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+61.5",
+    "a_won": true,
+    "moves": 465,
+    "raw_area_margin": 61.5,
+    "roles": {
+      "NH": {
+        "decisions": 231,
+        "median_ms": 200.44569997116923,
+        "max_ms": 201.56909996876493,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "HH": {
+        "decisions": 230,
+        "median_ms": 200.01509998110123,
+        "max_ms": 202.05999998142943,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      }
+    }
+  },
+  {
+    "opening": "opening-033",
+    "matchup": "NH-vs-HH",
+    "a": "NH",
+    "b": "HH",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+74.5",
+    "a_won": true,
+    "moves": 470,
+    "raw_area_margin": -74.5,
+    "roles": {
+      "NH": {
+        "decisions": 233,
+        "median_ms": 200.35159995313734,
+        "max_ms": 201.9323999993503,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "HH": {
+        "decisions": 233,
+        "median_ms": 199.9673999962397,
+        "max_ms": 201.3196999905631,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      }
+    }
+  },
+  {
+    "opening": "opening-034",
+    "matchup": "NH-vs-HH",
+    "a": "NH",
+    "b": "HH",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+24.5",
+    "a_won": false,
+    "moves": 453,
+    "raw_area_margin": -24.5,
+    "roles": {
+      "NH": {
+        "decisions": 226,
+        "median_ms": 200.36620000610128,
+        "max_ms": 201.57159998780116,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "HH": {
+        "decisions": 225,
+        "median_ms": 199.95830004336312,
+        "max_ms": 201.5042999992147,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      }
+    }
+  },
+  {
+    "opening": "opening-034",
+    "matchup": "NH-vs-HH",
+    "a": "NH",
+    "b": "HH",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+40.5",
+    "a_won": true,
+    "moves": 467,
+    "raw_area_margin": -40.5,
+    "roles": {
+      "NH": {
+        "decisions": 232,
+        "median_ms": 200.4311500058975,
+        "max_ms": 202.23039999837056,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "HH": {
+        "decisions": 233,
+        "median_ms": 200.1115000457503,
+        "max_ms": 201.93570002447814,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      }
+    }
+  }
+]

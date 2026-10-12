@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-21",
+  "format": "pass: cargo fmt",
+  "clippy": "pass: cargo clippy --offline --all-targets -- -D warnings",
+  "build": "pass: cargo build --offline --release",
+  "targeted_rust": {
+    "command": "cargo test --offline --target-dir target/roadmap-20260921 --test clocks --test neural_hooks --test search_modes --test protocol",
+    "exit_code": 0,
+    "passed": 16,
+    "failed": 0
+  },
+  "python": {
+    "command": "python -m unittest discover -s benchmarks -p test_*.py -v",
+    "exit_code": 0,
+    "passed": 32,
+    "failed": 0,
+    "log": "python-tests-final.txt",
+    "log_note": "PowerShell formats the first unittest stderr line as NativeCommandError when piped to Tee-Object. The process exit code was zero and the unittest summary is OK."
+  },
+  "full_rust_suite": {
+    "status": "incomplete",
+    "reason": "Windows Application Control blocked core and search_and_scoring test binaries with OS error 4551; earlier default-directory linking also hit LNK1104. Policy was not changed or bypassed."
+  },
+  "optimization": {
+    "identical_candidate_cases": 94,
+    "matching_fixed_depth_cases": 4,
+    "evidence": "optimization.json"
+  },
+  "final_default_equivalence": {
+    "identical_candidate_cases": 94,
+    "matching_fixed_depth_cases": 4,
+    "evidence": "final-default-equivalence.json"
+  },
+  "arena": {
+    "finished_games": 12,
+    "independent_board_and_score_checks": "pass",
+    "broker_errors": 0,
+    "evidence": "arena-v2-200/manifest.json"
+  }
+}

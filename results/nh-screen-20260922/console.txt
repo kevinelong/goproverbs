@@ -1,0 +1,203 @@
+opening-002-NH-B 100
+opening-002-NH-B 200
+opening-002-NH-B 300
+opening-002-NH-B 400
+opening-002-NH-B B+3.5 variant_won True
+opening-002-NH-W 100
+opening-002-NH-W 200
+opening-002-NH-W 300
+opening-002-NH-W 400
+opening-002-NH-W W+48.5 variant_won True
+opening-003-NH-B 100
+opening-003-NH-B 200
+opening-003-NH-B 300
+opening-003-NH-B 400
+opening-003-NH-B B+45.5 variant_won True
+opening-003-NH-W 100
+opening-003-NH-W 200
+opening-003-NH-W 300
+opening-003-NH-W 400
+opening-003-NH-W W+28.5 variant_won True
+opening-004-NH-B 100
+opening-004-NH-B 200
+opening-004-NH-B 300
+opening-004-NH-B 400
+opening-004-NH-B B+55.5 variant_won True
+opening-004-NH-W 100
+opening-004-NH-W 200
+opening-004-NH-W 300
+opening-004-NH-W 400
+opening-004-NH-W 500
+opening-004-NH-W W+66.5 variant_won True
+opening-005-NH-B 100
+opening-005-NH-B 200
+opening-005-NH-B 300
+opening-005-NH-B 400
+opening-005-NH-B W+30.5 variant_won False
+opening-005-NH-W 100
+opening-005-NH-W 200
+opening-005-NH-W 300
+opening-005-NH-W 400
+opening-005-NH-W W+48.5 variant_won True
+opening-006-NH-B 100
+opening-006-NH-B 200
+opening-006-NH-B 300
+opening-006-NH-B 400
+opening-006-NH-B B+45.5 variant_won True
+opening-006-NH-W 100
+opening-006-NH-W 200
+opening-006-NH-W 300
+opening-006-NH-W 400
+opening-006-NH-W W+74.5 variant_won True
+opening-007-NH-B 100
+opening-007-NH-B 200
+opening-007-NH-B 300
+opening-007-NH-B 400
+opening-007-NH-B B+33.5 variant_won True
+opening-007-NH-W 100
+opening-007-NH-W 200
+opening-007-NH-W 300
+opening-007-NH-W 400
+opening-007-NH-W W+88.5 variant_won True
+opening-008-NH-B 100
+opening-008-NH-B 200
+opening-008-NH-B 300
+opening-008-NH-B 400
+opening-008-NH-B B+13.5 variant_won True
+opening-008-NH-W 100
+opening-008-NH-W 200
+opening-008-NH-W 300
+opening-008-NH-W 400
+opening-008-NH-W W+22.5 variant_won True
+opening-009-NH-B 100
+opening-009-NH-B 200
+opening-009-NH-B 300
+opening-009-NH-B 400
+opening-009-NH-B B+37.5 variant_won True
+opening-009-NH-W 100
+opening-009-NH-W 200
+opening-009-NH-W 300
+opening-009-NH-W 400
+opening-009-NH-W W+13.5 variant_won True
+opening-010-NH-B 100
+opening-010-NH-B 200
+opening-010-NH-B 300
+opening-010-NH-B 400
+opening-010-NH-B B+65.5 variant_won True
+opening-010-NH-W 100
+opening-010-NH-W 200
+opening-010-NH-W 300
+opening-010-NH-W 400
+opening-010-NH-W W+24.5 variant_won True
+opening-011-NH-B 100
+opening-011-NH-B 200
+opening-011-NH-B 300
+opening-011-NH-B 400
+opening-011-NH-B B+61.5 variant_won True
+opening-011-NH-W 100
+opening-011-NH-W 200
+opening-011-NH-W 300
+opening-011-NH-W 400
+opening-011-NH-W 500
+opening-011-NH-W W+182.5 variant_won True
+opening-012-NH-B 100
+opening-012-NH-B 200
+opening-012-NH-B 300
+opening-012-NH-B 400
+opening-012-NH-B B+21.5 variant_won True
+opening-012-NH-W 100
+opening-012-NH-W 200
+opening-012-NH-W 300
+opening-012-NH-W 400
+opening-012-NH-W W+104.5 variant_won True
+opening-013-NH-B 100
+opening-013-NH-B 200
+opening-013-NH-B 300
+opening-013-NH-B 400
+opening-013-NH-B W+0.5 variant_won False
+opening-013-NH-W 100
+opening-013-NH-W 200
+opening-013-NH-W 300
+opening-013-NH-W 400
+opening-013-NH-W W+52.5 variant_won True
+opening-014-NH-B 100
+opening-014-NH-B 200
+opening-014-NH-B 300
+opening-014-NH-B 400
+opening-014-NH-B B+11.5 variant_won True
+opening-014-NH-W 100
+opening-014-NH-W 200
+opening-014-NH-W 300
+opening-014-NH-W 400
+opening-014-NH-W W+88.5 variant_won True
+opening-015-NH-B 100
+opening-015-NH-B 200
+opening-015-NH-B 300
+opening-015-NH-B 400
+opening-015-NH-B 500
+opening-015-NH-B B+131.5 variant_won True
+opening-015-NH-W 100
+opening-015-NH-W 200
+opening-015-NH-W 300
+opening-015-NH-W 400
+opening-015-NH-W B+13.5 variant_won False
+opening-016-NH-B 100
+opening-016-NH-B 200
+opening-016-NH-B 300
+opening-016-NH-B 400
+opening-016-NH-B B+105.5 variant_won True
+opening-016-NH-W 100
+opening-016-NH-W 200
+opening-016-NH-W 300
+opening-016-NH-W 400
+opening-016-NH-W W+38.5 variant_won True
+opening-017-NH-B 100
+opening-017-NH-B 200
+opening-017-NH-B 300
+opening-017-NH-B 400
+opening-017-NH-B B+45.5 variant_won True
+opening-017-NH-W 100
+opening-017-NH-W 200
+opening-017-NH-W 300
+opening-017-NH-W 400
+opening-017-NH-W B+13.5 variant_won False
+opening-018-NH-B 100
+opening-018-NH-B 200
+opening-018-NH-B 300
+opening-018-NH-B 400
+opening-018-NH-B B+77.5 variant_won True
+opening-018-NH-W 100
+opening-018-NH-W 200
+opening-018-NH-W 300
+opening-018-NH-W 400
+opening-018-NH-W W+2.5 variant_won True
+opening-019-NH-B 100
+opening-019-NH-B 200
+opening-019-NH-B 300
+opening-019-NH-B 400
+opening-019-NH-B B+39.5 variant_won True
+opening-019-NH-W 100
+opening-019-NH-W 200
+opening-019-NH-W 300
+opening-019-NH-W 400
+opening-019-NH-W W+76.5 variant_won True
+opening-020-NH-B 100
+opening-020-NH-B 200
+opening-020-NH-B 300
+opening-020-NH-B 400
+opening-020-NH-B B+75.5 variant_won True
+opening-020-NH-W 100
+opening-020-NH-W 200
+opening-020-NH-W 300
+opening-020-NH-W 400
+opening-020-NH-W W+102.5 variant_won True
+opening-021-NH-B 100
+opening-021-NH-B 200
+opening-021-NH-B 300
+opening-021-NH-B 400
+opening-021-NH-B B+105.5 variant_won True
+opening-021-NH-W 100
+opening-021-NH-W 200
+opening-021-NH-W 300
+opening-021-NH-W 400
+opening-021-NH-W W+108.5 variant_won True

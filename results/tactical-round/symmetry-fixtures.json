@@ -1,0 +1,3466 @@
+[
+  {
+    "id": "rescue-single-m0r0",
+    "family": "single-atari",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "W",
+        "A2"
+      ],
+      [
+        "W",
+        "C2"
+      ],
+      [
+        "W",
+        "B1"
+      ]
+    ],
+    "accept": [
+      "B3"
+    ],
+    "base_id": "rescue-single"
+  },
+  {
+    "id": "rescue-single-m0r1",
+    "family": "single-atari",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B8"
+      ],
+      [
+        "W",
+        "B9"
+      ],
+      [
+        "W",
+        "B7"
+      ],
+      [
+        "W",
+        "A8"
+      ]
+    ],
+    "accept": [
+      "C8"
+    ],
+    "base_id": "rescue-single"
+  },
+  {
+    "id": "rescue-single-m0r2",
+    "family": "single-atari",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "H8"
+      ],
+      [
+        "W",
+        "J8"
+      ],
+      [
+        "W",
+        "G8"
+      ],
+      [
+        "W",
+        "H9"
+      ]
+    ],
+    "accept": [
+      "H7"
+    ],
+    "base_id": "rescue-single"
+  },
+  {
+    "id": "rescue-single-m0r3",
+    "family": "single-atari",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "H2"
+      ],
+      [
+        "W",
+        "H1"
+      ],
+      [
+        "W",
+        "H3"
+      ],
+      [
+        "W",
+        "J2"
+      ]
+    ],
+    "accept": [
+      "G2"
+    ],
+    "base_id": "rescue-single"
+  },
+  {
+    "id": "rescue-single-m1r0",
+    "family": "single-atari",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "H2"
+      ],
+      [
+        "W",
+        "J2"
+      ],
+      [
+        "W",
+        "G2"
+      ],
+      [
+        "W",
+        "H1"
+      ]
+    ],
+    "accept": [
+      "H3"
+    ],
+    "base_id": "rescue-single"
+  },
+  {
+    "id": "rescue-single-m1r1",
+    "family": "single-atari",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "W",
+        "B1"
+      ],
+      [
+        "W",
+        "B3"
+      ],
+      [
+        "W",
+        "A2"
+      ]
+    ],
+    "accept": [
+      "C2"
+    ],
+    "base_id": "rescue-single"
+  },
+  {
+    "id": "rescue-single-m1r2",
+    "family": "single-atari",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B8"
+      ],
+      [
+        "W",
+        "A8"
+      ],
+      [
+        "W",
+        "C8"
+      ],
+      [
+        "W",
+        "B9"
+      ]
+    ],
+    "accept": [
+      "B7"
+    ],
+    "base_id": "rescue-single"
+  },
+  {
+    "id": "rescue-single-m1r3",
+    "family": "single-atari",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "H8"
+      ],
+      [
+        "W",
+        "H9"
+      ],
+      [
+        "W",
+        "H7"
+      ],
+      [
+        "W",
+        "J8"
+      ]
+    ],
+    "accept": [
+      "G8"
+    ],
+    "base_id": "rescue-single"
+  },
+  {
+    "id": "capture-pair-m0r0",
+    "family": "pair-center-capture",
+    "split": "train",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "C2"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "C1"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "B",
+        "B3"
+      ]
+    ],
+    "accept": [
+      "C3"
+    ],
+    "base_id": "capture-pair"
+  },
+  {
+    "id": "capture-pair-m0r1",
+    "family": "pair-center-capture",
+    "split": "train",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "W",
+        "B3"
+      ],
+      [
+        "B",
+        "B5"
+      ],
+      [
+        "B",
+        "A4"
+      ],
+      [
+        "B",
+        "A3"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "B",
+        "C4"
+      ]
+    ],
+    "accept": [
+      "C3"
+    ],
+    "base_id": "capture-pair"
+  },
+  {
+    "id": "capture-pair-m0r2",
+    "family": "pair-center-capture",
+    "split": "train",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "D4"
+      ],
+      [
+        "W",
+        "C4"
+      ],
+      [
+        "B",
+        "E4"
+      ],
+      [
+        "B",
+        "D5"
+      ],
+      [
+        "B",
+        "C5"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "B",
+        "D3"
+      ]
+    ],
+    "accept": [
+      "C3"
+    ],
+    "base_id": "capture-pair"
+  },
+  {
+    "id": "capture-pair-m0r3",
+    "family": "pair-center-capture",
+    "split": "train",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "D2"
+      ],
+      [
+        "W",
+        "D3"
+      ],
+      [
+        "B",
+        "D1"
+      ],
+      [
+        "B",
+        "E2"
+      ],
+      [
+        "B",
+        "E3"
+      ],
+      [
+        "B",
+        "D4"
+      ],
+      [
+        "B",
+        "C2"
+      ]
+    ],
+    "accept": [
+      "C3"
+    ],
+    "base_id": "capture-pair"
+  },
+  {
+    "id": "capture-pair-m1r0",
+    "family": "pair-center-capture",
+    "split": "train",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "D2"
+      ],
+      [
+        "W",
+        "C2"
+      ],
+      [
+        "B",
+        "E2"
+      ],
+      [
+        "B",
+        "D1"
+      ],
+      [
+        "B",
+        "C1"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "B",
+        "D3"
+      ]
+    ],
+    "accept": [
+      "C3"
+    ],
+    "base_id": "capture-pair"
+  },
+  {
+    "id": "capture-pair-m1r1",
+    "family": "pair-center-capture",
+    "split": "train",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "B3"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "A3"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "B",
+        "C2"
+      ]
+    ],
+    "accept": [
+      "C3"
+    ],
+    "base_id": "capture-pair"
+  },
+  {
+    "id": "capture-pair-m1r2",
+    "family": "pair-center-capture",
+    "split": "train",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "W",
+        "C4"
+      ],
+      [
+        "B",
+        "A4"
+      ],
+      [
+        "B",
+        "B5"
+      ],
+      [
+        "B",
+        "C5"
+      ],
+      [
+        "B",
+        "D4"
+      ],
+      [
+        "B",
+        "B3"
+      ]
+    ],
+    "accept": [
+      "C3"
+    ],
+    "base_id": "capture-pair"
+  },
+  {
+    "id": "capture-pair-m1r3",
+    "family": "pair-center-capture",
+    "split": "train",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "D4"
+      ],
+      [
+        "W",
+        "D3"
+      ],
+      [
+        "B",
+        "D5"
+      ],
+      [
+        "B",
+        "E4"
+      ],
+      [
+        "B",
+        "E3"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "B",
+        "C4"
+      ]
+    ],
+    "accept": [
+      "C3"
+    ],
+    "base_id": "capture-pair"
+  },
+  {
+    "id": "avoid-self-atari-m0r0",
+    "family": "corner-self-atari",
+    "split": "train",
+    "size": 9,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "A2"
+      ]
+    ],
+    "reject": [
+      "A1"
+    ],
+    "base_id": "avoid-self-atari"
+  },
+  {
+    "id": "avoid-self-atari-m0r1",
+    "family": "corner-self-atari",
+    "split": "train",
+    "size": 9,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "B9"
+      ]
+    ],
+    "reject": [
+      "A9"
+    ],
+    "base_id": "avoid-self-atari"
+  },
+  {
+    "id": "avoid-self-atari-m0r2",
+    "family": "corner-self-atari",
+    "split": "train",
+    "size": 9,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "J8"
+      ]
+    ],
+    "reject": [
+      "J9"
+    ],
+    "base_id": "avoid-self-atari"
+  },
+  {
+    "id": "avoid-self-atari-m0r3",
+    "family": "corner-self-atari",
+    "split": "train",
+    "size": 9,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "H1"
+      ]
+    ],
+    "reject": [
+      "J1"
+    ],
+    "base_id": "avoid-self-atari"
+  },
+  {
+    "id": "avoid-self-atari-m1r0",
+    "family": "corner-self-atari",
+    "split": "train",
+    "size": 9,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "J2"
+      ]
+    ],
+    "reject": [
+      "J1"
+    ],
+    "base_id": "avoid-self-atari"
+  },
+  {
+    "id": "avoid-self-atari-m1r1",
+    "family": "corner-self-atari",
+    "split": "train",
+    "size": 9,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "B1"
+      ]
+    ],
+    "reject": [
+      "A1"
+    ],
+    "base_id": "avoid-self-atari"
+  },
+  {
+    "id": "avoid-self-atari-m1r2",
+    "family": "corner-self-atari",
+    "split": "train",
+    "size": 9,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "A8"
+      ]
+    ],
+    "reject": [
+      "A9"
+    ],
+    "base_id": "avoid-self-atari"
+  },
+  {
+    "id": "avoid-self-atari-m1r3",
+    "family": "corner-self-atari",
+    "split": "train",
+    "size": 9,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "H9"
+      ]
+    ],
+    "reject": [
+      "J9"
+    ],
+    "base_id": "avoid-self-atari"
+  },
+  {
+    "id": "preserve-corner-eye-m0r0",
+    "family": "corner-eye",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B2"
+      ]
+    ],
+    "reject": [
+      "A1"
+    ],
+    "base_id": "preserve-corner-eye"
+  },
+  {
+    "id": "preserve-corner-eye-m0r1",
+    "family": "corner-eye",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "A8"
+      ],
+      [
+        "B",
+        "B9"
+      ],
+      [
+        "B",
+        "B8"
+      ]
+    ],
+    "reject": [
+      "A9"
+    ],
+    "base_id": "preserve-corner-eye"
+  },
+  {
+    "id": "preserve-corner-eye-m0r2",
+    "family": "corner-eye",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "H9"
+      ],
+      [
+        "B",
+        "J8"
+      ],
+      [
+        "B",
+        "H8"
+      ]
+    ],
+    "reject": [
+      "J9"
+    ],
+    "base_id": "preserve-corner-eye"
+  },
+  {
+    "id": "preserve-corner-eye-m0r3",
+    "family": "corner-eye",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "J2"
+      ],
+      [
+        "B",
+        "H1"
+      ],
+      [
+        "B",
+        "H2"
+      ]
+    ],
+    "reject": [
+      "J1"
+    ],
+    "base_id": "preserve-corner-eye"
+  },
+  {
+    "id": "preserve-corner-eye-m1r0",
+    "family": "corner-eye",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "H1"
+      ],
+      [
+        "B",
+        "J2"
+      ],
+      [
+        "B",
+        "H2"
+      ]
+    ],
+    "reject": [
+      "J1"
+    ],
+    "base_id": "preserve-corner-eye"
+  },
+  {
+    "id": "preserve-corner-eye-m1r1",
+    "family": "corner-eye",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "B2"
+      ]
+    ],
+    "reject": [
+      "A1"
+    ],
+    "base_id": "preserve-corner-eye"
+  },
+  {
+    "id": "preserve-corner-eye-m1r2",
+    "family": "corner-eye",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B9"
+      ],
+      [
+        "B",
+        "A8"
+      ],
+      [
+        "B",
+        "B8"
+      ]
+    ],
+    "reject": [
+      "A9"
+    ],
+    "base_id": "preserve-corner-eye"
+  },
+  {
+    "id": "preserve-corner-eye-m1r3",
+    "family": "corner-eye",
+    "split": "train",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "J8"
+      ],
+      [
+        "B",
+        "H9"
+      ],
+      [
+        "B",
+        "H8"
+      ]
+    ],
+    "reject": [
+      "J9"
+    ],
+    "base_id": "preserve-corner-eye"
+  },
+  {
+    "id": "opening-corners-m0r0",
+    "family": "empty-opening",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [],
+    "accept": [
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "Q3",
+      "R3",
+      "Q4",
+      "R4",
+      "C16",
+      "D16",
+      "C17",
+      "D17",
+      "Q16",
+      "R16",
+      "Q17",
+      "R17"
+    ],
+    "base_id": "opening-corners"
+  },
+  {
+    "id": "opening-corners-m0r1",
+    "family": "empty-opening",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [],
+    "accept": [
+      "C17",
+      "C16",
+      "D17",
+      "D16",
+      "C4",
+      "C3",
+      "D4",
+      "D3",
+      "Q17",
+      "Q16",
+      "R17",
+      "R16",
+      "Q4",
+      "Q3",
+      "R4",
+      "R3"
+    ],
+    "base_id": "opening-corners"
+  },
+  {
+    "id": "opening-corners-m0r2",
+    "family": "empty-opening",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [],
+    "accept": [
+      "R17",
+      "Q17",
+      "R16",
+      "Q16",
+      "D17",
+      "C17",
+      "D16",
+      "C16",
+      "R4",
+      "Q4",
+      "R3",
+      "Q3",
+      "D4",
+      "C4",
+      "D3",
+      "C3"
+    ],
+    "base_id": "opening-corners"
+  },
+  {
+    "id": "opening-corners-m0r3",
+    "family": "empty-opening",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [],
+    "accept": [
+      "R3",
+      "R4",
+      "Q3",
+      "Q4",
+      "R16",
+      "R17",
+      "Q16",
+      "Q17",
+      "D3",
+      "D4",
+      "C3",
+      "C4",
+      "D16",
+      "D17",
+      "C16",
+      "C17"
+    ],
+    "base_id": "opening-corners"
+  },
+  {
+    "id": "opening-corners-m1r0",
+    "family": "empty-opening",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [],
+    "accept": [
+      "R3",
+      "Q3",
+      "R4",
+      "Q4",
+      "D3",
+      "C3",
+      "D4",
+      "C4",
+      "R16",
+      "Q16",
+      "R17",
+      "Q17",
+      "D16",
+      "C16",
+      "D17",
+      "C17"
+    ],
+    "base_id": "opening-corners"
+  },
+  {
+    "id": "opening-corners-m1r1",
+    "family": "empty-opening",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [],
+    "accept": [
+      "C3",
+      "C4",
+      "D3",
+      "D4",
+      "C16",
+      "C17",
+      "D16",
+      "D17",
+      "Q3",
+      "Q4",
+      "R3",
+      "R4",
+      "Q16",
+      "Q17",
+      "R16",
+      "R17"
+    ],
+    "base_id": "opening-corners"
+  },
+  {
+    "id": "opening-corners-m1r2",
+    "family": "empty-opening",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [],
+    "accept": [
+      "C17",
+      "D17",
+      "C16",
+      "D16",
+      "Q17",
+      "R17",
+      "Q16",
+      "R16",
+      "C4",
+      "D4",
+      "C3",
+      "D3",
+      "Q4",
+      "R4",
+      "Q3",
+      "R3"
+    ],
+    "base_id": "opening-corners"
+  },
+  {
+    "id": "opening-corners-m1r3",
+    "family": "empty-opening",
+    "split": "train",
+    "size": 19,
+    "color": "B",
+    "moves": [],
+    "accept": [
+      "R17",
+      "R16",
+      "Q17",
+      "Q16",
+      "R4",
+      "R3",
+      "Q4",
+      "Q3",
+      "D17",
+      "D16",
+      "C17",
+      "C16",
+      "D4",
+      "D3",
+      "C4",
+      "C3"
+    ],
+    "base_id": "opening-corners"
+  },
+  {
+    "id": "capture-before-suicide-m0r0",
+    "family": "three-simultaneous-captures",
+    "split": "train",
+    "size": 3,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "W",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "B1"
+    ],
+    "base_id": "capture-before-suicide"
+  },
+  {
+    "id": "capture-before-suicide-m0r1",
+    "family": "three-simultaneous-captures",
+    "split": "train",
+    "size": 3,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "W",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "A2"
+    ],
+    "base_id": "capture-before-suicide"
+  },
+  {
+    "id": "capture-before-suicide-m0r2",
+    "family": "three-simultaneous-captures",
+    "split": "train",
+    "size": 3,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "W",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "B3"
+    ],
+    "base_id": "capture-before-suicide"
+  },
+  {
+    "id": "capture-before-suicide-m0r3",
+    "family": "three-simultaneous-captures",
+    "split": "train",
+    "size": 3,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "C2"
+    ],
+    "base_id": "capture-before-suicide"
+  },
+  {
+    "id": "capture-before-suicide-m1r0",
+    "family": "three-simultaneous-captures",
+    "split": "train",
+    "size": 3,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "W",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "B1"
+    ],
+    "base_id": "capture-before-suicide"
+  },
+  {
+    "id": "capture-before-suicide-m1r1",
+    "family": "three-simultaneous-captures",
+    "split": "train",
+    "size": 3,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "W",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "A2"
+    ],
+    "base_id": "capture-before-suicide"
+  },
+  {
+    "id": "capture-before-suicide-m1r2",
+    "family": "three-simultaneous-captures",
+    "split": "train",
+    "size": 3,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "B3"
+    ],
+    "base_id": "capture-before-suicide"
+  },
+  {
+    "id": "capture-before-suicide-m1r3",
+    "family": "three-simultaneous-captures",
+    "split": "train",
+    "size": 3,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "W",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "C2"
+    ],
+    "base_id": "capture-before-suicide"
+  },
+  {
+    "id": "rescue-edge-pair-m0r0",
+    "family": "edge-pair-rescue",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "source": "Label corrected after initial evaluation: B1 captures A1 and also gives the black pair two liberties. This is a development regression case, not an untouched holdout.",
+    "moves": [
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "A3"
+      ],
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "B3"
+      ]
+    ],
+    "accept": [
+      "A4",
+      "B1"
+    ],
+    "base_id": "rescue-edge-pair"
+  },
+  {
+    "id": "rescue-edge-pair-m0r1",
+    "family": "edge-pair-rescue",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "source": "Label corrected after initial evaluation: B1 captures A1 and also gives the black pair two liberties. This is a development regression case, not an untouched holdout.",
+    "moves": [
+      [
+        "B",
+        "B9"
+      ],
+      [
+        "B",
+        "C9"
+      ],
+      [
+        "W",
+        "A9"
+      ],
+      [
+        "W",
+        "B8"
+      ],
+      [
+        "W",
+        "C8"
+      ]
+    ],
+    "accept": [
+      "D9",
+      "A8"
+    ],
+    "base_id": "rescue-edge-pair"
+  },
+  {
+    "id": "rescue-edge-pair-m0r2",
+    "family": "edge-pair-rescue",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "source": "Label corrected after initial evaluation: B1 captures A1 and also gives the black pair two liberties. This is a development regression case, not an untouched holdout.",
+    "moves": [
+      [
+        "B",
+        "J8"
+      ],
+      [
+        "B",
+        "J7"
+      ],
+      [
+        "W",
+        "J9"
+      ],
+      [
+        "W",
+        "H8"
+      ],
+      [
+        "W",
+        "H7"
+      ]
+    ],
+    "accept": [
+      "J6",
+      "H9"
+    ],
+    "base_id": "rescue-edge-pair"
+  },
+  {
+    "id": "rescue-edge-pair-m0r3",
+    "family": "edge-pair-rescue",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "source": "Label corrected after initial evaluation: B1 captures A1 and also gives the black pair two liberties. This is a development regression case, not an untouched holdout.",
+    "moves": [
+      [
+        "B",
+        "H1"
+      ],
+      [
+        "B",
+        "G1"
+      ],
+      [
+        "W",
+        "J1"
+      ],
+      [
+        "W",
+        "H2"
+      ],
+      [
+        "W",
+        "G2"
+      ]
+    ],
+    "accept": [
+      "F1",
+      "J2"
+    ],
+    "base_id": "rescue-edge-pair"
+  },
+  {
+    "id": "rescue-edge-pair-m1r0",
+    "family": "edge-pair-rescue",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "source": "Label corrected after initial evaluation: B1 captures A1 and also gives the black pair two liberties. This is a development regression case, not an untouched holdout.",
+    "moves": [
+      [
+        "B",
+        "J2"
+      ],
+      [
+        "B",
+        "J3"
+      ],
+      [
+        "W",
+        "J1"
+      ],
+      [
+        "W",
+        "H2"
+      ],
+      [
+        "W",
+        "H3"
+      ]
+    ],
+    "accept": [
+      "J4",
+      "H1"
+    ],
+    "base_id": "rescue-edge-pair"
+  },
+  {
+    "id": "rescue-edge-pair-m1r1",
+    "family": "edge-pair-rescue",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "source": "Label corrected after initial evaluation: B1 captures A1 and also gives the black pair two liberties. This is a development regression case, not an untouched holdout.",
+    "moves": [
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "C1"
+      ],
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "C2"
+      ]
+    ],
+    "accept": [
+      "D1",
+      "A2"
+    ],
+    "base_id": "rescue-edge-pair"
+  },
+  {
+    "id": "rescue-edge-pair-m1r2",
+    "family": "edge-pair-rescue",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "source": "Label corrected after initial evaluation: B1 captures A1 and also gives the black pair two liberties. This is a development regression case, not an untouched holdout.",
+    "moves": [
+      [
+        "B",
+        "A8"
+      ],
+      [
+        "B",
+        "A7"
+      ],
+      [
+        "W",
+        "A9"
+      ],
+      [
+        "W",
+        "B8"
+      ],
+      [
+        "W",
+        "B7"
+      ]
+    ],
+    "accept": [
+      "A6",
+      "B9"
+    ],
+    "base_id": "rescue-edge-pair"
+  },
+  {
+    "id": "rescue-edge-pair-m1r3",
+    "family": "edge-pair-rescue",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "source": "Label corrected after initial evaluation: B1 captures A1 and also gives the black pair two liberties. This is a development regression case, not an untouched holdout.",
+    "moves": [
+      [
+        "B",
+        "H9"
+      ],
+      [
+        "B",
+        "G9"
+      ],
+      [
+        "W",
+        "J9"
+      ],
+      [
+        "W",
+        "H8"
+      ],
+      [
+        "W",
+        "G8"
+      ]
+    ],
+    "accept": [
+      "F9",
+      "J8"
+    ],
+    "base_id": "rescue-edge-pair"
+  },
+  {
+    "id": "capture-corner-pair-m0r0",
+    "family": "corner-pair-capture",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "W",
+        "B1"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "C1"
+    ],
+    "base_id": "capture-corner-pair"
+  },
+  {
+    "id": "capture-corner-pair-m0r1",
+    "family": "corner-pair-capture",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "A5"
+      ],
+      [
+        "W",
+        "A4"
+      ],
+      [
+        "B",
+        "B5"
+      ],
+      [
+        "B",
+        "B4"
+      ]
+    ],
+    "accept": [
+      "A3"
+    ],
+    "base_id": "capture-corner-pair"
+  },
+  {
+    "id": "capture-corner-pair-m0r2",
+    "family": "corner-pair-capture",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "E5"
+      ],
+      [
+        "W",
+        "D5"
+      ],
+      [
+        "B",
+        "E4"
+      ],
+      [
+        "B",
+        "D4"
+      ]
+    ],
+    "accept": [
+      "C5"
+    ],
+    "base_id": "capture-corner-pair"
+  },
+  {
+    "id": "capture-corner-pair-m0r3",
+    "family": "corner-pair-capture",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "E1"
+      ],
+      [
+        "W",
+        "E2"
+      ],
+      [
+        "B",
+        "D1"
+      ],
+      [
+        "B",
+        "D2"
+      ]
+    ],
+    "accept": [
+      "E3"
+    ],
+    "base_id": "capture-corner-pair"
+  },
+  {
+    "id": "capture-corner-pair-m1r0",
+    "family": "corner-pair-capture",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "E1"
+      ],
+      [
+        "W",
+        "D1"
+      ],
+      [
+        "B",
+        "E2"
+      ],
+      [
+        "B",
+        "D2"
+      ]
+    ],
+    "accept": [
+      "C1"
+    ],
+    "base_id": "capture-corner-pair"
+  },
+  {
+    "id": "capture-corner-pair-m1r1",
+    "family": "corner-pair-capture",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "W",
+        "A2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "B2"
+      ]
+    ],
+    "accept": [
+      "A3"
+    ],
+    "base_id": "capture-corner-pair"
+  },
+  {
+    "id": "capture-corner-pair-m1r2",
+    "family": "corner-pair-capture",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "A5"
+      ],
+      [
+        "W",
+        "B5"
+      ],
+      [
+        "B",
+        "A4"
+      ],
+      [
+        "B",
+        "B4"
+      ]
+    ],
+    "accept": [
+      "C5"
+    ],
+    "base_id": "capture-corner-pair"
+  },
+  {
+    "id": "capture-corner-pair-m1r3",
+    "family": "corner-pair-capture",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "moves": [
+      [
+        "W",
+        "E5"
+      ],
+      [
+        "W",
+        "E4"
+      ],
+      [
+        "B",
+        "D5"
+      ],
+      [
+        "B",
+        "D4"
+      ]
+    ],
+    "accept": [
+      "E3"
+    ],
+    "base_id": "capture-corner-pair"
+  },
+  {
+    "id": "preserve-center-eye-m0r0",
+    "family": "center-eye",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "B",
+        "D3"
+      ],
+      [
+        "B",
+        "C4"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "B",
+        "D4"
+      ]
+    ],
+    "reject": [
+      "C3"
+    ],
+    "base_id": "preserve-center-eye"
+  },
+  {
+    "id": "preserve-center-eye-m0r1",
+    "family": "center-eye",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B7"
+      ],
+      [
+        "B",
+        "C8"
+      ],
+      [
+        "B",
+        "C6"
+      ],
+      [
+        "B",
+        "D7"
+      ],
+      [
+        "B",
+        "B8"
+      ],
+      [
+        "B",
+        "B6"
+      ],
+      [
+        "B",
+        "D8"
+      ],
+      [
+        "B",
+        "D6"
+      ]
+    ],
+    "reject": [
+      "C7"
+    ],
+    "base_id": "preserve-center-eye"
+  },
+  {
+    "id": "preserve-center-eye-m0r2",
+    "family": "center-eye",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "G8"
+      ],
+      [
+        "B",
+        "H7"
+      ],
+      [
+        "B",
+        "F7"
+      ],
+      [
+        "B",
+        "G6"
+      ],
+      [
+        "B",
+        "H8"
+      ],
+      [
+        "B",
+        "F8"
+      ],
+      [
+        "B",
+        "H6"
+      ],
+      [
+        "B",
+        "F6"
+      ]
+    ],
+    "reject": [
+      "G7"
+    ],
+    "base_id": "preserve-center-eye"
+  },
+  {
+    "id": "preserve-center-eye-m0r3",
+    "family": "center-eye",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "H3"
+      ],
+      [
+        "B",
+        "G2"
+      ],
+      [
+        "B",
+        "G4"
+      ],
+      [
+        "B",
+        "F3"
+      ],
+      [
+        "B",
+        "H2"
+      ],
+      [
+        "B",
+        "H4"
+      ],
+      [
+        "B",
+        "F2"
+      ],
+      [
+        "B",
+        "F4"
+      ]
+    ],
+    "reject": [
+      "G3"
+    ],
+    "base_id": "preserve-center-eye"
+  },
+  {
+    "id": "preserve-center-eye-m1r0",
+    "family": "center-eye",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "G2"
+      ],
+      [
+        "B",
+        "H3"
+      ],
+      [
+        "B",
+        "F3"
+      ],
+      [
+        "B",
+        "G4"
+      ],
+      [
+        "B",
+        "H2"
+      ],
+      [
+        "B",
+        "F2"
+      ],
+      [
+        "B",
+        "H4"
+      ],
+      [
+        "B",
+        "F4"
+      ]
+    ],
+    "reject": [
+      "G3"
+    ],
+    "base_id": "preserve-center-eye"
+  },
+  {
+    "id": "preserve-center-eye-m1r1",
+    "family": "center-eye",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "B",
+        "C4"
+      ],
+      [
+        "B",
+        "D3"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "B",
+        "D4"
+      ]
+    ],
+    "reject": [
+      "C3"
+    ],
+    "base_id": "preserve-center-eye"
+  },
+  {
+    "id": "preserve-center-eye-m1r2",
+    "family": "center-eye",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "C8"
+      ],
+      [
+        "B",
+        "B7"
+      ],
+      [
+        "B",
+        "D7"
+      ],
+      [
+        "B",
+        "C6"
+      ],
+      [
+        "B",
+        "B8"
+      ],
+      [
+        "B",
+        "D8"
+      ],
+      [
+        "B",
+        "B6"
+      ],
+      [
+        "B",
+        "D6"
+      ]
+    ],
+    "reject": [
+      "C7"
+    ],
+    "base_id": "preserve-center-eye"
+  },
+  {
+    "id": "preserve-center-eye-m1r3",
+    "family": "center-eye",
+    "split": "test",
+    "size": 9,
+    "color": "B",
+    "moves": [
+      [
+        "B",
+        "H7"
+      ],
+      [
+        "B",
+        "G8"
+      ],
+      [
+        "B",
+        "G6"
+      ],
+      [
+        "B",
+        "F7"
+      ],
+      [
+        "B",
+        "H8"
+      ],
+      [
+        "B",
+        "H6"
+      ],
+      [
+        "B",
+        "F8"
+      ],
+      [
+        "B",
+        "F6"
+      ]
+    ],
+    "reject": [
+      "G7"
+    ],
+    "base_id": "preserve-center-eye"
+  },
+  {
+    "id": "snapback-trap-m0r0",
+    "family": "seed17-snapback",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "source": "Reproducible legal random-play position from examples/find_snapback.rs, seed 17. C1 permits a larger recapture at D1; reject does not identify a proven best move.",
+    "moves": [
+      [
+        "B",
+        "C3"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "W",
+        "A2"
+      ],
+      [
+        "B",
+        "E1"
+      ],
+      [
+        "W",
+        "C4"
+      ],
+      [
+        "B",
+        "E4"
+      ],
+      [
+        "W",
+        "B5"
+      ],
+      [
+        "B",
+        "E5"
+      ],
+      [
+        "W",
+        "D5"
+      ],
+      [
+        "B",
+        "E3"
+      ],
+      [
+        "W",
+        "D1"
+      ],
+      [
+        "B",
+        "A5"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "W",
+        "D3"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "W",
+        "C5"
+      ],
+      [
+        "B",
+        "D4"
+      ],
+      [
+        "W",
+        "C2"
+      ]
+    ],
+    "reject": [
+      "C1"
+    ],
+    "base_id": "snapback-trap"
+  },
+  {
+    "id": "snapback-trap-m0r1",
+    "family": "seed17-snapback",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "source": "Reproducible legal random-play position from examples/find_snapback.rs, seed 17. C1 permits a larger recapture at D1; reject does not identify a proven best move.",
+    "moves": [
+      [
+        "B",
+        "C3"
+      ],
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "B",
+        "A4"
+      ],
+      [
+        "W",
+        "B5"
+      ],
+      [
+        "B",
+        "A1"
+      ],
+      [
+        "W",
+        "D3"
+      ],
+      [
+        "B",
+        "D1"
+      ],
+      [
+        "W",
+        "E4"
+      ],
+      [
+        "B",
+        "E1"
+      ],
+      [
+        "W",
+        "E2"
+      ],
+      [
+        "B",
+        "C1"
+      ],
+      [
+        "W",
+        "A2"
+      ],
+      [
+        "B",
+        "E5"
+      ],
+      [
+        "W",
+        "C5"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "W",
+        "A5"
+      ],
+      [
+        "B",
+        "C4"
+      ],
+      [
+        "W",
+        "C2"
+      ],
+      [
+        "B",
+        "D4"
+      ],
+      [
+        "W",
+        "E3"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "W",
+        "B3"
+      ]
+    ],
+    "reject": [
+      "A3"
+    ],
+    "base_id": "snapback-trap"
+  },
+  {
+    "id": "snapback-trap-m0r2",
+    "family": "seed17-snapback",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "source": "Reproducible legal random-play position from examples/find_snapback.rs, seed 17. C1 permits a larger recapture at D1; reject does not identify a proven best move.",
+    "moves": [
+      [
+        "B",
+        "C3"
+      ],
+      [
+        "W",
+        "D4"
+      ],
+      [
+        "B",
+        "D5"
+      ],
+      [
+        "W",
+        "E4"
+      ],
+      [
+        "B",
+        "A5"
+      ],
+      [
+        "W",
+        "C2"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "W",
+        "D1"
+      ],
+      [
+        "B",
+        "A1"
+      ],
+      [
+        "W",
+        "B1"
+      ],
+      [
+        "B",
+        "A3"
+      ],
+      [
+        "W",
+        "B5"
+      ],
+      [
+        "B",
+        "E1"
+      ],
+      [
+        "W",
+        "E3"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "W",
+        "E5"
+      ],
+      [
+        "B",
+        "D3"
+      ],
+      [
+        "W",
+        "B3"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "W",
+        "C4"
+      ]
+    ],
+    "reject": [
+      "C5"
+    ],
+    "base_id": "snapback-trap"
+  },
+  {
+    "id": "snapback-trap-m0r3",
+    "family": "seed17-snapback",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "source": "Reproducible legal random-play position from examples/find_snapback.rs, seed 17. C1 permits a larger recapture at D1; reject does not identify a proven best move.",
+    "moves": [
+      [
+        "B",
+        "C3"
+      ],
+      [
+        "W",
+        "D2"
+      ],
+      [
+        "B",
+        "E2"
+      ],
+      [
+        "W",
+        "D1"
+      ],
+      [
+        "B",
+        "E5"
+      ],
+      [
+        "W",
+        "B3"
+      ],
+      [
+        "B",
+        "B5"
+      ],
+      [
+        "W",
+        "A2"
+      ],
+      [
+        "B",
+        "A5"
+      ],
+      [
+        "W",
+        "A4"
+      ],
+      [
+        "B",
+        "C5"
+      ],
+      [
+        "W",
+        "E4"
+      ],
+      [
+        "B",
+        "A1"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "B",
+        "D4"
+      ],
+      [
+        "W",
+        "E1"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "W",
+        "C4"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "W",
+        "D3"
+      ]
+    ],
+    "reject": [
+      "E3"
+    ],
+    "base_id": "snapback-trap"
+  },
+  {
+    "id": "snapback-trap-m1r0",
+    "family": "seed17-snapback",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "source": "Reproducible legal random-play position from examples/find_snapback.rs, seed 17. C1 permits a larger recapture at D1; reject does not identify a proven best move.",
+    "moves": [
+      [
+        "B",
+        "C3"
+      ],
+      [
+        "W",
+        "D2"
+      ],
+      [
+        "B",
+        "D1"
+      ],
+      [
+        "W",
+        "E2"
+      ],
+      [
+        "B",
+        "A1"
+      ],
+      [
+        "W",
+        "C4"
+      ],
+      [
+        "B",
+        "A4"
+      ],
+      [
+        "W",
+        "D5"
+      ],
+      [
+        "B",
+        "A5"
+      ],
+      [
+        "W",
+        "B5"
+      ],
+      [
+        "B",
+        "A3"
+      ],
+      [
+        "W",
+        "B1"
+      ],
+      [
+        "B",
+        "E5"
+      ],
+      [
+        "W",
+        "E3"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "W",
+        "E1"
+      ],
+      [
+        "B",
+        "D3"
+      ],
+      [
+        "W",
+        "B3"
+      ],
+      [
+        "B",
+        "D4"
+      ],
+      [
+        "W",
+        "C5"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "W",
+        "C2"
+      ]
+    ],
+    "reject": [
+      "C1"
+    ],
+    "base_id": "snapback-trap"
+  },
+  {
+    "id": "snapback-trap-m1r1",
+    "family": "seed17-snapback",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "source": "Reproducible legal random-play position from examples/find_snapback.rs, seed 17. C1 permits a larger recapture at D1; reject does not identify a proven best move.",
+    "moves": [
+      [
+        "B",
+        "C3"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "W",
+        "B1"
+      ],
+      [
+        "B",
+        "A5"
+      ],
+      [
+        "W",
+        "D3"
+      ],
+      [
+        "B",
+        "D5"
+      ],
+      [
+        "W",
+        "E2"
+      ],
+      [
+        "B",
+        "E5"
+      ],
+      [
+        "W",
+        "E4"
+      ],
+      [
+        "B",
+        "C5"
+      ],
+      [
+        "W",
+        "A4"
+      ],
+      [
+        "B",
+        "E1"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "W",
+        "A1"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "W",
+        "C4"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "W",
+        "E3"
+      ],
+      [
+        "B",
+        "D4"
+      ],
+      [
+        "W",
+        "B3"
+      ]
+    ],
+    "reject": [
+      "A3"
+    ],
+    "base_id": "snapback-trap"
+  },
+  {
+    "id": "snapback-trap-m1r2",
+    "family": "seed17-snapback",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "source": "Reproducible legal random-play position from examples/find_snapback.rs, seed 17. C1 permits a larger recapture at D1; reject does not identify a proven best move.",
+    "moves": [
+      [
+        "B",
+        "C3"
+      ],
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "B",
+        "B5"
+      ],
+      [
+        "W",
+        "A4"
+      ],
+      [
+        "B",
+        "E5"
+      ],
+      [
+        "W",
+        "C2"
+      ],
+      [
+        "B",
+        "E2"
+      ],
+      [
+        "W",
+        "B1"
+      ],
+      [
+        "B",
+        "E1"
+      ],
+      [
+        "W",
+        "D1"
+      ],
+      [
+        "B",
+        "E3"
+      ],
+      [
+        "W",
+        "D5"
+      ],
+      [
+        "B",
+        "A1"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "B",
+        "D4"
+      ],
+      [
+        "W",
+        "A5"
+      ],
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "W",
+        "D3"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "W",
+        "C4"
+      ]
+    ],
+    "reject": [
+      "C5"
+    ],
+    "base_id": "snapback-trap"
+  },
+  {
+    "id": "snapback-trap-m1r3",
+    "family": "seed17-snapback",
+    "split": "test",
+    "size": 5,
+    "color": "B",
+    "source": "Reproducible legal random-play position from examples/find_snapback.rs, seed 17. C1 permits a larger recapture at D1; reject does not identify a proven best move.",
+    "moves": [
+      [
+        "B",
+        "C3"
+      ],
+      [
+        "W",
+        "D4"
+      ],
+      [
+        "B",
+        "E4"
+      ],
+      [
+        "W",
+        "D5"
+      ],
+      [
+        "B",
+        "E1"
+      ],
+      [
+        "W",
+        "B3"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "W",
+        "A4"
+      ],
+      [
+        "B",
+        "A1"
+      ],
+      [
+        "W",
+        "A2"
+      ],
+      [
+        "B",
+        "C1"
+      ],
+      [
+        "W",
+        "E2"
+      ],
+      [
+        "B",
+        "A5"
+      ],
+      [
+        "W",
+        "C5"
+      ],
+      [
+        "B",
+        "D2"
+      ],
+      [
+        "W",
+        "E5"
+      ],
+      [
+        "B",
+        "C4"
+      ],
+      [
+        "W",
+        "C2"
+      ],
+      [
+        "B",
+        "B4"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "B",
+        "B2"
+      ],
+      [
+        "W",
+        "D3"
+      ]
+    ],
+    "reject": [
+      "E3"
+    ],
+    "base_id": "snapback-trap"
+  },
+  {
+    "id": "respect-ko-m0r0",
+    "family": "immediate-ko",
+    "split": "test",
+    "size": 5,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "B",
+        "B3"
+      ]
+    ],
+    "reject": [
+      "B2"
+    ],
+    "allow_pass": true,
+    "base_id": "respect-ko"
+  },
+  {
+    "id": "respect-ko-m0r1",
+    "family": "immediate-ko",
+    "split": "test",
+    "size": 5,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "B5"
+      ],
+      [
+        "B",
+        "A4"
+      ],
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "W",
+        "C5"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "D4"
+      ],
+      [
+        "B",
+        "C4"
+      ]
+    ],
+    "reject": [
+      "B4"
+    ],
+    "allow_pass": true,
+    "base_id": "respect-ko"
+  },
+  {
+    "id": "respect-ko-m0r2",
+    "family": "immediate-ko",
+    "split": "test",
+    "size": 5,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "E4"
+      ],
+      [
+        "B",
+        "D5"
+      ],
+      [
+        "B",
+        "C4"
+      ],
+      [
+        "W",
+        "D4"
+      ],
+      [
+        "W",
+        "E3"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "D2"
+      ],
+      [
+        "B",
+        "D3"
+      ]
+    ],
+    "reject": [
+      "D4"
+    ],
+    "allow_pass": true,
+    "base_id": "respect-ko"
+  },
+  {
+    "id": "respect-ko-m0r3",
+    "family": "immediate-ko",
+    "split": "test",
+    "size": 5,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "D1"
+      ],
+      [
+        "B",
+        "E2"
+      ],
+      [
+        "B",
+        "D3"
+      ],
+      [
+        "W",
+        "D2"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "B",
+        "C2"
+      ]
+    ],
+    "reject": [
+      "D2"
+    ],
+    "allow_pass": true,
+    "base_id": "respect-ko"
+  },
+  {
+    "id": "respect-ko-m1r0",
+    "family": "immediate-ko",
+    "split": "test",
+    "size": 5,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "E2"
+      ],
+      [
+        "B",
+        "D1"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "W",
+        "D2"
+      ],
+      [
+        "W",
+        "E3"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "D4"
+      ],
+      [
+        "B",
+        "D3"
+      ]
+    ],
+    "reject": [
+      "D2"
+    ],
+    "allow_pass": true,
+    "base_id": "respect-ko"
+  },
+  {
+    "id": "respect-ko-m1r1",
+    "family": "immediate-ko",
+    "split": "test",
+    "size": 5,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B3"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "C1"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "D2"
+      ],
+      [
+        "B",
+        "C2"
+      ]
+    ],
+    "reject": [
+      "B2"
+    ],
+    "allow_pass": true,
+    "base_id": "respect-ko"
+  },
+  {
+    "id": "respect-ko-m1r2",
+    "family": "immediate-ko",
+    "split": "test",
+    "size": 5,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "A4"
+      ],
+      [
+        "B",
+        "B5"
+      ],
+      [
+        "B",
+        "C4"
+      ],
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "B",
+        "B3"
+      ]
+    ],
+    "reject": [
+      "B4"
+    ],
+    "allow_pass": true,
+    "base_id": "respect-ko"
+  },
+  {
+    "id": "respect-ko-m1r3",
+    "family": "immediate-ko",
+    "split": "test",
+    "size": 5,
+    "color": "W",
+    "moves": [
+      [
+        "B",
+        "D5"
+      ],
+      [
+        "B",
+        "E4"
+      ],
+      [
+        "B",
+        "D3"
+      ],
+      [
+        "W",
+        "D4"
+      ],
+      [
+        "W",
+        "C5"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "B",
+        "C4"
+      ]
+    ],
+    "reject": [
+      "D4"
+    ],
+    "allow_pass": true,
+    "base_id": "respect-ko"
+  }
+]

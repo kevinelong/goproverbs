@@ -1,0 +1,38 @@
+{
+  "selected_visits": 16,
+  "budgets": {
+    "4": {
+      "decisions": 20,
+      "median_ms": 49.15089998394251,
+      "p95_ms": 69.99499991070479,
+      "max_ms": 75.75249997898936,
+      "verified": {
+        "neural": 10,
+        "combined": 10
+      },
+      "passed": true
+    },
+    "8": {
+      "decisions": 20,
+      "median_ms": 56.53795006219298,
+      "p95_ms": 80.78259998001158,
+      "max_ms": 83.29300000332296,
+      "verified": {
+        "neural": 10,
+        "combined": 10
+      },
+      "passed": true
+    },
+    "16": {
+      "decisions": 20,
+      "median_ms": 74.8299999977462,
+      "p95_ms": 100.80159991048276,
+      "max_ms": 102.07499994430691,
+      "verified": {
+        "neural": 10,
+        "combined": 10
+      },
+      "passed": true
+    }
+  }
+}

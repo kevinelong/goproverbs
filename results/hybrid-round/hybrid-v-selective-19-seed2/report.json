@@ -1,0 +1,73 @@
+{
+  "games": [
+    {
+      "pair": 0,
+      "a_color": "B",
+      "opening": [
+        [
+          "B",
+          "N13"
+        ],
+        [
+          "W",
+          "T10"
+        ]
+      ],
+      "finished": true,
+      "result": "B+74.5",
+      "moves": 399,
+      "winner": "a",
+      "final_board_margin": 74.5
+    },
+    {
+      "pair": 0,
+      "a_color": "W",
+      "opening": [
+        [
+          "B",
+          "N13"
+        ],
+        [
+          "W",
+          "T10"
+        ]
+      ],
+      "finished": true,
+      "result": "W+79.5",
+      "moves": 394,
+      "winner": "a",
+      "final_board_margin": -79.5
+    }
+  ],
+  "a_wins": 2,
+  "b_wins": 0,
+  "draws": 0,
+  "unfinished": 0,
+  "seed": 20260922,
+  "board_size": 19,
+  "komi": 0.5,
+  "limits": {
+    "nodes": 5000,
+    "depth": 4,
+    "beam": 12,
+    "time_ms": 200,
+    "shortlist": 3,
+    "move_cap": 722
+  },
+  "a": {
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\profiles\\baseline.weights",
+    "profile_sha256": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "tactical_plies": 0,
+    "mode": "hybrid"
+  },
+  "b": {
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\profiles\\baseline.weights",
+    "profile_sha256": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "tactical_plies": 0,
+    "mode": "selective"
+  },
+  "executable_sha256": "302f621fb393e556f486cca6ab993dba596f5dd7f6439e94fdcf39dd32bc8c22",
+  "harness_sha256": "050e1ec060ea7210b9b94baac7409af4b453030bd26b194b53febe412b9cd0f9",
+  "referee_sha256": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+  "independent_referee_checked_both_boards_and_final_scores": true
+}

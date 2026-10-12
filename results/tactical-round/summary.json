@@ -1,0 +1,272 @@
+{
+  "comparisons": [
+    {
+      "experiment": "combined-v-baseline",
+      "a_wins": 3,
+      "b_wins": 9,
+      "draws": 0,
+      "unfinished": 0,
+      "measurements": {
+        "a": {
+          "moves": 673,
+          "median_ms": 99.572,
+          "max_ms": 188.104,
+          "depth_counts": {
+            "1": 146,
+            "2": 383,
+            "3": 144
+          },
+          "limited_moves": 529,
+          "tree_nodes": 1197794,
+          "extended_internal_nodes": 378910
+        },
+        "b": {
+          "moves": 675,
+          "median_ms": 33.745,
+          "max_ms": 65.642,
+          "depth_counts": {
+            "2": 16,
+            "3": 659
+          },
+          "limited_moves": 16,
+          "tree_nodes": 661925,
+          "extended_internal_nodes": 0
+        }
+      }
+    },
+    {
+      "experiment": "extensions-v-baseline",
+      "a_wins": 5,
+      "b_wins": 7,
+      "draws": 0,
+      "unfinished": 0,
+      "measurements": {
+        "a": {
+          "moves": 615,
+          "median_ms": 102.258,
+          "max_ms": 220.538,
+          "depth_counts": {
+            "1": 231,
+            "2": 295,
+            "3": 89
+          },
+          "limited_moves": 526,
+          "tree_nodes": 1135238,
+          "extended_internal_nodes": 339315
+        },
+        "b": {
+          "moves": 616,
+          "median_ms": 37.064,
+          "max_ms": 81.009,
+          "depth_counts": {
+            "2": 13,
+            "3": 603
+          },
+          "limited_moves": 13,
+          "tree_nodes": 647324,
+          "extended_internal_nodes": 0
+        }
+      }
+    },
+    {
+      "experiment": "material-v-baseline",
+      "a_wins": 2,
+      "b_wins": 10,
+      "draws": 0,
+      "unfinished": 0,
+      "measurements": {
+        "a": {
+          "moves": 718,
+          "median_ms": 32.609,
+          "max_ms": 70.133,
+          "depth_counts": {
+            "2": 7,
+            "3": 711
+          },
+          "limited_moves": 7,
+          "tree_nodes": 597401,
+          "extended_internal_nodes": 0
+        },
+        "b": {
+          "moves": 721,
+          "median_ms": 32.708,
+          "max_ms": 72.542,
+          "depth_counts": {
+            "2": 25,
+            "3": 696
+          },
+          "limited_moves": 25,
+          "tree_nodes": 719525,
+          "extended_internal_nodes": 0
+        }
+      }
+    },
+    {
+      "experiment": "tuned-v-baseline",
+      "a_wins": 5,
+      "b_wins": 7,
+      "draws": 0,
+      "unfinished": 0,
+      "measurements": {
+        "a": {
+          "moves": 646,
+          "median_ms": 37.406,
+          "max_ms": 87.451,
+          "depth_counts": {
+            "2": 21,
+            "3": 625
+          },
+          "limited_moves": 21,
+          "tree_nodes": 662024,
+          "extended_internal_nodes": 0
+        },
+        "b": {
+          "moves": 646,
+          "median_ms": 37.388,
+          "max_ms": 72.458,
+          "depth_counts": {
+            "2": 28,
+            "3": 618
+          },
+          "limited_moves": 28,
+          "tree_nodes": 663345,
+          "extended_internal_nodes": 0
+        }
+      }
+    }
+  ],
+  "fixtures": [
+    {
+      "experiment": "baseline",
+      "total": 11,
+      "search_pass": 9,
+      "one_ply_pass": 10,
+      "failures": [
+        "rescue-single",
+        "capture-corner-pair"
+      ]
+    },
+    {
+      "experiment": "combined",
+      "total": 11,
+      "search_pass": 10,
+      "one_ply_pass": 10,
+      "failures": [
+        "rescue-single"
+      ]
+    },
+    {
+      "experiment": "extensions",
+      "total": 11,
+      "search_pass": 9,
+      "one_ply_pass": 10,
+      "failures": [
+        "rescue-single",
+        "capture-pair"
+      ]
+    },
+    {
+      "experiment": "material",
+      "total": 11,
+      "search_pass": 10,
+      "one_ply_pass": 10,
+      "failures": [
+        "rescue-single"
+      ]
+    },
+    {
+      "experiment": "symmetry-baseline",
+      "total": 88,
+      "search_pass": 67,
+      "one_ply_pass": 80,
+      "failures": [
+        "rescue-single-m0r0",
+        "rescue-single-m0r1",
+        "rescue-single-m0r2",
+        "rescue-single-m0r3",
+        "rescue-single-m1r0",
+        "rescue-single-m1r1",
+        "rescue-single-m1r2",
+        "rescue-single-m1r3",
+        "capture-pair-m0r1",
+        "capture-pair-m1r0",
+        "capture-pair-m1r1",
+        "capture-pair-m1r2",
+        "capture-pair-m1r3",
+        "capture-corner-pair-m0r0",
+        "capture-corner-pair-m0r1",
+        "capture-corner-pair-m0r2",
+        "capture-corner-pair-m0r3",
+        "capture-corner-pair-m1r0",
+        "capture-corner-pair-m1r1",
+        "capture-corner-pair-m1r2",
+        "capture-corner-pair-m1r3"
+      ]
+    },
+    {
+      "experiment": "symmetry-combined",
+      "total": 88,
+      "search_pass": 78,
+      "one_ply_pass": 80,
+      "failures": [
+        "rescue-single-m0r0",
+        "rescue-single-m0r1",
+        "rescue-single-m0r2",
+        "rescue-single-m0r3",
+        "rescue-single-m1r0",
+        "rescue-single-m1r1",
+        "rescue-single-m1r2",
+        "rescue-single-m1r3",
+        "capture-pair-m1r2",
+        "capture-pair-m1r3"
+      ]
+    },
+    {
+      "experiment": "symmetry-extensions",
+      "total": 88,
+      "search_pass": 67,
+      "one_ply_pass": 80,
+      "failures": [
+        "rescue-single-m0r0",
+        "rescue-single-m0r1",
+        "rescue-single-m0r2",
+        "rescue-single-m0r3",
+        "rescue-single-m1r0",
+        "rescue-single-m1r1",
+        "rescue-single-m1r2",
+        "rescue-single-m1r3",
+        "capture-pair-m0r0",
+        "capture-pair-m0r1",
+        "capture-pair-m0r2",
+        "capture-pair-m1r0",
+        "capture-pair-m1r1",
+        "capture-pair-m1r2",
+        "capture-pair-m1r3",
+        "capture-corner-pair-m0r1",
+        "capture-corner-pair-m0r2",
+        "capture-corner-pair-m0r3",
+        "capture-corner-pair-m1r1",
+        "capture-corner-pair-m1r2",
+        "capture-corner-pair-m1r3"
+      ]
+    },
+    {
+      "experiment": "symmetry-material",
+      "total": 88,
+      "search_pass": 78,
+      "one_ply_pass": 80,
+      "failures": [
+        "rescue-single-m0r0",
+        "rescue-single-m0r1",
+        "rescue-single-m0r2",
+        "rescue-single-m0r3",
+        "rescue-single-m1r0",
+        "rescue-single-m1r1",
+        "rescue-single-m1r2",
+        "rescue-single-m1r3",
+        "capture-corner-pair-m0r1",
+        "capture-corner-pair-m1r3"
+      ]
+    }
+  ]
+}

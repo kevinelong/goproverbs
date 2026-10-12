@@ -1,0 +1,124 @@
+{
+  "cases": [
+    {
+      "id": "capture-pair",
+      "modes": {
+        "full": {
+          "move": "C3",
+          "score": "10.651",
+          "depth": "3",
+          "nodes": "2604",
+          "tactical_nodes": "0",
+          "elapsed_ms": "12",
+          "limited": "false",
+          "root_searched": "19/19",
+          "mode": "full"
+        },
+        "minimax": {
+          "move": "C3",
+          "score": "10.651",
+          "depth": "3",
+          "nodes": "6288",
+          "tactical_nodes": "0",
+          "elapsed_ms": "22",
+          "limited": "false",
+          "root_searched": "19/19",
+          "mode": "minimax"
+        }
+      },
+      "agreement": true
+    },
+    {
+      "id": "capture-corner-pair",
+      "modes": {
+        "full": {
+          "move": "D4",
+          "score": "6.251",
+          "depth": "3",
+          "nodes": "4399",
+          "tactical_nodes": "0",
+          "elapsed_ms": "20",
+          "limited": "false",
+          "root_searched": "22/22",
+          "mode": "full"
+        },
+        "minimax": {
+          "move": "D4",
+          "score": "6.251",
+          "depth": "3",
+          "nodes": "10364",
+          "tactical_nodes": "0",
+          "elapsed_ms": "33",
+          "limited": "false",
+          "root_searched": "22/22",
+          "mode": "minimax"
+        }
+      },
+      "agreement": true
+    },
+    {
+      "id": "snapback-trap",
+      "modes": {
+        "full": {
+          "move": "A4",
+          "score": "17.751",
+          "depth": "3",
+          "nodes": "286",
+          "tactical_nodes": "0",
+          "elapsed_ms": "2",
+          "limited": "false",
+          "root_searched": "9/9",
+          "mode": "full"
+        },
+        "minimax": {
+          "move": "A4",
+          "score": "17.751",
+          "depth": "3",
+          "nodes": "608",
+          "tactical_nodes": "0",
+          "elapsed_ms": "3",
+          "limited": "false",
+          "root_searched": "9/9",
+          "mode": "minimax"
+        }
+      },
+      "agreement": true
+    },
+    {
+      "id": "respect-ko",
+      "modes": {
+        "full": {
+          "move": "A4",
+          "score": "1.576",
+          "depth": "3",
+          "nodes": "1251",
+          "tactical_nodes": "0",
+          "elapsed_ms": "14",
+          "limited": "false",
+          "root_searched": "17/17",
+          "mode": "full"
+        },
+        "minimax": {
+          "move": "A4",
+          "score": "1.576",
+          "depth": "3",
+          "nodes": "5581",
+          "tactical_nodes": "0",
+          "elapsed_ms": "27",
+          "limited": "false",
+          "root_searched": "17/17",
+          "mode": "minimax"
+        }
+      },
+      "agreement": true
+    }
+  ],
+  "depth": 3,
+  "node_limit": 1000000,
+  "time_ms": 10000,
+  "score_comparison_precision": "GTP output rounded to 0.001; Rust oracle tests use 1e-10",
+  "executable_sha256": "302f621fb393e556f486cca6ab993dba596f5dd7f6439e94fdcf39dd32bc8c22",
+  "fixtures_sha256": "e96e3df4c3947e6754c34ed1847090a1845dff293c77fb191b5a374221f58a37",
+  "harness_sha256": "b56fef4d784a870ad95d95c6c9d50924e45098c9bdf08fd44bc9dd1551df5b6c",
+  "referee_sha256": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62"
+}

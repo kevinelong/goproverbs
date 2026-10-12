@@ -1,0 +1,45 @@
+2026-09-21 09:17:23-0700: Running with following config:
+conservativePass = false
+ignorePreRootHistory = false
+logToStderr = true
+maxTime = 0.2
+maxVisits = 10000000
+nnCacheSizePowerOfTwo = 18
+nnMaxBatchSize = 1
+nnMutexPoolSizePowerOfTwo = 14
+nnRandomize = false
+numAnalysisThreads = 1
+numEigenThreadsPerModel = 4
+numSearchThreads = 1
+preventCleanupPhase = false
+reportAnalysisWinratesAs = BLACK
+rootNumSymmetriesToSample = 1
+useEvalCache = false
+wideRootNoise = 0
+
+2026-09-21 09:17:23-0700: Analysis Engine starting...
+2026-09-21 09:17:23-0700: KataGo v1.18.1
+2026-09-21 09:17:23-0700: nnRandSeed0 = 15716125640144521446
+2026-09-21 09:17:23-0700: After dedups: nnModelFile0 = C:\Users\kevin\ai_bench\katago\lionffen_b6c64_3x3_v10.txt.gz useFP16 auto
+2026-09-21 09:17:23-0700: Initializing neural net buffer to be size 19 * 19 allowing smaller boards
+2026-09-21 09:17:23-0700: Eigen (CPU) backend thread 2: Model version 11
+2026-09-21 09:17:23-0700: Eigen (CPU) backend thread 2: Model name: b6c64-19x19-v431q-25100-swa2-202412242150 (convnet, 454641 params)
+2026-09-21 09:17:23-0700: Eigen (CPU) backend thread 1: Model version 11
+2026-09-21 09:17:23-0700: Eigen (CPU) backend thread 3: Model version 11
+2026-09-21 09:17:23-0700: Eigen (CPU) backend thread 1: Model name: b6c64-19x19-v431q-25100-swa2-202412242150 (convnet, 454641 params)
+2026-09-21 09:17:23-0700: Eigen (CPU) backend thread 0: Model version 11
+2026-09-21 09:17:23-0700: Eigen (CPU) backend thread 0: Model name: b6c64-19x19-v431q-25100-swa2-202412242150 (convnet, 454641 params)
+2026-09-21 09:17:23-0700: Eigen (CPU) backend thread 3: Model name: b6c64-19x19-v431q-25100-swa2-202412242150 (convnet, 454641 params)
+2026-09-21 09:17:23-0700: Loaded config C:\Users\kevin\local-llm-lab\goproverbs\results\roadmap-20260921\backend-cpu-small\analysis.cfg
+2026-09-21 09:17:23-0700: Loaded model C:\Users\kevin\ai_bench\katago\lionffen_b6c64_3x3_v10.txt.gz
+2026-09-21 09:17:23-0700: Analyzing up to 1 positions at a time in parallel
+2026-09-21 09:17:23-0700: Started, ready to begin handling requests
+2026-09-21 09:17:24-0700: C:\Users\kevin\ai_bench\katago\lionffen_b6c64_3x3_v10.txt.gz
+2026-09-21 09:17:24-0700: NN rows: 13
+2026-09-21 09:17:24-0700: NN batches: 13
+2026-09-21 09:17:24-0700: NN avg batch size: 1
+2026-09-21 09:17:24-0700: GPU -1 finishing, processed 3 rows 3 batches
+2026-09-21 09:17:24-0700: GPU -1 finishing, processed 2 rows 2 batches
+2026-09-21 09:17:24-0700: GPU -1 finishing, processed 6 rows 6 batches
+2026-09-21 09:17:24-0700: GPU -1 finishing, processed 2 rows 2 batches
+2026-09-21 09:17:24-0700: All cleaned up, quitting

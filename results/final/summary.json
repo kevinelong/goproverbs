@@ -1,0 +1,29 @@
+[
+    {
+        "experiment":  "baseline-5x5",
+        "games":  6,
+        "search_wins":  6,
+        "unfinished":  0,
+        "search_moves":  130,
+        "median_search_roundtrip_ms":  0,
+        "max_search_roundtrip_ms":  16
+    },
+    {
+        "experiment":  "baseline-9x9",
+        "games":  6,
+        "search_wins":  6,
+        "unfinished":  0,
+        "search_moves":  369,
+        "median_search_roundtrip_ms":  31,
+        "max_search_roundtrip_ms":  62
+    },
+    {
+        "experiment":  "tuned-9x9",
+        "games":  6,
+        "search_wins":  6,
+        "unfinished":  0,
+        "search_moves":  378,
+        "median_search_roundtrip_ms":  31,
+        "max_search_roundtrip_ms":  62
+    }
+]

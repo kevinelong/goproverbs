@@ -1,0 +1,175 @@
+2026-09-20 23:49:07-0700: Running with following config:
+conservativePass = false
+ignorePreRootHistory = false
+logToStderr = true
+maxTime = 0.2
+maxVisits = 10000000
+nnCacheSizePowerOfTwo = 18
+nnMaxBatchSize = 1
+nnMutexPoolSizePowerOfTwo = 14
+nnRandomize = false
+numAnalysisThreads = 1
+numSearchThreads = 1
+preventCleanupPhase = false
+reportAnalysisWinratesAs = BLACK
+rootNumSymmetriesToSample = 1
+useEvalCache = false
+wideRootNoise = 0
+
+2026-09-20 23:49:07-0700: Analysis Engine starting...
+2026-09-20 23:49:07-0700: KataGo v1.18.1
+2026-09-20 23:49:07-0700: nnRandSeed0 = 15871337247866426862
+2026-09-20 23:49:07-0700: After dedups: nnModelFile0 = C:\Users\kevin\ai_bench\katago\kata1-b10c128-s919229184-d169515535.txt.gz useFP16 auto
+2026-09-20 23:49:07-0700: Initializing neural net buffer to be size 19 * 19 allowing smaller boards
+2026-09-20 23:49:09-0700: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.3.71)
+2026-09-20 23:49:09-0700: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-09-20 23:49:09-0700: Found OpenCL Platform 1: Intel(R) OpenCL Graphics (Intel(R) Corporation) (OpenCL 3.0 )
+2026-09-20 23:49:09-0700: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2026-09-20 23:49:09-0700: Found OpenCL Device 0: NVIDIA GeForce RTX 5070 (NVIDIA Corporation) (score 11000300)
+2026-09-20 23:49:09-0700: Found OpenCL Device 1: Intel(R) Graphics (Intel(R) Corporation) (score 6000300)
+2026-09-20 23:49:09-0700: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.3.71)
+2026-09-20 23:49:10-0700: Using OpenCL Device 0: NVIDIA GeForce RTX 5070 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2026-09-20 23:49:10-0700: No existing tuning parameters found or parseable or valid at: C:\Users\kevin\ai_bench\katago\opencl-1.18.1/KataGoData/opencltuning/tune13_gpuNVIDIAGeForceRTX5070_x19_y19_c128_mv8.txt
+2026-09-20 23:49:10-0700: Performing autotuning
+2026-09-20 23:49:10-0700: *** On some systems, this may take several minutes, please be patient ***
+2026-09-20 23:49:10-0700: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.3.71)
+2026-09-20 23:49:10-0700: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-09-20 23:49:10-0700: Found OpenCL Platform 1: Intel(R) OpenCL Graphics (Intel(R) Corporation) (OpenCL 3.0 )
+2026-09-20 23:49:10-0700: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2026-09-20 23:49:10-0700: Found OpenCL Device 0: NVIDIA GeForce RTX 5070 (NVIDIA Corporation) (score 11000300)
+2026-09-20 23:49:10-0700: Found OpenCL Device 1: Intel(R) Graphics (Intel(R) Corporation) (score 6000300)
+2026-09-20 23:49:10-0700: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.3.71)
+2026-09-20 23:49:10-0700: Using OpenCL Device 0: NVIDIA GeForce RTX 5070 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+Beginning GPU tuning for NVIDIA GeForce RTX 5070 modelVersion 8 channels 128
+2026-09-20 23:49:10-0700: Dummy tuning thread starting
+2026-09-20 23:49:10-0700: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.3.71)
+2026-09-20 23:49:10-0700: Using OpenCL Device 0: NVIDIA GeForce RTX 5070 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+Setting winograd3x3TileSize = 4
+------------------------------------------------------
+Tuning xGemmDirect for 1x1 convolutions and matrix mult
+Testing 55 different configs
+Tuning 0/55 (reference) Calls/sec 3660.3 ErrorProp 5.27154e-08 WGD=8 MDIMCD=1 NDIMCD=1 MDIMAD=1 NDIMBD=1 KWID=1 VWMD=1 VWND=1 PADA=1 PADB=1
+Tuning 1/55 Calls/sec 28191.5 ErrorProp 5.27154e-08 WGD=8 MDIMCD=8 NDIMCD=8 MDIMAD=8 NDIMBD=8 KWID=1 VWMD=1 VWND=1 PADA=1 PADB=1
+Tuning 2/55 Calls/sec 45217.9 ErrorProp 5.27154e-08 WGD=16 MDIMCD=8 NDIMCD=8 MDIMAD=8 NDIMBD=8 KWID=1 VWMD=1 VWND=1 PADA=1 PADB=1
+Tuning 3/55 Calls/sec 52286.7 ErrorProp 5.27154e-08 WGD=32 MDIMCD=16 NDIMCD=8 MDIMAD=8 NDIMBD=8 KWID=2 VWMD=2 VWND=4 PADA=1 PADB=1
+Tuning 5/55 Calls/sec 61042.2 ErrorProp 5.27154e-08 WGD=32 MDIMCD=16 NDIMCD=8 MDIMAD=16 NDIMBD=16 KWID=2 VWMD=2 VWND=2 PADA=1 PADB=1
+Tuning 20/55 Calls/sec 61333.5 ErrorProp 5.27154e-08 WGD=32 MDIMCD=16 NDIMCD=8 MDIMAD=8 NDIMBD=8 KWID=8 VWMD=2 VWND=4 PADA=1 PADB=1
+Tuning 34/55 Calls/sec 63186.4 ErrorProp 5.27154e-08 WGD=32 MDIMCD=8 NDIMCD=8 MDIMAD=8 NDIMBD=8 KWID=2 VWMD=2 VWND=2 PADA=1 PADB=1
+Tuning 46/55 Calls/sec 63493.5 ErrorProp 5.27154e-08 WGD=32 MDIMCD=8 NDIMCD=8 MDIMAD=16 NDIMBD=8 KWID=2 VWMD=2 VWND=4 PADA=1 PADB=1
+Tuning 50/55 Calls/sec 63859.8 ErrorProp 5.27154e-08 WGD=32 MDIMCD=8 NDIMCD=8 MDIMAD=8 NDIMBD=8 KWID=2 VWMD=2 VWND=4 PADA=1 PADB=1
+------------------------------------------------------
+Tuning xGemm for convolutions
+Testing 69 different configs
+Tuning 0/69 (reference) Calls/sec 3636.4 ErrorProp 5.06966e-08 MWG=8 NWG=8 KWG=8 MDIMC=1 NDIMC=1 MDIMA=1 NDIMB=1 KWI=1 VWM=1 VWN=1 STRM=0 STRN=0 SA=0 SB=0
+Tuning 1/69 Calls/sec 15113.9 ErrorProp 5.06966e-08 MWG=8 NWG=8 KWG=8 MDIMC=8 NDIMC=8 MDIMA=8 NDIMB=8 KWI=1 VWM=1 VWN=1 STRM=0 STRN=0 SA=0 SB=0
+Tuning 2/69 Calls/sec 25454.4 ErrorProp 5.06966e-08 MWG=16 NWG=16 KWG=16 MDIMC=8 NDIMC=8 MDIMA=8 NDIMB=8 KWI=1 VWM=1 VWN=1 STRM=0 STRN=0 SA=0 SB=0
+Tuning 5/69 Calls/sec 39833.8 ErrorProp 5.06966e-08 MWG=32 NWG=32 KWG=16 MDIMC=8 NDIMC=16 MDIMA=8 NDIMB=16 KWI=2 VWM=2 VWN=2 STRM=0 STRN=0 SA=0 SB=0
+Tuning 7/69 Calls/sec 40874.8 ErrorProp 5.06966e-08 MWG=16 NWG=16 KWG=16 MDIMC=8 NDIMC=8 MDIMA=8 NDIMB=8 KWI=2 VWM=2 VWN=2 STRM=0 STRN=0 SA=0 SB=0
+Tuning 10/69 Calls/sec 41585.1 ErrorProp 5.06966e-08 MWG=16 NWG=16 KWG=32 MDIMC=8 NDIMC=8 MDIMA=8 NDIMB=8 KWI=2 VWM=2 VWN=2 STRM=0 STRN=0 SA=0 SB=0
+Tuning 14/69 Calls/sec 58432.6 ErrorProp 5.06966e-08 MWG=32 NWG=32 KWG=16 MDIMC=8 NDIMC=8 MDIMA=8 NDIMB=8 KWI=2 VWM=4 VWN=4 STRM=0 STRN=0 SA=0 SB=0
+Tuning 40/69 ...
+Tuning 44/69 Calls/sec 58531.3 ErrorProp 5.06966e-08 MWG=32 NWG=32 KWG=32 MDIMC=8 NDIMC=8 MDIMA=8 NDIMB=8 KWI=2 VWM=4 VWN=4 STRM=0 STRN=0 SA=0 SB=0
+Tuning 60/69 ...
+------------------------------------------------------
+Tuning hGemmWmma for convolutions
+Testing 144 different configs
+Tuning 0/144 (reference) Calls/sec 29317.4 ErrorProp 0.000351274 MWG=16 NWG=16 KWG=16 MWAVE=16 NWAVE=16 MWARP=16 NWARP=16 VWM=2 VWN=2 SA=0 SB=0
+Tuning 1/144 Calls/sec 39570.7 ErrorProp 0.000351274 MWG=32 NWG=32 KWG=16 MWAVE=8 NWAVE=32 MWARP=8 NWARP=32 VWM=2 VWN=2 SA=0 SB=0
+Tuning 2/144 Calls/sec 71095.6 ErrorProp 0.000351274 MWG=32 NWG=32 KWG=16 MWAVE=32 NWAVE=16 MWARP=32 NWARP=8 VWM=2 VWN=2 SA=0 SB=0
+Tuning 14/144 Calls/sec 72667.8 ErrorProp 0.000351274 MWG=32 NWG=32 KWG=32 MWAVE=16 NWAVE=16 MWARP=16 NWARP=16 VWM=2 VWN=2 SA=0 SB=0
+Tuning 34/144 Calls/sec 74929.5 ErrorProp 0.000351274 MWG=32 NWG=32 KWG=64 MWAVE=16 NWAVE=32 MWARP=8 NWARP=32 VWM=2 VWN=2 SA=0 SB=0
+Tuning 60/144 ...
+Tuning 75/144 Calls/sec 85414.5 ErrorProp 0.000351274 MWG=32 NWG=32 KWG=64 MWAVE=16 NWAVE=16 MWARP=16 NWARP=16 VWM=2 VWN=2 SA=0 SB=0
+Tuning 100/144 ...
+Tuning 120/144 ...
+Tuning 140/144 ...
+Enabling FP16 tensor cores due to better performance
+------------------------------------------------------
+Tuning hGemmWmmaNCHW for 1x1 convolutions
+Testing 72 different configs
+Tuning 0/72 (reference) Calls/sec 35503.5 ErrorProp 0.000379553 MWG=16 NWG=16 KWG=16 MWAVE=16 NWAVE=16 MWARP=16 NWARP=16 VWM=1 VWN=2 SB=0 PAD_ELTS_PER_THREAD=1 PAD_ROWS_PER_THREAD=1
+Tuning 2/72 Calls/sec 43729.1 ErrorProp 0.000379553 MWG=16 NWG=16 KWG=32 MWAVE=16 NWAVE=16 MWARP=16 NWARP=16 VWM=2 VWN=2 SB=0 PAD_ELTS_PER_THREAD=1 PAD_ROWS_PER_THREAD=1
+Tuning 4/72 Calls/sec 75784.6 ErrorProp 0.000379553 MWG=16 NWG=16 KWG=32 MWAVE=16 NWAVE=16 MWARP=16 NWARP=16 VWM=4 VWN=2 SB=0 PAD_ELTS_PER_THREAD=1 PAD_ROWS_PER_THREAD=1
+Tuning 8/72 Calls/sec 95223.2 ErrorProp 0.000379553 MWG=32 NWG=32 KWG=16 MWAVE=16 NWAVE=32 MWARP=8 NWARP=32 VWM=1 VWN=2 SB=0 PAD_ELTS_PER_THREAD=1 PAD_ROWS_PER_THREAD=1
+Tuning 20/72 ...
+Tuning 40/72 ...
+Tuning 46/72 Calls/sec 95628.8 ErrorProp 0.000379553 MWG=32 NWG=32 KWG=32 MWAVE=16 NWAVE=16 MWARP=16 NWARP=16 VWM=2 VWN=2 SB=0 PAD_ELTS_PER_THREAD=1 PAD_ROWS_PER_THREAD=1
+Tuning 60/72 ...
+FP16 tensor cores enabled for 1x1 convs
+------------------------------------------------------
+Using FP16 storage!
+Using FP32 compute!
+Using FP16 tensor cores!
+------------------------------------------------------
+Tuning winograd transform for convolutions
+Testing 45 different configs
+Tuning 0/45 (reference) Calls/sec 29717.9 ErrorProp 0  transLocalSize0=1 transLocalSize1=1
+Tuning 1/45 Calls/sec 116267 ErrorProp 0  transLocalSize0=64 transLocalSize1=4
+Tuning 10/45 Calls/sec 117999 ErrorProp 0  transLocalSize0=16 transLocalSize1=8
+Tuning 11/45 Calls/sec 134441 ErrorProp 0  transLocalSize0=128 transLocalSize1=1
+Tuning 15/45 Calls/sec 138683 ErrorProp 0  transLocalSize0=128 transLocalSize1=4
+Tuning 40/45 ...
+Tuning 44/45 Calls/sec 142586 ErrorProp 0  transLocalSize0=64 transLocalSize1=2
+------------------------------------------------------
+Tuning winograd untransform for convolutions
+Testing 109 different configs
+Tuning 0/109 (reference) Calls/sec 38948.9 ErrorProp 0  untransLocalSize0=1 untransLocalSize1=1 untransLocalSize2=1
+Tuning 2/109 Calls/sec 101406 ErrorProp 0  untransLocalSize0=32 untransLocalSize1=1 untransLocalSize2=8
+Tuning 3/109 Calls/sec 104321 ErrorProp 0  untransLocalSize0=8 untransLocalSize1=4 untransLocalSize2=4
+Tuning 6/109 Calls/sec 116653 ErrorProp 0  untransLocalSize0=16 untransLocalSize1=2 untransLocalSize2=2
+Tuning 10/109 Calls/sec 125474 ErrorProp 0  untransLocalSize0=8 untransLocalSize1=4 untransLocalSize2=1
+Tuning 20/109 ...
+Tuning 40/109 ...
+Tuning 60/109 ...
+Tuning 80/109 ...
+Tuning 100/109 ...
+------------------------------------------------------
+Tuning global pooling strides
+Testing 104 different configs
+Tuning 0/104 (reference) Calls/sec 38806.5 ErrorProp 0.000121956 XYSTRIDE=1 CHANNELSTRIDE=1 BATCHSTRIDE=1
+Tuning 1/104 Calls/sec 51076 ErrorProp 0.000121956 XYSTRIDE=1 CHANNELSTRIDE=8 BATCHSTRIDE=2
+Tuning 2/104 Calls/sec 51539.3 ErrorProp 0.000121956 XYSTRIDE=4 CHANNELSTRIDE=2 BATCHSTRIDE=4
+Tuning 3/104 Calls/sec 140555 ErrorProp 0.000121956 XYSTRIDE=16 CHANNELSTRIDE=32 BATCHSTRIDE=1
+Tuning 20/104 ...
+Tuning 40/104 ...
+Tuning 60/104 ...
+Tuning 80/104 ...
+Tuning 100/104 ...
+------------------------------------------------------
+Tuning pointWise (addPointWise + swiGLU)
+Testing 20 different configs
+Tuning 0/20 (reference) Calls/sec 111122 ErrorProp 0.000268272 ELTS_PER_THREAD=1 LOCAL_SIZE=32
+Tuning 1/20 Calls/sec 142333 ErrorProp 0.000268272 ELTS_PER_THREAD=16 LOCAL_SIZE=128
+Tuning 3/20 Calls/sec 144379 ErrorProp 0.000268272 ELTS_PER_THREAD=8 LOCAL_SIZE=64
+Tuning 5/20 Calls/sec 153061 ErrorProp 0.000268272 ELTS_PER_THREAD=8 LOCAL_SIZE=256
+Tuning 9/20 Calls/sec 166322 ErrorProp 0.000268272 ELTS_PER_THREAD=4 LOCAL_SIZE=128
+------------------------------------------------------
+Tuning addChannelBiasesNCHW
+Testing 12 different configs
+Tuning 0/12 (reference) Calls/sec 109372 ErrorProp 0.00022498 XY_ELTS_PER_THREAD=1 NC_ELTS_PER_THREAD=1
+Tuning 1/12 Calls/sec 138308 ErrorProp 0.00022498 XY_ELTS_PER_THREAD=1 NC_ELTS_PER_THREAD=4
+Tuning 6/12 Calls/sec 140344 ErrorProp 0.00022498 XY_ELTS_PER_THREAD=4 NC_ELTS_PER_THREAD=1
+Tuning 8/12 Calls/sec 148417 ErrorProp 0.00022498 XY_ELTS_PER_THREAD=4 NC_ELTS_PER_THREAD=2
+------------------------------------------------------
+Tuning spatialRMSNorm
+Testing 25 different configs
+Tuning 0/25 (reference) Calls/sec 58514.5 ErrorProp 0.000227973 TILE_SIZE=32 APPLY_ELTS_PER_THREAD=1
+Tuning 1/25 Calls/sec 134152 ErrorProp 0.000227973 TILE_SIZE=32 APPLY_ELTS_PER_THREAD=8
+Tuning 20/25 Calls/sec 145462 ErrorProp 0.000227967 TILE_SIZE=256 APPLY_ELTS_PER_THREAD=8
+2026-09-20 23:50:12-0700: Tuning dummy thread numeric total: 2.43142e+09
+Done tuning
+------------------------------------------------------
+2026-09-20 23:50:12-0700: Done tuning, saved results to C:\Users\kevin\ai_bench\katago\opencl-1.18.1/KataGoData/opencltuning/tune13_gpuNVIDIAGeForceRTX5070_x19_y19_c128_mv8.txt
+2026-09-20 23:50:14-0700: OpenCL backend thread 0: Model version 8
+2026-09-20 23:50:14-0700: OpenCL backend thread 0: Model name: b10c128-s919229184-d169515535 (convnet, 2994503 params)
+2026-09-20 23:50:14-0700: OpenCL backend thread 0: FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 true
+2026-09-20 23:50:14-0700: Loaded config C:\Users\kevin\local-llm-lab\goproverbs\results\neural-round\smoke\analysis.cfg
+2026-09-20 23:50:14-0700: Loaded model C:\Users\kevin\ai_bench\katago\kata1-b10c128-s919229184-d169515535.txt.gz
+2026-09-20 23:50:14-0700: Analyzing up to 1 positions at a time in parallel
+2026-09-20 23:50:14-0700: Started, ready to begin handling requests
+2026-09-20 23:50:14-0700: C:\Users\kevin\ai_bench\katago\kata1-b10c128-s919229184-d169515535.txt.gz
+2026-09-20 23:50:14-0700: NN rows: 173
+2026-09-20 23:50:14-0700: NN batches: 173
+2026-09-20 23:50:14-0700: NN avg batch size: 1
+2026-09-20 23:50:14-0700: GPU -1 finishing, processed 173 rows 173 batches
+2026-09-20 23:50:14-0700: All cleaned up, quitting

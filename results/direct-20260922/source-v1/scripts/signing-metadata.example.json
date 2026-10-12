@@ -1,0 +1,5 @@
+{
+  "Endpoint": "https://wus2.codesigning.azure.net",
+  "CodeSigningAccountName": "REPLACE_WITH_ACCOUNT",
+  "CertificateProfileName": "REPLACE_WITH_PUBLIC_TRUST_PROFILE"
+}

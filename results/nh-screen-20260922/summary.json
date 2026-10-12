@@ -1,0 +1,88 @@
+{
+  "validation": "complete: 40 finished games, 20 distinct color-swapped pairs, all pinned hashes match",
+  "selected_opening_ids": [
+    "opening-002",
+    "opening-003",
+    "opening-004",
+    "opening-005",
+    "opening-006",
+    "opening-007",
+    "opening-008",
+    "opening-009",
+    "opening-010",
+    "opening-011",
+    "opening-012",
+    "opening-013",
+    "opening-014",
+    "opening-015",
+    "opening-016",
+    "opening-017",
+    "opening-018",
+    "opening-019",
+    "opening-020",
+    "opening-021"
+  ],
+  "pilot_excluded": true,
+  "paired": {
+    "variants": {
+      "NH": {
+        "games": 40,
+        "wins": 36,
+        "unfinished": 0,
+        "complete_pairs": 20,
+        "mean_pair_score": 0.9,
+        "conservative_95_interval": [
+          0.5963192690458474,
+          1
+        ]
+      }
+    },
+    "method": "Hoeffding bounded-mean interval treating each complete opening pair as one independent observation.",
+    "limitations": "Conditional on completed pairs and the sampled opening distribution; no Elo estimate. Incomplete pairs are counted and excluded from the score."
+  },
+  "timing": {
+    "NH": {
+      "decisions": 9096,
+      "median_ms": 200.0009500188753,
+      "p95_ms": 200.474499957636,
+      "max_ms": 201.04330003960058,
+      "over_200_ms": 4558,
+      "over_210_ms": 0,
+      "zero_remaining_search_budget": 0,
+      "median_remaining_search_ms": 195.0,
+      "completed_depths": {
+        "3": 2749,
+        "2": 6183,
+        "4": 153,
+        "5": 11
+      },
+      "selected_move_in_neural_hints": 2139
+    },
+    "HH": {
+      "decisions": 9091,
+      "median_ms": 199.55010002013296,
+      "p95_ms": 199.78349999291822,
+      "max_ms": 200.32339997123927,
+      "over_200_ms": 54,
+      "over_210_ms": 0,
+      "zero_remaining_search_budget": 0,
+      "median_remaining_search_ms": 199,
+      "completed_depths": {
+        "3": 4613,
+        "2": 4191,
+        "4": 285,
+        "5": 2
+      },
+      "selected_move_in_neural_hints": 0
+    }
+  },
+  "broker_queries": 9097,
+  "broker_errors": [],
+  "total_moves_including_openings": 18355,
+  "limitations": [
+    "Unused development openings, not pristine expert-reviewed holdout.",
+    "Screening evidence at one budget/network/backend, not an Elo rating.",
+    "Cooperative 200 ms budget includes root nomination; wall overshoot is reported.",
+    "This run uses the frozen native Windows pilot executable, not the WSL performance snapshot."
+  ]
+}

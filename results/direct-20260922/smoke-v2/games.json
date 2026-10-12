@@ -1,0 +1,202 @@
+[
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-NN",
+    "a": "NH",
+    "b": "NN",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+9.5",
+    "a_won": false,
+    "moves": 309,
+    "raw_area_margin": -9.5,
+    "roles": {
+      "NH": {
+        "decisions": 153,
+        "median_ms": 200.13860001927242,
+        "max_ms": 200.841500016395,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "NN": {
+        "decisions": 152,
+        "median_ms": 201.3757000095211,
+        "max_ms": 205.0283999997191,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 119,
+        "external_fallback_rounds": 33
+      }
+    }
+  },
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-NN",
+    "a": "NH",
+    "b": "NN",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+130.5",
+    "a_won": false,
+    "moves": 412,
+    "raw_area_margin": 130.5,
+    "roles": {
+      "NH": {
+        "decisions": 204,
+        "median_ms": 200.0767500139773,
+        "max_ms": 201.03039999958128,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "NN": {
+        "decisions": 204,
+        "median_ms": 201.11354999244213,
+        "max_ms": 206.15470001939684,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 160,
+        "external_fallback_rounds": 44
+      }
+    }
+  },
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-policy",
+    "a": "NH",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+208.5",
+    "a_won": false,
+    "moves": 494,
+    "raw_area_margin": -208.5,
+    "roles": {
+      "NH": {
+        "decisions": 245,
+        "median_ms": 200.17169998027384,
+        "max_ms": 209.23050004057586,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "policy": {
+        "decisions": 245,
+        "median_ms": 4.430999979376793,
+        "max_ms": 9.588800021447241,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "valid_neural_decisions": 245,
+        "intermediate_decisions": 0,
+        "terminal_responses": 245,
+        "external_timeout_fallbacks": 0
+      }
+    }
+  },
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-policy",
+    "a": "NH",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+219.5",
+    "a_won": false,
+    "moves": 505,
+    "raw_area_margin": 219.5,
+    "roles": {
+      "NH": {
+        "decisions": 250,
+        "median_ms": 200.19250002223998,
+        "max_ms": 201.82610000483692,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "policy": {
+        "decisions": 251,
+        "median_ms": 4.525500000454485,
+        "max_ms": 13.583199994172901,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "valid_neural_decisions": 251,
+        "intermediate_decisions": 0,
+        "terminal_responses": 251,
+        "external_timeout_fallbacks": 0
+      }
+    }
+  },
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-search",
+    "a": "NH",
+    "b": "search",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+368.5",
+    "a_won": false,
+    "moves": 632,
+    "raw_area_margin": -368.5,
+    "roles": {
+      "NH": {
+        "decisions": 314,
+        "median_ms": 200.17180001013912,
+        "max_ms": 201.31259999470785,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "search": {
+        "decisions": 314,
+        "median_ms": 198.59975000144914,
+        "max_ms": 207.04140001907945,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "valid_neural_decisions": 314,
+        "intermediate_decisions": 240,
+        "terminal_responses": 74,
+        "external_timeout_fallbacks": 0
+      }
+    }
+  },
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-search",
+    "a": "NH",
+    "b": "search",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+350.5",
+    "a_won": false,
+    "moves": 636,
+    "raw_area_margin": 350.5,
+    "roles": {
+      "NH": {
+        "decisions": 316,
+        "median_ms": 200.1952999853529,
+        "max_ms": 201.03009999729693,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "search": {
+        "decisions": 316,
+        "median_ms": 198.78965002135374,
+        "max_ms": 209.55540001159534,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "valid_neural_decisions": 316,
+        "intermediate_decisions": 252,
+        "terminal_responses": 64,
+        "external_timeout_fallbacks": 0
+      }
+    }
+  }
+]

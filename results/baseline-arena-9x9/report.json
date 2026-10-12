@@ -1,0 +1,133 @@
+{
+  "games": [
+    {
+      "pair": 0,
+      "opening": [
+        [
+          "B",
+          "H5"
+        ],
+        [
+          "W",
+          "E9"
+        ]
+      ],
+      "search_color": "B",
+      "finished": true,
+      "result": "B+70.5",
+      "moves": 111,
+      "search_won": true,
+      "final_board_margin": 70.5
+    },
+    {
+      "pair": 0,
+      "opening": [
+        [
+          "B",
+          "H5"
+        ],
+        [
+          "W",
+          "E9"
+        ]
+      ],
+      "search_color": "W",
+      "finished": true,
+      "result": "W+68.5",
+      "moves": 118,
+      "search_won": true,
+      "final_board_margin": -68.5
+    },
+    {
+      "pair": 1,
+      "opening": [
+        [
+          "B",
+          "E5"
+        ],
+        [
+          "W",
+          "G6"
+        ]
+      ],
+      "search_color": "B",
+      "finished": true,
+      "result": "B+66.5",
+      "moves": 105,
+      "search_won": true,
+      "final_board_margin": 66.5
+    },
+    {
+      "pair": 1,
+      "opening": [
+        [
+          "B",
+          "E5"
+        ],
+        [
+          "W",
+          "G6"
+        ]
+      ],
+      "search_color": "W",
+      "finished": true,
+      "result": "W+69.5",
+      "moves": 126,
+      "search_won": true,
+      "final_board_margin": -69.5
+    },
+    {
+      "pair": 2,
+      "opening": [
+        [
+          "B",
+          "J2"
+        ],
+        [
+          "W",
+          "A1"
+        ]
+      ],
+      "search_color": "B",
+      "finished": true,
+      "result": "B+6.5",
+      "moves": 93,
+      "search_won": true,
+      "final_board_margin": 6.5
+    },
+    {
+      "pair": 2,
+      "opening": [
+        [
+          "B",
+          "J2"
+        ],
+        [
+          "W",
+          "A1"
+        ]
+      ],
+      "search_color": "W",
+      "finished": true,
+      "result": "W+75.5",
+      "moves": 132,
+      "search_won": true,
+      "final_board_margin": -75.5
+    }
+  ],
+  "completed": 6,
+  "search_wins": 6,
+  "unfinished": 0,
+  "independent_referee_checked_every_move_and_final_score": true,
+  "executable_sha256": "b0d95b675b8185634b074d912b16f5cf16ed3c8d6290a6d76527f9cf616c3b2b",
+  "fixtures_sha256": "e96e3df4c3947e6754c34ed1847090a1845dff293c77fb191b5a374221f58a37",
+  "profile_sha256": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+  "limits": {
+    "nodes": 2000,
+    "depth": 3,
+    "beam": 12,
+    "ms": 1000
+  },
+  "seed": 20260920,
+  "mode": "arena"
+}

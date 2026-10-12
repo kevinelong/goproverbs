@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "bundle_sha256": "43979d4b6f081d021d2ddaee211b49f3704266c6e26f15ab54c7ff7b653a08a6",
+  "commands": "1 loadsgf C:/Users/kevin/local-llm-lab/goproverbs/results/package-smoke-20260922/native-load.sgf 3\n2 gp-sgf\n3 undo\n4 gp-sgf\n5 quit\n",
+  "stdout": "=1\n\n=2 (;FF[4]GM[1]CA[UTF-8]AP[goproverbs:0.1.0]SZ[9]KM[6.5]RU[Tromp-Taylor];B[aa];W[bb])\n\n=3\n\n=4 (;FF[4]GM[1]CA[UTF-8]AP[goproverbs:0.1.0]SZ[9]KM[6.5]RU[Tromp-Taylor];B[aa])\n\n=5\n\n",
+  "stderr": "",
+  "files": 323
+}

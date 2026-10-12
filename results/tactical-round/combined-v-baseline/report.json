@@ -1,0 +1,259 @@
+{
+  "games": [
+    {
+      "pair": 0,
+      "a_color": "B",
+      "opening": [
+        [
+          "B",
+          "F2"
+        ],
+        [
+          "W",
+          "H5"
+        ]
+      ],
+      "finished": true,
+      "result": "W+61.5",
+      "moves": 144,
+      "winner": "b",
+      "final_board_margin": -61.5
+    },
+    {
+      "pair": 0,
+      "a_color": "W",
+      "opening": [
+        [
+          "B",
+          "F2"
+        ],
+        [
+          "W",
+          "H5"
+        ]
+      ],
+      "finished": true,
+      "result": "B+38.5",
+      "moves": 121,
+      "winner": "b",
+      "final_board_margin": 38.5
+    },
+    {
+      "pair": 1,
+      "a_color": "B",
+      "opening": [
+        [
+          "B",
+          "D2"
+        ],
+        [
+          "W",
+          "D7"
+        ]
+      ],
+      "finished": true,
+      "result": "W+31.5",
+      "moves": 108,
+      "winner": "b",
+      "final_board_margin": -31.5
+    },
+    {
+      "pair": 1,
+      "a_color": "W",
+      "opening": [
+        [
+          "B",
+          "D2"
+        ],
+        [
+          "W",
+          "D7"
+        ]
+      ],
+      "finished": true,
+      "result": "B+0.5",
+      "moves": 115,
+      "winner": "b",
+      "final_board_margin": 0.5
+    },
+    {
+      "pair": 2,
+      "a_color": "B",
+      "opening": [
+        [
+          "B",
+          "B3"
+        ],
+        [
+          "W",
+          "D8"
+        ]
+      ],
+      "finished": true,
+      "result": "W+19.5",
+      "moves": 108,
+      "winner": "b",
+      "final_board_margin": -19.5
+    },
+    {
+      "pair": 2,
+      "a_color": "W",
+      "opening": [
+        [
+          "B",
+          "B3"
+        ],
+        [
+          "W",
+          "D8"
+        ]
+      ],
+      "finished": true,
+      "result": "B+40.5",
+      "moves": 111,
+      "winner": "b",
+      "final_board_margin": 40.5
+    },
+    {
+      "pair": 3,
+      "a_color": "B",
+      "opening": [
+        [
+          "B",
+          "B3"
+        ],
+        [
+          "W",
+          "H9"
+        ]
+      ],
+      "finished": true,
+      "result": "W+37.5",
+      "moves": 108,
+      "winner": "b",
+      "final_board_margin": -37.5
+    },
+    {
+      "pair": 3,
+      "a_color": "W",
+      "opening": [
+        [
+          "B",
+          "B3"
+        ],
+        [
+          "W",
+          "H9"
+        ]
+      ],
+      "finished": true,
+      "result": "W+19.5",
+      "moves": 100,
+      "winner": "a",
+      "final_board_margin": -19.5
+    },
+    {
+      "pair": 4,
+      "a_color": "B",
+      "opening": [
+        [
+          "B",
+          "G5"
+        ],
+        [
+          "W",
+          "C3"
+        ]
+      ],
+      "finished": true,
+      "result": "W+3.5",
+      "moves": 97,
+      "winner": "b",
+      "final_board_margin": -3.5
+    },
+    {
+      "pair": 4,
+      "a_color": "W",
+      "opening": [
+        [
+          "B",
+          "G5"
+        ],
+        [
+          "W",
+          "C3"
+        ]
+      ],
+      "finished": true,
+      "result": "W+3.5",
+      "moves": 96,
+      "winner": "a",
+      "final_board_margin": -3.5
+    },
+    {
+      "pair": 5,
+      "a_color": "B",
+      "opening": [
+        [
+          "B",
+          "F7"
+        ],
+        [
+          "W",
+          "H6"
+        ]
+      ],
+      "finished": true,
+      "result": "B+8.5",
+      "moves": 103,
+      "winner": "a",
+      "final_board_margin": 8.5
+    },
+    {
+      "pair": 5,
+      "a_color": "W",
+      "opening": [
+        [
+          "B",
+          "F7"
+        ],
+        [
+          "W",
+          "H6"
+        ]
+      ],
+      "finished": true,
+      "result": "B+80.5",
+      "moves": 161,
+      "winner": "b",
+      "final_board_margin": 80.5
+    }
+  ],
+  "a_wins": 3,
+  "b_wins": 9,
+  "draws": 0,
+  "unfinished": 0,
+  "seed": 20260921,
+  "board_size": 9,
+  "komi": 0.5,
+  "limits": {
+    "nodes": 2000,
+    "depth": 3,
+    "beam": 12,
+    "time_ms": 1000
+  },
+  "a": {
+    "profile": "profiles\\material-risk.weights",
+    "profile_sha256": "8fa845c0e10b301848bcdacf51ede92516b789ed94d079afc73bd22245bb9b16",
+    "tactical_plies": 2
+  },
+  "b": {
+    "profile": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\profiles\\baseline.weights",
+    "profile_sha256": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+    "tactical_plies": 0
+  },
+  "executable_sha256": "b499c25a6005c5f51fc4654c4175df2edc92ba9073bdbba8b8ef2147814ddd59",
+  "harness_sha256": "12670f6d6ac70eae9ae90d6e8676084cbb826f8af22c87a99b4918ee453b2aa4",
+  "referee_sha256": "5f213872a6ec6e84ed2f36c6bdd0efb50284f71528a0221c2ac31d004a5e2e21",
+  "independent_referee_checked_both_boards_and_final_scores": true
+}

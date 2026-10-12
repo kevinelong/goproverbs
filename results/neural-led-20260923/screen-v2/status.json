@@ -1,0 +1,49 @@
+{
+  "status": "failed",
+  "pid": 2788168,
+  "started": 1790199625.9708943,
+  "preflight": {
+    "gpu": {
+      "command": [
+        "nvidia-smi",
+        "--query-gpu=name,memory.used,memory.free,driver_version",
+        "--format=csv"
+      ],
+      "exit_code": 0,
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 2384 MiB, 9560 MiB, 610.60\n",
+      "stderr": ""
+    },
+    "compute_processes": {
+      "command": [
+        "nvidia-smi",
+        "--query-compute-apps=pid,process_name,used_memory",
+        "--format=csv"
+      ],
+      "exit_code": 0,
+      "stdout": "pid, process_name, used_gpu_memory [MiB]\n2300, [Insufficient Permissions], [N/A]\n20080, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe, [N/A]\n18888, C:\\Windows\\explorer.exe, [N/A]\n23684, [Insufficient Permissions], [N/A]\n24696, [Insufficient Permissions], [N/A]\n14280, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\WinUI3Apps\\PowerToys.QuickAccess.exe, [N/A]\n33620, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe, [N/A]\n33972, C:\\Program Files\\WindowsApps\\Microsoft.CommandPalette_0.11.11733.0_x64__8wekyb3d8bbwe\\Microsoft.CmdPal.UI.exe, [N/A]\n28908, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.exe, [N/A]\n21940, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\WinUI3Apps\\PowerToys.Peek.UI.exe, [N/A]\n19828, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.ColorPickerUI.exe, [N/A]\n3780, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe, [N/A]\n20856, C:\\Program Files\\Dell\\DellOptimizer\\Console\\DellOptimizer.Systray.exe, [N/A]\n51936, [Insufficient Permissions], [N/A]\n169504, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\\YourPhoneAppProxyHost.exe, [N/A]\n877640, [Insufficient Permissions], [N/A]\n40648, C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.11911.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe, [N/A]\n35312, [Insufficient Permissions], [N/A]\n22784, C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe, [N/A]\n45768, [Insufficient Permissions], [N/A]\n1957040, C:\\Program Files\\WindowsApps\\Claude_2.7032.0.0_x64__pzs8sxrjxfjjc\\app\\claude.exe, [N/A]\n1246900, C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2636.100.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe, [N/A]\n7756, [Insufficient Permissions], [N/A]\n3168264, [Insufficient Permissions], [N/A]\n2062112, C:\\Users\\kevin\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\f53823cd54b14f45\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe, [N/A]\n2070380, C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.917.6896.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe, [N/A]\n45732, C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe, [N/A]\n48456, C:\\Users\\kevin\\AppData\\Local\\Google\\Google\\latest\\google.exe, [N/A]\n2736860, C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe, [N/A]\n34144, C:\\Program Files\\WindowsApps\\RivetNetworks.KillerControlCenter_40.26.403.0_x64__rh07ty8m5nkag\\KillerControlCenter_v2\\Killer.exe, [N/A]\n22792, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe, [N/A]\n12612, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.FancyZones.exe, [N/A]\n3649140, C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA Overlay.exe, [N/A]\n3649372, C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA Overlay.exe, [N/A]\n3646332, [Insufficient Permissions], [N/A]\n3638212, C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2609.52011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe, [N/A]\n2773752, [Insufficient Permissions], [N/A]\n57424, [Insufficient Permissions], [N/A]\n3641192, [Insufficient Permissions], [N/A]\n6600, [Insufficient Permissions], [N/A]\n3628344, C:\\Windows\\System32\\ShellHost.exe, [N/A]\n",
+      "stderr": ""
+    },
+    "ollama": {
+      "command": [
+        "ollama",
+        "ps"
+      ],
+      "exit_code": 0,
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": ""
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 5015662592
+    }
+  },
+  "white_expected": 45,
+  "games_expected": 40,
+  "combined_only": true,
+  "white_completed": 0,
+  "games_recorded": 0,
+  "error": "RuntimeError('KataGo exited; see katago-stderr.txt')",
+  "finished": 1790199626.067425,
+  "inputs_unchanged": true,
+  "remaining_model_processes": []
+}

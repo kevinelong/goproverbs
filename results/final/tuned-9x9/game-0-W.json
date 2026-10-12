@@ -1,0 +1,662 @@
+[
+  {
+    "color": "B",
+    "move": "C4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "B8",
+    "ms": 16.0,
+    "trace": "move=B8 score=-3.274 depth=3 nodes=1738 elapsed_ms=24 limited=false root_searched=13/79\npv=B8 D8 F8\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: -1.000 * 0.100 = -0.100\n  influence_balance: -12.250 * 0.300 = -3.675\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nB8: 0.010 (base=0.010)"
+  },
+  {
+    "color": "B",
+    "move": "A9",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "A8",
+    "ms": 31.0,
+    "trace": "move=A8 score=-1.824 depth=3 nodes=1695 elapsed_ms=23 limited=false root_searched=13/77\npv=A8 E8 G8\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: -2.000 * 0.100 = -0.200\n  influence_balance: -12.333 * 0.300 = -3.700\nAlternating move preferences along PV: +0.077\nMove preferences (not the search score):\nA8: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "C9",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "G8",
+    "ms": 16.0,
+    "trace": "move=G8 score=-1.548 depth=3 nodes=1725 elapsed_ms=23 limited=false root_searched=13/75\npv=G8 E8 D8\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: -1.000 * 0.100 = -0.100\n  influence_balance: -11.500 * 0.300 = -3.450\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nG8: 0.010 (base=0.010)"
+  },
+  {
+    "color": "B",
+    "move": "B9",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "C8",
+    "ms": 31.0,
+    "trace": "move=C8 score=2.377 depth=3 nodes=1101 elapsed_ms=21 limited=false root_searched=13/73\npv=C8 E8 J8\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: -3.000 * -1.500 = +4.500\n  liberty_balance: 1.000 * 0.100 = +0.100\n  influence_balance: -9.833 * 0.300 = -2.950\nAlternating move preferences along PV: +0.227\nMove preferences (not the search score):\nC8: 1.510 (base=0.010)\n  atari: 0.750 * 2.000 = +1.500"
+  },
+  {
+    "color": "B",
+    "move": "F9",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "F8",
+    "ms": 16.0,
+    "trace": "move=F8 score=3.226 depth=3 nodes=1144 elapsed_ms=22 limited=false root_searched=13/71\npv=F8 E7 D7\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: -4.000 * -1.500 = +6.000\n  liberty_balance: 1.000 * 0.100 = +0.100\n  influence_balance: -11.500 * 0.300 = -3.450\nAlternating move preferences along PV: +0.076\nMove preferences (not the search score):\nF8: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "E8",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "G9",
+    "ms": 31.0,
+    "trace": "move=G9 score=4.036 depth=3 nodes=815 elapsed_ms=25 limited=false root_searched=13/69\npv=G9 E7 D7\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: -3.000 * -1.500 = +4.500\n  liberty_balance: 2.000 * 0.100 = +0.200\n  influence_balance: -10.000 * 0.300 = -3.000\nAlternating move preferences along PV: +0.836\nMove preferences (not the search score):\nG9: 5.572 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  save_atari: 0.250 * 14.250 = +3.562"
+  },
+  {
+    "color": "B",
+    "move": "H9",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "E7",
+    "ms": 47.0,
+    "trace": "move=E7 score=5.452 depth=3 nodes=1544 elapsed_ms=40 limited=false root_searched=14/68\npv=E7 B7 H8\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: -5.000 * -1.500 = +7.500\n  liberty_balance: -1.000 * 0.100 = -0.100\n  influence_balance: -12.000 * 0.300 = -3.600\nAlternating move preferences along PV: +0.152\nMove preferences (not the search score):\nE7: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "D8",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "D9",
+    "ms": 31.0,
+    "trace": "move=D9 score=7.176 depth=3 nodes=1390 elapsed_ms=31 limited=false root_searched=14/66\npv=D9 B7 H8\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 4.000 * 1.000 = +4.000\n  atari_risk: -3.000 * -1.500 = +4.500\n  liberty_balance: 2.000 * 0.100 = +0.200\n  influence_balance: -10.500 * 0.300 = -3.150\nAlternating move preferences along PV: +1.127\nMove preferences (not the search score):\nD9: 7.010 (base=0.010)\n  capture: 0.750 * 8.000 = +6.000\n  atari: 0.500 * 2.000 = +1.000\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "B",
+    "move": "D7",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "D6",
+    "ms": 31.0,
+    "trace": "move=D6 score=8.073 depth=3 nodes=1138 elapsed_ms=29 limited=false root_searched=14/67\npv=D6 C7 C6\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 4.000 * 1.000 = +4.000\n  atari_risk: -4.000 * -1.500 = +6.000\n  liberty_balance: 6.000 * 0.100 = +0.600\n  influence_balance: -6.500 * 0.300 = -1.950\nAlternating move preferences along PV: -1.077\nMove preferences (not the search score):\nD6: 1.510 (base=0.010)\n  atari: 0.750 * 2.000 = +1.500"
+  },
+  {
+    "color": "B",
+    "move": "C7",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "B7",
+    "ms": 31.0,
+    "trace": "move=B7 score=9.214 depth=3 nodes=1088 elapsed_ms=30 limited=false root_searched=14/65\npv=B7 C6 C5\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 4.000 * 1.000 = +4.000\n  atari_risk: -5.000 * -1.500 = +7.500\n  liberty_balance: 7.000 * 0.100 = +0.700\n  influence_balance: -6.500 * 0.300 = -1.950\nAlternating move preferences along PV: -1.536\nMove preferences (not the search score):\nB7: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000"
+  },
+  {
+    "color": "B",
+    "move": "C6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "C5",
+    "ms": 32.0,
+    "trace": "move=C5 score=11.214 depth=3 nodes=1113 elapsed_ms=30 limited=false root_searched=14/63\npv=C5 B6 B5\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 4.000 * 1.000 = +4.000\n  atari_risk: -6.000 * -1.500 = +9.000\n  liberty_balance: 7.000 * 0.100 = +0.700\n  influence_balance: -4.833 * 0.300 = -1.450\nAlternating move preferences along PV: -1.536\nMove preferences (not the search score):\nC5: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "B",
+    "move": "B6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "B5",
+    "ms": 15.0,
+    "trace": "move=B5 score=13.039 depth=3 nodes=1020 elapsed_ms=28 limited=false root_searched=14/61\npv=B5 A6 A5\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 4.000 * 1.000 = +4.000\n  atari_risk: -7.000 * -1.500 = +10.500\n  liberty_balance: 7.000 * 0.100 = +0.700\n  influence_balance: -3.750 * 0.300 = -1.125\nAlternating move preferences along PV: -1.536\nMove preferences (not the search score):\nB5: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000"
+  },
+  {
+    "color": "B",
+    "move": "A6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "A5",
+    "ms": 32.0,
+    "trace": "move=A5 score=15.295 depth=3 nodes=1003 elapsed_ms=30 limited=false root_searched=14/59\npv=A5 E6 A7\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 11.000 * 1.000 = +11.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 16.000 * 0.100 = +1.600\n  influence_balance: -0.750 * 0.300 = -0.225\nAlternating move preferences along PV: +2.420\nMove preferences (not the search score):\nA5: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000"
+  },
+  {
+    "color": "B",
+    "move": "E6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "A7",
+    "ms": 46.0,
+    "trace": "move=A7 score=17.570 depth=3 nodes=936 elapsed_ms=31 limited=false root_searched=14/57\npv=A7 G7 E5\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 11.000 * 1.000 = +11.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: 16.000 * 0.100 = +1.600\n  influence_balance: 2.083 * 0.300 = +0.625\nAlternating move preferences along PV: +2.345\nMove preferences (not the search score):\nA7: 15.135 (base=0.010)\n  capture: 1.000 * 8.000 = +8.000\n  save_atari: 0.500 * 14.250 = +7.125"
+  },
+  {
+    "color": "B",
+    "move": "B9",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "E5",
+    "ms": 32.0,
+    "trace": "move=E5 score=11.791 depth=2 nodes=2000 elapsed_ms=35 limited=true root_searched=15/62\npv=E5 F6\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 10.000 * 1.000 = +10.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 16.000 * 0.100 = +1.600\n  influence_balance: 0.500 * 0.300 = +0.150\nAlternating move preferences along PV: -0.459\nMove preferences (not the search score):\nE5: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "F6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "H8",
+    "ms": 31.0,
+    "trace": "move=H8 score=15.901 depth=3 nodes=1500 elapsed_ms=34 limited=false root_searched=14/60\npv=H8 H7 A9\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 11.000 * 1.000 = +11.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: 14.000 * 0.100 = +1.400\n  influence_balance: -0.500 * 0.300 = -0.150\nAlternating move preferences along PV: +0.151\nMove preferences (not the search score):\nH8: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "D8",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "D7",
+    "ms": 31.0,
+    "trace": "move=D7 score=16.176 depth=3 nodes=1356 elapsed_ms=31 limited=false root_searched=13/58\npv=D7 H7 A9\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 11.000 * 1.000 = +11.000\n  atari_risk: -3.000 * -1.500 = +4.500\n  liberty_balance: 10.000 * 0.100 = +1.000\n  influence_balance: -3.500 * 0.300 = -1.050\nAlternating move preferences along PV: +0.226\nMove preferences (not the search score):\nD7: 1.010 (base=0.010)\n  connect: 0.333 * 1.500 = +0.500\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "J8",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "J9",
+    "ms": 31.0,
+    "trace": "move=J9 score=17.811 depth=3 nodes=1414 elapsed_ms=32 limited=false root_searched=13/56\npv=J9 B6 J7\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 13.000 * 1.000 = +13.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: 16.000 * 0.100 = +1.600\n  influence_balance: -0.000 * 0.300 = -0.000\nAlternating move preferences along PV: +1.211\nMove preferences (not the search score):\nJ9: 2.510 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  atari: 0.250 * 2.000 = +0.500\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "B",
+    "move": "J7",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "H7",
+    "ms": 32.0,
+    "trace": "move=H7 score=18.158 depth=3 nodes=1062 elapsed_ms=33 limited=false root_searched=13/55\npv=H7 H9 J6\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 11.000 * 1.000 = +11.000\n  atari_risk: -4.000 * -1.500 = +6.000\n  liberty_balance: 14.000 * 0.100 = +1.400\n  influence_balance: 1.083 * 0.300 = +0.325\nAlternating move preferences along PV: -1.067\nMove preferences (not the search score):\nH7: 1.010 (base=0.010)\n  atari: 0.500 * 2.000 = +1.000"
+  },
+  {
+    "color": "B",
+    "move": "H9",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "J6",
+    "ms": 47.0,
+    "trace": "move=J6 score=19.576 depth=3 nodes=1503 elapsed_ms=35 limited=false root_searched=13/53\npv=J6 B4 A9\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 11.000 * 1.000 = +11.000\n  atari_risk: -5.000 * -1.500 = +7.500\n  liberty_balance: 12.000 * 0.100 = +1.200\n  influence_balance: -2.833 * 0.300 = -0.850\nAlternating move preferences along PV: +0.226\nMove preferences (not the search score):\nJ6: 1.010 (base=0.010)\n  atari: 0.500 * 2.000 = +1.000"
+  },
+  {
+    "color": "B",
+    "move": "H6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "J9",
+    "ms": 31.0,
+    "trace": "move=J9 score=20.236 depth=3 nodes=739 elapsed_ms=31 limited=false root_searched=13/52\npv=J9 E4 A9\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 14.000 * 1.000 = +14.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: 15.000 * 0.100 = +1.500\n  influence_balance: -0.917 * 0.300 = -0.275\nAlternating move preferences along PV: +1.511\nMove preferences (not the search score):\nJ9: 9.572 (base=0.010)\n  capture: 0.750 * 8.000 = +6.000\n  save_atari: 0.250 * 14.250 = +3.562\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "B",
+    "move": "G6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "C9",
+    "ms": 31.0,
+    "trace": "move=C9 score=19.076 depth=3 nodes=1040 elapsed_ms=31 limited=false root_searched=13/53\npv=C9 E4 A9\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 15.000 * 1.000 = +15.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: 16.000 * 0.100 = +1.600\n  influence_balance: 0.083 * 0.300 = +0.025\nAlternating move preferences along PV: +0.451\nMove preferences (not the search score):\nC9: 1.010 (base=0.010)\n  connect: 0.333 * 1.500 = +0.500\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "J5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "J7",
+    "ms": 31.0,
+    "trace": "move=J7 score=18.411 depth=3 nodes=1336 elapsed_ms=33 limited=false root_searched=13/51\npv=J7 E4 A9\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 15.000 * 1.000 = +15.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: 14.000 * 0.100 = +1.400\n  influence_balance: -3.000 * 0.300 = -0.900\nAlternating move preferences along PV: +0.911\nMove preferences (not the search score):\nJ7: 4.072 (base=0.010)\n  save_atari: 0.250 * 14.250 = +3.562\n  connect: 0.333 * 1.500 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "F7",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "A9",
+    "ms": 47.0,
+    "trace": "move=A9 score=19.252 depth=3 nodes=1925 elapsed_ms=40 limited=false root_searched=13/49\npv=A9 E4 G5\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 15.000 * 1.000 = +15.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: 16.000 * 0.100 = +1.600\n  influence_balance: 1.167 * 0.300 = +0.350\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nA9: 2.010 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000"
+  },
+  {
+    "color": "B",
+    "move": "G7",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "G5",
+    "ms": 31.0,
+    "trace": "move=G5 score=19.601 depth=3 nodes=1825 elapsed_ms=33 limited=false root_searched=13/48\npv=G5 F4 B4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 15.000 * 1.000 = +15.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: 17.000 * 0.100 = +1.700\n  influence_balance: 3.000 * 0.300 = +0.900\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nG5: 0.010 (base=0.010)"
+  },
+  {
+    "color": "B",
+    "move": "F5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "G4",
+    "ms": 32.0,
+    "trace": "move=G4 score=21.095 depth=3 nodes=830 elapsed_ms=26 limited=false root_searched=13/46\npv=G4 E4 D5\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 15.000 * 1.000 = +15.000\n  atari_risk: -1.000 * -1.500 = +1.500\n  liberty_balance: 11.000 * 0.100 = +1.100\n  influence_balance: 6.167 * 0.300 = +1.850\nAlternating move preferences along PV: +1.145\nMove preferences (not the search score):\nG4: 3.572 (base=0.010)\n  save_atari: 0.250 * 14.250 = +3.562"
+  },
+  {
+    "color": "B",
+    "move": "E4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "D4",
+    "ms": 31.0,
+    "trace": "move=D4 score=20.752 depth=3 nodes=1113 elapsed_ms=28 limited=false root_searched=13/44\npv=D4 D3 C3\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 15.000 * 1.000 = +15.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 20.000 * 0.100 = +2.000\n  influence_balance: 10.833 * 0.300 = +3.250\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nD4: 0.010 (base=0.010)\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "B",
+    "move": "D5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "D3",
+    "ms": 16.0,
+    "trace": "move=D3 score=21.861 depth=3 nodes=800 elapsed_ms=29 limited=false root_searched=13/42\npv=D3 C3 F4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 14.000 * 1.000 = +14.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: 15.000 * 0.100 = +1.500\n  influence_balance: 7.750 * 0.300 = +2.325\nAlternating move preferences along PV: +0.536\nMove preferences (not the search score):\nD3: 3.572 (base=0.010)\n  save_atari: 0.250 * 14.250 = +3.562"
+  },
+  {
+    "color": "B",
+    "move": "E5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "C3",
+    "ms": 46.0,
+    "trace": "move=C3 score=22.951 depth=3 nodes=1793 elapsed_ms=34 limited=false root_searched=13/41\npv=C3 G3 H4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 14.000 * 1.000 = +14.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: 19.000 * 0.100 = +1.900\n  influence_balance: 11.583 * 0.300 = +3.475\nAlternating move preferences along PV: +0.076\nMove preferences (not the search score):\nC3: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "B4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "B3",
+    "ms": 32.0,
+    "trace": "move=B3 score=24.451 depth=3 nodes=1171 elapsed_ms=28 limited=false root_searched=13/39\npv=B3 G3 J4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 14.000 * 1.000 = +14.000\n  atari_risk: -3.000 * -1.500 = +4.500\n  liberty_balance: 20.000 * 0.100 = +2.000\n  influence_balance: 11.000 * 0.300 = +3.300\nAlternating move preferences along PV: +0.151\nMove preferences (not the search score):\nB3: 1.010 (base=0.010)\n  atari: 0.500 * 2.000 = +1.000"
+  },
+  {
+    "color": "B",
+    "move": "B6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "A6",
+    "ms": 31.0,
+    "trace": "move=A6 score=24.551 depth=3 nodes=1477 elapsed_ms=31 limited=false root_searched=13/37\npv=A6 G3 J4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 14.000 * 1.000 = +14.000\n  atari_risk: -4.000 * -1.500 = +6.000\n  liberty_balance: 15.000 * 0.100 = +1.500\n  influence_balance: 8.000 * 0.300 = +2.400\nAlternating move preferences along PV: +0.151\nMove preferences (not the search score):\nA6: 1.010 (base=0.010)\n  connect: 0.333 * 1.500 = +0.500\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "F4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "J4",
+    "ms": 31.0,
+    "trace": "move=J4 score=25.352 depth=3 nodes=1800 elapsed_ms=32 limited=false root_searched=13/35\npv=J4 B2 F3\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 14.000 * 1.000 = +14.000\n  atari_risk: -4.000 * -1.500 = +6.000\n  liberty_balance: 18.000 * 0.100 = +1.800\n  influence_balance: 10.167 * 0.300 = +3.050\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nJ4: 0.010 (base=0.010)"
+  },
+  {
+    "color": "B",
+    "move": "H4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "G3",
+    "ms": 16.0,
+    "trace": "move=G3 score=25.320 depth=3 nodes=708 elapsed_ms=24 limited=false root_searched=13/33\npv=G3 J3 E3\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 13.000 * 1.000 = +13.000\n  atari_risk: -4.000 * -1.500 = +6.000\n  liberty_balance: 15.000 * 0.100 = +1.500\n  influence_balance: 11.833 * 0.300 = +3.550\nAlternating move preferences along PV: +0.770\nMove preferences (not the search score):\nG3: 7.135 (base=0.010)\n  save_atari: 0.500 * 14.250 = +7.125"
+  },
+  {
+    "color": "B",
+    "move": "J3",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "H3",
+    "ms": 31.0,
+    "trace": "move=H3 score=23.602 depth=3 nodes=1816 elapsed_ms=31 limited=false root_searched=13/31\npv=H3 H2 E3\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 13.000 * 1.000 = +13.000\n  atari_risk: -4.000 * -1.500 = +6.000\n  liberty_balance: 13.000 * 0.100 = +1.300\n  influence_balance: 9.333 * 0.300 = +2.800\nAlternating move preferences along PV: +0.002\nMove preferences (not the search score):\nH3: 0.010 (base=0.010)\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "B",
+    "move": "J4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "F3",
+    "ms": 31.0,
+    "trace": "move=F3 score=25.702 depth=3 nodes=1689 elapsed_ms=28 limited=false root_searched=13/30\npv=F3 J2 A4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 15.000 * 1.000 = +15.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: 20.000 * 0.100 = +2.000\n  influence_balance: 15.333 * 0.300 = +4.600\nAlternating move preferences along PV: +0.602\nMove preferences (not the search score):\nF3: 0.010 (base=0.010)"
+  },
+  {
+    "color": "B",
+    "move": "A3",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "J2",
+    "ms": 32.0,
+    "trace": "move=J2 score=49.201 depth=3 nodes=1571 elapsed_ms=31 limited=false root_searched=13/28\npv=J2 H2 A2\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 13.000 * 1.000 = +13.000\n  atari_risk: -20.000 * -1.500 = +30.000\n  liberty_balance: 18.000 * 0.100 = +1.800\n  influence_balance: 12.000 * 0.300 = +3.600\nAlternating move preferences along PV: +0.301\nMove preferences (not the search score):\nJ2: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000"
+  },
+  {
+    "color": "B",
+    "move": "H2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "E3",
+    "ms": 31.0,
+    "trace": "move=E3 score=47.786 depth=3 nodes=840 elapsed_ms=22 limited=false root_searched=13/26\npv=E3 F6 A2\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 29.000 * 1.000 = +29.000\n  atari_risk: -5.000 * -1.500 = +7.500\n  liberty_balance: 20.000 * 0.100 = +2.000\n  influence_balance: 23.000 * 0.300 = +6.900\nAlternating move preferences along PV: +1.886\nMove preferences (not the search score):\nE3: 12.072 (base=0.010)\n  capture: 1.000 * 8.000 = +8.000\n  save_atari: 0.250 * 14.250 = +3.562\n  connect: 0.333 * 1.500 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "F7",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "F6",
+    "ms": 47.0,
+    "trace": "move=F6 score=43.425 depth=2 nodes=2000 elapsed_ms=46 limited=true root_searched=15/40\npv=F6 E5\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 28.000 * 1.000 = +28.000\n  atari_risk: -5.000 * -1.500 = +7.500\n  liberty_balance: 18.000 * 0.100 = +1.800\n  influence_balance: 18.500 * 0.300 = +5.550\nAlternating move preferences along PV: +0.075\nMove preferences (not the search score):\nF6: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "G6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "G7",
+    "ms": 47.0,
+    "trace": "move=G7 score=44.325 depth=2 nodes=2000 elapsed_ms=42 limited=true root_searched=16/38\npv=G7 C2\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 29.000 * 1.000 = +29.000\n  atari_risk: -5.000 * -1.500 = +7.500\n  liberty_balance: 20.000 * 0.100 = +2.000\n  influence_balance: 16.500 * 0.300 = +4.950\nAlternating move preferences along PV: +0.375\nMove preferences (not the search score):\nG7: 2.510 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  atari: 0.250 * 2.000 = +0.500\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "B",
+    "move": "E5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "H1",
+    "ms": 46.0,
+    "trace": "move=H1 score=43.741 depth=2 nodes=2000 elapsed_ms=44 limited=true root_searched=16/37\npv=H1 G2\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 29.000 * 1.000 = +29.000\n  atari_risk: -5.000 * -1.500 = +7.500\n  liberty_balance: 21.000 * 0.100 = +2.100\n  influence_balance: 17.000 * 0.300 = +5.100\nAlternating move preferences along PV: -0.459\nMove preferences (not the search score):\nH1: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "G2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "F2",
+    "ms": 47.0,
+    "trace": "move=F2 score=48.952 depth=3 nodes=1910 elapsed_ms=51 limited=false root_searched=14/35\npv=F2 A2 G1\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 32.000 * 1.000 = +32.000\n  atari_risk: -5.000 * -1.500 = +7.500\n  liberty_balance: 25.000 * 0.100 = +2.500\n  influence_balance: 19.000 * 0.300 = +5.700\nAlternating move preferences along PV: +0.752\nMove preferences (not the search score):\nF2: 1.010 (base=0.010)\n  atari: 0.500 * 2.000 = +1.000"
+  },
+  {
+    "color": "B",
+    "move": "E6",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "A2",
+    "ms": 47.0,
+    "trace": "move=A2 score=49.777 depth=3 nodes=1771 elapsed_ms=43 limited=false root_searched=14/33\npv=A2 C2 G1\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 32.000 * 1.000 = +32.000\n  atari_risk: -6.000 * -1.500 = +9.000\n  liberty_balance: 25.000 * 0.100 = +2.500\n  influence_balance: 17.000 * 0.300 = +5.100\nAlternating move preferences along PV: +0.677\nMove preferences (not the search score):\nA2: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "F5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "H6",
+    "ms": 31.0,
+    "trace": "move=H6 score=50.136 depth=3 nodes=1077 elapsed_ms=33 limited=false root_searched=13/31\npv=H6 C2 G1\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 33.000 * 1.000 = +33.000\n  atari_risk: -5.000 * -1.500 = +7.500\n  liberty_balance: 26.000 * 0.100 = +2.600\n  influence_balance: 17.000 * 0.300 = +5.100\nAlternating move preferences along PV: +1.436\nMove preferences (not the search score):\nH6: 5.572 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  save_atari: 0.250 * 14.250 = +3.562"
+  },
+  {
+    "color": "B",
+    "move": "B2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "A4",
+    "ms": 32.0,
+    "trace": "move=A4 score=50.036 depth=3 nodes=1061 elapsed_ms=36 limited=false root_searched=15/30\npv=A4 C2 G1\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 36.000 * 1.000 = +36.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: 28.000 * 0.100 = +2.800\n  influence_balance: 19.000 * 0.300 = +5.700\nAlternating move preferences along PV: +2.036\nMove preferences (not the search score):\nA4: 9.572 (base=0.010)\n  capture: 0.750 * 8.000 = +6.000\n  save_atari: 0.250 * 14.250 = +3.562\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "B",
+    "move": "D5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "E4",
+    "ms": 62.0,
+    "trace": "move=E4 score=55.301 depth=3 nodes=1930 elapsed_ms=49 limited=false root_searched=15/31\npv=E4 C2 F4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 38.000 * 1.000 = +38.000\n  atari_risk: -4.000 * -1.500 = +6.000\n  liberty_balance: 30.000 * 0.100 = +3.000\n  influence_balance: 21.000 * 0.300 = +6.300\nAlternating move preferences along PV: +1.502\nMove preferences (not the search score):\nE4: 2.010 (base=0.010)\n  atari: 1.000 * 2.000 = +2.000"
+  },
+  {
+    "color": "B",
+    "move": "H5",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "J5",
+    "ms": 31.0,
+    "trace": "move=J5 score=53.175 depth=2 nodes=2000 elapsed_ms=41 limited=true root_searched=16/29\npv=J5 D2\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 33.000 * 1.000 = +33.000\n  atari_risk: -9.000 * -1.500 = +13.500\n  liberty_balance: 22.000 * 0.100 = +2.200\n  influence_balance: 13.000 * 0.300 = +3.900\nAlternating move preferences along PV: +0.075\nMove preferences (not the search score):\nJ5: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "J4",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "B1",
+    "ms": 47.0,
+    "trace": "move=B1 score=57.652 depth=3 nodes=1750 elapsed_ms=37 limited=false root_searched=15/27\npv=B1 D2 H4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 35.000 * 1.000 = +35.000\n  atari_risk: -10.000 * -1.500 = +15.000\n  liberty_balance: 25.000 * 0.100 = +2.500\n  influence_balance: 14.000 * 0.300 = +4.200\nAlternating move preferences along PV: +0.452\nMove preferences (not the search score):\nB1: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "C2",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "D2",
+    "ms": 32.0,
+    "trace": "move=D2 score=58.926 depth=3 nodes=1006 elapsed_ms=30 limited=false root_searched=13/25\npv=D2 E1 H4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 35.000 * 1.000 = +35.000\n  atari_risk: -11.000 * -1.500 = +16.500\n  liberty_balance: 25.000 * 0.100 = +2.500\n  influence_balance: 13.000 * 0.300 = +3.900\nAlternating move preferences along PV: +0.526\nMove preferences (not the search score):\nD2: 1.010 (base=0.010)\n  atari: 0.500 * 2.000 = +1.000"
+  },
+  {
+    "color": "B",
+    "move": "D1",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "E1",
+    "ms": 15.0,
+    "trace": "move=E1 score=62.353 depth=3 nodes=729 elapsed_ms=22 limited=false root_searched=14/23\npv=E1 pass H4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 36.000 * 1.000 = +36.000\n  atari_risk: -12.000 * -1.500 = +18.000\n  liberty_balance: 29.000 * 0.100 = +2.900\n  influence_balance: 15.000 * 0.300 = +4.500\nAlternating move preferences along PV: +0.453\nMove preferences (not the search score):\nE1: 0.510 (base=0.010)\n  atari: 0.250 * 2.000 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "pass",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "C1",
+    "ms": 31.0,
+    "trace": "move=C1 score=64.178 depth=3 nodes=600 elapsed_ms=20 limited=false root_searched=13/22\npv=C1 pass H4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 40.000 * 1.000 = +40.000\n  atari_risk: -9.000 * -1.500 = +13.500\n  liberty_balance: 35.000 * 0.100 = +3.500\n  influence_balance: 18.000 * 0.300 = +5.400\nAlternating move preferences along PV: +1.278\nMove preferences (not the search score):\nC1: 6.010 (base=0.010)\n  capture: 0.750 * 8.000 = +6.000\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "B",
+    "move": "pass",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "H4",
+    "ms": 16.0,
+    "trace": "move=H4 score=65.178 depth=3 nodes=611 elapsed_ms=20 limited=false root_searched=13/24\npv=H4 pass F4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 45.000 * 1.000 = +45.000\n  atari_risk: -5.000 * -1.500 = +7.500\n  liberty_balance: 40.000 * 0.100 = +4.000\n  influence_balance: 22.000 * 0.300 = +6.600\nAlternating move preferences along PV: +1.578\nMove preferences (not the search score):\nH4: 2.510 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  atari: 0.250 * 2.000 = +0.500\n  cut_pressure: 0.333 * 0.000 = +0.000"
+  },
+  {
+    "color": "B",
+    "move": "pass",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "G1",
+    "ms": 16.0,
+    "trace": "move=G1 score=66.403 depth=3 nodes=597 elapsed_ms=18 limited=false root_searched=13/24\npv=G1 pass F4\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 48.000 * 1.000 = +48.000\n  atari_risk: -3.000 * -1.500 = +4.500\n  liberty_balance: 44.000 * 0.100 = +4.400\n  influence_balance: 24.000 * 0.300 = +7.200\nAlternating move preferences along PV: +1.803\nMove preferences (not the search score):\nG1: 4.010 (base=0.010)\n  capture: 0.500 * 8.000 = +4.000"
+  },
+  {
+    "color": "B",
+    "move": "pass",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "C6",
+    "ms": 15.0,
+    "trace": "move=C6 score=66.876 depth=3 nodes=591 elapsed_ms=19 limited=false root_searched=13/25\npv=C6 pass pass\nLeaf evaluation from the root player's perspective:\n  terminal_area_margin: 66.500 * 1.000 = +66.500\nAlternating move preferences along PV: +0.376\nMove preferences (not the search score):\nC6: 2.510 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  connect: 0.333 * 1.500 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "pass",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "E8",
+    "ms": 32.0,
+    "trace": "move=E8 score=67.651 depth=3 nodes=593 elapsed_ms=18 limited=false root_searched=13/25\npv=E8 F4 J3\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 53.000 * 1.000 = +53.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 32.000 * 0.100 = +3.200\n  influence_balance: 28.000 * 0.300 = +8.400\nAlternating move preferences along PV: +2.551\nMove preferences (not the search score):\nE8: 2.510 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  connect: 0.333 * 1.500 = +0.500"
+  },
+  {
+    "color": "B",
+    "move": "pass",
+    "ms": 0.0,
+    "trace": "one-ply weighted baseline"
+  },
+  {
+    "color": "W",
+    "move": "pass",
+    "ms": 15.0,
+    "trace": "move=pass score=69.500 depth=3 nodes=765 elapsed_ms=19 limited=false root_searched=13/25\npv=pass\nLeaf evaluation from the root player's perspective:\n  terminal_area_margin: 69.500 * 1.000 = +69.500\nAlternating move preferences along PV: +0.000\nMove preferences (not the search score):\npass: 0.000"
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "fixtures": [
+    {
+      "id": "rescue-single-19",
+      "split": "train",
+      "baseline_move": "B3",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": false,
+      "depth": 1,
+      "elapsed_ms": 253.256,
+      "report": "move=D16 score=-0.998 depth=1 nodes=20000 tactical_nodes=0 elapsed_ms=253 limited=true root_searched=357/357 mode=minimax\npv=D16\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -1.000 * 1.000 = -1.000\n  atari_risk: 1.000 * -1.500 = -1.500\n  liberty_balance: -2.000 * 0.100 = -0.200\n  influence_balance: 6.333 * 0.300 = +1.900\nAlternating move preferences along PV: +0.301\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000"
+    },
+    {
+      "id": "capture-pair-19",
+      "split": "train",
+      "baseline_move": "C3",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": false,
+      "depth": 1,
+      "elapsed_ms": 287.591,
+      "report": "move=D16 score=16.752 depth=1 nodes=20000 tactical_nodes=0 elapsed_ms=287 limited=true root_searched=355/355 mode=minimax\npv=D16\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 4.000 * 1.000 = +4.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: 13.000 * 0.100 = +1.300\n  influence_balance: 28.833 * 0.300 = +8.650\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000"
+    },
+    {
+      "id": "avoid-self-atari-19",
+      "split": "train",
+      "baseline_move": "C17",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": true,
+      "depth": 1,
+      "elapsed_ms": 171.813,
+      "report": "move=D16 score=3.102 depth=1 nodes=20000 tactical_nodes=0 elapsed_ms=171 limited=true root_searched=361/361 mode=minimax\npv=D16\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 1.000 * 0.100 = +0.100\n  influence_balance: 7.333 * 0.300 = +2.200\nAlternating move preferences along PV: +0.301\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000"
+    },
+    {
+      "id": "preserve-corner-eye-19",
+      "split": "train",
+      "baseline_move": "C17",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": true,
+      "depth": 1,
+      "elapsed_ms": 206.281,
+      "report": "move=D16 score=12.726 depth=1 nodes=20000 tactical_nodes=0 elapsed_ms=206 limited=true root_searched=359/359 mode=minimax\npv=D16\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 4.000 * 1.000 = +4.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 9.000 * 0.100 = +0.900\n  influence_balance: 26.750 * 0.300 = +8.025\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000"
+    },
+    {
+      "id": "opening-corners-19",
+      "split": "train",
+      "baseline_move": "C17",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": true,
+      "depth": 1,
+      "elapsed_ms": 156.989,
+      "report": "move=D16 score=5.852 depth=1 nodes=20000 tactical_nodes=0 elapsed_ms=156 limited=true root_searched=362/362 mode=minimax\npv=D16\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 4.000 * 0.100 = +0.400\n  influence_balance: 15.500 * 0.300 = +4.650\nAlternating move preferences along PV: +0.301\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000"
+    },
+    {
+      "id": "rescue-edge-pair-19",
+      "split": "test",
+      "baseline_move": "B1",
+      "baseline_pass": true,
+      "search_move": "B1",
+      "search_pass": true,
+      "depth": 1,
+      "elapsed_ms": 216.654,
+      "report": "move=B1 score=0.752 depth=1 nodes=20000 tactical_nodes=0 elapsed_ms=216 limited=true root_searched=357/357 mode=minimax\npv=B1\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 1.000 * 0.100 = +0.100\n  influence_balance: -3.000 * 0.300 = -0.900\nAlternating move preferences along PV: +1.051\nMove preferences (not the search score):\nB1: 7.010 (base=0.010)\n  capture: 0.250 * 8.000 = +2.000\n  save_atari: 0.500 * 10.000 = +5.000\n  cut_pressure: 0.333 * 0.000 = +0.000"
+    },
+    {
+      "id": "capture-corner-pair-19",
+      "split": "test",
+      "baseline_move": "C1",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": false,
+      "depth": 1,
+      "elapsed_ms": 225.408,
+      "report": "move=D16 score=10.877 depth=1 nodes=20000 tactical_nodes=0 elapsed_ms=225 limited=true root_searched=358/358 mode=minimax\npv=D16\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 1.000 * 1.000 = +1.000\n  atari_risk: -2.000 * -1.500 = +3.000\n  liberty_balance: 6.000 * 0.100 = +0.600\n  influence_balance: 21.583 * 0.300 = +6.475\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000"
+    },
+    {
+      "id": "preserve-center-eye-19",
+      "split": "test",
+      "baseline_move": "C17",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": true,
+      "depth": 1,
+      "elapsed_ms": 251.015,
+      "report": "move=D16 score=21.677 depth=1 nodes=20000 tactical_nodes=0 elapsed_ms=250 limited=true root_searched=354/354 mode=minimax\npv=D16\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: 9.000 * 1.000 = +9.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 10.000 * 0.100 = +1.000\n  influence_balance: 39.583 * 0.300 = +11.875\nAlternating move preferences along PV: +0.302\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000"
+    },
+    {
+      "id": "respect-ko-19",
+      "split": "test",
+      "baseline_move": "A4",
+      "baseline_pass": true,
+      "search_move": "D16",
+      "search_pass": true,
+      "depth": 1,
+      "elapsed_ms": 263.39,
+      "report": "move=D16 score=6.776 depth=1 nodes=20000 tactical_nodes=0 elapsed_ms=263 limited=true root_searched=353/353 mode=minimax\npv=D16\nLeaf evaluation from the root player's perspective:\n  komi: 0.500 * 1.000 = +0.500\n  stone_balance: 0.000 * 1.000 = +0.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: 1.000 * 0.100 = +0.100\n  influence_balance: 19.583 * 0.300 = +5.875\nAlternating move preferences along PV: +0.301\nMove preferences (not the search score):\nD16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000"
+    },
+    {
+      "id": "rescue-three-19",
+      "split": "test",
+      "baseline_move": "D3",
+      "baseline_pass": true,
+      "search_move": "D3",
+      "search_pass": true,
+      "depth": 1,
+      "elapsed_ms": 286.846,
+      "report": "move=D3 score=-5.973 depth=1 nodes=20000 tactical_nodes=0 elapsed_ms=286 limited=true root_searched=351/351 mode=minimax\npv=D3\nLeaf evaluation from the root player's perspective:\n  komi: -0.500 * 1.000 = -0.500\n  stone_balance: -3.000 * 1.000 = -3.000\n  atari_risk: 0.000 * -1.500 = -0.000\n  liberty_balance: -8.000 * 0.100 = -0.800\n  influence_balance: -9.333 * 0.300 = -2.800\nAlternating move preferences along PV: +1.127\nMove preferences (not the search score):\nD3: 7.510 (base=0.010)\n  save_atari: 0.750 * 10.000 = +7.500"
+    }
+  ],
+  "summary": {
+    "train": {
+      "total": 5,
+      "baseline_pass": 5,
+      "search_pass": 3
+    },
+    "test": {
+      "total": 5,
+      "baseline_pass": 5,
+      "search_pass": 4
+    }
+  },
+  "executable_sha256": "302f621fb393e556f486cca6ab993dba596f5dd7f6439e94fdcf39dd32bc8c22",
+  "harness_sha256": "d23f1e57a8e36c43bbe65e47dda6a26b9b9fe2918270ee550512c98cf5e58c62",
+  "fixtures_sha256": "7bede387356d636f248dcc0b9e1325d0b02e2ec854b807768b126ac61854cafe",
+  "profile_sha256": "7f09b0301436affa2bb3ebaa2367d5c36257aae5ec2c2b1738ea5329f1441225",
+  "limits": {
+    "nodes": 20000,
+    "depth": 3,
+    "beam": 12,
+    "ms": 1000,
+    "tactical": 0,
+    "search": "minimax",
+    "shortlist": 3
+  },
+  "seed": 20260920,
+  "mode": "evaluate"
+}

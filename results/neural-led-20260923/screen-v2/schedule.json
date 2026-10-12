@@ -1,0 +1,1122 @@
+[
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-032",
+      "moves": [
+        [
+          "B",
+          "D17"
+        ],
+        [
+          "W",
+          "R16"
+        ],
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "C3"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-032-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-032",
+      "moves": [
+        [
+          "B",
+          "D17"
+        ],
+        [
+          "W",
+          "R16"
+        ],
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "C3"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-032-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-023",
+      "moves": [
+        [
+          "B",
+          "C3"
+        ],
+        [
+          "W",
+          "D16"
+        ],
+        [
+          "B",
+          "Q17"
+        ],
+        [
+          "W",
+          "Q3"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-023-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-023",
+      "moves": [
+        [
+          "B",
+          "C3"
+        ],
+        [
+          "W",
+          "D16"
+        ],
+        [
+          "B",
+          "Q17"
+        ],
+        [
+          "W",
+          "Q3"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-023-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-035",
+      "moves": [
+        [
+          "B",
+          "D17"
+        ],
+        [
+          "W",
+          "Q17"
+        ],
+        [
+          "B",
+          "D3"
+        ],
+        [
+          "W",
+          "R4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-035-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-035",
+      "moves": [
+        [
+          "B",
+          "D17"
+        ],
+        [
+          "W",
+          "Q17"
+        ],
+        [
+          "B",
+          "D3"
+        ],
+        [
+          "W",
+          "R4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-035-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-030",
+      "moves": [
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "R16"
+        ],
+        [
+          "B",
+          "C17"
+        ],
+        [
+          "W",
+          "C4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-030-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-030",
+      "moves": [
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "R16"
+        ],
+        [
+          "B",
+          "C17"
+        ],
+        [
+          "W",
+          "C4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-030-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-021",
+      "moves": [
+        [
+          "B",
+          "R4"
+        ],
+        [
+          "W",
+          "R17"
+        ],
+        [
+          "B",
+          "C17"
+        ],
+        [
+          "W",
+          "C4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-021-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-021",
+      "moves": [
+        [
+          "B",
+          "R4"
+        ],
+        [
+          "W",
+          "R17"
+        ],
+        [
+          "B",
+          "C17"
+        ],
+        [
+          "W",
+          "C4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-021-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-039",
+      "moves": [
+        [
+          "B",
+          "D17"
+        ],
+        [
+          "W",
+          "R17"
+        ],
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "D4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-039-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-039",
+      "moves": [
+        [
+          "B",
+          "D17"
+        ],
+        [
+          "W",
+          "R17"
+        ],
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "D4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-039-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-022",
+      "moves": [
+        [
+          "B",
+          "D4"
+        ],
+        [
+          "W",
+          "C17"
+        ],
+        [
+          "B",
+          "R16"
+        ],
+        [
+          "W",
+          "Q3"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-022-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-022",
+      "moves": [
+        [
+          "B",
+          "D4"
+        ],
+        [
+          "W",
+          "C17"
+        ],
+        [
+          "B",
+          "R16"
+        ],
+        [
+          "W",
+          "Q3"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-022-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-031",
+      "moves": [
+        [
+          "B",
+          "C17"
+        ],
+        [
+          "W",
+          "C4"
+        ],
+        [
+          "B",
+          "Q17"
+        ],
+        [
+          "W",
+          "R4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-031-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-031",
+      "moves": [
+        [
+          "B",
+          "C17"
+        ],
+        [
+          "W",
+          "C4"
+        ],
+        [
+          "B",
+          "Q17"
+        ],
+        [
+          "W",
+          "R4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-031-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-038",
+      "moves": [
+        [
+          "B",
+          "R3"
+        ],
+        [
+          "W",
+          "Q17"
+        ],
+        [
+          "B",
+          "C16"
+        ],
+        [
+          "W",
+          "C4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-038-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-038",
+      "moves": [
+        [
+          "B",
+          "R3"
+        ],
+        [
+          "W",
+          "Q17"
+        ],
+        [
+          "B",
+          "C16"
+        ],
+        [
+          "W",
+          "C4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-038-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-025",
+      "moves": [
+        [
+          "B",
+          "R16"
+        ],
+        [
+          "W",
+          "R3"
+        ],
+        [
+          "B",
+          "D3"
+        ],
+        [
+          "W",
+          "C16"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-025-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-025",
+      "moves": [
+        [
+          "B",
+          "R16"
+        ],
+        [
+          "W",
+          "R3"
+        ],
+        [
+          "B",
+          "D3"
+        ],
+        [
+          "W",
+          "C16"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-025-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-026",
+      "moves": [
+        [
+          "B",
+          "D16"
+        ],
+        [
+          "W",
+          "R17"
+        ],
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "D3"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-026-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-026",
+      "moves": [
+        [
+          "B",
+          "D16"
+        ],
+        [
+          "W",
+          "R17"
+        ],
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "D3"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-026-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-036",
+      "moves": [
+        [
+          "B",
+          "R16"
+        ],
+        [
+          "W",
+          "C17"
+        ],
+        [
+          "B",
+          "D3"
+        ],
+        [
+          "W",
+          "R4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-036-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-036",
+      "moves": [
+        [
+          "B",
+          "R16"
+        ],
+        [
+          "W",
+          "C17"
+        ],
+        [
+          "B",
+          "D3"
+        ],
+        [
+          "W",
+          "R4"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-036-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-033",
+      "moves": [
+        [
+          "B",
+          "R3"
+        ],
+        [
+          "W",
+          "D3"
+        ],
+        [
+          "B",
+          "D16"
+        ],
+        [
+          "W",
+          "R16"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-033-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-033",
+      "moves": [
+        [
+          "B",
+          "R3"
+        ],
+        [
+          "W",
+          "D3"
+        ],
+        [
+          "B",
+          "D16"
+        ],
+        [
+          "W",
+          "R16"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-033-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-037",
+      "moves": [
+        [
+          "B",
+          "R3"
+        ],
+        [
+          "W",
+          "C3"
+        ],
+        [
+          "B",
+          "Q17"
+        ],
+        [
+          "W",
+          "C17"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-037-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-037",
+      "moves": [
+        [
+          "B",
+          "R3"
+        ],
+        [
+          "W",
+          "C3"
+        ],
+        [
+          "B",
+          "Q17"
+        ],
+        [
+          "W",
+          "C17"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-037-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-027",
+      "moves": [
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "C3"
+        ],
+        [
+          "B",
+          "D16"
+        ],
+        [
+          "W",
+          "R17"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-027-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-027",
+      "moves": [
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "C3"
+        ],
+        [
+          "B",
+          "D16"
+        ],
+        [
+          "W",
+          "R17"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-027-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-028",
+      "moves": [
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "C16"
+        ],
+        [
+          "B",
+          "C4"
+        ],
+        [
+          "W",
+          "Q16"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-028-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-028",
+      "moves": [
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "C16"
+        ],
+        [
+          "B",
+          "C4"
+        ],
+        [
+          "W",
+          "Q16"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-028-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-024",
+      "moves": [
+        [
+          "B",
+          "Q16"
+        ],
+        [
+          "W",
+          "C4"
+        ],
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "C16"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-024-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-024",
+      "moves": [
+        [
+          "B",
+          "Q16"
+        ],
+        [
+          "W",
+          "C4"
+        ],
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "C16"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-024-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-020",
+      "moves": [
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "D4"
+        ],
+        [
+          "B",
+          "R16"
+        ],
+        [
+          "W",
+          "D17"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-020-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-020",
+      "moves": [
+        [
+          "B",
+          "Q3"
+        ],
+        [
+          "W",
+          "D4"
+        ],
+        [
+          "B",
+          "R16"
+        ],
+        [
+          "W",
+          "D17"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-020-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-034",
+      "moves": [
+        [
+          "B",
+          "C4"
+        ],
+        [
+          "W",
+          "D17"
+        ],
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "Q17"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-034-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-034",
+      "moves": [
+        [
+          "B",
+          "C4"
+        ],
+        [
+          "W",
+          "D17"
+        ],
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "Q17"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-034-combined-vs-neural-B"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-029",
+      "moves": [
+        [
+          "B",
+          "R16"
+        ],
+        [
+          "W",
+          "C17"
+        ],
+        [
+          "B",
+          "D4"
+        ],
+        [
+          "W",
+          "R3"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "stem": "led-fresh-029-combined-vs-neural-W"
+  },
+  {
+    "stage": 2,
+    "opening": {
+      "id": "led-fresh-029",
+      "moves": [
+        [
+          "B",
+          "R16"
+        ],
+        [
+          "W",
+          "C17"
+        ],
+        [
+          "B",
+          "D4"
+        ],
+        [
+          "W",
+          "R3"
+        ]
+      ]
+    },
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "stem": "led-fresh-029-combined-vs-neural-B"
+  }
+]

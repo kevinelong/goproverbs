@@ -1,0 +1,167 @@
+{
+  "status": "complete",
+  "phase": "development",
+  "pid": 8724,
+  "started": 1790209311.522437,
+  "preflight": {
+    "gpu": {
+      "command": [
+        "nvidia-smi",
+        "--query-gpu=name,memory.used,memory.free,driver_version",
+        "--format=csv"
+      ],
+      "exit_code": 0,
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 1902 MiB, 10042 MiB, 610.60\n",
+      "stderr": ""
+    },
+    "compute_processes": {
+      "command": [
+        "nvidia-smi",
+        "--query-compute-apps=pid,process_name,used_memory",
+        "--format=csv"
+      ],
+      "exit_code": 0,
+      "stdout": "pid, process_name, used_gpu_memory [MiB]\n2300, [Insufficient Permissions], [N/A]\n20080, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe, [N/A]\n18888, C:\\Windows\\explorer.exe, [N/A]\n23684, [Insufficient Permissions], [N/A]\n24696, [Insufficient Permissions], [N/A]\n14280, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\WinUI3Apps\\PowerToys.QuickAccess.exe, [N/A]\n33620, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe, [N/A]\n33972, C:\\Program Files\\WindowsApps\\Microsoft.CommandPalette_0.11.11733.0_x64__8wekyb3d8bbwe\\Microsoft.CmdPal.UI.exe, [N/A]\n28908, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.exe, [N/A]\n21940, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\WinUI3Apps\\PowerToys.Peek.UI.exe, [N/A]\n19828, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.ColorPickerUI.exe, [N/A]\n3780, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe, [N/A]\n20856, C:\\Program Files\\Dell\\DellOptimizer\\Console\\DellOptimizer.Systray.exe, [N/A]\n51936, [Insufficient Permissions], [N/A]\n169504, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\\YourPhoneAppProxyHost.exe, [N/A]\n877640, [Insufficient Permissions], [N/A]\n40648, C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.11911.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe, [N/A]\n35312, [Insufficient Permissions], [N/A]\n22784, C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe, [N/A]\n45768, [Insufficient Permissions], [N/A]\n1957040, C:\\Program Files\\WindowsApps\\Claude_2.7032.0.0_x64__pzs8sxrjxfjjc\\app\\claude.exe, [N/A]\n1246900, C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2636.100.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe, [N/A]\n7756, [Insufficient Permissions], [N/A]\n3168264, [Insufficient Permissions], [N/A]\n2062112, C:\\Users\\kevin\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\f53823cd54b14f45\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe, [N/A]\n2070380, C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.917.6896.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe, [N/A]\n45732, C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe, [N/A]\n48456, C:\\Users\\kevin\\AppData\\Local\\Google\\Google\\latest\\google.exe, [N/A]\n2736860, C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe, [N/A]\n34144, C:\\Program Files\\WindowsApps\\RivetNetworks.KillerControlCenter_40.26.403.0_x64__rh07ty8m5nkag\\KillerControlCenter_v2\\Killer.exe, [N/A]\n22792, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe, [N/A]\n12612, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.FancyZones.exe, [N/A]\n3649140, C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA Overlay.exe, [N/A]\n3649372, C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA Overlay.exe, [N/A]\n3646332, [Insufficient Permissions], [N/A]\n3638212, C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2609.52011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe, [N/A]\n2773752, [Insufficient Permissions], [N/A]\n57424, [Insufficient Permissions], [N/A]\n3644912, C:\\Windows\\System32\\ShellHost.exe, [N/A]\n3613312, [Insufficient Permissions], [N/A]\n",
+      "stderr": ""
+    },
+    "ollama": {
+      "command": [
+        "ollama",
+        "ps"
+      ],
+      "exit_code": 0,
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": ""
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 8801144832
+    }
+  },
+  "model_pid": 2046588,
+  "version": {
+    "action": "query_version",
+    "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+    "id": "version",
+    "version": "1.18.1"
+  },
+  "active": "led-fresh-025-combined-vs-neural-W-315",
+  "depth": {
+    "selected_visits": 16,
+    "budgets": {
+      "4": {
+        "decisions": 20,
+        "median_ms": 49.15089998394251,
+        "p95_ms": 69.99499991070479,
+        "max_ms": 75.75249997898936,
+        "verified": {
+          "neural": 10,
+          "combined": 10
+        },
+        "passed": true
+      },
+      "8": {
+        "decisions": 20,
+        "median_ms": 56.53795006219298,
+        "p95_ms": 80.78259998001158,
+        "max_ms": 83.29300000332296,
+        "verified": {
+          "neural": 10,
+          "combined": 10
+        },
+        "passed": true
+      },
+      "16": {
+        "decisions": 20,
+        "median_ms": 74.8299999977462,
+        "p95_ms": 100.80159991048276,
+        "max_ms": 102.07499994430691,
+        "verified": {
+          "neural": 10,
+          "combined": 10
+        },
+        "passed": true
+      }
+    }
+  },
+  "depth_hash": "64b7a56298bbf5f6810e1e2509fb1c34c055af175b47bdc9c4966f64a67bc7ac",
+  "development": {
+    "passed": false,
+    "cases": 40,
+    "openings": 20,
+    "role_counts": {
+      "neural": 20,
+      "combined": 20
+    },
+    "opening_means": {
+      "128": {
+        "versus_current": 0.005846617162241003,
+        "versus_policy": 0.006853449585000002
+      },
+      "512": {
+        "versus_current": 0.007007008998160007,
+        "versus_policy": 0.006772203112500002
+      }
+    },
+    "role_means": {
+      "neural": {
+        "128": 0.011439721463412007,
+        "512": 0.014387276203805019
+      },
+      "combined": {
+        "128": 0.00025351286106999906,
+        "512": -0.0003732582074850033
+      }
+    },
+    "beneficial": 6,
+    "harmful": 2,
+    "severe_harm": 0,
+    "p95_ms": 102.13500005193055,
+    "max_ms": 106.35979997459799
+  },
+  "outcome": "development gate failed; remaining validation/fresh games held.",
+  "transport_metrics": {
+    "sent": 1146,
+    "cancelled": 0,
+    "late_replies": 0,
+    "lock_timeouts": 0
+  },
+  "inputs_unchanged": true,
+  "finished": 1790209378.9016826,
+  "remaining_model_processes": [],
+  "postflight": {
+    "gpu": {
+      "command": [
+        "nvidia-smi",
+        "--query-gpu=name,memory.used,memory.free,driver_version",
+        "--format=csv"
+      ],
+      "exit_code": 0,
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 1902 MiB, 10042 MiB, 610.60\n",
+      "stderr": ""
+    },
+    "compute_processes": {
+      "command": [
+        "nvidia-smi",
+        "--query-compute-apps=pid,process_name,used_memory",
+        "--format=csv"
+      ],
+      "exit_code": 0,
+      "stdout": "pid, process_name, used_gpu_memory [MiB]\n2300, [Insufficient Permissions], [N/A]\n20080, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe, [N/A]\n18888, C:\\Windows\\explorer.exe, [N/A]\n23684, [Insufficient Permissions], [N/A]\n24696, [Insufficient Permissions], [N/A]\n14280, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\WinUI3Apps\\PowerToys.QuickAccess.exe, [N/A]\n33620, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe, [N/A]\n33972, C:\\Program Files\\WindowsApps\\Microsoft.CommandPalette_0.11.11733.0_x64__8wekyb3d8bbwe\\Microsoft.CmdPal.UI.exe, [N/A]\n28908, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.exe, [N/A]\n21940, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\WinUI3Apps\\PowerToys.Peek.UI.exe, [N/A]\n19828, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.ColorPickerUI.exe, [N/A]\n3780, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe, [N/A]\n20856, C:\\Program Files\\Dell\\DellOptimizer\\Console\\DellOptimizer.Systray.exe, [N/A]\n51936, [Insufficient Permissions], [N/A]\n169504, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.255.0_x64__8wekyb3d8bbwe\\YourPhoneAppProxyHost.exe, [N/A]\n877640, [Insufficient Permissions], [N/A]\n40648, C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.11911.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe, [N/A]\n35312, [Insufficient Permissions], [N/A]\n22784, C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe, [N/A]\n45768, [Insufficient Permissions], [N/A]\n1957040, C:\\Program Files\\WindowsApps\\Claude_2.7032.0.0_x64__pzs8sxrjxfjjc\\app\\claude.exe, [N/A]\n1246900, C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2636.100.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe, [N/A]\n7756, [Insufficient Permissions], [N/A]\n3168264, [Insufficient Permissions], [N/A]\n2062112, C:\\Users\\kevin\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\f53823cd54b14f45\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe, [N/A]\n2070380, C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.917.6896.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe, [N/A]\n45732, C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe, [N/A]\n48456, C:\\Users\\kevin\\AppData\\Local\\Google\\Google\\latest\\google.exe, [N/A]\n2736860, C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe, [N/A]\n34144, C:\\Program Files\\WindowsApps\\RivetNetworks.KillerControlCenter_40.26.403.0_x64__rh07ty8m5nkag\\KillerControlCenter_v2\\Killer.exe, [N/A]\n22792, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe, [N/A]\n12612, C:\\Users\\kevin\\AppData\\Local\\PowerToys\\PowerToys.FancyZones.exe, [N/A]\n3649140, C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA Overlay.exe, [N/A]\n3649372, C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\CEF\\NVIDIA Overlay.exe, [N/A]\n3646332, [Insufficient Permissions], [N/A]\n3638212, C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2609.52011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe, [N/A]\n2773752, [Insufficient Permissions], [N/A]\n57424, [Insufficient Permissions], [N/A]\n3644912, C:\\Windows\\System32\\ShellHost.exe, [N/A]\n3613312, [Insufficient Permissions], [N/A]\n",
+      "stderr": ""
+    },
+    "ollama": {
+      "command": [
+        "ollama",
+        "ps"
+      ],
+      "exit_code": 0,
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": ""
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 8756514816
+    }
+  }
+}

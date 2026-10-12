@@ -1,0 +1,194 @@
+[
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-NN",
+    "a": "NH",
+    "b": "NN",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+125.5",
+    "a_won": false,
+    "moves": 533,
+    "raw_area_margin": -125.5,
+    "roles": {
+      "NH": {
+        "decisions": 265,
+        "median_ms": 200.19810000667349,
+        "max_ms": 201.03019999805838,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "NN": {
+        "decisions": 264,
+        "median_ms": 201.49710000259802,
+        "max_ms": 217.22569997655228,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 231,
+        "external_fallback_rounds": 33
+      }
+    }
+  },
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-NN",
+    "a": "NH",
+    "b": "NN",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+20.5",
+    "a_won": false,
+    "moves": 334,
+    "raw_area_margin": 20.5,
+    "roles": {
+      "NH": {
+        "decisions": 165,
+        "median_ms": 200.11680002789944,
+        "max_ms": 201.3382000150159,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "NN": {
+        "decisions": 165,
+        "median_ms": 201.36880001518875,
+        "max_ms": 204.9785999697633,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 143,
+        "external_fallback_rounds": 22
+      }
+    }
+  },
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-policy",
+    "a": "NH",
+    "b": "policy",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+245.5",
+    "a_won": false,
+    "moves": 522,
+    "raw_area_margin": -245.5,
+    "roles": {
+      "NH": {
+        "decisions": 259,
+        "median_ms": 200.2140999538824,
+        "max_ms": 211.46770002087578,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "policy": {
+        "decisions": 259,
+        "median_ms": 4.770900006406009,
+        "max_ms": 9.454399987589568,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_completed_requests": 259,
+        "external_timeout_fallbacks": 0
+      }
+    }
+  },
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-policy",
+    "a": "NH",
+    "b": "policy",
+    "a_color": "W",
+    "finished": true,
+    "result": "B+219.5",
+    "a_won": false,
+    "moves": 505,
+    "raw_area_margin": 219.5,
+    "roles": {
+      "NH": {
+        "decisions": 250,
+        "median_ms": 200.2124499704223,
+        "max_ms": 205.7016000035219,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "policy": {
+        "decisions": 251,
+        "median_ms": 4.452000022865832,
+        "max_ms": 11.556699988432229,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_completed_requests": 251,
+        "external_timeout_fallbacks": 0
+      }
+    }
+  },
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-search",
+    "a": "NH",
+    "b": "search",
+    "a_color": "B",
+    "finished": true,
+    "result": "B+223.5",
+    "a_won": true,
+    "moves": 361,
+    "raw_area_margin": 223.5,
+    "roles": {
+      "NH": {
+        "decisions": 179,
+        "median_ms": 200.16350003425032,
+        "max_ms": 200.96159999957308,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "search": {
+        "decisions": 178,
+        "median_ms": 237.25289999856614,
+        "max_ms": 2584.355200000573,
+        "fallbacks": 100,
+        "root_timeouts": 0,
+        "external_completed_requests": 78,
+        "external_timeout_fallbacks": 100
+      }
+    }
+  },
+  {
+    "opening": "opening-022",
+    "matchup": "NH-vs-search",
+    "a": "NH",
+    "b": "search",
+    "a_color": "W",
+    "finished": false,
+    "result": "unfinished",
+    "a_won": false,
+    "moves": 192,
+    "raw_area_margin": -18.5,
+    "roles": {
+      "NH": {
+        "decisions": 94,
+        "median_ms": 200.06985001964495,
+        "max_ms": 200.92739997198805,
+        "fallbacks": 0,
+        "root_timeouts": 0,
+        "external_complete_rounds": 0,
+        "external_fallback_rounds": 0
+      },
+      "search": {
+        "decisions": 94,
+        "median_ms": 199.31540000834502,
+        "max_ms": 954.759800049942,
+        "fallbacks": 44,
+        "root_timeouts": 0,
+        "external_completed_requests": 50,
+        "external_timeout_fallbacks": 44
+      }
+    }
+  }
+]

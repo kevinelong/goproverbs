@@ -1,0 +1,278 @@
+{
+  "id": "led-fresh-018-neural-vs-policy-B-322",
+  "role": "neural",
+  "visits": 16,
+  "move": "Q19",
+  "ms": 61.944999964907765,
+  "trace": {
+    "baseline_move": "K18",
+    "root_move": "Q19",
+    "baseline": {
+      "variant": "neural",
+      "identifier": "development-11-base",
+      "status": "evaluated",
+      "report_perspective": "BLACK",
+      "value_objective": "root_player_winrate",
+      "completed_rounds": 1,
+      "fallback": false,
+      "fallback_reason": null,
+      "root_move": "Q19",
+      "selected_move": "K18",
+      "candidates": [
+        {
+          "move": "Q19",
+          "sources": [
+            "neural"
+          ],
+          "policy_rank": 1,
+          "policy_probability": 0.0795356855,
+          "status": "evaluated",
+          "value": {
+            "winrate": 0.999201766,
+            "score": 11.8137083,
+            "exact": false
+          }
+        },
+        {
+          "move": "H18",
+          "sources": [
+            "neural"
+          ],
+          "policy_rank": 2,
+          "policy_probability": 0.0654881895,
+          "status": "evaluated",
+          "value": {
+            "winrate": 0.999402871,
+            "score": 11.2077522,
+            "exact": false
+          }
+        },
+        {
+          "move": "K18",
+          "sources": [
+            "neural"
+          ],
+          "policy_rank": 3,
+          "policy_probability": 0.0585886873,
+          "status": "evaluated",
+          "value": {
+            "winrate": 0.999520171,
+            "score": 11.2563047,
+            "exact": false
+          }
+        }
+      ],
+      "rejected": [],
+      "queries": [
+        {
+          "id": "development-11-base-root",
+          "player": "B",
+          "move_count": 326,
+          "rootInfo": {
+            "currentPlayer": "B",
+            "rawLead": 11.4479294,
+            "rawNoResultProb": 0.0,
+            "rawScoreSelfplay": 10.9122276,
+            "rawScoreSelfplayStdev": 1.58849044,
+            "rawStScoreError": -1.0,
+            "rawStWrError": -0.5,
+            "rawVarTimeLeft": -1.0,
+            "rawWinrate": 0.998418152,
+            "scoreLead": 11.4479294,
+            "scoreSelfplay": 10.9122276,
+            "scoreStdev": 1.58849044,
+            "symHash": "071632995F57CE457F302ABAC0713C49",
+            "thisHash": "A92DB43CE43F0864F93B6BF491D6FF52",
+            "utility": 1.04326799,
+            "visits": 1,
+            "weight": 1.0,
+            "winrate": 0.99841816
+          },
+          "status": "complete",
+          "ms": 4.382599960081279
+        },
+        {
+          "id": "development-11-base-child-0",
+          "player": "W",
+          "move_count": 327,
+          "rootInfo": {
+            "currentPlayer": "W",
+            "rawLead": 11.8137083,
+            "rawNoResultProb": 0.0,
+            "rawScoreSelfplay": 11.7146883,
+            "rawScoreSelfplayStdev": 2.32533025,
+            "rawStScoreError": -1.0,
+            "rawStWrError": -0.5,
+            "rawVarTimeLeft": -1.0,
+            "rawWinrate": 0.999201775,
+            "scoreLead": 11.8137083,
+            "scoreSelfplay": 11.7146883,
+            "scoreStdev": 2.32533025,
+            "symHash": "39A49766E2CC6228493EEA3E52556E0B",
+            "thisHash": "9CBAD0F2E2851DCF43B9D5E1CE9161D3",
+            "utility": 1.04772545,
+            "visits": 1,
+            "weight": 1.0,
+            "winrate": 0.999201766
+          },
+          "status": "complete",
+          "ms": 3.956899978220463
+        },
+        {
+          "id": "development-11-base-child-1",
+          "player": "W",
+          "move_count": 327,
+          "rootInfo": {
+            "currentPlayer": "W",
+            "rawLead": 11.2077522,
+            "rawNoResultProb": 0.0,
+            "rawScoreSelfplay": 11.2767506,
+            "rawScoreSelfplayStdev": 2.42108036,
+            "rawStScoreError": -1.0,
+            "rawStWrError": -0.5,
+            "rawVarTimeLeft": -1.0,
+            "rawWinrate": 0.999402881,
+            "scoreLead": 11.2077522,
+            "scoreSelfplay": 11.2767506,
+            "scoreStdev": 2.42108036,
+            "symHash": "28A50CBE3ABCCAD0D9956CC38EF57A6D",
+            "thisHash": "439604F46D843EE6965F6EEACF4AD76F",
+            "utility": 1.04627654,
+            "visits": 1,
+            "weight": 1.0,
+            "winrate": 0.999402871
+          },
+          "status": "complete",
+          "ms": 4.264499992132187
+        },
+        {
+          "id": "development-11-base-child-2",
+          "player": "W",
+          "move_count": 327,
+          "rootInfo": {
+            "currentPlayer": "W",
+            "rawLead": 11.2563047,
+            "rawNoResultProb": 0.0,
+            "rawScoreSelfplay": 11.363946,
+            "rawScoreSelfplayStdev": 2.42540363,
+            "rawStScoreError": -1.0,
+            "rawStWrError": -0.5,
+            "rawVarTimeLeft": -1.0,
+            "rawWinrate": 0.999520183,
+            "scoreLead": 11.2563047,
+            "scoreSelfplay": 11.363946,
+            "scoreStdev": 2.42540363,
+            "symHash": "012337634FE0815A182716825D269C85",
+            "thisHash": "572CA622749335C32EC685D7D0C87CBC",
+            "utility": 1.0468631,
+            "visits": 1,
+            "weight": 1.0,
+            "winrate": 0.999520171
+          },
+          "status": "complete",
+          "ms": 3.643200034275651
+        }
+      ],
+      "root_ms": 4.844199982471764,
+      "nomination_ms": 0.09350001346319914,
+      "evaluation_ms": 12.67789991106838,
+      "policy_rank": 3,
+      "pass_agreement": false,
+      "time_ms": 199.99839994125068,
+      "root_info": {
+        "currentPlayer": "B",
+        "rawLead": 11.4479294,
+        "rawNoResultProb": 0.0,
+        "rawScoreSelfplay": 10.9122276,
+        "rawScoreSelfplayStdev": 1.58849044,
+        "rawStScoreError": -1.0,
+        "rawStWrError": -0.5,
+        "rawVarTimeLeft": -1.0,
+        "rawWinrate": 0.998418152,
+        "scoreLead": 11.4479294,
+        "scoreSelfplay": 10.9122276,
+        "scoreStdev": 1.58849044,
+        "symHash": "071632995F57CE457F302ABAC0713C49",
+        "thisHash": "A92DB43CE43F0864F93B6BF491D6FF52",
+        "utility": 1.04326799,
+        "visits": 1,
+        "weight": 1.0,
+        "winrate": 0.99841816
+      },
+      "score_tiebreak_used": true,
+      "ms": 20.977700012736022,
+      "overshoot_ms": 0.0
+    },
+    "visits": 16,
+    "margin": 0.005,
+    "verification_complete": true,
+    "verification_attempted": true,
+    "verification_fallback": false,
+    "values": {
+      "Q19": {
+        "winrate": 0.99885285,
+        "score": 11.4968779,
+        "exact": false
+      },
+      "K18": {
+        "winrate": 0.998859886,
+        "score": 11.4429517,
+        "exact": false
+      }
+    },
+    "queries": [
+      {
+        "id": "development-11-verify-0",
+        "rootInfo": {
+          "currentPlayer": "W",
+          "rawLead": 11.8137083,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 11.7146883,
+          "rawScoreSelfplayStdev": 2.32533025,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999201775,
+          "scoreLead": 11.4968779,
+          "scoreSelfplay": 11.2020368,
+          "scoreStdev": 1.99984511,
+          "symHash": "39A49766E2CC6228493EEA3E52556E0B",
+          "thisHash": "9CBAD0F2E2851DCF43B9D5E1CE9161D3",
+          "utility": 1.03889667,
+          "visits": 16,
+          "weight": 16.0,
+          "winrate": 0.99885285
+        }
+      },
+      {
+        "id": "development-11-verify-1",
+        "rootInfo": {
+          "currentPlayer": "W",
+          "rawLead": 11.2563047,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 11.363946,
+          "rawScoreSelfplayStdev": 2.42540363,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999520183,
+          "scoreLead": 11.4429517,
+          "scoreSelfplay": 11.2330408,
+          "scoreStdev": 2.01280282,
+          "symHash": "012337634FE0815A182716825D269C85",
+          "thisHash": "572CA622749335C32EC685D7D0C87CBC",
+          "utility": 1.04361977,
+          "visits": 16,
+          "weight": 16.0,
+          "winrate": 0.998859886
+        }
+      }
+    ],
+    "pass_agreement": false,
+    "move": "Q19",
+    "status": "verified",
+    "ms": 61.61570001859218,
+    "overshoot_ms": 0
+  },
+  "legal": true
+}

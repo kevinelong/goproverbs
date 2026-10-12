@@ -1,0 +1,606 @@
+{
+  "status": "complete",
+  "hashes": {
+    "C:\\Users\\kevin\\ai_bench\\katago\\opencl-1.18.1\\katago.exe": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+    "C:\\Users\\kevin\\ai_bench\\katago\\kata1-b10c128-s919229184-d169515535.txt.gz": "21d3d5eadad1f811071d4f7e4e90b8336e827fcd092ea62a8f35c569b9bd157c",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\target\\release\\goproverbs.exe": "20dc2a23ac9b3a372ff9998dcbb9526762cc111429810b2d8163b6f8af6efe7e",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\deadline-runtime-v4-20260922\\analysis.cfg": "872eac1af1ec50852cd0b2a2bb50ff4c97938481d753fa5415f30d424eeb601a",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\check_deadline_runtime.py": "3c12bf689d5f65c20e859b65bf395915d813949721fc8d6ff8df63bacd7db0f4",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\neural.py": "19f5771766a4858f52af5708e24696d27bd47ac83db494a08d5cceec92f30dbb",
+    "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\benchmarks\\guidance.py": "0b390c966a1711740ae016ef33549addab361e43d482f0f39685d8256d167752"
+  },
+  "before": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3311 MiB, 8633 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 4804812800
+    }
+  },
+  "version": {
+    "action": "query_version",
+    "git_hash": "92ee95c0a4b25fec214da00951ab69e97e207729",
+    "id": "version",
+    "version": "1.18.1"
+  },
+  "loaded": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3494 MiB, 8450 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 4512960512
+    }
+  },
+  "forced_timeout_ms": 15.510099998209625,
+  "standalone_probes": [
+    {
+      "history_length": 4,
+      "move": "P3",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-0-0",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": -1.78775954,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": -1.76717281,
+          "rawScoreSelfplayStdev": 23.6653913,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.440956891,
+          "scoreLead": -1.43688275,
+          "scoreSelfplay": -1.60507059,
+          "scoreStdev": 23.8396614,
+          "symHash": "4E4D692A955A3D63ABCD36782A825DD1",
+          "thisHash": "EF5C0C0E03B2C53E19BECB57943455F3",
+          "utility": -0.12568754,
+          "visits": 176,
+          "weight": 176.0,
+          "winrate": 0.443023954
+        },
+        "ms": 201.22290001017973
+      }
+    },
+    {
+      "history_length": 4,
+      "move": "P3",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-0-1",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": -1.78775954,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": -1.76717281,
+          "rawScoreSelfplayStdev": 23.6653913,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.440956891,
+          "scoreLead": -1.44784307,
+          "scoreSelfplay": -1.62061912,
+          "scoreStdev": 23.8569075,
+          "symHash": "4E4D692A955A3D63ABCD36782A825DD1",
+          "thisHash": "EF5C0C0E03B2C53E19BECB57943455F3",
+          "utility": -0.126383264,
+          "visits": 149,
+          "weight": 149.0,
+          "winrate": 0.442627273
+        },
+        "ms": 195.30760002089664
+      }
+    },
+    {
+      "history_length": 4,
+      "move": "P3",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-0-2",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": -1.78775954,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": -1.76717281,
+          "rawScoreSelfplayStdev": 23.6653913,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.440956891,
+          "scoreLead": -1.43680829,
+          "scoreSelfplay": -1.60597632,
+          "scoreStdev": 23.8434175,
+          "symHash": "4E4D692A955A3D63ABCD36782A825DD1",
+          "thisHash": "EF5C0C0E03B2C53E19BECB57943455F3",
+          "utility": -0.125781897,
+          "visits": 168,
+          "weight": 168.0,
+          "winrate": 0.442999389
+        },
+        "ms": 197.4366000504233
+      }
+    },
+    {
+      "history_length": 54,
+      "move": "F6",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-50-0",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 93.269516,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 98.9086151,
+          "rawScoreSelfplayStdev": 32.1592703,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999848843,
+          "scoreLead": 89.9475949,
+          "scoreSelfplay": 94.906488,
+          "scoreStdev": 30.6308048,
+          "symHash": "0398A90406A9A474035D17D8D8E32193",
+          "thisHash": "C81EC97A863DD72D4EEF35808288AF18",
+          "utility": 1.12992657,
+          "visits": 162,
+          "weight": 162.0,
+          "winrate": 0.999913836
+        },
+        "ms": 196.29580003675073
+      }
+    },
+    {
+      "history_length": 54,
+      "move": "F6",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-50-1",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 93.269516,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 98.9086151,
+          "rawScoreSelfplayStdev": 32.1592703,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999848843,
+          "scoreLead": 89.9270174,
+          "scoreSelfplay": 94.8958596,
+          "scoreStdev": 30.6474262,
+          "symHash": "0398A90406A9A474035D17D8D8E32193",
+          "thisHash": "C81EC97A863DD72D4EEF35808288AF18",
+          "utility": 1.1298356,
+          "visits": 162,
+          "weight": 162.0,
+          "winrate": 0.999914141
+        },
+        "ms": 196.9674999709241
+      }
+    },
+    {
+      "history_length": 54,
+      "move": "F6",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-50-2",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 93.269516,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 98.9086151,
+          "rawScoreSelfplayStdev": 32.1592703,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999848843,
+          "scoreLead": 89.9269181,
+          "scoreSelfplay": 94.8959881,
+          "scoreStdev": 30.6400033,
+          "symHash": "0398A90406A9A474035D17D8D8E32193",
+          "thisHash": "C81EC97A863DD72D4EEF35808288AF18",
+          "utility": 1.12994519,
+          "visits": 156,
+          "weight": 156.0,
+          "winrate": 0.999913702
+        },
+        "ms": 198.53440002771094
+      }
+    },
+    {
+      "history_length": 104,
+      "move": "S15",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-100-0",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 123.268166,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 124.510666,
+          "rawScoreSelfplayStdev": 26.9928799,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999913216,
+          "scoreLead": 127.746486,
+          "scoreSelfplay": 131.458058,
+          "scoreStdev": 28.0258621,
+          "symHash": "12E8245EDEA526987C250979FF62B917",
+          "thisHash": "AC650B1AD9D174DBC90CF781DB25E6CB",
+          "utility": 1.20213056,
+          "visits": 156,
+          "weight": 156.0,
+          "winrate": 0.99993363
+        },
+        "ms": 196.9764999812469
+      }
+    },
+    {
+      "history_length": 104,
+      "move": "S15",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-100-1",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 123.268166,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 124.510666,
+          "rawScoreSelfplayStdev": 26.9928799,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999913216,
+          "scoreLead": 127.746486,
+          "scoreSelfplay": 131.458058,
+          "scoreStdev": 28.0258621,
+          "symHash": "12E8245EDEA526987C250979FF62B917",
+          "thisHash": "AC650B1AD9D174DBC90CF781DB25E6CB",
+          "utility": 1.20213056,
+          "visits": 156,
+          "weight": 156.0,
+          "winrate": 0.99993363
+        },
+        "ms": 195.10579999769107
+      }
+    },
+    {
+      "history_length": 104,
+      "move": "S15",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-100-2",
+        "used_intermediate": false,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 123.268166,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 124.510666,
+          "rawScoreSelfplayStdev": 26.9928799,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999913216,
+          "scoreLead": 127.882863,
+          "scoreSelfplay": 131.577506,
+          "scoreStdev": 28.0526337,
+          "symHash": "12E8245EDEA526987C250979FF62B917",
+          "thisHash": "AC650B1AD9D174DBC90CF781DB25E6CB",
+          "utility": 1.20211203,
+          "visits": 171,
+          "weight": 171.0,
+          "winrate": 0.999933188
+        },
+        "ms": 193.966300052125
+      }
+    },
+    {
+      "history_length": 204,
+      "move": "B12",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-200-0",
+        "used_intermediate": false,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 130.97551,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 133.67926,
+          "rawScoreSelfplayStdev": 18.4476113,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999941885,
+          "scoreLead": 129.460767,
+          "scoreSelfplay": 139.658163,
+          "scoreStdev": 21.9472305,
+          "symHash": "4EE64DEE8ADD9EB2F541C8CF12D92492",
+          "thisHash": "8ED59F459C931D7F2405EDE5E55D7ADA",
+          "utility": 1.21956764,
+          "visits": 171,
+          "weight": 170.99694287211997,
+          "winrate": 0.999944974
+        },
+        "ms": 190.93949999660254
+      }
+    },
+    {
+      "history_length": 204,
+      "move": "B12",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-200-1",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 130.97551,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 133.67926,
+          "rawScoreSelfplayStdev": 18.4476113,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999941885,
+          "scoreLead": 129.375697,
+          "scoreSelfplay": 139.570038,
+          "scoreStdev": 21.882,
+          "symHash": "4EE64DEE8ADD9EB2F541C8CF12D92492",
+          "thisHash": "8ED59F459C931D7F2405EDE5E55D7ADA",
+          "utility": 1.219277,
+          "visits": 173,
+          "weight": 172.99694287211997,
+          "winrate": 0.999945092
+        },
+        "ms": 203.679500031285
+      }
+    },
+    {
+      "history_length": 204,
+      "move": "B12",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-200-2",
+        "used_intermediate": false,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 130.97551,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 133.67926,
+          "rawScoreSelfplayStdev": 18.4476113,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999941885,
+          "scoreLead": 129.451082,
+          "scoreSelfplay": 139.645731,
+          "scoreStdev": 22.0346331,
+          "symHash": "4EE64DEE8ADD9EB2F541C8CF12D92492",
+          "thisHash": "8ED59F459C931D7F2405EDE5E55D7ADA",
+          "utility": 1.21972076,
+          "visits": 169,
+          "weight": 168.99694287211997,
+          "winrate": 0.999944616
+        },
+        "ms": 191.04780000634491
+      }
+    },
+    {
+      "history_length": 304,
+      "move": "A10",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-300-0",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 272.431915,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 280.421783,
+          "rawScoreSelfplayStdev": 14.9931732,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999999464,
+          "scoreLead": 258.552268,
+          "scoreSelfplay": 265.959965,
+          "scoreStdev": 48.0129678,
+          "symHash": "024CD7F1D0BBEB0AC8F464804667CEEC",
+          "thisHash": "09FA0D09F5721BA2199602DF81D817FB",
+          "utility": 1.0978837,
+          "visits": 174,
+          "weight": 173.97808990542018,
+          "winrate": 0.999866799
+        },
+        "ms": 201.6997000318952
+      }
+    },
+    {
+      "history_length": 304,
+      "move": "A10",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-300-1",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 272.431915,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 280.421783,
+          "rawScoreSelfplayStdev": 14.9931732,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999999464,
+          "scoreLead": 258.417176,
+          "scoreSelfplay": 265.805956,
+          "scoreStdev": 48.2638533,
+          "symHash": "024CD7F1D0BBEB0AC8F464804667CEEC",
+          "thisHash": "09FA0D09F5721BA2199602DF81D817FB",
+          "utility": 1.0979261,
+          "visits": 166,
+          "weight": 165.97992584756813,
+          "winrate": 0.999865389
+        },
+        "ms": 196.89080002717674
+      }
+    },
+    {
+      "history_length": 304,
+      "move": "A10",
+      "trace": {
+        "source": "katago",
+        "fallback": false,
+        "request_id": "probe-300-2",
+        "used_intermediate": true,
+        "root": {
+          "currentPlayer": "B",
+          "rawLead": 272.431915,
+          "rawNoResultProb": 0.0,
+          "rawScoreSelfplay": 280.421783,
+          "rawScoreSelfplayStdev": 14.9931732,
+          "rawStScoreError": -1.0,
+          "rawStWrError": -0.5,
+          "rawVarTimeLeft": -1.0,
+          "rawWinrate": 0.999999464,
+          "scoreLead": 258.912781,
+          "scoreSelfplay": 266.40992,
+          "scoreStdev": 47.7619946,
+          "symHash": "024CD7F1D0BBEB0AC8F464804667CEEC",
+          "thisHash": "09FA0D09F5721BA2199602DF81D817FB",
+          "utility": 1.09951677,
+          "visits": 173,
+          "weight": 172.97808990542018,
+          "winrate": 0.99986973
+        },
+        "ms": 199.96449997415766
+      }
+    }
+  ],
+  "full_history_ko": {
+    "rust_rejected": true,
+    "katago_policy_B2": -1.0,
+    "moves": [
+      [
+        "B",
+        "A2"
+      ],
+      [
+        "B",
+        "B1"
+      ],
+      [
+        "B",
+        "C2"
+      ],
+      [
+        "W",
+        "B2"
+      ],
+      [
+        "W",
+        "A3"
+      ],
+      [
+        "W",
+        "C3"
+      ],
+      [
+        "W",
+        "B4"
+      ],
+      [
+        "B",
+        "B3"
+      ]
+    ]
+  },
+  "NN_bridge": {
+    "move": "Q16",
+    "trace": {
+      "mode": "NN",
+      "hints": [
+        "Q4",
+        "D16",
+        "Q16"
+      ],
+      "remaining_search_ms": 198,
+      "root_timeout": false,
+      "ms": 200.33520000288263,
+      "report": "move=Q16 score=9.214 depth=1 nodes=434 tactical_nodes=0 elapsed_ms=198 limited=true root_searched=7/353 mode=hybrid\npv=Q16\ntelemetry leaf_calls=429 leaf_us=195428 ranking_us=2378 external_leaf=true\nLearned leaf evaluation plus existing path preferences; neural values are not explained by proverb contributions.\nMove preferences (not the search score):\nQ16: 2.010 (base=0.010)\n  empty_corner: 1.000 * 2.000 = +2.000\nHybrid nominees: heuristic preference, one-ply scout, completed verification.\n  A4 heuristic=3.010 scout=10.276 verified=2.574 depth=1 selected=false neural_hint=false\n  C17 heuristic=2.010 scout=13.277 verified=8.515 depth=1 selected=false neural_hint=false\n  D17 heuristic=2.010 scout=13.527 verified=8.887 depth=1 selected=false neural_hint=false\n  D16 heuristic=2.010 scout=13.776 verified=8.679 depth=1 selected=false neural_hint=true\n  Q16 heuristic=2.010 scout=13.776 verified=9.214 depth=1 selected=true neural_hint=true\n  Q4 heuristic=2.010 scout=13.776 verified=8.924 depth=1 selected=false neural_hint=true\n  pass heuristic=0.000 scout=7.425 verified=-3.154 depth=1 selected=false neural_hint=false\nVerification is bounded search evidence, not proof. Only equal-depth completed scores decide the move.\nclock_budget_ms=198"
+    }
+  },
+  "broker": {
+    "errors": [],
+    "metrics": {
+      "leaf_requests": 76,
+      "expired_before_query": 0,
+      "timeouts": 1,
+      "completed": 76,
+      "queue_ms": 0.1142001710832119,
+      "query_ms": 161.2424999475479,
+      "max_query_ms": 3.9752000011503696,
+      "duplicate_histories": 0
+    }
+  },
+  "kata_metrics": {
+    "sent": 119,
+    "cancelled": 6,
+    "late_replies": 12,
+    "lock_timeouts": 0
+  },
+  "after": {
+    "gpu": {
+      "stdout": "name, memory.used [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5070, 3311 MiB, 8633 MiB, 610.60\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ollama": {
+      "stdout": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    "ram_bytes": {
+      "total": 33775415296,
+      "available": 4799492096
+    }
+  }
+}

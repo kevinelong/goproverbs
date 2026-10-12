@@ -1,0 +1,8 @@
+{
+  "bundle": "dist/goproverbs-research-20260921.zip",
+  "sha256": "a52dc4379a4a359dff8ee2677d664bb1d47f8076983b6aea0ac7434721a988cb",
+  "internal_files_verified": 145,
+  "smoke": "Extracted bundle; ran packaged Python terminal with packaged Windows executable; played A1, received engine C3, displayed rank and explanation, quit successfully.",
+  "exit_code": 0,
+  "neural_runtime_required": false
+}

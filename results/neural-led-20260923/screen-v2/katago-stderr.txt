@@ -1,0 +1,1 @@
+Uncaught exception: Could not open file results\neural-led-20260923\screen-v2\analysis.cfg - does not exist or invalid permissions?

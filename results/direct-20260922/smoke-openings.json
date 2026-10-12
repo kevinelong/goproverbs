@@ -1,0 +1,28 @@
+{
+  "seed": 20260921,
+  "source": "results\\roadmap-20260921\\corpus\\openings.json",
+  "selection": "Unused opening022, smoke only",
+  "openings": [
+    {
+      "id": "opening-022",
+      "moves": [
+        [
+          "B",
+          "R17"
+        ],
+        [
+          "W",
+          "R4"
+        ],
+        [
+          "B",
+          "Q4"
+        ],
+        [
+          "W",
+          "Q3"
+        ]
+      ]
+    }
+  ]
+}

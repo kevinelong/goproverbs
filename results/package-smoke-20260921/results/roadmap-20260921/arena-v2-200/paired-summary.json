@@ -1,0 +1,39 @@
+{
+  "variants": {
+    "HN": {
+      "games": 4,
+      "wins": 2,
+      "unfinished": 0,
+      "complete_pairs": 2,
+      "mean_pair_score": 0.5,
+      "conservative_95_interval": [
+        0,
+        1
+      ]
+    },
+    "NH": {
+      "games": 4,
+      "wins": 4,
+      "unfinished": 0,
+      "complete_pairs": 2,
+      "mean_pair_score": 1.0,
+      "conservative_95_interval": [
+        0.03967720868007929,
+        1
+      ]
+    },
+    "NN": {
+      "games": 4,
+      "wins": 4,
+      "unfinished": 0,
+      "complete_pairs": 2,
+      "mean_pair_score": 1.0,
+      "conservative_95_interval": [
+        0.03967720868007929,
+        1
+      ]
+    }
+  },
+  "method": "Hoeffding bounded-mean interval treating each complete opening pair as one independent observation.",
+  "limitations": "Conditional on completed pairs and the sampled opening distribution; no Elo estimate. Incomplete pairs are counted and excluded from the score."
+}

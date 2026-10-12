@@ -1,0 +1,459 @@
+{
+  "probes": {
+    "probe-1000": {
+      "HH": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "4": 2,
+          "3": 5,
+          "2": 1
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 999.6994500106666,
+          "p95_ms": 1000.047400011681,
+          "max_ms": 1000.047400011681
+        }
+      },
+      "HN": {
+        "decisions": 8,
+        "retained_external_round": 6,
+        "completed_depths": {
+          "2": 6,
+          "1": 2
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 1001.0529499850236,
+          "p95_ms": 1004.2009000317194,
+          "max_ms": 1004.2009000317194
+        }
+      },
+      "NH": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "4": 1,
+          "3": 6,
+          "2": 1
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 1000.1179999962915,
+          "p95_ms": 1001.0026000090875,
+          "max_ms": 1001.0026000090875
+        }
+      },
+      "NN": {
+        "decisions": 8,
+        "retained_external_round": 6,
+        "completed_depths": {
+          "2": 6,
+          "1": 2
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 1001.1376500187907,
+          "p95_ms": 1002.7305000112392,
+          "max_ms": 1002.7305000112392
+        }
+      }
+    },
+    "probe-200": {
+      "HH": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "3": 3,
+          "2": 4,
+          "1": 1
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 199.7004000004381,
+          "p95_ms": 199.830400000792,
+          "max_ms": 199.830400000792
+        }
+      },
+      "HN": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "1": 8
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 202.4270499823615,
+          "p95_ms": 203.17039999645203,
+          "max_ms": 203.17039999645203
+        }
+      },
+      "NH": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "3": 1,
+          "2": 6,
+          "1": 1
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 200.20910000312142,
+          "p95_ms": 200.76520001748577,
+          "max_ms": 200.76520001748577
+        }
+      },
+      "NN": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "1": 8
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 201.79940000525676,
+          "p95_ms": 203.75220000278205,
+          "max_ms": 203.75220000278205
+        }
+      }
+    },
+    "probe-small-200": {
+      "HH": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "3": 3,
+          "2": 4,
+          "1": 1
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 199.74279997404665,
+          "p95_ms": 200.22339996648952,
+          "max_ms": 200.22339996648952
+        }
+      },
+      "HN": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "1": 8
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 200.93799999449402,
+          "p95_ms": 202.24859996233135,
+          "max_ms": 202.24859996233135
+        }
+      },
+      "NH": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "3": 1,
+          "2": 6,
+          "1": 1
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 200.29349997639656,
+          "p95_ms": 200.6042000139132,
+          "max_ms": 200.6042000139132
+        }
+      },
+      "NN": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "1": 8
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 201.28154999110848,
+          "p95_ms": 203.3862000098452,
+          "max_ms": 203.3862000098452
+        }
+      }
+    },
+    "probe-v2-200": {
+      "HH": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "3": 3,
+          "2": 5
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 199.62989998748526,
+          "p95_ms": 199.73409996600822,
+          "max_ms": 199.73409996600822
+        }
+      },
+      "HN": {
+        "decisions": 8,
+        "retained_external_round": 7,
+        "completed_depths": {
+          "1": 8
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 200.963099981891,
+          "p95_ms": 202.15409999946132,
+          "max_ms": 202.15409999946132
+        }
+      },
+      "NH": {
+        "decisions": 8,
+        "retained_external_round": 0,
+        "completed_depths": {
+          "3": 3,
+          "2": 4,
+          "1": 1
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 200.2345999935642,
+          "p95_ms": 200.64709999132901,
+          "max_ms": 200.64709999132901
+        }
+      },
+      "NN": {
+        "decisions": 8,
+        "retained_external_round": 7,
+        "completed_depths": {
+          "1": 8
+        },
+        "timing": {
+          "n": 8,
+          "median_ms": 201.15454998449422,
+          "p95_ms": 204.8633000231348,
+          "max_ms": 204.8633000231348
+        }
+      }
+    }
+  },
+  "backends": {
+    "backend-cpu-old": {
+      "n": 12,
+      "median_ms": 25.074200006201863,
+      "p95_ms": 37.22949995426461,
+      "max_ms": 37.22949995426461
+    },
+    "backend-cpu-small": {
+      "n": 12,
+      "median_ms": 8.97795002674684,
+      "p95_ms": 11.846499983221292,
+      "max_ms": 11.846499983221292
+    },
+    "backend-gpu-old": {
+      "n": 12,
+      "median_ms": 3.420099994400516,
+      "p95_ms": 4.378999990876764,
+      "max_ms": 4.378999990876764
+    },
+    "backend-gpu-small": {
+      "n": 12,
+      "median_ms": 3.081750008277595,
+      "p95_ms": 6.065799971111119,
+      "max_ms": 6.065799971111119
+    }
+  },
+  "arenas": {
+    "arena-v2-200": {
+      "variants": {
+        "HN": {
+          "games": 4,
+          "wins": 2,
+          "unfinished": 0,
+          "complete_pairs": 2,
+          "mean_pair_score": 0.5,
+          "conservative_95_interval": [
+            0,
+            1
+          ]
+        },
+        "NH": {
+          "games": 4,
+          "wins": 4,
+          "unfinished": 0,
+          "complete_pairs": 2,
+          "mean_pair_score": 1.0,
+          "conservative_95_interval": [
+            0.03967720868007929,
+            1
+          ]
+        },
+        "NN": {
+          "games": 4,
+          "wins": 4,
+          "unfinished": 0,
+          "complete_pairs": 2,
+          "mean_pair_score": 1.0,
+          "conservative_95_interval": [
+            0.03967720868007929,
+            1
+          ]
+        }
+      },
+      "method": "Hoeffding bounded-mean interval treating each complete opening pair as one independent observation.",
+      "limitations": "Conditional on completed pairs and the sampled opening distribution; no Elo estimate. Incomplete pairs are counted and excluded from the score.",
+      "decisions": {
+        "HH": {
+          "decisions": 2444,
+          "retained_external_round": 0,
+          "completed_depths": {
+            "3": 787,
+            "2": 1633,
+            "4": 24
+          },
+          "timing": {
+            "n": 2444,
+            "median_ms": 199.76915000006557,
+            "p95_ms": 200.42299997294322,
+            "max_ms": 204.03530000476167
+          }
+        },
+        "HN": {
+          "decisions": 724,
+          "retained_external_round": 724,
+          "completed_depths": {
+            "1": 724
+          },
+          "timing": {
+            "n": 724,
+            "median_ms": 201.8260500044562,
+            "p95_ms": 205.6814999668859,
+            "max_ms": 218.4052000520751
+          }
+        },
+        "NH": {
+          "decisions": 913,
+          "retained_external_round": 0,
+          "completed_depths": {
+            "4": 12,
+            "3": 179,
+            "2": 722
+          },
+          "timing": {
+            "n": 913,
+            "median_ms": 200.25499997427687,
+            "p95_ms": 200.9284000378102,
+            "max_ms": 207.6731999986805
+          }
+        },
+        "NN": {
+          "decisions": 803,
+          "retained_external_round": 537,
+          "completed_depths": {
+            "1": 803
+          },
+          "timing": {
+            "n": 803,
+            "median_ms": 202.44779996573925,
+            "p95_ms": 206.19679999072105,
+            "max_ms": 211.62529999855906
+          }
+        }
+      },
+      "total_recorded_moves": 4908,
+      "broker_queries": 53351,
+      "broker_errors": []
+    }
+  },
+  "optimization": {
+    "before_sha256": "ac321788da31db968e8ae37d6a0f4928b97715081140b6a4d1e03d4e36ccfd0e",
+    "after_sha256": "d71927647dee56315187b6fdeb9d493b9354efc452737c021f99d01a29ae1154",
+    "median_ms": {
+      "before": 1.299349998589605,
+      "after": 0.8659499872010201
+    },
+    "total_ms": {
+      "before": 110.31779967015609,
+      "after": 64.68170031439513
+    },
+    "identical_candidates": 94,
+    "fixed_depth_matches": 4
+  },
+  "ablations": [
+    {
+      "removed": null,
+      "cases": 10,
+      "immediate_accepted": 10,
+      "search_accepted": 7
+    },
+    {
+      "removed": "capture",
+      "cases": 10,
+      "immediate_accepted": 8,
+      "search_accepted": 6
+    },
+    {
+      "removed": "save_atari",
+      "cases": 10,
+      "immediate_accepted": 7,
+      "search_accepted": 5
+    },
+    {
+      "removed": "self_atari",
+      "cases": 10,
+      "immediate_accepted": 10,
+      "search_accepted": 7
+    },
+    {
+      "removed": "connect",
+      "cases": 10,
+      "immediate_accepted": 10,
+      "search_accepted": 7
+    },
+    {
+      "removed": "fill_eye",
+      "cases": 10,
+      "immediate_accepted": 10,
+      "search_accepted": 7
+    },
+    {
+      "removed": "empty_corner",
+      "cases": 10,
+      "immediate_accepted": 9,
+      "search_accepted": 6
+    },
+    {
+      "removed": "side_development",
+      "cases": 10,
+      "immediate_accepted": 10,
+      "search_accepted": 7
+    },
+    {
+      "removed": "atari",
+      "cases": 10,
+      "immediate_accepted": 10,
+      "search_accepted": 7
+    },
+    {
+      "removed": "stone_balance",
+      "cases": 10,
+      "immediate_accepted": 10,
+      "search_accepted": 6
+    },
+    {
+      "removed": "atari_risk",
+      "cases": 10,
+      "immediate_accepted": 10,
+      "search_accepted": 5
+    },
+    {
+      "removed": "liberty_balance",
+      "cases": 10,
+      "immediate_accepted": 10,
+      "search_accepted": 7
+    },
+    {
+      "removed": "influence_balance",
+      "cases": 10,
+      "immediate_accepted": 10,
+      "search_accepted": 8
+    }
+  ]
+}

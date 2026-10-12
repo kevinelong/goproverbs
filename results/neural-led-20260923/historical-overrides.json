@@ -1,0 +1,62 @@
+{
+  "source": "results\\direct-20260922\\expansion-v2",
+  "input_sha256": {
+    "opening-023-NH-vs-policy-B.jsonl": "a78addbe86b8791a17ea3e3befd721ebcd90c914864adf5ebaf46c79dbc5efdb",
+    "opening-023-NH-vs-policy-W.jsonl": "900b878cd8670348e196260f6e0c7031863be84141b3597f016234f862c9ddc5",
+    "opening-023-NH-vs-search-B.jsonl": "5f19da998a4b16a8b01a838d701b8937afab23b107319b9a602f6f1c1440c14e",
+    "opening-023-NH-vs-search-W.jsonl": "042117712c039f572fe2886c8f05a6f46c925225dfdc30fff39b6c4454559ef1",
+    "opening-024-NH-vs-policy-B.jsonl": "2f753319cf530f5097b7879479a0920a9d1cea4fbe3f051d6b119ed67fdccfa9",
+    "opening-024-NH-vs-policy-W.jsonl": "e94df77bc1577e42b0dc1d38621c8f1f689c6d150ce25120b4d95f4d2e461d06",
+    "opening-024-NH-vs-search-B.jsonl": "11c175bc3fc91b453e8dfbba7b851f6a1032dc6489504e82816857010e5c6f75",
+    "opening-024-NH-vs-search-W.jsonl": "09e18bb21a231f4a02e6fe543af416b5340e66ef6232876494f63b3a7564603e",
+    "opening-025-NH-vs-policy-B.jsonl": "7852c5060a638a11a370b6374915f9f659f440c6700f1d0db766a6109a82fab4",
+    "opening-025-NH-vs-policy-W.jsonl": "bbdc427343bcdcc1e421998a94754ce2b510526daf198a0647da63613e7a8d74",
+    "opening-025-NH-vs-search-B.jsonl": "9559f69065f8ba90a7a8a6d5324d652863a2cd5bfc060331a131e629d3ffd803",
+    "opening-025-NH-vs-search-W.jsonl": "023a24e0b584bc5d0dafae1c7f4e6d0b2124873cd6d7cda4220be92fa2789479",
+    "opening-026-NH-vs-policy-B.jsonl": "f59db45425b32f77865e940ce8a49ccb447e1031d11cec45d4804be30891b4b3",
+    "opening-026-NH-vs-policy-W.jsonl": "778a9760106ec6d54011a4c5ae47cdf784d202d070c6af5f4ddc64f5bd91f2d1",
+    "opening-026-NH-vs-search-B.jsonl": "547bfcae0ad05517d30665813a0a93cf407e73ac6557bfb97dc986791935032c",
+    "opening-026-NH-vs-search-W.jsonl": "20a690cfd97e62c2b3589e2b7e7c1d79d6073c375debc06db06b56882896669c",
+    "opening-027-NH-vs-policy-B.jsonl": "3a536798a635cb101961cc307c2da131e1cbaac2593229e749ab8fbbe969d455",
+    "opening-027-NH-vs-policy-W.jsonl": "b5c974cafdabfccb0f6f7b83a94e6dca56b347ec9796f09eaf3b7e0b5c61cfc1",
+    "opening-027-NH-vs-search-B.jsonl": "7dcaf6a410099773902185f40e8299584c83c4c49d3e4b183ecf4cc767fde95f",
+    "opening-027-NH-vs-search-W.jsonl": "d3e26ddbd6ede442854da647675fc4b14904b9169192b092e15fdcdabe1ccb58",
+    "opening-028-NH-vs-policy-B.jsonl": "6705d7604df9279da4a445f39445f9503645fc46482e96fae23ee51371d36227",
+    "opening-028-NH-vs-policy-W.jsonl": "9f269196d9404bca65e4f8943f1a90c970fbe98c276f90cea9ca1f9fc0697eae",
+    "opening-028-NH-vs-search-B.jsonl": "223fa21cba0d044aa2c481a4aea1b1e67db6409861da7070b0e398ca47f0ed20",
+    "opening-028-NH-vs-search-W.jsonl": "5a649227131d8973721bedcb077af0cfaa22a02f746f61598b577a0ef6b8d491",
+    "opening-029-NH-vs-policy-B.jsonl": "f11ec2745a484db9115597bd098ee48405bda33381a498a7a6fd2d14207d0c0c",
+    "opening-029-NH-vs-policy-W.jsonl": "a04777a2e7d0595742af385a6ca184a3d4af8d4342378bd2306c4a2e8224cfa2",
+    "opening-029-NH-vs-search-B.jsonl": "f9cac4d9d351f71e0616c1af0ba126336c2b498f1d7805e63e720acc22dafca0",
+    "opening-029-NH-vs-search-W.jsonl": "59c1ab9ab1708dcb244c33eaf8ea562c5fe056f239e9ef36fdf7f4044de5048c",
+    "opening-030-NH-vs-policy-B.jsonl": "c8908e2467ff721f66eaefb64884ef8b06ce5044850e818aa66f848bff468bcf",
+    "opening-030-NH-vs-policy-W.jsonl": "b79d63cb648a4fee1a8e787045d23368102d9fc428b64f1bab78023543161493",
+    "opening-030-NH-vs-search-B.jsonl": "fb1e4cec30c7487efb60f1680276523af33abed30862c1cfa024ff53c0288b4e",
+    "opening-030-NH-vs-search-W.jsonl": "28df14c40446d81aaca669426c1c93fc7545380946b982e2765af2e013e14f73",
+    "opening-031-NH-vs-policy-B.jsonl": "aea5a2955a5df32e380cd87d1f7ce89c4f033178c9d4bf45ead6ba178785969f",
+    "opening-031-NH-vs-policy-W.jsonl": "cda604d44ae9878408e1f0b58e2e2a8587c19908bb8e03ce7eee4d277ae94387",
+    "opening-031-NH-vs-search-B.jsonl": "27b52f65bc1cb7e9bdd221bed5763f4168e3b4f5b568a778379d92473e854f70",
+    "opening-031-NH-vs-search-W.jsonl": "be2769f03b11ec5a3c98484e562e58803a265c8acc88227384ffe98be54e5d93",
+    "opening-032-NH-vs-policy-B.jsonl": "19125d14f270b81ad33ffed7a71da5a42b5aeecdd521cfcefdfdd38884041101",
+    "opening-032-NH-vs-policy-W.jsonl": "4d941a14cdccf60d9247834e9044d9f1007eccd16ef78e1d1bc19cadfc22e1d5",
+    "opening-032-NH-vs-search-B.jsonl": "341df5f4ce2f03b2d3a22f8f6967b6dee68d1502978c303e64970a91754f4caa",
+    "opening-032-NH-vs-search-W.jsonl": "1d3c0ade5e556f0414f1020f560fa2937b0a39c5ce9e644e33f6da5c6cf0acd3"
+  },
+  "groups": {
+    "policy": {
+      "decisions": 4872,
+      "with_hints": 4872,
+      "first_hint": 482,
+      "any_hint": 872,
+      "outside_hints": 4000
+    },
+    "search": {
+      "decisions": 5278,
+      "with_hints": 5278,
+      "first_hint": 739,
+      "any_hint": 1275,
+      "outside_hints": 4003
+    }
+  },
+  "interpretation": "Override frequency only; no per-move harm or causal attribution."
+}

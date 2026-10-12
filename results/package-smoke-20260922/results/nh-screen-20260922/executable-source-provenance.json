@@ -1,0 +1,18 @@
+{
+  "historical_executable_source": "C:\\Users\\kevin\\local-llm-lab\\goproverbs\\results\\roadmap-20260921\\source-arena-v2",
+  "archived_source_hashes_now": {
+    "src/ascii.rs": "e363a4e72d105ad7d21a12b84ed7ac056bea5859503d5665f9d67c69ee01e77d",
+    "src/coords.rs": "34a759e01ae0079212c4981e48fb5e3802e06582bb5469c9ab387cfb406d3941",
+    "src/engine.rs": "00716c853dada1e24d19c8531249e80fdf416643e6f372ea558cc6c182a354be",
+    "src/external.rs": "5df2496b02093596f3ff7bc69f759d1dd26e6edc70dc550e8245e41b44381a38",
+    "src/game.rs": "7a0e9915d6b95ce5cddd5ac1043ad808c9c555438fd88fcb14895230f6dbbcc2",
+    "src/gtp.rs": "77d06ead7615dd7f5e1f82b00cd388938ad0783902d39be14e80e226804e7b0c",
+    "src/lib.rs": "0fee94cb42f430eca08f1244b79fd67723647a4cd8917eee22bb336ff3c6e8a5",
+    "src/main.rs": "0f10cefe69bbf086f711216923de62c7b94ab2aceef751dc52c535c57dc3efa5",
+    "src/scoring.rs": "21f589ab211915e380f375178bc05da0ae2af0aed884e215c4d11192a10313a3",
+    "src/search.rs": "0d7c2fe55748967b6d648f1285628a3d68bd0a3d522905b88765f3c7f8ecfe70",
+    "src/sgf.rs": "5d3a9258c8b84d40a27d9780663b7a4c5fad671643ba1573cf9244068862258e"
+  },
+  "limitation": "Historical arena source directory has no contemporaneous source manifest. Executable hash is independently pinned to pilot run.",
+  "note": "Additive provenance clarification only; no run settings, inputs, or predeclared selection changed. snapshot/src and snapshot/tests contain final revision used for separate 47-test WSL validation. executable-source/src preserves historical arena source."
+}

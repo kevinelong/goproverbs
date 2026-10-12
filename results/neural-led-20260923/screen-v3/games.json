@@ -1,0 +1,187 @@
+[
+  {
+    "opening": "led-fresh-032",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+126.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -126.5,
+    "moves": 468,
+    "roles": {
+      "combined": {
+        "decisions": 232,
+        "median_ms": 55.18059997120872,
+        "max_ms": 107.56449995096773,
+        "complete_rounds": 232,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 141,
+        "specialist_only_selected": 20
+      },
+      "neural": {
+        "decisions": 232,
+        "median_ms": 18.050250015221536,
+        "max_ms": 54.62840001564473,
+        "complete_rounds": 232,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 139,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-032",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+83.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -83.5,
+    "moves": 460,
+    "roles": {
+      "combined": {
+        "decisions": 228,
+        "median_ms": 57.39634996280074,
+        "max_ms": 99.30220001842827,
+        "complete_rounds": 228,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 132,
+        "specialist_only_selected": 28
+      },
+      "neural": {
+        "decisions": 228,
+        "median_ms": 19.360899983439595,
+        "max_ms": 48.14670002087951,
+        "complete_rounds": 228,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 139,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-023",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": true,
+    "result": "W+74.5",
+    "a_won": false,
+    "stage": 2,
+    "raw_area_margin": -74.5,
+    "moves": 378,
+    "roles": {
+      "combined": {
+        "decisions": 187,
+        "median_ms": 54.66360005084425,
+        "max_ms": 93.57320005074143,
+        "complete_rounds": 187,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 112,
+        "specialist_only_selected": 23
+      },
+      "neural": {
+        "decisions": 187,
+        "median_ms": 17.77500007301569,
+        "max_ms": 42.87320002913475,
+        "complete_rounds": 187,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 105,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-023",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "W",
+    "finished": true,
+    "result": "W+73.5",
+    "a_won": true,
+    "stage": 2,
+    "raw_area_margin": -73.5,
+    "moves": 314,
+    "roles": {
+      "combined": {
+        "decisions": 155,
+        "median_ms": 53.10390004888177,
+        "max_ms": 79.27089999429882,
+        "complete_rounds": 155,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 77,
+        "specialist_only_selected": 11
+      },
+      "neural": {
+        "decisions": 155,
+        "median_ms": 15.251699951477349,
+        "max_ms": 31.86330001335591,
+        "complete_rounds": 155,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 92,
+        "specialist_only_selected": 0
+      }
+    }
+  },
+  {
+    "opening": "led-fresh-035",
+    "matchup": "combined-vs-neural",
+    "a": "combined",
+    "b": "neural",
+    "a_color": "B",
+    "finished": false,
+    "result": "unfinished",
+    "a_won": false,
+    "stage": 2,
+    "error": "RuntimeError('Game unfinished at 722-move cap')",
+    "moves": 726,
+    "roles": {
+      "combined": {
+        "decisions": 361,
+        "median_ms": 63.82120004855096,
+        "max_ms": 153.06440007407218,
+        "complete_rounds": 361,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 113,
+        "specialist_only_selected": 14
+      },
+      "neural": {
+        "decisions": 361,
+        "median_ms": 26.82559995446354,
+        "max_ms": 98.25979999732226,
+        "complete_rounds": 361,
+        "fallbacks": 0,
+        "over_200": 0,
+        "over_205": 0,
+        "policy_overrides": 292,
+        "specialist_only_selected": 0
+      }
+    }
+  }
+]

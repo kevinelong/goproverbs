@@ -1,7 +1,10 @@
-goproverbs — Go/weiqi proverb retrieval with neural verification, and the evaluation that gates it.
+goproverbs — an experimental Rust Go player with weighted, explainable heuristics, bounded search, an ASCII
+board, GTP v2 and SGF import/export.
 
-The Functional Source License below applies to this repository: the proverb corpus and index, the retrieval
-and verification code, the neural-verification experiments, and the tests and evaluation harness.
+The Functional Source License below applies to this repository: the engine and board model (`src/`), the
+tests, the benchmark and research harness (`benchmarks/`, `scripts/`), the weight profiles (`profiles/`), the
+documentation (`docs/`), and the per-experiment reports, fixtures and frozen source snapshots under
+`results/`. Build output and the raw streaming traces are deliberately not committed.
 
 ---
 
